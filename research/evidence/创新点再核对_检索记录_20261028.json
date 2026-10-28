@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Asia/Shanghai",
+  "platform": "公开网页搜索与出版社、作者机构及arXiv入口；非数据库内系统检索",
+  "queryBatches": [
+    [
+      "\"recommender systems\" \"misinformation\" \"preference change\"",
+      "\"conversational recommendation\" \"correction\" \"preferences\" explanation",
+      "\"AI\" \"belief revision\" \"user preferences\" autonomy",
+      "\"AI导购\" \"纠错\" \"预算\""
+    ],
+    [
+      "\"recommendation\" \"misinformation correction\" consumer",
+      "\"AI\" \"correction\" \"informed consent\" \"preferences\"",
+      "\"continued influence\" \"consumer\" \"product\" misinformation",
+      "\"AI\" \"reason\" \"retraction\" \"autonomy\""
+    ],
+    [
+      "\"Debunking Misinformation About Consumer Products\" pdf Fong Guo Rao",
+      "\"Stuck on the First Answer\" \"Peter\" pdf",
+      "\"AI\" \"preference\" \"misinformation\" \"reconfirmation\"",
+      "\"false information\" \"preference change\" \"consent\" recommender"
+    ],
+    [
+      "\"人机交互中的消费者自主选择权\" 李术平 pdf",
+      "\"算法\" \"纠错\" \"偏好\" \"消费者自主\"",
+      "\"消费者\" \"错误信息\" \"偏好形成\" \"纠正\"",
+      "\"AI购物助手\" \"目标\" \"纠错\""
+    ]
+  ],
+  "scope": "定向核对纠错—偏好／目标修订、消费者行为及最近技术方法；不声称检索穷尽",
+  "sources": [
+    {
+      "id": "W1",
+      "authors": "Fong, J.; Guo, T.; Rao, A.",
+      "year": 2024,
+      "title": "Debunking Misinformation About Consumer Products: Effects on Beliefs and Purchase Behavior",
+      "url": "https://journals.sagepub.com/doi/10.1177/00222437221147088",
+      "metadataURL": "https://people.duke.edu/~tg64/publication.html",
+      "read": "出版社搜索返回的摘要及书目、作者机构书目；直接页面访问超时；未取得或精读全文",
+      "use": "纠错与购买意愿影响已有研究，不把该一般问题当创新；不评价其全文是否讨论目标重审"
+    },
+    {
+      "id": "W2",
+      "authors": "Oh, Peter S.",
+      "year": 2026,
+      "title": "Stuck on the First Answer? Auditing Primacy Bias in Multi-Turn LLM Preference Revision via Causal Masking",
+      "url": "https://doi.org/10.1145/3805696.3846485",
+      "read": "出版社搜索返回的书目、摘要及问题段落；直接DOI／ACM页面工具访问失败；全文未取得",
+      "use": "用户明确修改偏好后的上下文影响已有技术审计，不以普通遵从作新技术贡献"
+    },
+    {
+      "id": "W3",
+      "authors": "Zhang, Youyuan; Li, Siyuan; Liu, Fangming; Li, Jing",
+      "year": 2026,
+      "title": "Toward Robust Personalized Alignment for LLMs: Mitigating Persona Drift in Multi-Turn Dialogue",
+      "url": "https://arxiv.org/abs/2609.12373v1",
+      "read": "arXiv书目与摘要；未读方法和实验全文",
+      "use": "证据与持久状态修订的区分已有近邻；不冒用摘要评价完整方法缺陷"
+    },
+    {
+      "id": "W4",
+      "authors": "Ji et al.",
+      "year": 2026,
+      "title": "ClawArena: Benchmarking AI Agents in Evolving Information Environments",
+      "url": "https://arxiv.org/abs/2604.04202v2",
+      "read": "arXiv摘要／元数据；未下载约30MB全文",
+      "use": "动态信念修订与隐式偏好已有基准线索；搜索摘要与当前页面的规模数值不一致，本研究不引用其样本或分数"
+    },
+    {
+      "id": "W5",
+      "authors": "Hamby, Anne; Ecker, Ullrich; Brinberg, David",
+      "year": 2020,
+      "title": "How Stories in Memory Perpetuate the Continued Influence of False Information",
+      "url": "https://doi.org/10.1002/jcpy.1135",
+      "read": "出版社摘要／书目；未取得或读全文",
+      "use": "撤回信息仍可能影响推理的相邻实证研究；不据此认定本题用户仍被影响"
+    },
+    {
+      "id": "C1复核",
+      "authors": "李术平",
+      "year": 2026,
+      "title": "人机交互中的消费者自主选择权",
+      "url": "https://dffx.cbpt.cnki.net/portal/journal/portal/client/paper/733a7018411f03dc6a6b65090b27fbf8",
+      "read": "期刊官方摘要／书目再核；全文仍缺",
+      "use": "形成过程保护已有本土近邻；取得全文前不认定本方案超出其完整框架"
+    }
+  ],
+  "omissions": "未采用市场种草百分比、二手论文解读或新闻稿作为创新有效性的主要证据。"
+}

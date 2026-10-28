@@ -1,0 +1,859 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Human autonomy at risk? An analysis of the challenges from AI</title><style>
+body{font:16px/1.7 "Microsoft YaHei",Arial,sans-serif;color:#25304a;margin:0;background:#f4f6fa}
+main{max-width:1160px;margin:28px auto;padding:30px;background:white;border-radius:14px}
+h1{font-size:27px;color:#173f63;margin:0 0 14px}h2{font-size:21px;color:#173f63;margin-top:32px}
+a{color:#1266a2;text-decoration:none}a:hover{text-decoration:underline}p{margin:10px 0}
+table{border-collapse:collapse;width:100%;font-size:14px}td,th{text-align:left;border-bottom:1px solid #dce3eb;padding:11px;vertical-align:top}th{background:#eaf1f8}
+.muted{color:#667085}.good{color:#137854;font-weight:bold}.pending{color:#946500;font-weight:bold}.note{padding:14px 18px;background:#edf4fa;border-left:4px solid #246c9e;border-radius:4px}
+input{padding:11px;width:calc(100% - 24px);border:1px solid #b8c8d7;border-radius:7px;font-size:16px;margin:12px 0 20px}
+.article{white-space:pre-wrap;font:16px/1.85 Georgia,"Microsoft YaHei",serif;overflow-wrap:anywhere}small{font-size:13px}
+@media(max-width:700px){main{margin:0;padding:16px}table{font-size:12px}td,th{padding:7px}h1{font-size:23px}}
+</style><main><h1>Human autonomy at risk? An analysis of the challenges from AI</h1><p>Prunkl, C. (2024). Human autonomy at risk? An analysis of the challenges from AI. Minds and Machines, 34, Article 26. https://doi.org/10.1007/s11023-024-09665-1</p><p class="note">出版社／期刊公开网页的文本存档，获取日期2026-10-27。保留可提取正文和参考文献；原网页的图像、表格排版与链接以原站为准。优先阅读同编号PDF。</p><p>原网页：<a href="https://link.springer.com/article/10.1007/s11023-024-09665-1?error=cookies_not_supported&amp;code=9f1abaa5-5d4d-4ab0-a682-c678a626a33d">https://link.springer.com/article/10.1007/s11023-024-09665-1?error=cookies_not_supported&amp;code=9f1abaa5-5d4d-4ab0-a682-c678a626a33d</a></p><div class="article">Human Autonomy at Risk? An Analysis of the Challenges from AI | Minds and Machines | Springer Nature Link
+
+Skip to main content
+
+Advertisement
+
+Log in
+
+Menu
+
+Find a journal
+
+Publish with us
+
+Track your research
+
+Search
+
+Saved research
+
+Cart
+
+Home
+
+Minds and Machines
+
+Article
+
+Human Autonomy at Risk? An Analysis of the Challenges from AI
+
+Open access
+
+Published: 24 June 2024
+
+Volume 34, article number 26 (2024)
+
+Cite this article
+
+You have full access to this open access article
+
+Download PDF
+
+Save article
+
+View saved research
+
+Minds and Machines
+
+Aims and scope
+
+Submit manuscript
+
+Human Autonomy at Risk? An Analysis of the Challenges from AI
+
+Download PDF
+
+Carina Prunkl 
+ORCID: orcid.org/0000-0002-0123-95611,2 
+
+28k Accesses
+
+107 Citations
+
+2 
+Altmetric
+
+Explore all metrics
+
+Abstract
+
+Autonomy is a core value that is deeply entrenched in the moral, legal, and political practices of many societies. The development and deployment of artificial intelligence (AI) have raised new questions about AI’s impacts on human autonomy. However, systematic assessments of these impacts are still rare and often held on a case-by-case basis. In this article, I provide a conceptual framework that both ties together seemingly disjoint issues about human autonomy, as well as highlights differences between them. In the first part, I distinguish between distinct concerns that are currently addressed under the umbrella term ‘human autonomy’. In particular, I show how differentiating between autonomy-as-authenticity and autonomy-as-agency helps us to pinpoint separate challenges from AI deployment. Some of these challenges are already well-known (e.g. online manipulation or limitation of freedom), whereas others have received much less attention (e.g. adaptive preference formation). In the second part, I address the different roles AI systems can assume in the context of autonomy. In particular, I differentiate between AI systems taking on agential roles and AI systems being used as tools. I conclude that while there is no ‘silver bullet’ to address concerns about human autonomy, considering its various dimensions can help us to systematically address the associated risks.
+
+Similar content being viewed by others
+
+Is There a Trade-Off Between Human Autonomy and the ‘Autonomy’ of AI Systems?
+
+Chapter
+
+© 2022
+
+Personal Autonomy and Autonomous Systems: Sameness and Difference
+
+Chapter
+
+© 2026
+
+AI and human autonomy: a literature review
+
+Article
+Open access
+01 February 2026
+
+Explore related subjects
+
+Discover the latest articles, books and news in related subjects, suggested using machine learning.
+
+Computer Ethics
+
+Transhumanism
+
+Artificial Intelligence
+
+Philosophy of Artificial Intelligence
+
+Ethics of Technology
+
+Humanitiy and Technology
+
+Cognitive Phenomena in Philosophical Contexts
+
+1 Introduction
+
+Virtually any appraisal of a person’s welfare, integrity, or moral status, as well as the moral and political theories built on such appraisals, will rely crucially on the presumption that her preferences and values are in some important sense her own. (Christman, 2009, p. 1)
+
+Protecting human autonomy is a central theme across guidelines and principles on the responsible development of artificial intelligence (AI). ‘Respect for autonomy’ is the first of four key ethical principles of the European Commission’s High-Level Expert Group’s Ethics Guidelines for Trustworthy AI (HLEG, 2019b, p. 12). It is the second principle of the Montreal Declaration for responsible development of artificial intelligence (Montreal, 2017) and is mentioned both by the Association for Computing Machinery (ACM, 2018, 1.1.), the European Commission’s White Paper on Artificial Intelligence (ECWP, 2020, p. 21), and the Organisation for Economic Co-operation and Development’s (OECD) recommendations (OECD, 2019). While the frequent call for the protection (and sometimes promotion) of human autonomy suggests consensus across guidelines, closer inspection reveals substantial heterogeneity as to what is meant by human autonomy and what its protection entails (Prunkl, 2022a).
+
+As AI systems take on an ever-increasing number of tasks,Footnote 1 policymakers face mounting pressure to address the various emerging risks. While progress has been made on several fronts, the current policy literature on autonomy and AI still resembles a patchwork, comprising a variety of seemingly disconnected recommendations to tackle a wide array of potential risks. While some heterogeneity is to be expected—after all, autonomy has been subject to philosophical debate for centuries (Dworkin, 1988, p. 6)—it is the lack of recognition thereof and the absence of both nuance and structure that pose problems.
+
+Turning to the academic literature for guidance, it is surprising to find that autonomy has received significantly less attention from the scientific community than other prevalent themes, such as ‘fairness’ or ‘explainability’.Footnote 2 This discrepancy is only partially explained by the complexity of autonomy itself—fairness and explanation both are equally rich concepts that each give rise to their fair share of controversy. A possible reason might be that both fairness and explainability are, to a certain extent, easier to operationalise into algorithmic design,Footnote 3 despite existing ambiguities as to what counts as a fair decision or good explanation and the difficulties of implementing them. For example, once an appropriate fairness measure has been chosen, it is possible to evaluate an algorithm as “fair” on this particular dimension. (This is a simplification; clearly it is a difficult and complex task to determine whether an algorithm is fair, the point here being made is that at least some operationalisation of fairness is possible).  Similarly, design choices can render algorithms more or less explainable once an appropriate kind of explanation has been determined. In these cases, fairness and explainability are quantified and measured to a certain extent. This, it seems, is not the case for autonomy. We don’t have measures that allow us to determine whether a given design is more or less autonomy-friendly. The multi-faceted nature of autonomy and its seeming context-dependence have so far impeded efforts to operationalise principles of autonomy. To do so, then, we first need to address autonomy’s complexity. It is only after establishing some structure that we can begin the process of identifying and evaluating potential risks from AI systems to autonomy.
+
+In this article, I distinguish between distinct concerns that are currently addressed under the umbrella term ‘human autonomy’. I provide a conceptual framework that both ties together seemingly disjoint issues about human autonomy, as well as highlights differences between them. The objective is not only to create structure and clarity on a complex topic, but also to demonstrate how philosophical inquiry and the rich body of literature that has been written on personal autonomy can help us to significantly advance debates on the ethical implications of AI.Footnote 4
+
+I begin this article by providing a brief overview over artificial intelligence and some of its techniques. The objective for this is to establish relevant background knowledge for readers who are unfamiliar with the concepts used in the debate. Those already familiar with the techniques of AI and machine learning are welcome to skip to the next section. In the next section, I motivate my claim that the current debate on autonomy and AI is convoluted and that this convolution may lead to undesirable outcomes. I then provide a conceptual framework that allows for a fine-grained distinction between risks to ‘human autonomy’. I begin by differentiating between different dimensions of autonomy and show how this explains some of the diversity seen in the literature. Furthermore, I demonstrate on the basis of several examples how philosophical accounts of autonomy can help us identify and clarify issues, as well as relate them to existing debates in the field. Moving from potential risks to potential risk factors, I finally show how AI systems can display various levels of ‘agency’ and argue that this variation will need to be taken into account by policy makers if they are to address challenges from AI development and deployment to human autonomy.
+
+2 Artificial Intelligence: A Brief Introduction
+
+Depending on the context, ‘artificial intelligence’ may refer to different things. The term is used,, for example, to describe the class of computational systems that act in an ‘intelligent’ fashion, where ‘intelligence’ might refer to human-like behaviour, rational behaviour, the ability to learn from experience, or the capacity to perceive, reason or understand (Legg et al., 2007; Russell and Norvig, 1998). It is also used to refer to an academic discipline which comprises a large number of sub-disciplines, including natural language processing, computer vision, planning, robotics, and machine learning.
+
+The European Commission’s High-Level Expert Group on Artificial Intelligence defines AI as follows: “Artificial intelligence refers to systems that display intelligent behaviour by analysing their environment and taking actions—with some degree of autonomy—to achieve specific goals” (HLEG, 2019a, p. 1). While this definition is very broad and would also include fairly simple systems, such as thermostats, this article will mainly focus on AI systems that use machine learning. Machine learning is a method by which a system inductively derives structure or patterns from large amounts of data. Such systems are self-improving in the sense that they ‘learn’ from experience and when confronted with more data. For supervised and unsupervised learning (see below), systems are typically ‘trained’ on a data sample, called ‘training data’, on the basis of which they build a representative model. The model then enables the system to (ideally) make correct predictions when confronted with novel data. For example, consider a machine learning algorithm that is used to determine which advertisements a particular user sees when visiting a given website (e.g. a social media platform). To build the model, the algorithm has analysed large amounts of data on people’s online profiles and online behaviour (including ad-responsiveness) so as to identify statistical correlations. On the basis of this model, the algorithm then determines which advertisement a given user is most likely to respond to and displays it on the website. Often, such algorithms continue to learn from user behaviour (the actual data feeds back into the algorithm as training data) and continuously optimise themselves.
+
+The three main techniques used in machine learning are:
+
+Supervised learning: the algorithm learns and generalises from training data consisting of labelled input–output pairs (e.g. pictures with labels ‘cat’ and ‘non-cat’) to produce the correct output when presented with a given input (e.g. ‘cat’ when presented with the picture of a cat). This procedure requires prior knowledge of the output for each training input.
+
+Unsupervised learning: the algorithm identifies patterns or structures in large amounts of input data (e.g. to determine customer segments in marketing data). It does not require labelled data for training.
+
+Reinforcement learning: the system is subject to ‘rewards’ and ‘penalties’ as it is free to make decisions, with some decisions leading to punishments and others to rewards. The system’s goal is to maximise cumulative reward. AlphaGo, the AI system that beat 18-time world champion Lee Sedol in a match of Go, used this method.
+
+As can already be seen from the description above, the use of anthropomorphised language to describe AI systems has become the norm, both within and outside the scientific community. Most of the time it is obvious that terms such as ‘understanding’ or ‘reasoning’, when used in the context of AI, only superficially resemble the complex cognitive processes typically associated with these activities. In these cases, the use of rich cognitive terminology to describe relatively simplistic computational mechanisms is just a way of speaking and can be considered harmless (though see Shevlin and Halina (2019)). Other times, anthropomorphic language is problematic, such as when it is used to invite us to attribute properties and capacities—including emotional ones—to AI driven systems which simply do not possess them (Friedman, 2023; Grimm, 2021; Veliz, 2023). The language here ranges from ‘smart’ virtual assistants to ‘gentle’ care robots for the elderly. Interestingly, this problem of blurring boundaries also takes place in the reverse direction: terms that are frequently used to describe AI driven systems but have their origin in philosophy or psychology are at risk of losing some of their richness. ‘Autonomy’ is a great example for this. The term ‘autonomous system’ has obtained such prevalence in discussions on ethics and AI, that one sometimes might get the impression that it is the ‘autonomy’ of AI systems that sets the bar against which we should measure human autonomy. It is this blurring of meanings that gives rise to the idea that human beings might “hand over” their autonomy to AI systems when the latter start acting ‘autonomously’ (Prunkl, 2022b).
+
+3 The State of the Debate on ‘Human Autonomy’
+
+‘Autonomy’ broadly refers to a person’s effective capacity to act on the basis of beliefs, values, motivations, and reasons that are in some important sense her own. It is often considered a core value in (Western) society.Footnote 5 Democratic practice itself builds on autonomy in that it relies on citizens acting on the basis of their own values and not as a result of coercive, deceptive, or manipulative external influences. Empirically, (self-reported) autonomy is associated with increased emotional well-being in human subjects (Ryan and Deci, 2017; Sheldon et al., 1996). Playing an important role in both moral and political philosophy (Christman, 2018), autonomy also links to a number of topics that have become central talking points in the discourse on ethics and AI, including responsibility, fairness, free speech, informed consent, and privacy (Beauchamp et al., 2001; Hutchison et al., 2018; Kupfer, 1987; Rawls, 2009; Scanlon, 1972; Wolff, 1998).
+
+While the number of scholarly articles that explicitly discuss autonomy in the context of AI is on the rise, it is still dwarfed by the enormous body of literature on related topics, such as fairness, explainability, or privacy.Footnote 6 Most frequently, autonomy is addressed in the context of online manipulation and recommender systems. Recommender systems are systems that are used to make recommnedations, such as online recommendations (e.g. films, music, advertisement,...), on the basis of extrapolated user preferences. Milano et al. (2019) define recommender systems as “functions that take a user’s preferences (e.g. about movies) as an input, and output a prediction about the rating the user would give of the items under evaluation (e.g., new movies available)” (p. 2). They are used by most large social media platforms (such as Twitter and Facebook) to recommend articles, posts, or advertised products, as well as by product platforms such as Amazon, Youtube and Spotify, where suggestions include products, videos, songs or playlists. Discussions on the effects of AI and in particular recommender systems on human autonomy via online manipulation are conducted via philosophical (Milano et al., 2019; Susser et al., 2019), psychological (Calvo et al., 2015), or legal scholarship (Andre et al., 2018; Helberger, 2016; Mik, 2016). Autonomy is also often discussed in the healthcare context, where AI systems are increasingly used for preventive, diagnostic, or treatment purposes (Burr et al., 2020; Morley and Floridi, 2020). The central role autonomy plays in biomedical ethics (e.g. (Beauchamp et al., 2001)) in particular invites parallels to be drawn (Veliz, 2019). Autonomy also finds mentioning in the context of technological mediation (De Mul and van den Berg, 2011; Verbeek, 2011) and its implications for ethical design (Brownsword, 2011; Calvo et al., 2020).
+
+Within the policy literature, multiple guidelines and principles on the ethical development of AI have emphasised the importance of protecting human autonomy. Despite this seeming unity, these documents display a high degree of heterogeneity in what they take autonomy to be and what its protection supposedly entails. For example, some guidelines advocate that there should be no “unjustified coercion, deception, or manipulation” by AI systems (HLEG, 2019b). Others emphasise that “control over and knowledge about autonomous systems” (ECAA, 2018) is necessary to protect human autonomy and others again stress that principles of human autonomy translate into the protection of “human decision-making power” (Floridi and Cowls, 2019).
+
+This heterogeneity is problematic for several reasons. First, those tasked with operationalising the principles will find it (even) harder to do so if there exists a multiplicity of recommendations as to how one might go about protecting human autonomy, but no explanation for what (if anything) these recommendations have in common and why they diverge. For example, preventing the use of AI systems for manipulative purposes (HLEG, 2019b) requires distinct policy measures from ensuring that there exist adequate control mechanisms for AI systems (ECAA, 2018). For governance solutions to effectively address challenges from AI, there first needs to be a clear picture of what these challenges are and in what contexts they become relevant. Second, and related, the current lack of structure prevents a systematic analysis of what the impacts of AI on human autonomy are in the first place. This includes systematic assessments of whether, how, and under what circumstances AI systems are favourable or detrimental to human autonomy. Finally, the existing heterogeneity risks groups of researchers and policy makers talking past each other, as distinct concerns are all addressed under the term ‘human autonomy’.Footnote 7 Given the impact- and policy-oriented nature of the field and the increasing pressure to create governance solutions, miscommunication could further undermine efforts to adequately address challenges from AI.
+
+In the following section, I distinguish between two core aspects of human autonomy that explain some of the diversity encountered above.
+
+4 Dimensions of Human Autonomy
+
+As already introduced, autonomy refers to a person’s effective capacity to act on the basis of beliefs, values, motivations, and reasons that are in some relevant sense their own (Christman, 2018; Mackenzie and Stoljar, 2000b). There are (at least) two central elements to this definition, as already outlined in Prunkl (2022a). The first is that the beliefs, values, motivations, and reasons that underlie a person’s actions (or that a person possesses) are in fact their own. That is, their beliefs, values and so on are authentic and reflective of their “inner self” (however it is defined) and are not the product of external manipulative or distorting influences. I call this authenticity, or the internal dimension of autonomy, as it primarily relies on the fulfillment of conditions that are internal to the person under consideration. A large fraction of the philosophical literature on personal autonomy is concerned with this internal dimension and with the challenge of determining what requirements need to be fulfilled for beliefs, desires, and motivations to actually count as authentic (see for example (Christman, 2009; Dworkin, 1988; Frankfurt, 1971)). The second dimension of autonomy focusses on the effective capacity of a person to enact decisions, make choices, and take charge of important aspects of their lives. This implies that they have meaningful options available to them and is thus contingent on a set of external requirements that need to be fulfilled. Hence, I call this agency, or the external dimension of autonomy. The two dimensions closely resemble what (Mackenzie, 2014) refers to as self-governance and self-determination, respectively, and relate in a weaker sense to Pugh’s (2020) decisional and operational component.
+
+The two dimensions specify different sets of conditions for what it means for a person or action to be autonomous. Together, they explain some of the diversity encountered in the discussion on AI and autonomy. I proceed by discussing each of them in more detail.
+
+4.1 Authenticity or the Internal Dimension of Human Autonomy
+
+The internal dimension relates autonomy to a person’s ability to make decisions and act on the basis of values and beliefs that are in a relevant sense their own. This implies that they are not the product of manipulative or deceptive external influences. It is useful to distinguish between two sets of conditions that are often considered necessary for autonomy in this internal sense: competency and authenticity conditions (Christman, 2009; Hutchison et al., 2018; Meyers, 1989). Competency conditions specify the capacities for autonomous agency and include minimal rational thought, self-reflection, self-control, adequate information, absence of self-deception and others.Footnote 8 Authenticity conditions specify when a motive or desire is authentic, that is, when it is truly reflective of the agent’s inner self (however one defines this inner self). Given that all human beings to some extent are products of their environments, identifying the relevant authenticity conditions is challenging and a large fraction of disagreements on the nature of personal autonomy traces back to disagreements about what these conditions are (Christman, 2018; Hutchison et al., 2018). There are two main approaches to authenticity: procedural and substantive. Procedural accounts identify an act as authentic in virtue of the procedure by which an agent has endorsed and identified with the desires or traits that prompt her actions.Footnote 9 The first prominent procedural accounts were developed by Frankfurt (1971; 1992) and Dworkin (1988). Authenticity, according to them, requires an agent to reflect on their first-order motives and identify these motives as being part of their ‘deepest self’. More recent accounts of autonomy take into account the fact that environmental and social factors play a significant role for the development of a person and their ‘deepest self’, which cannot be considered in isolation from these external factors. An autonomous person therefore additionally needs to “accept her values and motives (and other life conditions) as part of an ongoing historical self-narrative” (Christman, 2014, p. 374). Procedural accounts are value-neutral: they do not put normative constraints on the content of an agent’s desires, nor do they require independence from other people, roles or norms.
+
+Substantive accounts of autonomy, on the other hand, take autonomy to be a value-laden concept and either put normative constraints on the content of a given desire (the desire to be enslaved, for example, would not qualify as autonomous on some of these accounts ), or include normative content into the requirements for authenticity, such as a requirement for minimal self-respect (Charles, 2010; Oshana, 2006).
+
+The internal or authenticity dimension of autonomy often finds mentioning in the policy literature on AI through discussions on manipulation or external subliminal influence. The proposed European AI Act, for example, suggests to prohibit AI systems that deploy “subliminal techniques beyond a person’s consciousness in order to materially distort a person’s behaviour in a manner that causes or is likely to cause that person physical or psychological harm” (Title II, Art. 5:1). Relatedly, the European Commission’s independent High-Level Expert Group on Artificial Intelligence declares that AI systems should not “unjustifiably subordinate, coerce, deceive, manipulate, condition or herd humans” (HLEG, 2019b).
+
+While manipulation in particular has thus received some attention in the policy discourse, there still is a gap between the depth with which the topic is discussed in the academic literature (Andre et al., 2018; Calvo et al., 2015; De Mul and van den Berg, 2011; Helberger, 2016; Mik, 2016; Milano et al., 2019; Susser et al., 2019; Verbeek, 2011) and the vagueness of policy documents, which display significant limitations when it comes to addressing risks of manipulation by AI systems. Uuk (2022) rightly criticises the proposed AI Act’s (current) failure to include several well-established markers for what counts as manipulation and thus for what should be considered an unacceptable use of AI (Noggle, 2020).
+
+Being explicit about the requirements for autonomy can help us to distill conditions that need to be fulfilled for a system to count as autonomy-promoting or autonomy-undermining. While manipulation and deception remain key issues that need to be addressed, the literature on personal and relational autonomy additionally abounds with subtle—and sometimes controversial—examples of how autonomy might be affected. If we are to take concerns about human autonomy seriously, we cannot only focus on the obvious, but need to address these other cases, too. One such case is adaptive preference formation, which I will shortly discuss in more detail. A further advantage of being explicit is that it helps us link existing debates within AI Ethics to concrete requirements to autonomy. The following example will discuss this in more detail.
+
+4.1.1 Example: Adaptive Preference Formation
+
+Adaptive preference formation refers to the process of a person adapting their preferences so as to match the options that are available to them. Elster (1985) illustrates adaptive preference formation with the example of a hungry fox who wants to eat a bunch of grapes that are out of its reach. Deciding that it does not want to eat the grapes after all, the fox eventually turns away and henceforward ignores them. According to Elster, this process of adapting one’s preferences to the set of options available is non-autonomous (though see (Bruckner, 2009) for a dissenting view). Adaptive preference formation has since been highlighted especially by feminist philosophers such as Stoljar (2014) and Sen (1995), who point to the fact that those living under oppressive conditions or oppressive social norms often end up embracing these conditions or norms and adapt them as their own.
+
+Adaptive preference formation can occur when a person is continuously presented with a limited amount of options. Returning to the context of AI, such a limitation of options is something internet users routinely experience, e.g. on social media platforms, where recommender systems are widely used to make content recommendations (e.g. audio, video, news, posts,...) and filter out what is determined to be irrelevant to the user. There is a large literature on choice architecture and their impact on consumer preferences (see e.g. (Chang and Cikara, 2018) and references therein). Relevant are in particular empirical results that suggest the emergence of anchoring effects which lead to the adaptation of preferences when users are confronted with algorithmic recommendations (Adomavicius et al., 2013, 2019). Adomavicius et al. (2013), for example, show how people’s preference ratings for videos are significantly influenced by recommendations from a recommendation algorithm.
+
+More generally, if choice architecture affects preferences, then adaptive preference formation seems unavoidable in the online context. In light of the sheer amount of posts, news, songs, videos, or products hosted by platforms such as Facebook, Spotify, Netflix, or Amazon, it would be a virtually impossible task to navigate content without any algorithmic filtering, sorting, and recommending. The question remains, then, whether and under what circumstances adaptive preference formation would count as autonomy-undermining.
+
+Oftentimes, individual decisions by recommender systems about what content to display seem harmless: the displaying of a certain piece of advertisement, the recommendation of a particular song. Yet, the accumulative effect of such individual decisions may nevertheless carry weight. Take as an example the online experience by the member of an ethnic minority in the United States who is continuously exposed to products/videos/songs that promote what might be considered reflecting the culture of the US’ white population. For example: Google image search has repeatedly been criticised for under-representing people of color and has also been shown to promote positive stereotypes about white women and to promote negative stereotypes about women of colour in terms of beauty (Araujo et al., 2016). In this case, the features or characteristics with which the person identifies are absent or insufficiently represented in the choice architecture of the recommendation algorithms. The constant exposure to certain norms or stereotypes with which she does not identify, together with possible anchoring effects, may well lead to alienation and/or lead to changes in preferences or self-conception.
+
+There is room for disagreement as to whether procedural accounts of autonomy would concede that adaptive preference formation always impairs the user’s autonomy (see (Khader, 2009) and (Stoljar, 2014) for a discussion of procedural accounts and adaptive preference formation). The above example, however, would be undermining autonomy according to some prominent procedural accounts, such as Christman’s socio-historical account (Christman, 2009). For Christman, (hypothetical) critical reflection and non-alienation that take into account the socio-historical context are necessary conditions for autonomy. Christman points out that such reflection is “not constrained by reflection-distorting factors” (Christman, 2009, p. 155). The selection of online content by the recommender system, however, constitutes such a “reflection-distorting” factor: users usually do not have the means to change the recommendation pattern or have access to unseen options. The described situation is likewise morally problematic from a ‘substantive’ point of view, as the set of options presented to the user are morally inadequate (e.g. (Nussbaum, 2001)).
+
+This points to two distinct factors that are relevant to adaptive preference formation in the context of recommender systems: the user’s effective capacity for critical reflection and the moral adequacy of online content. Both of these are well-known issues in the debate on AI and its impacts: The former underlies discussions on the need for explanations of recommendations (e.g. (Balog et al., 2019; Mcsherry, 2005)), whereas the latter forms a central element of the debate on hate speech and recommender systems (Munn, 2020). The above discussion demonstrates how exactly these two concerns relate to challenges to human autonomy and provides a clear picture of where there is room for disagreement and why.
+
+4.2 Agency or the External Dimension of Human Autonomy
+
+The external dimension, or agency, relates autonomy to the capacity of making and enacting choices that are of practical import to one’s lives (as opposed to forming authentic desires and beliefs, which I called the internal dimension). It closely resembles the concept of positive liberty, the capacity to act so as to take control of one’s life more generally. The two concepts are often used interchangeably (Berlin, 1969).Footnote 10 Mackenzie (2014) identifies two sets of conditions that need to be fulfilled for an act or a person to count as autonomous in the agency sense: freedom conditions, such as the freedom to engage in religious activity or to express one’s political view, and opportunity conditions that ensure adequate access to opportunities. These opportunities are determined by personal, social and political preconditions (Mackenzie, 2014, p. 27). As opposed to authenticity and competency, freedom and opportunity conditions are external to the individual and significantly depend on cultural membership and the available legal, economic, and political infrastructure (Mackenzie, 2014; Raz, 1986). While most liberal, democratic theories agree on a set of basic freedoms, there also exists substantial disagreement as to the reach of some of our political and personal liberties. For example, there is great disagreement on whether content moderation on social media platforms constitutes a violation of the right for free speech.
+
+A large fraction of the policy literature on AI and human autonomy addresses this external dimension of autonomy, the ability to execute decisions. As a result, principles are often framed in terms of retaining control over “whether, when and how” decisions are delegated to AI systems (ECWP, 2020; Montreal, 2017). In some cases, control is emphasised without the link to autonomy being made explicit. The Asilomar Principles, for example, state that “[h]umans should choose how and whether to delegate decisions to AI systems, to accomplish human-chosen objectives” (Asilomar, 2017). In this case, the reference to autonomy is implicit. Loss of control also seems to underlie concerns that the increasing delegation of tasks to autonomous AI systems might lead to an autonomy trade-off (Prunkl, 2022b).
+
+Addressing the external dimension of autonomy naturally requires different governance measures than addressing the internal dimension. The goals in each case differ: the latter aims at ensuring that individuals hold authentic believes and make authentic choices whereas the former is concerned with the execution of these choices and the opportunities that are available to individuals. What exactly the risks from AI to the external dimension of autonomy (i.e. freedom and opportunity) are, however, is currently not well defined.
+
+In some cases, the debate on AI blurs into the more general debate on democratic governance. Here, regulation and governance are thought to become more pressing as AI capabilities increase and society is undergoing structural changes (Helbing et al., 2019). For example, facial recognition technology enables more effective surveillance which in turn can be used to undermine basic human freedoms. In these cases, AI plays the role of a facilitator. Agency is affected indirectly. Avoiding negative impacts on autonomy through the regulation of the design of AI systems can only lead to partial success. It is how the systems are deployed rather than how they are built that has the biggest effects on autonomy—both in the positive sense, e.g. through providing access to healthcare, and the negative sense, e.g. through mass surveillance. The second-order risks emerging in this way are often difficult to predict and regulate, leading to significant gaps in the current regulatory landscape. One possible approach is to either adopt a precautionary principle, which is highly unpopular with developers (Hemphill, 2020; McLaughlin, 2019) or to prohibit particular use-cases of AI technologies, such as the use of real-time and remote biometric identification systems as proposed by the European Commission for the AI Act. In some cases, precautions can also be directly integrated into the design of technologies, as has been shown in the context of privacy, either through methods (Dwork, 2006; Dwork and Roth, 2014) or hardware design.
+
+Sometimes, the focus of debates on AI and autonomy is on the machine-human interaction and the importance of upholding ‘human-chosen’ objectives (Asilomar, 2017). Here, it is often difficult to pin down what exactly the underlying concern is supposed to be, with the generic term ‘humans’ (as in “humans should retain the power to decide [...]” (Floridi and Cowls, 2019)) bearing some ambiguity. It is, for example, unclear whether we should be concerned about the risks from AI systems themselves, and if so, what AI systems would pose those risks. For example, are we concerned about superintelligent AI enslaving humanity (no human retains power) or “merely&quot; about AI systems that are badly designed in a way that they don’t allow for a human operator to take back control (the human operator fails to retain power), should they need to? Or should we instead be concerned about insufficient governance at organisational or political levels, leading to a scenario where AI systems are implemented in such a way that there is no room for human decision-making anymore? Floridi (2011), for example, warns about the risks to autonomy when the world is increasingly designed to suit AI systems more than the humans who use or are affected by those systems. These and more are all possible concerns one might have in the context of agency and AI. Yet, the myriad of ambiguities outlined above makes it clear that before we can seriously think of operationalising principles of agency, these concerns need to be spelled out in much more detail.
+
+4.3 Other Dimensions
+
+Above I only discuss two dimensions of autonomy but there exist several other dimensions or aspects of autonomy which I do not have space to discuss in more detail here, but which deserve mentioning at least. For example, autonomy is sometimes construed as a status concept: it marks whether a person is socially and politically recognised as having both the authority as well as the power to live their life according to their own volition (Hutchison et al., 2018, p. 10). AI systems become relevant for considerations about autonomy as status in cases where they take decisions for humans. It is conceivable, for example, that (future) semi-autonomous cars might display paternalistic behaviour by taking over control of the car if a driver is engaging in a maneuver that is deemed too risky.Footnote 11 Status and paternalism are also emerging topics in the context of medical algorithms in healthcare, where concerns have been voiced about ‘computer knows best’ attitudes and their consequences (Grote and Berens, 2020; McDougall, 2019).
+
+Another dimension worth mentioning has been identified by Mackenzie (2014), which she calls self-authorisation. Self-authorisation involves “regarding oneself as having the normative authority to be self-determining and self-governing” (Mackenzie, 2014, p. 18, original emphasis). She identifies three conditions for self-authorisation: (1) that the the person considers herself as being in a position to be held accountable to others, (2) that she herself possesses certain self-evaluative attitudes, such as self-esteem and self-respect, and (3) that she is socially recognised as being an autonomous agent. The last condition has already been outlined above and it has been shown previously how AI systems might play a role in undermining self-esteem, i.e. through online content recommendations that promote certain stereotypes. The first condition, accountability, may be affected in various ways by AI systems or their deployment, such as the already mentioned ‘computer knows best’ attitude.
+
+5 Tools and Agents
+
+In the previous part, I distinguished between different dimensions of autonomy and showed how they explain some of the diversity seen in the discourse on AI and human autonomy. The discussion focused on requirements for autonomy and the question of whether and how the use of AI may violate them. In this section, I discuss in some more detail the roles AI systems can take in such cases. Taking into account the different functions of AI systems allows for a better distinction between risks, in particular between risks that relate to the use of AI systems and risks that relate to the nature of such systems. It also helps determine whether such risks are unique to AI or whether they are ‘merely’ exacerbated by advances in AI development.
+
+The distinction I want to make here is between tools and agents. For example, big data and AI have opened doors for targeted, large-scale manipulation and deception of users through the use of personalised online content. In these cases, the AI systems that are used to target and manipulate individuals function as tools. They are a means to an end which has been predetermined by a person or institution. In these cases, AI may play an essential role for the violation of user autonomy, but it is not the system itself, its technological make-up, that threatens people’s autonomy. It is how it is used. In contrast, there are cases where AI systems can take on agential roles. Certain types of AI methods produce notoriously unpredictable results and frequently find ‘solutions’ that are entirely undesirable to humans. I will discuss two such cases in more detail below.
+
+Distinguishing between tools and agents introduces a further dimension along which we require different mitigatory strategies: addressing risks from AI systems as tools will require putting in place mechanisms that limit how, for what purpose, and in which context certain systems can be used. Addressing risks from AI systems as agents on the other hand will in addition require a stronger focus on the technological development of these systems, including the development of safety mechanisms. In the following, I will illustrate this distinction in more detail and point to some of its limitations.
+
+5.1 Example: Manipulation
+
+AI systems are frequently implicated in cases of online manipulation. Manipulation, broadly, is a form of external influence that is neither rational persuasion nor coercion (Noggle, 2020). Susser et al. (2019) define it as the act of “covertly influencing [people’s] decision-making, by targeting and exploiting their decision-making vulnerabilities” (Susser et al., 2019, p. 4).Footnote 12
+
+AI systems can facilitate large-scale manipulation for instance through their ability to target individuals and personalise online content. An example for successful online manipulation is given by a controversial experiment on ‘emotional contagion’ led by (Kramer et al., 2014). Emotional contagion describes the effect of people unconsciously mimicking the emotions of those around them as a result of empathy. Kramer et al. (2014) demonstrated that emotional contagion can take place on Facebook. The authors manipulated the timelines of individual Facebook users so as to display either predominantly positive or predominantly negative posts by Facebook friends. By analysing the emotional content of subsequent posts of targeted individuals, the authors showed that emotional contagion through Facebook indeed was possible: those who had been exposed to predominantly negative content on average shared more negative posts. Correspondingly, those who had been exposed to predominantly positive content on average shared more positive posts.
+
+Putting glaring shortcomings in research ethics aside, the experiment is a good example for how recommender systems can be used for large-scale manipulation of users. It is clear that the above example in fact is a case of manipulation: subjects were influenced (i.e. they changed their behaviour), the influence was covered (i.e. they were not aware of the experiment), and their decision-making vulnerabilities were exploited (i.e. in this case empathy can be thought of representing such a vulnerability, though this is not generally the case). Notably, the AI system was merely a means to an end for the researchers to personalise timelines via a predetermined method (i.e. show users predominantly posts with negative/positive content). The system enabled the researchers to scale up the experiment and manipulate individuals on a larger scale. The AI system was used as a tool.
+
+Consider now a different, hypothetical example described by El Mhamdi et al. (2017) within the context of AI safety (Orseau and Armstrong, 2016). Here, the emphasis lies on the agential role of a system that manipulates (or coerces) humans. Consider two self-driving cars that each have the objective of safely reaching some destination D as quickly as possible. Let us assume that some human intervention is possible, i.e. the passengers of the cars can apply the brakes if they feel uncomfortable with the speed of their vehicle. Let us now consider the case in which we have two such self-driving cars driving one after the other at a safe distance on a narrow country lane. Overtaking is not possible or not safe enough. Imagine now that the passenger of the first car, Adam, is more anxious than the passenger of the second car, Beatrix. Adam applies the brakes more frequently, slowing down not only his own journey, but also that of Beatrix, as her car cannot overtake Adam’s due to the narrow road. However, every time Beatrix’ car is very close to Adam’s, Adam refrains from breaking, out of fear of causing a rear-end collision. El Mhamdi et al. (2017) now discuss the possibility of Beatrix’ car learning to drive very closely to Adam’s car in order to prevent him from breaking, therefore minimising the time it takes for the cars to reach their destination.
+
+The above scenario shows how reinforcement agents may exploit existing vulnerabilities in order to reach the objectives they were given by programmers.Footnote 13 In this case, the system actively coerced a human in order to achieve its goal. Such novel behavioural patterns of reinforcement agents are often difficult to anticipate.
+
+The first example (emotional contagion) was an example of AI being used as a tool; the second (self-driving cars) an example of AI exhibiting agential qualities. Often, however, the distinction is not as clear-cut as this. For example, the streaming platform YouTube uses a recommendation algorithm that suggests viewers a list of videos for them to watch next. Several years ago, it became public that the algorithm gradually led users to watch ever more extreme, sensationalist, and/or conspiratorial videos (Nicas, 2018). The reason was that the algorithm was supposed to show users ‘relevant content’ on the basis of the video they had been watching and their profile. Because it is difficult to directly measure whether displayed content is actually relevant to the user, YouTube used as a proxy for relevance the ‘time spent on the platform’. The algorithm therefore was trying to maximise the time users spent watching videos. Unsurprisingly, drawing people into a spiral of ever more extreme content is a successful strategy to achieve this goal.
+
+The case here differs from the emotional contagion experiment: the programmers had not specified the nature of the content that was to be displayed to users. The algorithm learnt itself exactly how to keep users on the platform, exhibiting agential qualities. It is furthermore unlikely that the programmers had intended this outcome (i.e. keeping people on the platform by showing conspiratorial content vs keeping on the platform by showing relevant content). Even if unintended, it certainly was tolerated by the platform operators, given their commercial interest in keeping users on the platform.Footnote 14 And so in this sense the AI system was still used as a tool. Digging deeper, we can make a similar point about the two previous examples: in the case of the self-driving car, the system was used as a tool to get passengers from one place to another, but by doing so, it exhibited agential qualities by determining the means by which it maximised its objective function. Similarly, in the emotional contagion experiment, the AI system was used as a tool to facilitate emotional contagion, but it exhibited (very minor) agential qualities by choosing which emotionally charged content was to be shown to which user.
+
+The above shows that we should not consider the tools vs agents distinction as providing us with categories into which particular use-cases of AI systems cleanly fall into. Instead, the distinction highlights different aspects of AI use that allow us to ensure risks are addressed both at the level of AI safety (e.g. preventing undesired behaviours through extensive verification and validation) as well as at the level of AI use (e.g. preventing misuse and fraudulent use of AI systems). The distinction between tools and agents ties in with existing discussions on AI and sociotechnical systems (see e.g. (Sartori and Theodorou, 2022) and references therein).
+
+6 Conclusion and Outlook
+
+The above article highlights the complexity of autonomy and emphasises the need for a more nuanced discussion on autonomy, if we are to address risks from AI. The distinction between authenticity and agency dimensions brings some clarity as to why there exists so much discrepancy between principles and guidelines. Each dimension leads us to consider different sets of concerns. In the case of authenticity, potential risks relate to the formation of beliefs and desires, including manipulation and adaptive preference formation. Agency, on the other hand, is threatened through the impediment of fundamental freedoms and opportunities. AI can affect both authenticity and agency. While this article predominantly focussed on potential risks from AI, there are of course many cases where AI is used to promote autonomy. Improving decision-making, enabling access to healthcare, increasing mobility, and many more applications directly or indirectly help people to live autonomous lives.
+
+How do we keep the positive and avoid the negative? The first step—one to which this paper hopefully contributes—is to be clear about what we are trying to protect in the first place. This involves taking into account both different dimensions of autonomy as well as different aspects of AI deployment and their effects on said dimensions. The next step will be to find adequate measures that allow us to operationalise principles of autonomy. Here, I believe, we can take as an example the development of fairness in machine learning. Despite the complexity of fairness as a concept, the extensive discourse on the topic has surfaced a wealth of different measures that can be used to assess algorithmic fairness. While none of the suggested ways to operationalise fairness is without problems (Chouldechova, 2017; Fazelpour and Danks, 2021; Kleinberg, 2018; Westen, 1982), they nevertheless provide a range of options that can be adapted to suit different contexts. Despite these encouraging developments, the operationalisation of autonomy will face some additional challenges due to the intertwinement of certain aspects of autonomy with subjective experience. Considering the above discussed procedural account of autonomy shows that the subject is central when it comes to determining whether her autonomy was undermined. Operationalising principles of autonomy that relate to authenticity, then, will require taking into account the experience of those affected by AI technologies. This is hardly a new request: many voices have called for more citizen participation in the development of AI. In light of the need to protect human autonomy, this call gains further strength. Finally, we might also look towards psychology for help: autonomy plays a central role in self-determination theory (SDT) (Ryan and Deci, 2017), which deals with human motivation and growth. Here, empirical measures for (a particular conception of) autonomy have already been developed and we may take example from how they were designed.
+
+This article demonstrated how philosophy can contribute to the policy debate on AI and human autonomy. It is intended as a starting point, rather than an end point, for further discussion and research into this highly complex topic.
+
+Notes
+
+Such tasks include sifting through job applications, evaluating teachers, making loan decisions, personalising online content, simplifying logistics, providing risk assessments, diagnosing cancer, and driving cars.
+
+The latter have been extensively discussed in the context of AI, as for example in Corbett-Davies et al. (2017), Binns (2018), Kleinberg (2018), Mittelstadt et al. (2019), and Miller (2019).
+
+I am grateful to an anonymous referee for pointing this out.
+
+This article builds on a Nature Machine Intelligence comment I previously published with a policy audience in mind (Prunkl, 2022a) It dives deeper into the philosophical debates and the distinction between different dimensions of autonomy, as well as emphasises the distinction between AI systems as tools and agents.
+
+It is worth pointing out that autonomy as a value has been criticised for promoting an overly individualistic notion of the self, often associated with Western culture (e.g. (Jaggar, 1983; Mackenzie and Stoljar, 2000a). Traditional conceptions of autonomy have also been criticised for being overly male-centric. More recent accounts of autonomy, particularly accounts of relational autonomy but also others, have since re-defined autonomy so as to move away from individualistic and what is perceived as overly male-centric conceptions (Christman, 2009; Mackenzie and Stoljar, 2000b; Oshana, 2006).
+
+Certainly a lot of the work on the ethics of AI implicitly addresses issues of autonomy, e.g. work on online manipulation, fraud, etc.
+
+This is an issue philosophers are well familiar with. As Dworkin (1988) points out, depending on context, the term ‘autonomy’ might be equated with liberty, freedom of will, self-rule, self-governance independence, responsibility, or individuality (Dworkin, 1988, p. 6)
+
+See for example (Christman, 2018; Hutchison et al., 2018).
+
+The endorsement may be a hypothetical one. See e.g. Christman (2009)
+
+The distinction is subtle and the way the term ‘autonomy’ is used in the policy literature at times can bear resemblance with both positive and negative liberty.
+
+One might, however, wonder whether there is anything special about AI itself in this regard: there already exist cars with in-built breath-analyzers that detect whether a driver has been drinking alcohol and which, if this indeed has been the case, won’t start. No AI is involved in this case.
+
+The authors add as an additional requirement that this has to be intentional, which I omit here for the definition to also be applicable to cases in which there are no humans involved.
+
+This scenario is in many ways analogous to Nick Bostrom’s paperclip maximiser (Bostrom, 2014) in which case a superintelligence was given the objective to produce paperclips. Given that paperclip production trumps any other objectives, the superintelligence turns the entire earth into a paperclip manufacturing facility, possibly extinguishing the human race by doing so.
+
+YouTube’s main revenue is through advertisement and therefore incentives to keep users watching are high. The platform to date has been very successful in this regard: the company’s chief product officer Neil Mohan stated that on average 70% of “view-time” is spent on videos that were recommended by its algorithm. Solsman (2018)
+
+References
+
+ACM, C. M. (2018). ACM code of ethics and professional conduct. Code of Ethics.
+
+Adomavicius, G., Bockstedt, J. C., Curley, S. P., &amp; Zhang, J. (2013). Do recommender systems manipulate consumer preferences? A study of anchoring effects. Information Systems Research, 24(4), 956–975.
+
+Article 
+
+Google Scholar 
+
+Adomavicius, G., Bockstedt, J., Curley, S. P., Zhang, J., &amp; Ransbotham, S. (2019). The hidden side effects of recommendation systems. MIT Sloan Management Review, 60(2), 1.
+
+Google Scholar 
+
+Andre, Q., Carmon, Z., Wertenbroch, K., Crum, A., Frank, D., Goldstein, W., Huber, J., van Boven, L., Weber, B., &amp; Yang, H. (2018). Consumer choice and autonomy in the age of artificial intelligence and big data. Customer Needs and Solutions, 5(1), 28–37.
+
+Article 
+
+Google Scholar 
+
+Araújo, C. S., Meira, W., &amp; Almeida, V. (2016). Identifying stereotypes in the online perception of physical attractiveness. Lecture notes in computer scienceIn E. Spiro &amp; Y.-Y. Ahn (Eds.), Social informatics (pp. 419–437). Springer. https://doi.org/10.1007/978-3-319-47880-7_26
+
+Chapter 
+
+Google Scholar 
+
+Asilomar. (2017). Principles developed in conjunction with the 2017 Asilomar conference. Asilomar AI Principles.
+
+Balog, K., Radlinski, F., &amp; Arakelyan, S. (2019). Transparent, scrutable and explainable user models for personalized recommendation. In Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR’19, (pp. 265–274), New York: Association for Computing Machinery.
+
+Beauchamp, T. L., &amp; Childress, J. F. (2001). Principles of biomedical ethics. Oxford University Press.
+
+Google Scholar 
+
+Berlin, I. (1969). Four essays on liberty. Oxford University Press.
+
+Google Scholar 
+
+Binns, R. (2018). Fairness in machine learning: Lessons from political philosophy. In Conference on fairness, accountability and transparency, (pp. 149–159). PMLR.
+
+Bostrom, N. (2014). Superintelligence: Paths, dangers. OUP Oxford.
+
+Google Scholar 
+
+Brownsword, R. (2011). Autonomy, delegation, and responsibility: Agents in autonomic computing environments. In M. Hildebrandt &amp; A. Rouvroy (Eds.), Law, human agency and autonomic computing (pp. 80–100). Routledge.
+
+Google Scholar 
+
+Bruckner, D. W. (2009). In defense of adaptive preferences. Philosophical Studies, 142(3), 307–324.
+
+Article 
+
+Google Scholar 
+
+Burr, C., Morley, J., Taddeo, M., &amp; Floridi, L. (2020). Digital psychiatry: Risks and opportunities for public health and wellbeing. IEEE Transactions on Technology and Society, 1(1), 21–33.
+
+Article 
+
+Google Scholar 
+
+Calvo, R., Peters, D., Vold, K. V., &amp; Ryan, R. (2020). Supporting human autonomy in AI systems: A framework for ethical enquiry. Springer.
+
+Google Scholar 
+
+Calvo, R. A., Peters, D., &amp; D’Mello, S. (2015). When technologies manipulate our emotions. Communications of the ACM, 58(11), 41–42.
+
+Article 
+
+Google Scholar 
+
+Chang, L. W., &amp; Cikara, M. (2018). Social decoys: Leveraging choice architecture to alter social preferences. Journal of Personality and Social Psychology, 115(2), 206–223. https://doi.org/10.1037/pspa0000117
+
+Article 
+
+Google Scholar 
+
+Charles, S. (2010). How should feminist autonomy theorists respond to the problem of internalized oppression? Social Theory and Practice, 36(3), 409–428.
+
+Article 
+
+Google Scholar 
+
+Chouldechova, A. (2017). Fair prediction with disparate impact: A study of bias in recidivism prediction instruments. Big Data, 5(2), 153–163. https://doi.org/10.1089/big.2016.0047
+
+Article 
+
+Google Scholar 
+
+Christman, J. (2009). The politics of persons: Individual autonomy and socio-historical selves. Cambridge University Press.
+
+Book 
+
+Google Scholar 
+
+Christman, J. (2014). Relational autonomy and the social dynamics of paternalism. Ethical Theory and Moral Practice, 17(3), 369–382.
+
+Article 
+
+Google Scholar 
+
+Christman, J. (2018). Autonomy in moral and political philosophy. In E. N. Zalta (Ed.), The Stanford encyclopedia of philosophy (spring 2018). Metaphysics Research Lab, Stanford University.
+
+Google Scholar 
+
+Corbett-Davies, S., Pierson, E., Feller, A., Goel, S., &amp; Huq, A. (2017). Algorithmic decision making and the cost of fairness. In Proceedings of the 23rd ACM SIGKDD international conference on knowledge discovery and data mining, KDD ’17, (pp. 797–806), New York: Association for Computing Machinery.
+
+De Mul, J., &amp; van den Berg, B. (2011). Remote control: Human autonomy in the age of computer-mediated agency. In M. Hildebrandt &amp; A. Rouvroy (Eds.), Law, human agency and autonomic computing (pp. 62–79). Routledge.
+
+Google Scholar 
+
+Dwork, C. (2006). Differential privacy. Lecture notes in computer scienceIn M. Bugliesi, B. Preneel, V. Sassone, &amp; I. Wegener (Eds.), Automata, languages and programming (pp. 1–12). Springer. https://doi.org/10.1007/11787006_1
+
+Chapter 
+
+Google Scholar 
+
+Dwork, C., &amp; Roth, A. (2014). The algorithmic foundations of differential privacy. Foundations and Trends in Theoretical Computer Science, 9(3–4), 211–407. https://doi.org/10.1561/0400000042
+
+Article 
+MathSciNet 
+
+Google Scholar 
+
+Dworkin, G. (1988). The theory and practice of autonomy. Cambridge University Press.
+
+Book 
+
+Google Scholar 
+
+ECAA. (2018). Statement on artificial intelligence, robotics, and ‘autonomous’ systems. Technical report.
+
+ECWP. (2020). On artificial intelligence—A European approach to excellence and trust. White Paper COM (2020).
+
+El Mhamdi, E. M., Guerraoui, R., Hendrikx, H., &amp; Maurer, A. (2017). Dynamic safe interruptibility for decentralized multi-agent reinforcement learning. In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, &amp; R. Garnett (Eds.), Advances in neural information processing systems 30 (pp. 130–140). Curran Associates Inc.
+
+Google Scholar 
+
+Elster, J. (1985). Sour grapes: Studies in the subversion of rationality. Cambridge University Press.
+
+Google Scholar 
+
+Fazelpour, S., &amp; Danks, D. (2021). Algorithmic bias: Senses, sources, solutions. Philosophy Compass, 16(8), e12760. https://doi.org/10.1111/phc3.12760
+
+Article 
+
+Google Scholar 
+
+Floridi, L. (2011). Enveloping the world for AI. The Philosophers’ Magazine, 54, 20–21. https://doi.org/10.5840/tpm20115437
+
+Article 
+
+Google Scholar 
+
+Floridi, L., &amp; Cowls, J. (2019). A unified framework of five principles for AI in society. Harvard Data Science Review, 1(1), 535–545.
+
+Google Scholar 
+
+Frankfurt, H. (1992). The faintest passion. Proceedings and Addresses of the American Philosophical Association, 66(3), 5–16.
+
+Article 
+
+Google Scholar 
+
+Frankfurt, H. G. (1971). Freedom of the will and the concept of a person. The Journal of Philosophy, 68(1), 5–20.
+
+Article 
+MathSciNet 
+
+Google Scholar 
+
+Friedman, C. (2023). Ethical concerns with replacing human relations with humanoid robots: An ubuntu perspective. AI and Ethics, 3(2), 527–538. https://doi.org/10.1007/s43681-022-00186-0
+
+Article 
+
+Google Scholar 
+
+Grimm, C. M. (2021). The danger of anthropomorphic language in robotic AI systems. Brookings Institution.
+
+Google Scholar 
+
+Grote, T., &amp; Berens, P. (2020). On the ethics of algorithmic decision-making in healthcare. Journal of Medical Ethics, 46(3), 205–211.
+
+Article 
+
+Google Scholar 
+
+Helberger, N. (2016). Profiling and targeting consumers in the internet of things—A new challenge for consumer law. Social Science Research Network, Rochester, NY. Technical report.
+
+Helbing, D., Frey, B. S., Gigerenzer, G., Hafen, E., Hagner, M., Hofstetter, Y., van den Hoven, J., Zicari, R. V., &amp; Zwitter, A. (2019). Will democracy survive big data and artificial intelligence? In D. Helbing (Ed.), Towards digital enlightenment: Essays on the dark and light sides of the digital revolution (pp. 73–98). Springer.
+
+Chapter 
+
+Google Scholar 
+
+Hemphill, T. A. (2020). The innovation governance dilemma: Alternatives to the precautionary principle. Technology in Society, 63, 101381. https://doi.org/10.1016/j.techsoc.2020.101381
+
+Article 
+
+Google Scholar 
+
+HLEG. (2019a). A definition of AI: Main capabilities and disciplines. Technical Report B-1049, Brussels.
+
+HLEG. (2019b). Ethics guidelines for trustworthy AI. Technical Report B-1049, Brussels.
+
+Hutchison, K., Mackenzie, C., &amp; Oshana, M. (2018). Social dimensions of moral responsibility. Oxford University Press.
+
+Book 
+
+Google Scholar 
+
+Jaggar, A. M. (1983). Feminist politics and human nature. Rowman &amp; Littlefield.
+
+Google Scholar 
+
+Khader, S. J. (2009). Adaptive preferences and procedural autonomy. Journal of Human Development and Capabilities, 10(2), 169–187. https://doi.org/10.1080/19452820902940851
+
+Article 
+
+Google Scholar 
+
+Kleinberg, J. (2018). Inherent trade-offs in algorithmic fairness. In Abstracts of the 2018 ACM International Conference on Measurement and Modeling of Computer Systems, SIGMETRICS ’18, p. 40, New York, NY, USA. Association for Computing Machinery.
+
+Kramer, A. D. I., Guillory, J. E., &amp; Hancock, J. T. (2014). Experimental evidence of massive-scale emotional contagion through social networks. Proceedings of the National Academy of Sciences, 111(24), 8788–8790.
+
+Article 
+
+Google Scholar 
+
+Kupfer, J. (1987). Privacy, autonomy, and self-concept. American Philosophical Quarterly, 24(1), 81–89.
+
+Google Scholar 
+
+Legg, S., Hutter, M., et al. (2007). A collection of definitions of intelligence. Frontiers in Artificial Intelligence and Applications, 157, 17.
+
+Google Scholar 
+
+Mackenzie, C. (2014). Three dimensions of autonomy: A relational analysis. Oxford University Press.
+
+Book 
+
+Google Scholar 
+
+Mackenzie, C., &amp; Stoljar, N. (2000). Introduction: Refiguring autonomy. In C. Mackenzie &amp; N. Stoljar (Eds.), Relational autonomy: Feminist perspectives on autonomy, agency, and the social self. Oxford University Press.
+
+Chapter 
+
+Google Scholar 
+
+Mackenzie, C., &amp; Stoljar, N. (2000). Relational autonomy: Feminist perspectives on autonomy, agency, and the social self. Oxford University Press.
+
+Book 
+
+Google Scholar 
+
+McDougall, R. J. (2019). Computer knows best? The need for value-flexibility in medical AI. Journal of Medical Ethics, 45(3), 156–160.
+
+Article 
+MathSciNet 
+
+Google Scholar 
+
+McLaughlin, D. C. (2019). Michael. Ten ways the precautionary principle undermines progress in artificial intelligence. Technical report. https://itif.org/publications/2019/02/04/ten-ways-precautionary-principle-undermines-progress-artificial-intelligence/
+
+Mcsherry, D. (2005). Explanation in recommender systems. Artificial Intelligence Review, 24(2), 179–197.
+
+Article 
+
+Google Scholar 
+
+Meyers, D. (1989). Self, society and personal choice. Columbia University Press.
+
+Google Scholar 
+
+Mik, E. (2016). The erosion of autonomy in online consumer transactions. Law, Innovation and Technology, 8(1), 1–38.
+
+Article 
+
+Google Scholar 
+
+Milano, S., Taddeo, M., &amp; Floridi, L. (2019). Recommender systems and their ethical challenges. SSRN Scholarly Paper ID 3378581, Social Science Research Network, Rochester, NY.
+
+Miller, T. (2019). Explanation in artificial intelligence: Insights from the social sciences. Artificial Intelligence, 267, 1–38.
+
+Article 
+MathSciNet 
+
+Google Scholar 
+
+Mittelstadt, B., Russell, C., &amp; Wachter, S. (2019). Explaining explanations in AI. In Proceedings of the Conference on Fairness, Accountability, and Transparency, FAT* ’19, (pp. 279–288), Atlanta, GA, USA. Association for Computing Machinery.
+
+Montreal. (2017). Montreal declaration for responsible development of AI. Forum on the Socially Responsible Development of AI.
+
+Morley, J., &amp; Floridi, L. (2020). The limits of empowerment: How to reframe the role of mHealth tools in the healthcare ecosystem. Science and Engineering Ethics, 26(3), 1159–1183.
+
+Article 
+
+Google Scholar 
+
+Munn, L. (2020). Angry by design: Toxic communication and technical architectures. Humanities and Social Sciences Communications, 7(1), 1–11.
+
+Article 
+
+Google Scholar 
+
+Nicas, J. (2018). How YouTube drives people to the Internet’s Darkest Corners. p. 5.
+
+Noggle, R. (2020). The ethics of manipulation. In E. N. Zalta (Ed.), The Stanford encyclopedia of philosophy (summer 2020 edition). Metaphysics Research Lab, Stanford University.
+
+Google Scholar 
+
+Nussbaum, M. C. (2001). Symposium on Amartya Sen’s philosophy: 5 Adaptive preferences and women’s options. Economics &amp; Philosophy, 17(1), 67–88.
+
+Article 
+
+Google Scholar 
+
+OECD. (2019). Recommendation of the Council on Artificial Intelligence. Technical Report OECD/LEGAL/0449. https://oecd.ai/en/ai-principles
+
+Orseau, L., &amp; Armstrong, M. S. (2016). Safely interruptible agents. Association for Uncertainty in Artificial Intelligence.
+
+Google Scholar 
+
+Oshana, M. (2006). Personal autonomy in society. Ashgate Publishing Ltd.
+
+Google Scholar 
+
+Prunkl, C. (2022). Human autonomy in the age of artificial intelligence. Nature Machine Intelligence, 4(2), 99–101. https://doi.org/10.1038/s42256-022-00449-9
+
+Article 
+
+Google Scholar 
+
+Prunkl, C. (2022). Is there a trade-off between human autonomy and the ‘autonomy’ of AI systems? In V. C. Müller (Ed.), Philosophy and theory of artificial intelligence 2021. Springer.
+
+Google Scholar 
+
+Pugh, J. (2020). Autonomy, rationality, and contemporary bioethics. Oxford University Press.
+
+Book 
+
+Google Scholar 
+
+Rawls, J. (2009). A theory of justice. Harvard University Press.
+
+Google Scholar 
+
+Raz, J. (1986). The morality of freedom. Clarendon Press.
+
+Google Scholar 
+
+Russell, S., &amp; Norvig, P. (1998). Artificial intelligence: A modern approach (2nd ed.). Pearson.
+
+Google Scholar 
+
+Ryan, R. M., &amp; Deci, E. L. (2017). Self-determination theory: Basic psychological needs in motivation, development, and wellness. Guilford Publications.
+
+Book 
+
+Google Scholar 
+
+Sartori, L., &amp; Theodorou, A. (2022). A sociotechnical perspective for the future of AI: Narratives, inequalities, and human control. Ethics and Information Technology, 24(1), 4. https://doi.org/10.1007/s10676-022-09624-3
+
+Article 
+
+Google Scholar 
+
+Scanlon, T. (1972). A theory of freedom of expression. Philosophy &amp; Public Affairs, 1(2), 204–226.
+
+Google Scholar 
+
+Sen, A. (1995). Gender inequality and theories of justice. In M. Nusbaum &amp; J. Glover (Eds.), Women, culture, and development: A study of human capabilities. Oxford University Press.
+
+Google Scholar 
+
+Sheldon, K. M., Ryan, R., &amp; Reis, H. T. (1996). What makes for a good day? Competence and autonomy in the day and in the person. Personality and Social Psychology Bulletin, 22(12), 1270–1279.
+
+Article 
+
+Google Scholar 
+
+Shevlin, H., &amp; Halina, M. (2019). Apply rich psychological terms in AI with care. Nature Machine Intelligence, 1(4), 165–167.
+
+Article 
+
+Google Scholar 
+
+Solsman, J. E. (2018). Ever get caught in an unexpected hourlong YouTube binge? Thank YouTube AI for that.
+
+Stoljar, N. (2014). Autonomy and adaptive preference formation. In A. Veltman &amp; M. Piper (Eds.), Autonomy, oppression, s and gender. Oxford University Press.
+
+Google Scholar 
+
+Susser, D., Roessler, B., &amp; Nissenbaum, H. (2019). Technology, autonomy, and manipulation. Social Science Research Network, Rochester, NY. Technical report.
+
+Uuk, R. (2022). Manipulation and the AI Act. Technical report, The future of life institute. https://futureoflife.org/wp-content/uploads/2022/01/FLI-Manipulation_AI_Act.pdf
+
+Verbeek, P.-P. (2011). Subject to technology: On autonomic computing and human autonomy. In Law, human agency and autonomic computing, (pp. 43–61). Routledge.
+
+Véliz, C. (2019). Three things digital ethics can learn from medical ethics. Nature Electronics, 2(8), 316–318.
+
+Article 
+
+Google Scholar 
+
+Véliz, C. (2023). Chatbots shouldn’t use emojis. https://philpapers.org/rec/VLICSU
+
+Westen, P. (1982). The empty idea of equality. Harvard Law Review, 95(3), 537–596. https://doi.org/10.2307/1340593
+
+Article 
+
+Google Scholar 
+
+Wolff, R. P. (1998). In defense of anarchism. University of California Press.
+
+Book 
+
+Google Scholar 
+
+Download references
+
+Author information
+
+Authors and Affiliations
+
+Institute for Ethics in AI, University of Oxford, Oxford, United Kingdom
+
+Carina Prunkl
+
+Ethics Institute, Utrecht University, Utrecht, Netherlands
+
+Carina Prunkl
+
+Authors
+Carina Prunkl
+
+View author publications
+
+Search author on:PubMed Google Scholar
+
+Corresponding author
+
+Correspondence to
+Carina Prunkl.
+
+Additional information
+
+Publisher&#x27;s Note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Rights and permissions
+
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article&#x27;s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article&#x27;s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+
+Reprints and permissions
+
+About this article
+
+Cite this article
+
+Prunkl, C. Human Autonomy at Risk? An Analysis of the Challenges from AI.
+Minds &amp; Machines 34, 26 (2024). https://doi.org/10.1007/s11023-024-09665-1
+
+Download citation
+
+Received: 29 June 2022
+
+Accepted: 27 November 2023
+
+Published: 24 June 2024
+
+Version of record: 24 June 2024
+
+DOI: https://doi.org/10.1007/s11023-024-09665-1
+
+Share this article
+
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+
+Sorry, a shareable link is not currently available for this article.
+
+Copy shareable link to clipboard
+
+Provided by the Springer Nature SharedIt content-sharing initiative
+
+Keywords
+
+Autonomy
+
+AI ethics
+
+Artificial intelligence
+
+AI governance
+
+Authenticity
+
+Agency
+
+Advertisement
+
+Search
+
+Search by keyword or author
+
+Search
+
+Navigation
+
+Find a journal
+
+Publish with us
+
+Track your research
+
+Footer Navigation
+
+Discover content
+
+Journals A-Z
+
+Books A-Z
+
+Subjects A-Z
+
+Publish with us
+
+Journal finder
+
+Publish your research
+
+Language editing
+
+Open access publishing
+
+Products and services
+
+Our products
+
+Librarians
+
+Societies
+
+Partners and advertisers
+
+Our brands
+
+Springer
+
+Nature Portfolio
+
+BMC
+
+Palgrave Macmillan
+
+Apress
+
+Discover
+
+Corporate Navigation
+
+Your privacy choices/Manage cookies
+
+Your US state privacy rights
+
+Accessibility statement
+
+Terms and conditions
+
+Privacy policy
+
+Help and support
+
+Legal notice
+
+Cancel contracts here
+
+50.7.158.116
+
+Not affiliated
+
+© 2026 Springer Nature</div></main></html>

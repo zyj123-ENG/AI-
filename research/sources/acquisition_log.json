@@ -1,0 +1,28 @@
+[
+  {
+    "id": "M1_Selvaggi2024_ProductValuation",
+    "url": "https://www.iris.unict.it/bitstream/20.500.11769/606530/1/40.%20Effects%20of%20misinformation.pdf",
+    "attemptDate": "2026-10-28",
+    "readStatus": "not yet read in this retrieval",
+    "status": "unavailable",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "id": "M2_RichZaragoza_ImpliedExplicit",
+    "url": "https://www.apa.org/pubs/journals/features/xlm-0000155.pdf",
+    "attemptDate": "2026-10-28",
+    "readStatus": "not yet read in this retrieval",
+    "status": "unavailable",
+    "error": "Response is not PDF"
+  },
+  {
+    "id": "M3_Scheibehenne2010_ChoiceOverload",
+    "url": "https://scheibehenne.de/ScheibehenneGreifenederTodd2010.pdf",
+    "attemptDate": "2026-10-28",
+    "readStatus": "not yet read in this retrieval",
+    "status": "downloaded",
+    "pages": 17,
+    "bytes": 380769,
+    "sha256": "38838cd013ff6eef376ca5c84e8f5617ff4bcd233919540fec97e39ef60dcf04"
+  }
+]

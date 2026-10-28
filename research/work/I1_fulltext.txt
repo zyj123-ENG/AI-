@@ -1,0 +1,1109 @@
+
+===== PDF PAGE 1 =====
+sustainability
+Review
+The Role of Consumer Autonomy in Developing Sustainable
+AI: A Conceptual Framework
+Lena Bjørlo 1,*
+ , Øystein Moen 2 and Mark Pasquine 1
+/gid00030/gid00035/gid00032/gid00030/gid00038/gid00001/gid00033/gid00042/gid00045/gid00001
+/gid00048/gid00043/gid00031/gid00028/gid00047/gid00032/gid00046
+Citation: Bjørlo, L.; Moen, Ø.;
+Pasquine, M. The Role of Consumer
+Autonomy in Developing Sustainable
+AI: A Conceptual Framework.
+Sustainability 2021, 13, 2332. https://
+doi.org/10.3390/su13042332
+Academic Editor:
+Jurgita Antucheviˇ cien˙e
+Received: 20 January 2021
+Accepted: 18 February 2021
+Published: 21 February 2021
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+1 Department of International Business, Norwegian University of Science and Technology (NTNU),
+6009 Ålesund, Norway; mapa@ntnu.no
+2 Department of Industrial Economics and Technology Management, Norwegian University of Science and
+Technology (NTNU), 7491 Trondheim, Norway; oystein.moen@ntnu.no
+* Correspondence: lena.v.bjorlo@ntnu.no
+Abstract: Artiﬁcial intelligence (AI)-based decision aids are increasingly employed by businesses to
+assist consumers’ decision-making. Personalized content based on consumers’ data brings beneﬁts
+for both consumers and businesses, i.e., with regards to more relevant content. However, this practice
+simultaneously enables increased possibilities for exerting hidden interference and manipulation on
+consumers, reducing consumer autonomy. We argue that due to this, consumer autonomy represents
+a resource at the risk of depletion and requiring protection, due to its fundamental signiﬁcance
+for a democratic society. By balancing advantages and disadvantages of increased inﬂuence by
+AI, this paper addresses an important research gap and explores the essential challenges related
+to the use of AI for consumers’ decision-making and autonomy, grounded in extant literature. We
+offer a constructive, rather than optimistic or pessimistic, outlook on AI. Hereunder, we present
+propositions suggesting how these problems may be alleviated, and how consumer autonomy may be
+protected. These propositions constitute the fundament for a framework regarding the development
+of sustainable AI, in the context of online decision-making. We argue that notions of transparency,
+complementarity, and privacy regulation are vital for increasing consumer autonomy and promoting
+sustainable AI. Lastly, the paper offers a deﬁnition of sustainable AI within the contextual boundaries
+of online decision-making. Altogether, we position this paper as a contribution to the discussion of
+development towards a more socially sustainable and ethical use of AI.
+Keywords: consumer autonomy; online decision-making; sustainable AI; social sustainability;
+decision-making aids; human–computer interaction
+1. Introduction
+Technological advances within the ﬁelds of artiﬁcial intelligence (AI), machine learn-
+ing, big data, and the Internet of Things (IoT) are changing the competitive game of
+marketing, and the way businesses and consumers interact [ 1]. AI can be deﬁned as
+“the use of computerized machinery to emulate capabilities once unique to humans” [ 2].
+Notably, AI technology is not one single technology, but rather a set of technologies [3].
+How consumer decision-making is inﬂuenced by these advances in technology is one of
+the important research areas developing today. Examining the major long-term trends
+within the future of marketing, Rust [2] called for research on a series of issues, i.e., how AI
+is changing consumer decision-making, the development of AI algorithms for personal-
+ization, and understanding how consumers make the choice between personalization and
+privacy [4]. Kannan and Li [1] also highlighted the role of decision aids as an area of further
+research in their article, providing a framework, review, and research agenda of digital
+marketing. Lamberton and Stephen [5] suggested several areas for future research, i.e., how
+consumers’ fundamental decision-making process has changed due to digital experiences
+and environments, and what the optimal balance between human and technologically
+enabled interaction is.
+Sustainability 2021, 13, 2332. https://doi.org/10.3390/su13042332 https://www.mdpi.com/journal/sustainability
+
+
+===== PDF PAGE 2 =====
+Sustainability 2021, 13, 2332 2 of 18
+Fueled by data and machine learning technology, AI-based decision aids can reduce
+search costs for consumers, making their decision-making process shorter and more efﬁ-
+cient. Furthermore, by gaining insight about consumers’ preferences and behavior through
+available data, algorithms can aid in offering more personalized and relevant content at the
+expense of less attractive content, and thereby facilitate decision-making for the consumer.
+This may be perceived as convenient and helpful as after more than two decades of adopt-
+ing the Internet as a marketplace, consumers are facing an overabundance of choices across
+product categories and service offerings. Although broad variety and having options is in
+general positively associated with consumer satisfaction, studies have shown that having
+too much to choose from can actually be detrimental to consumer welfare and make people
+less happy [6].
+As new technologies emerge, it remains important to evaluate the degree to which
+these are developed in a manner that is aligned with the overarching goals of society.
+Although adopting AI technology in consumer decision-making can simplify and shorten
+consumers’ decision process and reduce search cost signiﬁcantly, relinquishing control
+of the choice process could pose a serious threat to consumer autonomy, deﬁned as “the
+ability of consumers to make independent informed decisions without undue inﬂuence
+or excessive power exerted by the marketer” [ 7]. This trade-off between the beneﬁts that
+personalization can offer, on one hand, and remaining autonomous decision-makers on the
+other, is among the key challenges facing consumers in the digital era. In the event that
+AI technology increases the possibilities of covert inﬂuence and manipulation, consumers’
+opportunities to make deliberate and well-informed choices are limited. This is harmful to
+consumer autonomy, both on an individual scale and with regards to democracy on a large
+scale [8–10].
+The concept of sustainability is often described in terms of the pillars of which it
+consists, namely economic, environmental, and societal dimensions [ 11,12], in addition
+to human sustainability [ 13]. Although all dimensions of sustainability are important,
+most relevant for the purpose of this contribution are social and human sustainability.
+Vallance et al. [14] noted that attempts to deﬁne “social sustainability” often draw upon the
+deﬁnition of sustainable development provided in the Brundtland Report: “Development
+that meets the needs of the present without compromising the ability of future generations
+to meet their own needs” [ 15]. In line with this, Gilart-Iglesias et al. [16] argued that social
+sustainability is ensured by promoting equity, cohesion, social communication, autonomy,
+and equal opportunities for all citizens.
+Investigating consumer autonomy through the lens of sustainability is important
+and useful for several reasons. Firstly, inherent to sustainability is the notion of caring
+about the well-being of future generations as much as our current generations’ well-
+being. Individual autonomy is recognized as an important precondition of consumer
+well-being [17]. In contrast to this, we argue that in the current context of online decision-
+making, a large share of AI technology is covertly employed in consumer decision-making,
+against the knowledge of consumers, leaving them incapacitated to make deliberate, well-
+informed choices [18]. In this manner, AI decision aids challenge consumer autonomy and
+increasingly facilitate the manipulation and exploitation of consumers, in the absence of
+complementarity, transparency, and privacy regulation. Consequently, in light of social
+sustainability, consumer autonomy and human capabilities for decision-making should be
+regarded as a vital resource that is facing the risk of depletion.
+Motivation, Scope, and Contribution
+A thorough review and evaluation of extant literature reveals that previous research
+has either focused on portraying the efﬁciency and potential available for businesses
+through the employment of AI in assisting consumers’ decision-making (i.e., [19–21]) or
+on the negative impact AI has on consumers and their autonomy (i.e., [ 7,8,22,23]). We
+regard both views as correct, important, and timely, however, neither of these proposes
+solutions regarding how AI and consumers can coexist sustainably in the future, or how
+
+
+===== PDF PAGE 3 =====
+Sustainability 2021, 13, 2332 3 of 18
+AI can be employed to consumers’ advantage. The existing body of literature thus remains
+fragmented in that it fails to view the larger picture and accommodate both views, which
+is required in order to develop the use of AI in an effective yet sustainable manner.
+The concept of sustainable AI has recently received increased research attention. Cur-
+rent work on sustainable AI has focused on a range of domains, i.e., smart and sustainable
+cities [24], AI-enabled environmental sustainability of products [25], and transportation
+and mobility in urban development [26]. Although these are interesting and important
+contributions, there is an evident research gap related to the social dimension of sustainable
+AI. The negative consequences that AI may have on society are becoming more apparent,
+and recent calls have emerged for sustainable development of artiﬁcial intelligence from
+different disciplines (i.e., [3,12,27,28].
+We thus join this call and offer three distinct contributions by bridging literature from
+the ﬁelds of consumer behavior, sustainability, psychology, behavioral economics, and
+ethics by (1) highlighting the most fundamental challenges related to use of AI for con-
+sumers’ decision-making and autonomy; (2) developing a number of research propositions
+suggesting how these identiﬁed problems may be alleviated; (3) presenting a framework
+for the development of sustainable AI, in the context of online decision-making, merged
+with a choice overload model; and (4) based on the model and propositions, we discuss
+major questions and propose concepts for increasing consumer autonomy and promoting
+sustainable AI. We hope this spurs more research interest and increases awareness of
+the topic. The paper employs a constructive viewpoint on a promising set of technolo-
+gies, which unfortunately hold the potential of doing more harm than good for consumer
+well-being and society if left unregulated. Lastly, we offer a deﬁnition of sustainable AI
+within the contextual boundaries of online decision-making. Altogether, we position this
+paper as a contribution to the development of a more sustainable and ethical use of AI.
+We believe that the automation of search and decision-making processes may potentially
+be helpful and convenient for consumers, however, only in the presence of transparency,
+complementarity, and appropriate privacy regulation.
+2. Literature Review and Propositions
+2.1. Review Design
+AI-based decision aids are increasingly employed by businesses online. Although
+providing recommendations for consumers based on their personal data is likely to yield
+more relevant results, this practice may also generate negative outcomes for consumer
+welfare. Speciﬁcally, this paper delineates the central challenges regarding the use of AI in
+the context of consumers’ decision-making. In addition to this, we propose suggestions for
+how these challenges may be mitigated, and how AI-based decision aids may be developed
+more sustainably. This is captured by the following three research questions:
+1. What are the challenges related to the use of AI-based decision aids for consumers’
+decision-making?
+2. How can the challenges related to the use of AI-based decision aids for consumers’
+decision-making be mitigated, and speciﬁcally, how can consumer autonomy be
+protected?
+3. How can we develop sustainable AI within the context of consumers’ online decision-
+making?
+To answer these research questions, we identiﬁed the relevant body of research on
+the topic by conducting a systematic literature review. Academic databases including
+EBSCO Host, ProQuest, and Google Scholar were searched, employing a variety of key-
+words and combinations of these, i.e., “sustainable AI”, “consumer autonomy”, “privacy
+regulation”, “decision quality”, “transparency”, “complementarity”, “decision-aids”, and
+“choice overload.” By using the snowballing technique and by manually searching, we
+identiﬁed seminal articles in addition to the initial searches. The search stage was a highly
+iterative process in which keywords were reﬁned along the course of the process. Due to
+
+
+===== PDF PAGE 4 =====
+Sustainability 2021, 13, 2332 4 of 18
+the interdisciplinary nature of the topic, the literature searches yielded journal articles from
+a variety of ﬁelds and domains.
+2.2. Consumer Decision-Making, Choice Overload, and Decision Quality
+Individuals are often unable to evaluate all options when making a choice, given
+limits on cognitive capacity [ 29]. Consumers ﬁnd ways of coping with this limitation
+by employing compensatory or non-compensatory choice strategies to help them make
+a choice using less than all available information [ 30,31]. This often entails consumers
+engaging in a two-stage process, where the number of options is reduced, before choosing
+the best of the remaining alternatives [32,33]. The ﬁrst stage involves mapping out relevant
+options for consideration (i.e., the consideration set), before identifying a subset of the
+most relevant options for choice (i.e., the choice set). This is followed by the purchase
+decision. The level of cognition required to reach a decision can differ greatly, depending
+on variables such as the individual’s need for cognition [34] and product type [35], to name
+a few. The two-stage process offers a general approach to understanding how one product
+is chosen over other, less favorable options. Existing research suggests that consumers wish
+to spend as little time and resources as possible, but still ﬁnd the best product option [36],
+which highlights an inherent conﬂict between input and output while making decisions.
+As the number of product options has increased dramatically through widespread
+adoption of online shopping, consumers’ decision-making process has become increasingly
+more complex and laborious. Although broad variety and having options is in general
+positively associated with consumer satisfaction, studies have shown that having too much
+to choose from can in fact prove detrimental to consumer welfare [37] and make people
+less satisﬁed or less happy [6]; for an overview, see [38]. Goodman et al. [39] observed that
+providing recommendation signs (e.g., “Award Winner”) for consumers with developed
+preferences reduced choice satisfaction, due to increased complexity and difﬁculty from
+having to choose from a larger consideration set. Furthermore, choice overload may lead to
+decreased motivation to choose [40] and decreased preference strength and satisfaction with
+the chosen option [6,41]. As described by Cho et al. [42], consumers may be overwhelmed,
+and this may cause decision fatigue and delayed purchase decisions. De Bruyn et al. [36]
+pointed out that this trade-off between search cost and decision quality can be exacerbated
+in an online setting, largely due to an overabundance of information and consumers’
+impatience [43].
+Punj [44] deﬁned decision quality along two dimensions: one relating to price and
+the other to product ﬁt, which can be conceptualized as the perceived match between the
+needs of the consumer and the product attributes. This price–product ﬁt combination
+may be perceived as a trade-off by consumers. Furthermore, Punj [44] proposed several
+factors inﬂuencing decision quality for an online environment: time and cognitive costs,
+perceived risk, product knowledge, screening strategies, digital attributes, perceptual and
+affective inﬂuences, and online trust and hereunder privacy concerns. The importance of
+understanding these factors, which operate at both a micro and macro level, is related to
+both enhancing consumer welfare and improving market efﬁciency, two goals that should
+also be seen as inﬂuencing each other [44].
+2.3. Deﬁning AI-Based Decision Aids
+Technological advances in the ﬁelds of AI, especially within big data and machine
+learning, have introduced new possibilities for overcoming consumers’ information over-
+load, and for helping consumers leverage the strengths of technology related to processing
+large amounts of information. By assisting consumers to ﬁlter, eliminate, and sort between
+an overwhelming amount of options, thereby reducing search cost, decision aids have the
+potential to enhance consumer decision-making and empower consumers [33,44]. How-
+ever, the way these tools are employed by businesses today demonstrates that they do not
+necessarily enhance consumers’ decision quality, or even reduce search effort [45].
+
+
+===== PDF PAGE 5 =====
+Sustainability 2021, 13, 2332 5 of 18
+With regards to terminology, many similar terms have emerged to describe this
+phenomenon, both with regards to the role of AI, i.e., “AI-based”, “AI-facilitated”, “AI-
+assisted”, “AI-enhanced”, and the nature of the decision, i.e., “decision-making”, “decision
+support”, or “decision enhancement.” Another way to phrase this phenomenon includes
+“AI-based recommendations”, “recommendation algorithms”, “AI-based recommendation
+agents” or “recommendation systems”, and “interactive decision aids.” Although these
+terms are often employed interchangeably, they all refer to the use of AI technology
+(i.e., machine learning, big data) to facilitate the process of decision-making, including
+but not limited to need recognition, identifying relevant options, forming a decision set,
+and selecting, using, and evaluating a product or service. Combining these terms, we
+have chosen to refer to these tools as “AI-based decision aids”, as an umbrella term. AI-
+based decision aids can be employed in a variety of decisions (i.e., ranging from medical
+diagnosis to weather prediction, facial recognition, and pattern recognition), however
+we focus on decisions related to the purchase and consumption of products or services
+facing consumers.
+Häubl and Trifts [33] described interactive decision-making aids as “sophisticated
+tools to assist shoppers in their purchase decisions by customizing the electronic shopping
+environment.” They identiﬁed recommendation agents as especially useful for identifying
+and screening relevant product options, which is crucial in the initial stage of the decision
+process. Based on consumers’ preferences, the recommendation agent suggests products
+that the consumer is likely to ﬁnd attractive. Häubl and Trifts [33] concluded from their
+experiment that not only did the use of interactive decision aids such as recommendation
+agents reduce the amount of search effort that consumers exerted, it also decreased the
+number of options included in consumers’ consideration set, while at the same time also
+increasing the quality of these options. We argue that today’s AI-based decision-making
+aids are even more sophisticated than what Häubl and Trifts [33] referred to over 20 years
+ago, and importantly they operate more covertly, blurring the lines for consumers regarding
+what should be perceived as “organic” personalized recommendations reﬂecting their true
+inner preferences, and what is simply advertising camouﬂaged as the former.
+Humans have always valued expert advice when making decisions. The introduction
+of the Internet has enabled recommendations to be employed in a new way, with a much
+broader and faster impact [46]. Recommendations may reduce the effort required to reach
+a decision (i.e., the cost of thinking [47]), as well as reduce the uncertainty related to the
+decision, thereby facilitating choice and increasing conﬁdence in reaching the decision [46].
+Employing decision-making aids can provide consumers with more relevant options and
+at the same time reduce search, transaction, and decision-making costs [22]. Importantly,
+however, is the notion that today’s more sophisticated decision aids are based on big
+data and hence are able to offer personalized suggestions using manipulative tactics of
+persuasion that consumers may confuse as helpful.
+2.4. AI-Based Decisions Aids and the Threat to Consumer Autonomy
+Autonomy is regarded as among the central values and rights for consumers in a
+democratic society [ 8], signifying the importance of ensuring that consumers are able
+to make well-informed, deliberate choices. Nevertheless, consumer autonomy is com-
+promised when covert inﬂuencing strategies are employed by businesses to inﬂuence
+consumers’ opinions, oftentimes against consumers’ knowledge and awareness. As these
+strategies and tools facilitated by AI technology are becoming increasingly more inconspic-
+uous, covert, and seamless, and as consumers are more accustomed to such a practice [10],
+consumers’ awareness of potential manipulation, and hence their ability to detect threats
+to their individual autonomy, is diminished.
+Grafanaki [8] viewed autonomy as deﬁning for humans’ identities and recognizes
+that big data and algorithms may pose signiﬁcant threats to consumer autonomy in both
+in the exploratory stage, which is essential to the consumer’s formation of preferences
+and identity, and the second stage, in which the actual decision takes place. Furthermore,
+
+
+===== PDF PAGE 6 =====
+Sustainability 2021, 13, 2332 6 of 18
+Grafanaki [8] highlighted that this threat to autonomy is exacerbated due to the “conver-
+gence of the digital, physical, and biological spheres”, which together could interfere with
+how a person becomes a person, which is central to the development of autonomy. In line
+with this, Susser et al. [10] argued that “By deliberately and covertly engineering our choice
+environments to steer our decision-making, online manipulation threatens our competency
+to deliberate about our options, form intentions about them, and act on the basis of those
+intentions. They also challenge our capacity to reﬂect on and endorse our reasons for
+acting as authentically on our own.” These recent accounts underline the relevance and
+importance of understanding autonomy and protecting it, not only as a human right, but
+also as a resource.
+André et al. [22] suggested the following contextual factors as some of the relevant
+inﬂuences when examining consumers’ need for autonomy: (a) trust in the individual or
+institution making the choice on one’s behalf, (b) how strongly the choice is connected
+to expression of one’s identity, (c) the level of competence one feels in the choice context,
+and (d) the affective state of the consumer. Even though these contextual factors may
+inﬂuence consumers’ need for autonomy, the fundamental aspect is that humans have a
+strong inherent need for autonomy when making choices. Personal causation refers to how
+people are prone to claim ownership of their actions and “attribute favorable outcomes to
+their own actions” [ 48]. Furthermore, the opportunity to choose freely and be in control of
+one’s own choices can stimulate motivation and positive emotions. Inversely, experiencing
+limitations on choice can undermine people’s feeling of self and cause psychological
+reactance [49]. This suggests that consumers derive pleasure from making their own
+decisions, and hence limiting their ability to do so could lead to negative emotions and
+outcomes in the consumption setting. This would be detrimental not only to quality of
+choice, but also to consumer satisfaction.
+It should be noted that there is an important difference between perceived and real
+autonomy, and we expect consumers to prefer actual autonomy to perceived autonomy,
+as perceived autonomy may be described as successful consumer manipulation. Werten-
+broch et al. [23] (p. 3) deﬁned actual autonomy as “the extent to which a person can make
+and enact their own decisions”, whereas perceived autonomy refers to “the individual’s
+subjective sense of being able to make and enact decisions of their own volition.” Importantly,
+actual and perceived autonomy may not necessarily be aligned. Wertenbroch et al. [ 23]
+(p. 3) argued that although AI-based recommendation algorithms may facilitate consumer
+choice and thereby boost consumers’ perceived autonomy, they inherently run the risk
+of undermining consumers’ actual autonomy. Ultimately, the distinction between the
+constructs may represent the conﬂicting interests of businesses and consumers in an online
+context, with consumer manipulation on one hand, and autonomy on the other.
+Whether the motivation is to improve consumer decision-making or maximize proﬁts,
+the manner in which AI-based decision aids are employed today should be seen as interfer-
+ing with consumers’ decision process. Consequently, this may reduce consumer autonomy.
+This leads to the following proposition regarding the inﬂuence of AI-based decision aids
+on consumer autonomy:
+Proposition 1. AI-based decision aids may reduce consumer autonomy.
+2.5. Sustainable AI
+According to Gilart-Iglesias et al. [ 16], sustainable development involves ensuring
+social sustainability by promoting equity, cohesion, social communication, autonomy, and
+equal opportunities for all citizens. In line with this, Rogers et al. [17] deﬁned social sustain-
+ability as “Development and/or growth that is compatible with the harmonious evolution
+of civil society, fostering an environment conducive to the compatible cohabitation of
+culturally and socially diverse groups while at the same time encouraging social integra-
+tion, with improvements in the quality of life for all segments of the population.” What
+these deﬁnitions share is the notion that social sustainability surpasses viewing physical
+
+
+===== PDF PAGE 7 =====
+Sustainability 2021, 13, 2332 7 of 18
+resources as the only resources that are worth protecting. This is in line with Pfeffer [13],
+who noted a superior emphasis on the physical environment rather than the social, both
+in research literature and in companies’ actions and statements. Illustratively, a Google
+Scholar search yields 20,800 entries for the term “ecological sustainability” and 53,000 for
+“environmental sustainability”, however only 12,900 for “social sustainability” and 569 for
+“human sustainability.”
+Contrary to the “golden standards” of the development of social sustainability, with
+regards to striving for human welfare and the right to freedom and equality, and in
+line with the trends outlined above, current developments in AI technology facilitate
+progression in the opposite direction. In light of social and human sustainability, consumer
+autonomy should be regarded as a vital resource that is currently facing risk of exhaustion.
+Proponents of social sustainability argue that natural resources are not the only resources
+that must be protected (i.e., [13,17]), and in line with this, we argue that human autonomy
+and capabilities for decision-making should be viewed as resources—resources that are
+currently facing the threat of depletion as AI-based algorithms are increasingly disrupting,
+and to some extent replacing, consumers’ ability to make deliberate choices. This is due
+to the proliferation of hidden, data-driven, and highly personalized inﬂuence, which
+is increasingly becoming a part of individual consumers’ everyday lives and decisions
+involving essentially anything from products to news and even political opinions. On
+a larger scale, this challenges social sustainability and democratic values [8], suggesting
+an immediate need to reinvestigate how AI-based decision aids should be permitted to
+inﬂuence consumer decision-making.
+Gherhes and Obhad [50] argued that AI can contribute to achieving each of the United
+Nations (UN) Sustainable Development Goals (SDGs), emphasizing that this requires a
+positive perception of AI and sustainable development of AI. In their study, they inves-
+tigated students’ perceptions of the development and sustainability of AI, discovering
+signiﬁcant differences between genders and students’ ﬁelds of study. In general, male
+students demonstrated a more positive attitude towards AI and AI development. The
+same difference was evident between students pursuing technology as a ﬁeld of study,
+who viewed AI more favorably, and those studying humanities. Gherhes and Obhad [50]
+attributed this difference to the notion that students in the humanities ﬁeld of study are
+more concerned with human value and protecting this, and hence are more prone to per-
+ceiving the disadvantages related to AI development. In addition to this, they noted that
+technically-oriented students are likely to have a more extensive understanding of how AI
+works. How people perceive AI is an important avenue of research, as it is likely to have
+an impact on the adoption of AI.
+Although the concept of “sustainable AI” is gaining research interest, a deﬁnition
+is still lacking. In order to devote more empirical research attention to the challenges
+outlined in this paper, with regards to consumer autonomy and the future development
+of AI, we need to develop this concept and move it from the conceptual drawing board
+to operationalization and empirical testing. For the sake of conceptual development and
+clariﬁcation, we thus propose the following working deﬁnition of sustainable AI: “the
+extent to which AI technology is developed in a direction that meets the needs of the present
+without compromising the ability of future generations to meet their own needs.” This is
+based on the deﬁnition from the seminal Brundtland Report [15]). Within the contextual
+boundaries of online decision-making, developing sustainable AI refers to ensuring that
+the manner in which AI technology interferes with human capabilities for decision-making
+accommodates not only the ability of consumers today, but also consumers in the future, to
+make well-informed, conscious, and deliberate decisions. Although what encompasses
+current and future needs is debatable, the notion of sustainability and a future perspective
+is established, underlining that the choices and actions we make today will inﬂuence
+the future. In line with this, the ability of consumers to make autonomous decisions in
+the future hinges on the manner in which AI technology is developed today, and how
+
+
+===== PDF PAGE 8 =====
+Sustainability 2021, 13, 2332 8 of 18
+legislation enables and shapes this development. Based on this reasoning, we propose
+the following:
+Proposition 2. Increasing consumers’ autonomy while interacting with decision aids will promote
+sustainable AI.
+Given the proﬁtability of businesses employing AI to inﬂuence and steer consumers’
+decision-making, there is a dire need for research focusing on how autonomy may be
+increased for consumers. In line with this, the research report “Sustainable AI” by
+Larsson et al. [28] illuminated four areas of special concern regarding the implementation
+of AI: bias, accountability, abuse and malicious use, and transparency and explainabil-
+ity. Furthermore, the authors argued that promoting algorithmic transparency serves an
+important function of safeguarding for accountability and fairness in decision-making.
+Transparency also enables scrutiny regarding the way access to information is mediated
+online. In the following section we propose features that may increase consumer auton-
+omy, recognizing that automated solutions can beneﬁt consumer well-being and that by
+safeguarding autonomy, AI technology may be employed more sustainably. The factors we
+include are complementarity, transparency, and privacy regulation.
+3. Towards Sustainable AI
+In the previous section, we argued for the importance and urgency of protecting
+consumer autonomy and developing AI more sustainably. Based on this, we devote the
+following section to developing propositions and a framework for promoting sustainable
+AI development.
+3.1. Complementarity
+Renda [27] proposed that an essential way to mitigate negative consequences as-
+sociated with the use of AI is by approaching it as complementary, rather than as an
+alternative, to human intelligence. In line with terms such as “augmented intelligence” [ 51]
+and “human-in-the-loop” [ 52], the complementarity concept accommodates the notion
+of obtaining “the best of both worlds” with regards to human and machine capabilities.
+Humans are more equipped to set goals, use common sense, conﬁgure value judgments,
+and exert such judgment [27], whereas machines are better at processing large amounts of
+data, discovering patterns, and providing predictions based on statistical reasoning and
+large-scale math. Agrawal et al. [19] argued that although prediction is useful because it
+helps improve decisions, decision-making also requires another important input factor:
+judgment. They deﬁned judgment as “the process of determining what the reward to a
+particular action is in a particular environment”—in other words, the process of working
+out the beneﬁts and costs of decisions in different situations. By being able to learn from
+experience, from previous choices, mistakes, and outcomes, humans are trained to exert
+judgment. This notion of complementarity suggests that humans are in a better position to
+direct and instruct AI technologies such as recommendation algorithms and decide their
+goals, whereas AI is more suited to performing the given tasks based on instructions from
+a human. Importantly, the notion of complementarity argues that the best outcome can
+be achieved by combining human and machine capabilities together. Despite this, this
+optimal division of labor between humans and machines is hardly the one reﬂected in
+today’s marketplace.
+Digitalization has proliferated two-way communication between businesses and con-
+sumers, making consumption more interactive [33]. However, the recommendation process
+enabled by algorithms often appears as more traditional and unidirectional, from the busi-
+ness assuming the role of the sender to the consumer as the receiver. AI-based decision
+aids are generally constructed without the active involvement of the consumer, but rather
+by depending on “passive” sources of information, i.e., historical or behavioral data. When
+there is no opportunity for the consumer to report back to the algorithm on whether the
+
+
+===== PDF PAGE 9 =====
+Sustainability 2021, 13, 2332 9 of 18
+recommendations provided are suitable or not, it prevents the algorithm from learning the
+consumer’s true preferences. Consumers are not able to exercise their judgment, but rather
+are left to either trust or not trust black box recommendations provided by an algorithm,
+reducing their ability to make well-informed, deliberate choices. Furthermore, irrelevant
+recommendations could cause annoyance and reactance by the consumer, discouraging
+current and future use [22,46].
+Another challenge regarding lack of complementarity and interactivity in today’s
+online marketplace is related to allowing consumers take an active role in exploring
+and discovering new content on their own. Presenting consumers with product options
+that they already ﬁnd appealing will likely be perceived by consumers as both relevant
+and useful, however, this consequently endorses less content that challenges their existing
+preferences or encourages them to try new things. This is also known as the “echo chamber”
+effect, related to what is referred to as “ﬁlter bubbles”, in which “algorithms inadvertently
+amplify ideological segregation by automatically recommending content an individual
+is likely to agree with” [53,54]. By relying simply on recommendations from algorithms,
+consumers would be encouraged to repeat past patterns of behavior, and ultimately be
+deprived of the opportunity to naturally evolve and reﬁne their taste as they mature [22].
+This suggests that the long-term effects of relying on AI-based decision aids that trap
+consumers in past behaviors could have a negative effect on consumer autonomy, also
+because it does not accommodate for aspirational preferences [22], which pertains to the
+gap between the view of an ideal self: who a consumer sees themself as today, as opposed
+to whom they want to be in the future.
+By increasing the level of complementarity between the algorithms and the consumer,
+and allowing consumers to provide adjustments and exert judgment, consumers are
+likely to feel a higher level of autonomy, ownership, and involvement in the suggestions
+presented. This is in line with the ﬁndings of Dietvorst et al. [55], which indicate that giving
+people some control over an algorithm’s forecast can reduce algorithm aversion, even
+though the control is just minor. We propose that making the use of AI-based decision aids
+more complementary in terms of enabling feedback, elevating consumers’ opportunities to
+select which attributes are most important, and actively weighing these against each other,
+will enhance consumer autonomy:
+Proposition 3. Complementarity increases consumer autonomy.
+As the name suggests, complementarity entails viewing AI technology as complemen-
+tary, and not as an alternative to human intelligence [27]. In other words, complementarity
+views technology as adding value, providing additional beneﬁts, or enhancing individ-
+uals’ existing capabilities, or facilitating activities that this individual performs, rather
+than replacing them. To develop AI technology sustainably necessitates keeping future
+generations in mind when designing these systems and developing legislation regarding
+it. With regards to AI-based decision aids, this can be manifested in the role division
+between consumers and the recommendation system, hereunder the degree to which the
+consumer can exert inﬂuence on the system and how they can work together to reach the
+best decision for the consumer, beneﬁting from the best capabilities of both consumer and
+machine. Allowing more consumer involvement and working to employ these capabili-
+ties complimentarily, rather than allowing decision-making technology to replace human
+capabilities for decision-making, will likely promote more sustainable AI:
+Proposition 4. Complementarity promotes sustainable AI.
+3.2. Transparency
+Transparency refers to “the possibility of accessing information, intentions or behav-
+iors that have been intentionally revealed through a process of disclosure” [ 56]. Andr é
+et al. [22] suggested that making consumers aware of what serves as the rationale for the
+recommendation could increase persuasiveness of the suggestion or advertisement, i.e.,
+
+
+===== PDF PAGE 10 =====
+Sustainability 2021, 13, 2332 10 of 18
+communicating clearly to the consumer that the suggestions of skin cream are based on
+the information they have provided about their age, skin type, or even previous purchase
+history (which could indicate what the consumer regards as an acceptable price range)
+would likely yield a perception of a higher level of autonomy, as it enables them to make a
+well-informed and deliberate decision. Conversely, if there were no information available
+about what the recommendation was based on, no transparency, the consumer would feel
+less autonomous in the purchase decision, as the source of the information from which the
+recommendation was made would be unknown. Larsson et al. [28] argued that promoting
+algorithmic transparency serves an important function of safeguarding for accountability
+and fairness in decision-making. Transparency also enables scrutiny regarding how access
+to information is mediated online, particularly on online platforms.
+Perceived transparency promotes consumer autonomy because it enables informed
+and deliberate considerations by the consumer, which are necessary conditions of con-
+sumer autonomy [ 18]. The absence of transparency, on the other hand, obfuscates the
+consumer’s basis for making decisions. In the event that an AI-based decision aid, such as a
+recommendation algorithm, is perceived as a “black box” [ 57], it is likely to be perceived as
+opaque rather than transparent by the consumer, and hence consumer autonomy is likely
+to be reduced. Contrarily, if the information, intentions, and behaviors of the algorithm are
+made transparent, accessible, and understandable to the consumer, the consumer is able
+to exercise their capabilities for deliberate decision-making aligned with their individual
+goals—in this case, ascertaining whether the products recommended by the algorithm are
+indeed a good choice, or merely unwanted interference as a representation of the interests
+of an external agent.
+Given that a higher degree of transparency regarding how and why recommendations
+are generated would provide more well-informed explanations for the consumer to judge
+whether the recommendation is in fact a good match, we propose that this will enhance
+autonomy. It is also likely that consumers will be less skeptical of the grounds or motivation
+behind the provided suggestion, and more directly attribute this to an action, or trait, on
+account of themself as a consumer.
+Proposition 5. Transparency increases consumer autonomy.
+As mentioned above, Larsson et al. [28] argued that transparency serves an important
+function with regards to safeguarding for accountability and fairness in decision-making,
+which both are vital components in the process of developing sustainable AI. In addition to
+this, transparency also enables careful analysis regarding how information is collected and
+used online, particularly on online platforms. Transparency promotes the development of
+sustainable AI by ensuring that the decision-making process is not perceived as a “black
+box” by consumers by enabling consumers to exercise judgment and take direct part in the
+decision, in line with the notion of complementarity. Based on these arguments, we posit
+the following proposition:
+Proposition 6. Transparency promotes sustainable AI.
+3.3. Privacy Regulation
+Vinuesa et al. [12] argued that one of the greatest challenges inhibiting the develop-
+ment of sustainable AI is “the pace of technological development, as neither individuals
+nor governments seem to be able to keep up with this.” Henriksson and Grunewald [58]
+identiﬁed and exempliﬁed several key sustainability risks related to legislation and gover-
+nance: regulatory (e.g., failure to live up to the EU General Data Protection), human rights
+violations (e.g., modern slavery, privacy), discrimination, diversity, and inclusion (e.g.,
+General Data Protection Regulation [GDPR]), in addition to non-compliance with ethical
+codes (e.g., responsible sales practice). A lack of legislation regarding AI development
+may be harmful to consumer welfare in numerous manners, however, with regards to
+consumers’ decision-making, we argue that privacy regulation remains among the utmost
+
+
+===== PDF PAGE 11 =====
+Sustainability 2021, 13, 2332 11 of 18
+critical. This is in line with Vinuesa et al. [12], who argued that “when not properly regu-
+lated, the vast amount of data produced by citizens might potentially be used to inﬂuence
+consumer opinion towards a certain product or political cause.”
+Bleier et al. [59] noted that the general goal of privacy regulation is to limit the extent
+to which ﬁrms can track and use consumers’ personal information. As an example, privacy
+regulation has been found to reduce the effectiveness of online advertising [ 60], which
+can be argued to be considered valuable for consumer welfare to the extent that this
+type of advertising is undesired. According to Pan [61], the primary threat to consumer
+privacy is not the actual collection and storing of a single unit of quantitative data, but
+rather the qualitative inferences made from these accumulated data points regarding a
+person’s attributes, i.e., personality traits, degree of intelligence, employee value, race,
+and political identiﬁcation, to name a few. “When it is unclear what data is generating
+which inferences, all collected information has the potential to reveal personal details and
+impinge autonomy” [ 61]. For the consumer, this collection and use of data occurs to a large
+extent covertly, without the consumer’s explicit consent to these inferences being made
+about them. This is likely to have a detrimental effect on consumers’ autonomy, especially
+since the algorithms can ﬁnd surprising patterns that humans are not able to detect—not
+even the consumer themself.
+Furthermore, Pan [61] proposed that big data causes harm in four main categories
+that are not directly related to use: “big data enables organizations to learn information
+about people that they would not have disclosed, restricts autonomy by judging people’s
+conduct and character, impedes the possibility of acting anonymously, and undermines the
+tenet that each person is an individual who possesses agency.” These threats to autonomy
+are real on both a consumer and a human level. Grafanaki [8] recognized that privacy is
+not only a matter of individual value, but also “a public value in the sense that individual
+autonomy is a prerequisite for a democratic society and innovation and sacriﬁcing it would
+be harming that society too.” This highlights the importance of investigating the role of
+autonomy in online decision-making, not only for individual consumers, but also on a
+societal level.
+Privacy is recognized as an important precondition for individual autonomy [62,63].
+Hence, protection of privacy through regulation and legislation should safeguard against
+reduced autonomy among consumers, given that this will reduce businesses’ opportunities
+to exploit data harvested and analyzed about individual consumers. This is of particular
+importance due to the pronounced mismatch between consumers’ strongly expressed
+privacy concerns and their rather careless actions with regards to privacy. This incongruity
+was addressed by Norberg et al. [64] as the “privacy paradox”, referring to how people,
+despite negative attitudes towards providing personal information, will do just so, even
+in the event that no apparent beneﬁt is evident [ 65]. As a metaphor of this, Miller [ 66]
+compared the privacy concerns of the public to the River Platte: “a mile wide, but only an
+inch deep” in Ganley [67].
+Singla et al. [68] found that the beneﬁts yielded from giving away personal data were
+deemed more important by consumers than privacy itself. They also found that consumers
+were willing to share information if they received personal beneﬁts that contributed to
+their consumer experience. Although recent events such as the Cambridge Analytica case
+have made consumers more uneasy and cautious, spurring an increase in public awareness
+related to the collection and use of personal data [69], it can be argued that consumers still
+remain naïve, due to lacking knowledge about constantly-evolving AI technologies that
+feed on data. Based on this, we propose:
+Proposition 7. Privacy regulation increases consumer autonomy.
+With regards to developing AI, privacy regulation plays an important part in sus-
+tainability. Without privacy regulation, consumer rights to privacy, autonomy, and other
+essential human rights would be weakened, in addition to the threat it poses to democratic
+values. Furthermore, the absence of privacy regulation would facilitate the manipulation
+
+
+===== PDF PAGE 12 =====
+Sustainability 2021, 13, 2332 12 of 18
+and exploitation of consumers through the access of data and the use of this to inﬂuence
+consumers covertly. Because privacy regulation shapes not only the current situation, but
+also how data will be collected and used to inﬂuence consumers in the future, we argue
+that this is likely to have a vital effect on the sustainability of AI.
+Proposition 8. Privacy regulation promotes sustainable AI.
+3.4. Consumer Autonomy and Choice Effort
+The extent to which a consumer experiences high levels of autonomy, based on
+complementarity, transparency, and privacy regulation, seems likely to inﬂuence the choice
+effort that is exerted by the consumer. Consumer autonomy is likely to reduce the effort
+exerted by the consumer in the process of making a decision.
+Proposition 9. Consumer autonomy reduces choice effort.
+Choice effort is regarded as a driver of decision quality [34,44], and efforts to reduce
+choice effort should result in increased decision quality. Furthermore, as decision quality is
+driven by the degree to which consumers’ choices reﬂect their true preferences, we argue
+that decision quality is increased by an increase in AI sustainability.
+Proposition 10. Sustainable AI increases decision quality.
+Figure 1 illustrates the conceptual framework.
+Sustainability 
+2021
+, 
+13
+, x FOR PEER REVIEW
+ 
+12
+ 
+of 
+18
+ 
+ 
+ 
+With regards to developing AI, privacy regulation plays an important part 
+in 
+sus-
+tainability. Without privacy regulation, consumer rights to privacy, autonomy, and other 
+essential human rights would be weaken
+ed, in addition to the threat it poses to democratic 
+values. Furthermore, the absence of privacy regulation would facilitate 
+the 
+manipulation 
+and exploitation of consumers through the access of data and 
+the 
+use of this to influence 
+consumers covertly. Beca
+use privacy 
+regulation
+ 
+shapes not only the current situation, but 
+also how data will be collected and used to influence consumers in the future, we argue 
+that this is likely to have a vital effect on 
+the 
+sustainability of AI.
+ 
+Proposition 8.
+ 
+Privacy regulat
+ion promotes sustainable AI.
+ 
+3.4. 
+Consumer 
+Autonomy 
+and 
+Choice Effort
+ 
+The extent to which a consumer experiences high levels of autonomy
+,
+ 
+based on
+ 
+com-
+plementarity,
+ 
+transparency, 
+and privacy regulation, s
+eems likely to 
+influence the choice 
+effort 
+that is
+ 
+exerted by the consumer. 
+Consumer autonomy is likely to 
+reduce 
+the 
+effort
+ 
+exerted by the consumer in the process of making a decision.
+ 
+P
+roposition 9.
+ 
+Consumer autonomy reduces choice effort.
+ 
+Choice effort is regarded as 
+a driver of decision quality 
+[34,44]
+, and efforts to reduce 
+choice effort should result in increased decision quality. Furthermore, as decision quality 
+is driven by the degree to which consumers’ choice
+s
+ 
+reflect their true preferences, we ar-
+gue that decisi
+on quality is increased by an increase in AI sustainability.
+ 
+Proposition 10.
+ 
+Sustainable AI increases decision quality.
+ 
+Figure 1 
+illustrates the conceptual framework.
+ 
+ 
+Figure 1. 
+Conceptual framework
+.
+ 
+4. 
+Discussion
+ 
+In this section
+,
+ 
+we present considerations related to future research
+. We 
+first focus on 
+testing the model, 
+before 
+consider
+ing
+ 
+the
+ 
+implications of
+ 
+product type
+.
+ 
+Thirdly, we discuss 
+Figure 1. Conceptual framework.
+4. Discussion
+In this section, we present considerations related to future research. We ﬁrst focus
+on testing the model, before considering the implications of product type. Thirdly, we
+discuss the trade-offs between autonomy and perceived value, and ﬁnally we focus on
+the consumer satisfaction perspective versus the business proﬁtability perspective, brieﬂy
+including implications for research, policymaking, and practitioners.
+
+
+===== PDF PAGE 13 =====
+Sustainability 2021, 13, 2332 13 of 18
+4.1. Testing and Development of the Sustainable AI Model
+Decision aids have the potential to empower consumers and make them feel that they
+are the decision-makers employing these tools to maximize utility. We identiﬁed three
+main factors as drivers of consumer autonomy and sustainable AI: complementarity, trans-
+parency, and privacy regulation. Furthermore, the satisfaction derived from spending less
+time on making a purchase decision is likely to increase overall consumer satisfaction when
+consumers perceive that they are ultimately the decision-maker, and that the algorithm
+enables them to make a better decision, rather than making the decision on their behalf.
+Together, these factors should have a positive inﬂuence on both consumer experience and
+consumer welfare. We presented propositions related to how consumer autonomy may be
+increased when using AI-based decisions aids, and how sustainable AI may be promoted.
+These propositions should be tested in empirical settings.
+4.2. Testing the Model While Making Distinctions between Different Types of Products
+Although we have yet to focus on the speciﬁc effects of the use of AI-based decision
+aids on different product types, a distinction is often made between search and experience
+goods. Search goods are products or services where the consumers may evaluate the
+quality, features, and characteristics before the purchase (i.e., clothes, furniture), whereas
+experience goods may not easily be evaluated prior to consumption (i.e., restaurants or
+hotels). Credence goods, on the other hand, refer to products that are difﬁcult to evaluate
+even after they are bought or consumed (i.e., vitamin pills). Identity-salient products are
+another type of products, a product type in which consumers are more likely to resist
+inﬂuence by automation due to a higher need for internal attribution of the choice to the
+consumer themself [70]. Products may be classiﬁed in different dimensions, but it seems
+reasonable to expect that the need for autonomy and value of AI-based decision aids will
+vary with regard to different types of products. In future research, the propositions should
+be tested for robustness and relevance when considering different types of products.
+4.3. Investigating the Trade-Off between Autonomy and Perceived Value
+Autonomy itself is not the only goal of consumers, and it could be possible to accept
+reduced autonomy if other factors are regarded as more valuable. As mentioned, Singla [68]
+described how consumers accepted trading personal data and privacy if the perceived
+beneﬁts had higher value. It is important to note here that this refers to overt “trading” of
+personal data against beneﬁts provided by businesses, i.e., expressing an explicit consent of
+willingness to use in-store Wi-Fi or a mobile application [71]. Bleier and Eisenbeiss [72] drew
+a parallel between consumers’ willingness to incur a loss of privacy in the expectation of
+relevant beneﬁts from a retailer to equity theory [73,74], which states that for a relationship
+to be perceived as fair, the expected value of the outcome must at least equal the input. If
+consumers do not perceive this balance as fair, or more severely in cases where personal
+data is collected without the consent, or even the knowledge, of the consumer, the effect
+on autonomy is expected to be detrimental. It should also be assumed that the need for,
+and importance of, autonomy will vary greatly, i.e., across contexts, consumers’ individual
+personal preferences and traits, and product types. There is a pronounced need to know
+more about this trade-off between autonomy and beneﬁts (i.e., convenience, relevance, etc.)
+when consumers interact with AI-based technology such as recommendation algorithms.
+4.4. Investigating the Business Perspective Versus Consumer Perspective
+Decision-making research has focused extensively on studying the steps of consumers’
+decision-making process before, during, and after consumption. Understanding what
+drives consumers and how they reach decisions allows businesses to gain insight, and
+consequently offer products and services that are more suitable and better adapted to
+consumer’s needs. This insight is also useful for understanding how to target and inﬂuence
+consumers more effectively, and for creating tools that encourage consumers to make
+purchase decisions aligned with business’ interests [20]. Although consumers’ decision
+
+
+===== PDF PAGE 14 =====
+Sustainability 2021, 13, 2332 14 of 18
+quality may not appear to be the end goal of businesses per se, improving consumers’
+decision quality through the use of AI-based decision aids may have an effect on consumer
+satisfaction and loyalty [75], two important constructs shown to lead to increased business
+performance [76]. Normally, ﬁrm-level goals are related to aspects such as market share,
+proﬁtability, and growth achieved by persuading consumers to purchase their products.
+However, the use of AI-based decision aids has the potential to assist consumers to bring
+focus to those that best meet their preference, hence improving decision quality for the
+consumer at the expense of ﬁrms’ attempts to convince. Understanding this and learning
+to meet consumer preferences better than competitors should lead to a competitive advan-
+tage. Hence, understanding the relationship between autonomy and decision quality may
+therefore be regarded as necessary for businesses to be competitive and to achieve goals
+related to market share, proﬁtability, and growth.
+4.5. Implications
+Research in this area will increase the theoretical understanding of the decision-
+making process of consumers when interacting with AI-based decision-making aids. By
+gaining this insight and working towards developing AI more sustainably from a social
+and human rights point of view, we will be more capable of facilitating the adoption of
+this new technology as the promising tool it is for consumers, providing better matching
+between consumer preferences and products while mitigating the potential perils related to
+autonomy, privacy, and ethics. In addition to this, research in this area may also contribute
+to insight regarding consumer manipulation by the use of AI-based decision aids.
+We argue that as long as employing AI to inﬂuence consumers’ decisions remains
+proﬁtable and legal, businesses will continue to embrace these technological advances.
+Hence, policymaking should attend to how consumer autonomy may be increased when
+developing legislation. Due to the novelty of AI, constant development, a lack of a clear
+consensus, and few previous examples to draw from, many AI-based decision-aiding
+technologies are operating in a complex “gray zone” impacting consumer choices. With
+regards to implications for business owners and practitioners, these should keep ethical
+and sustainability considerations in mind when designing and employing decision aids,
+particularly when facing choices where the best interest of the consumer and society in the
+long term seems to be at odds with the short-term interests of the business.
+The increasing development and adoption of AI-based decision-making suggests
+an immediate need for research and knowledge concerning how this technology can be
+employed in the most sustainable and ethical manner. Despite its apparent beneﬁts, there
+are numerous ethical issues to address and overcome in order for decision aids to realize
+their potential in helping consumers reach better decisions in a shorter time frame. As
+consumers are relinquishing control of a central part of the decision-making process, we
+must strive to ensure that consumer well-being is protected, and consumer autonomy
+maintained. There is currently unrealized potential with regards to consumer-empowering
+AI tools focusing on sustainable consumption. Lastly, one goal of sustainability relates
+to reducing the negative environmental consequences of consumption. When AI-based
+tools are used to manipulate consumers to buy and consume more products, this should
+be viewed as a direct threat to sustainability in general, but also social sustainability.
+Rogers et al. [17] argued that sustainability must be deﬁned to include not only the
+physical, but also emotional and social needs of individuals. Furthermore, they conclude
+that well-being is highly subjective and individual, suggesting that policies “should focus
+on making human well-being possible by providing the freedoms and capabilities that
+allow each person to achieve what will contribute to his or her own well-being” [ 17,77].
+In line with this, we argue that consumer autonomy is among the paramount capabilities
+necessary to harbor for an individual to achieve well-being, and hence, social sustainability
+should be investigated through the lens of consumer autonomy. In line with goals of
+social sustainability, we must ensure that consumer autonomy is not sacriﬁced for future
+
+
+===== PDF PAGE 15 =====
+Sustainability 2021, 13, 2332 15 of 18
+generations because of shortsighted commercial goals today, or due to legislation being
+surpassed by rapid technological development.
+Although proposing in-depth solutions for how to achieve transparency, complemen-
+tarity, and privacy regulation is beyond the scope of this paper, due to length considerations,
+we encourage research on these aspects. We brieﬂy propose that transparency is promoted
+by increasing consumers’ understanding and knowledge of AI processes, by using clear
+and unambiguous language, and by being upfront regarding how recommendations are
+made. Importantly, avoiding “black box” solutions will render consumers better equipped
+to make conscious, informed, and deliberate decisions. Complementarity may be accom-
+modated for by ensuring that consumers are given real options to decide the extent to
+which AI is involved in their decision-making. Furthermore, the notion of complementarity
+infers realizing the potential of using AI as tools that promote consumer interests and
+enhances their capabilities for decision-making, rather than replacing them. Lastly, privacy
+regulation should reﬂect both decisional and informational dimensions of privacy concerns.
+In other words, it should encompass a desire to protect both how consumers’ information
+is collected, stored, and analyzed; the extent of decisional interference that is permitted;
+and the covertness of this inﬂuence.
+Future research should strive to test the propositions outlined in this paper. In ad-
+dition to remarks made throughout the paper, future studies should also focus on how
+transparency and complementarity may be achieved, and how privacy regulation should
+be developed to accommodate for the increasing challenges facing consumers’ privacy
+rights in light of new technologies. In addition to this, more research is needed to under-
+stand antecedents and effects of consumer autonomy due to its importance as a concept
+itself and the importance for sustainable AI. Furthermore, consumers’ perceptions of AI
+and consumer-empowering AI represent important avenues of future research.
+5. Conclusions
+How algorithms inﬂuence consumer decision-making remains a highly relevant and
+important topic, as described by Kannan [ 1], Rust [2], and Lamberton and Stephen [ 5].
+We argue that consumer autonomy represents a necessary condition for sustainable AI,
+and that consequently, if consumer autonomy is diminished, it has a negative inﬂuence on
+consumer well-being and social sustainability. As machines and algorithms are increas-
+ingly interfering with consumers’ decision-making by use of more covert and sophisticated
+measures and fueled by data on individual consumers, consumer autonomy has never been
+more important to understand and investigate. We have problematized businesses’ current
+AI practice from a consumer well-being point of view, arguing that this violates consumer
+autonomy, and consequently social sustainability. We argue that progressively outsourc-
+ing more of the decision-making process to machines and algorithms is likely to prove
+detrimental to consumers’ well-being and autonomy in the absence of complementarity,
+transparency, and privacy regulation.
+We conducted a literature review on consumer decision-making, AI-based decision
+aids, and sustainable AI. This enabled us to address our research questions pertaining
+to identifying the main challenges related to the use of AI-based recommendations for
+consumers’ decision-making. Based on this, we developed propositions for how these chal-
+lenges may be mitigated, placing a merited emphasis on protecting consumer autonomy.
+Lastly, we accounted for the importance of consumer autonomy as a resource, elaborating
+on its role for the social dimension of sustainability. By developing a conceptual framework,
+we contributed to the debate on how we can develop sustainable AI within the context of
+online decision-making. We hope to inspire more research on this important topic and have
+identiﬁed a series of future avenues for research, which will advance our understanding of
+sustainable AI-development. This contribution has signiﬁcant implications for the research
+community, but we also hope to increase awareness of the importance of autonomy with
+regards to policy-making, and that more knowledge may contribute to better regulation of
+the design of AI-based decision-aids in order to maintain consumer autonomy.
+
+
+===== PDF PAGE 16 =====
+Sustainability 2021, 13, 2332 16 of 18
+Due to the pace of development and innovation of AI, it is likely that we have only
+seen the beginning with regards to the use of AI and algorithm-based recommendations,
+and consequently, there is an urgent need for research addressing how to alleviate the
+negative consequences of AI on consumer decision-making and autonomy. Previous
+studies have primarily focused on either the beneﬁts for businesses or the disadvantages
+for consumers of the use of AI, and we seek to merge these views and contribute to a
+constructive debate regarding how to develop AI-based decision aids in a more sustainable
+manner. We believe that this will beneﬁt the decision quality and well-being of both current
+and future generations of consumers.
+Author Contributions: Conceptualization, L.B., Ø.M., and M.P .; introduction, L.B., Ø.M., and M.P .;
+literature review and propositions, L.B.; discussion and implications, L.B., Ø.M., and M.P .; writing—
+original draft, main author L.B. with contributions from Ø.M. and M.P .; writing—review and editing,
+L.B. All authors have read and agreed to the published version of the manuscript.
+Funding: This research received no external funding.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1. Kannan, K.P .; Li, H.A. Digital marketing: A framework, review and research agenda.Int. J. Res. Mark. 2017, 34, 22–45. [CrossRef]
+2. Rust, R.T. The future of marketing. Int. J. Res. Mark. 2020, 37, 15–26. [CrossRef]
+3. Djeffal, C. Sustainable Development of Artiﬁcial Intelligence (SAID). SAID 2019, 4, 186–192.
+4. Aguirre, E.; Roggeveen, A.L.; Grewal, D. The personalization-privacy paradox: Implications for new media. J. Consum. Mark.
+2016, 33, 98–110. [CrossRef]
+5. Lamberton, C.; Stephen, A.T. A thematic exploration of digital, social media, and mobile marketing: Research evolution from
+2000 to 2015 and an agenda for future inquiry. J. Mark. 2016, 80, 146–172. [CrossRef]
+6. Iyengar, S.S.; Lepper, M.R. When choice is demotivating: Can one desire too much of a good thing? J. Personal. Soc. Psychol. 2000,
+79, 995. [CrossRef]
+7. Drumwright, M. Ethical Issues in Marketing, Advertising, and Sales. Available online: https://www.taylorfrancis.com/chapters/
+ethical-issues-marketing-advertising-sales-minette-drumwright/e/10.4324/9781315764818-37 (accessed on 17 January 2021).
+8. Grafanaki, S. Autonomy challenges in the age of big data. Intell. Prop. Media Ent. LJ 2016, 27, 803.
+9. Mik, E. The erosion of autonomy in online consumer transactions. Law Innov. Technol. 2016, 8, 1–38. [CrossRef]
+10. Susser, D.; Roessler, B.; Nissenbaum, H. Technology, autonomy, and manipulation. Internet Policy Rev. 2019, 8, 1–22. [CrossRef]
+11. Johnston, P .; Everard, M.; Santillo, D.; Robèrt, K.H. Reclaiming the deﬁnition of sustainability.Environ. Sci. Pollut. Res. Int. 2007,
+14, 60–66. [PubMed]
+12. Vinuesa, R.; Azizpour, H.; Leite, I.; Balaam, M.; Dignum, V .; Domisch, S. The role of artiﬁcial intelligence in achieving the
+Sustainable Development Goals. Nat. Commun. 2020, 11, 1–10. [CrossRef]
+13. Pfeffer, J. Building sustainable organizations: The human factor. Acad. Manag. Perspect. 2010, 24, 34–45.
+14. Vallance, S.; Perkins, H.C.; Dixon, J.E. What is social sustainability? A clariﬁcation of concepts. Geoforum 2011, 42, 342–348.
+[CrossRef]
+15. Wced, S.W.S. World commission on environment and development. Our Common Future 1987, 17, 1–91.
+16. Gilart-Iglesias, V .; Gilart-Iglesias, V .; Mora, H.; Pérez-delHoyo, R.; García-Mayor, C. A Computational Method based on Radio
+Frequency Technologies for the Analysis of Accessibility of Disabled People in Sustainable Cities. Sustainability 2015, 7, 14935–
+14963. [CrossRef]
+17. Rogers, D.S.; Duraiappah, A.K.; Antons, D.C.; Munoz, P .; Bai, X.; Fragkias, M.; Gutscher, H. A vision for human well-being:
+Transition to social sustainability.Curr. Opin. Environ. Sustain. 2012, 4, 61–73. [CrossRef]
+18. Sunstein, C.R. Fifty Shades of Manipulation. Available online: https://ssrn.com/abstract=2565892 (accessed on 18 February 2015).
+19. Agrawal, A.; Gans, J.; Goldfarb, A. Economic policy for artiﬁcial intelligence. Innov. Policy Econ. 2019, 19, 139–159. [CrossRef]
+20. Grewal, D.; Roggeveen, A.; Nordfält, J. The Future of Retailing. J. Retail. 2017, 93, 1–6. [CrossRef]
+21. Campbell, C.; Sands, S.; Ferraro, C.; Tsao, H.Y.J.; Mavrommatis, A. From data to action: How marketers can leverage AI. Bus.
+Horiz. 2020, 63, 227–243. [CrossRef]
+22. André, Q.; Carmon, Z.; Wertenbroch, K.; Crum, A.; Frank, D.; Goldstein, W.; Yang, H. Consumer choice and autonomy in the age
+of artiﬁcial intelligence and big data. Cust. Needs Solut. 2018, 5, 28–37. [CrossRef]
+
+
+===== PDF PAGE 17 =====
+Sustainability 2021, 13, 2332 17 of 18
+23. Wertenbroch, K.; Wertenbroch, K.; Schrift, R.Y.; Alba, J.W.; Barasch, A.; Bhattacharjee, A.; Giesler, M. Autonomy in consumer
+choice. Mark. Lett. 2020, 31, 429–439. [CrossRef]
+24. Yigitcanla, T.; Cugurullo, F. The Sustainability of Artiﬁcial Intelligence: An Urbanistic Viewpoint from the Lens of Smart and
+Sustainable Cities. Sustainability 2020, 12, 8548. [CrossRef]
+25. Frank, B. Artiﬁcial intelligence-enabled environmental sustainability of products: Marketing beneﬁts and their variation by
+consumer, location, and product types. J. Clean. Prod. 2021, 285, 125242. [CrossRef]
+26. Nikitas, A.; Michalakopoulou, K.; Njoya, E.T.; Karampatzakis, D. Artiﬁcial Intelligence, Transport and the Smart City: Deﬁnitions
+and Dimensions of a New Mobility Era. Sustainability 2020, 12, 2789. [CrossRef]
+27. Renda, A. Artiﬁcial Intelligence: Ethics, Governance and Policy Challenges. Available online: https://ssrn.com/abstract=3420810
+(accessed on 17 July 2019).
+28. Larsson, S.; Larsson, S.; Anneroth, M.; Felländer, A.; Felländer-Tsai, L.; Heintz, F.; Ångström, R.C. Sustainable AI: An Inventory
+of the State of Knowledge of ETHICAL, social, and Legal Challenges Related to Artiﬁcial Intelligence. Available online:
+https://portal.research.lu.se/portal/ﬁles/62833751/Larsson_et_al_2019_SUSTAINABLE_AI_web_ENG_05.pdf (accessed on
+17 January 2021).
+29. Payne, J.W. Contingent decision behavior. Psychol. Bull. 1982, 92, 382. [CrossRef]
+30. Bettman, J.R.; Luce, M.F.; Payne, J.W. Constructive consumer choice processes. J. Consum. Res. 1998, 25, 187–217. [CrossRef]
+31. Bremer, L.; Heitmann, M.; Schreiner, T.F. When and how to infer heuristic consideration set rules of consumers.Int. J. Res. Mark.
+2017, 34, 516–535. [CrossRef]
+32. Howard, J.A.; Sheth, J.N. The Theory of Buyer Behavior; Wiley: New York, NY, USA, 1969.
+33. Häubl, G.; Trifts, V . Consumer decision making in online shopping environments: The effects of interactive decision aids.Mark.
+Sci. 2000, 19, 4–21. [CrossRef]
+34. Aljukhadar, M.; Senecal, S.; Daoust, C.-E. Using recommendation agents to cope with information overload. Int. J. Electron.
+Commer. 2012, 17, 41–70. [CrossRef]
+35. Kempf, D.S. Attitude formation from product trial: Distinct roles of cognition and affect for hedonic and functional products.
+Psychol. Mark. 1999, 16, 35–50. [CrossRef]
+36. De Bruyn, A.; Lilien, G.L. A multi-stage model of word-of-mouth inﬂuence through viral marketing. Int. J. Res. Mark. 2008, 25,
+151–163. [CrossRef]
+37. Botti, S.; Iyengar, S.S. The dark side of choice: When choice impairs social welfare.J. Public Policy Mark. 2006, 25, 24–38. [CrossRef]
+38. Chernev, A.; Böckenholt, U.; Goodman, J. Choice overload: A conceptual review and meta-analysis. J. Consum. Psychol. 2015, 25,
+333–358. [CrossRef]
+39. Goodman, J.K.; Broniarczyk, S.M.; Grifﬁn, J.G.; McAlister, L. Help or hinder? When recommendation signage expands considera-
+tion sets and heightens decision difﬁculty.J. Consum. Psychol. 2013, 23, 165–174. [CrossRef]
+40. Sethi-Iyengar, S.; Huberman, G.; Jiang, W. How much choice is too much? Contributions to 401 (k) retirement plans. Pension Des.
+Struct. New Lessons Behav. Financ. 2004, 83, 84–87.
+41. Chernev, A. When more is less and less is more: The role of ideal point availability and assortment in consumer choice. J. Consum.
+Res. 2003, 30, 170–183. [CrossRef]
+42. Cho, C.-H.; Kang, J.; Cheon, H.J. Online shopping hesitation. Cyberpsychol. Behav. 2006, 9, 261–274. [CrossRef] [PubMed]
+43. Banister, E.N.; Hogg, M.K. Possible selves? Identifying dimensions for exploring the dialectic between positive and negative
+selves in consumer behavior. Adv. Consum. Res. 2003, 30, 149–150.
+44. Punj, G. Consumer decision making on the web: A theoretical analysis and research guidelines. Psychol. Mark. 2012, 29, 791–803.
+[CrossRef]
+45. Lurie, N.H.; Wen, N. Simple decision aids and consumer decision making. J. Retail. 2014, 90, 511–523. [CrossRef]
+46. Fitzsimons, G.J.; Lehmann, D.R. Reactance to recommendations: When unsolicited advice yields contrary responses. Mark. Sci.
+2004, 23, 82–94. [CrossRef]
+47. Shugan, S.M. The cost of thinking. J. Consum. Res. 1980, 7, 99–111. [CrossRef]
+48. De Charms, R. Personal Causation: Tire Internal Affective Determinants of Behavior; Academic Press: New York, NY, USA, 1968.
+49. Brehm, J.W. A Theory of Psychological Reactance; Academic Press: New York, NY, USA, 1966.
+50. Gherhes, , V .; Obrad, C. Technical and humanities students’ perspectives on the development and sustainability of artiﬁcial
+intelligence (AI). Sustainability 2018, 10, 3066. [CrossRef]
+51. Longoni, C.; Cian, L. Artiﬁcial Intelligence in Utilitarian vs. Hedonic Contexts: The “Word-of-Machine” Effect. Available online:
+https://journals.sagepub.com/doi/abs/10.1177/0022242920957347 (accessed on 2 November 2020).
+52. Zheng, N.-N.; Liu, Z.Y.; Ren, P .J.; Ma, Y.Q.; Chen, S.T.; Yu, S.Y.; Wang, F.Y. Hybrid-augmented intelligence: Collaboration and
+cognition. Front. Inf. Technol. Electron. Eng. 2017, 18, 153–179. [CrossRef]
+53. Pariser, E. The Filter Bubble: What the Internet is Hiding from You; Penguin: London, UK, 2011.
+54. Flaxman, S.; Goel, S.; Rao, J.M. Filter bubbles, echo chambers, and online news consumption. Public Opin. Q. 2016, 80, 298–320.
+[CrossRef]
+55. Dietvorst, B.J.; Simmons, J.P .; Massey, C. Overcoming algorithm aversion: People will use imperfect algorithms if they can (even
+slightly) modify them. Manag. Sci. 2018, 64, 1155–1170. [CrossRef]
+56. Turilli, M.; Floridi, L. The ethics of information transparency. Ethics Inf. Technol. 2009, 11, 105–112. [CrossRef]
+
+
+===== PDF PAGE 18 =====
+Sustainability 2021, 13, 2332 18 of 18
+57. Sinha, R.; Swearingen, K. The Role of Transparency in Recommender Systems. Available online: https://doi.org/10.1145/506443
+.506619 (accessed on 17 January 2021).
+58. Henriksson, H.; Grunewald, E.W. Society as a Stakeholder, in Sustainability Leadership; Springer: Berlin/Heidelberg, Germany, 2020;
+pp. 173–199.
+59. Bleier, A.; Goldfarb, A.; Tucker, C. Consumer privacy and the future of data-based innovation and marketing.Int. J. Res. Mark.
+2020, 37, 466–480. [CrossRef]
+60. Goldfarb, A.; Tucker, C.E. Privacy regulation and online advertising. Manag. Sci. 2011, 57, 57–71. [CrossRef]
+61. Pan, S.B. Get to know me: Protecting privacy and autonomy under big data’s penetrating gaze. Harv. JL Tech. 2016, 30, 239.
+62. Rossler, B.; Glasgow, D.V .; Glasgow, R.D.V . The Value of Privacy; Polity Press: Malden, MA, USA, 2005.
+63. Lanzing, M. “Strongly recommended” revisiting decisional privacy to judge hypernudging in self-tracking technologies. Philos.
+Technol. 2019, 32, 549–568. [CrossRef]
+64. Norberg, P .A.; Horne, D.R.; Horne, D.A. The privacy paradox: Personal information disclosure intentions versus behaviors.J.
+Consum. Aff. 2007, 41, 100–126. [CrossRef]
+65. Norberg, P .A.; Horne, D.R. Privacy attitudes and privacy-related behavior. Psychol. Mark. 2007, 24, 829–847. [CrossRef]
+66. Miller, S. Civilizing Cyberspace: Policy, Power and the Information Superhighway; ACM Press: New York, NY, USA; Addison-Wesley:
+Boston, MA, USA, 1996.
+67. Ganley, P . Access to the individual: Digital rights management systems and the intersection of informational and decisional
+privacy interests. Int. J. Law Inf. Technol. 2002, 10, 241–293. [CrossRef]
+68. Singla, K.; Singla, K.; Poddar, M.; Sharma, R.; Rathi, K. Role of Ethics in Digital Marketing. Imp. J. Interdiscip. Res. 2017, 3, 371–375.
+69. Isaak, J.; Hanna, M.J. User data privacy: Facebook, Cambridge Analytica, and privacy protection. Computer 2018, 51, 56–59.
+[CrossRef]
+70. Leung, E.; Paolacci, G.; Puntoni, S. Man versus machine: Resisting automation in identity-based consumer behavior. J. Mark. Res.
+2018, 55, 818–831. [CrossRef]
+71. Bues, M.; Bues, M.; Steiner, M.; Stafﬂage, M.; Krafft, M. How Mobile In-Store Advertising Inﬂuences Purchase Intention: Value
+Drivers and Mediating Effects from a Consumer Perspective. Psychol. Mark. 2017, 34, 157–174. [CrossRef]
+72. Bleier, A.; Eisenbeiss, M. The Importance of Trust for Personalized Online Advertising. J. Retail. 2015, 91, 390–409. [CrossRef]
+73. Culnan, M.J.; Bies, R.J. Consumer privacy: Balancing economic and justice considerations. J. Soc. Issues 2003, 59, 323–342.
+[CrossRef]
+74. Milne, G.R.; Gordon, M.E. Direct mail privacy-efﬁciency trade-offs within an implied social contract framework. J. Public Policy
+Mark. 1993, 12, 206–215. [CrossRef]
+75. Murray, K.B.; Häubl, G. Interactive Consumer Decision Aids. In Handbook of Marketing Decision Models ; Springer:
+Berlin/Heidelberg, Germany, 2008; Volume 121, pp. 55–77.
+76. Williams, P .; Naumann, E. Customer satisfaction and business performance: A ﬁre level analysis.J. Serv. Mark. 2011, 25, 20–32.
+[CrossRef]
+77. Nussbaum, M.; Sen, A. The Quality of Life; Oxford University Press: New York, NY, USA, 1993.

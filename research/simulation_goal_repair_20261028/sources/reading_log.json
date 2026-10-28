@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-28",
+  "M3": {
+    "pdfObtained": true,
+    "pdfPages": 17,
+    "readPdfPages": [
+      1,
+      9,
+      10
+    ],
+    "status": "partial reading"
+  },
+  "M4": {
+    "pdfObtained": true,
+    "pdfPages": 111,
+    "version": "arXiv2106.11433v4; draft2025-02-27, posted2025-02-28",
+    "readPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      9
+    ],
+    "status": "partial reading"
+  },
+  "M1": {
+    "pdfObtained": false,
+    "status": "publisher/institution search excerpts; scope detailed in02"
+  },
+  "M2": {
+    "pdfObtained": false,
+    "status": "publisher indexed abstract/first-page and experiment excerpt; scope detailed in02"
+  },
+  "W1": {
+    "pdfObtained": false,
+    "status": "publisher abstract and author institution bibliography only"
+  },
+  "introCharacters": 201
+}

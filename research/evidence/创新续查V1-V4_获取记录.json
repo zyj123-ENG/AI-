@@ -1,0 +1,42 @@
+[
+  {
+    "code": "V1_Alfrink2023_ContestableAI",
+    "url": "https://link.springer.com/content/pdf/10.1007/s11023-022-09611-z.pdf",
+    "date": "2026-10-28",
+    "timezone": "Asia/Shanghai",
+    "status": "obtained and extracted; reading separately recorded",
+    "file": "research\\sources\\V1_Alfrink2023_ContestableAI.pdf",
+    "pages": 27,
+    "sha256": "2d9f5424f022b095e303d0ad116cd13800b321d8995112cd0872f2fb4ba6f326"
+  },
+  {
+    "code": "V2_AshtonFranklin2022_MetaPreferences",
+    "url": "https://arxiv.org/pdf/2209.11801",
+    "date": "2026-10-28",
+    "timezone": "Asia/Shanghai",
+    "status": "obtained and extracted; reading separately recorded",
+    "file": "research\\sources\\V2_AshtonFranklin2022_MetaPreferences.pdf",
+    "pages": 3,
+    "sha256": "1ffca5ecc384409c2665cdcfcfa1f2c8a41d045f61b03bcfa8e8af19f33a232c"
+  },
+  {
+    "code": "V3_Fischli2026_ManyFacesAutonomy",
+    "url": "https://link.springer.com/content/pdf/10.1007/s11023-026-09786-9.pdf",
+    "date": "2026-10-28",
+    "timezone": "Asia/Shanghai",
+    "status": "obtained and extracted; reading separately recorded",
+    "file": "research\\sources\\V3_Fischli2026_ManyFacesAutonomy.pdf",
+    "pages": 24,
+    "sha256": "adbd5cddafbeb6b8869231278fdb981f10de4cc00c210cfa1d05768de554f81e"
+  },
+  {
+    "code": "V4_Li2026_PredictionMemory",
+    "url": "https://arxiv.org/pdf/2607.24798",
+    "date": "2026-10-28",
+    "timezone": "Asia/Shanghai",
+    "status": "obtained and extracted; reading separately recorded",
+    "file": "research\\sources\\V4_Li2026_PredictionMemory.pdf",
+    "pages": 9,
+    "sha256": "31ccff06679450d2746452118ba97614148b143424391c28e751e44fe0089003"
+  }
+]

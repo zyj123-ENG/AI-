@@ -1,0 +1,46 @@
+[
+  {
+    "code": "R6_Xie2023_PRAG",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/download/26618/26390",
+    "date": "2026-10-28",
+    "timezone": "Asia/Shanghai",
+    "status": "PDF obtained and extracted; reading status recorded separately",
+    "file": "research\\sources\\R6_Xie2023_PRAG.pdf",
+    "sha256": "06893c29bb307b9be1358cda71acfac1cba96e28fdf0204ebaef2b37fd51dbb5",
+    "pages": 9,
+    "chars": 48089
+  },
+  {
+    "code": "R7_Zhang2025_Refinement",
+    "url": "https://aclanthology.org/2025.findings-emnlp.434.pdf",
+    "date": "2026-10-28",
+    "timezone": "Asia/Shanghai",
+    "status": "PDF obtained and extracted; reading status recorded separately",
+    "file": "research\\sources\\R7_Zhang2025_Refinement.pdf",
+    "sha256": "fda7a4580c0c369957bd5ceea3fa56aa3f9dd01c00d3befe98c19a7d57740ac8",
+    "pages": 15,
+    "chars": 64007
+  },
+  {
+    "code": "R8_Kabongo2026_FactualConsistency_v2",
+    "url": "https://arxiv.org/pdf/2512.24366v2",
+    "date": "2026-10-28",
+    "timezone": "Asia/Shanghai",
+    "status": "PDF obtained and extracted; reading status recorded separately",
+    "file": "research\\sources\\R8_Kabongo2026_FactualConsistency_v2.pdf",
+    "sha256": "68e1b89e00f0e1eb157871db9934274e1bf74c3069f221033991b6cda1ec7ff1",
+    "pages": 12,
+    "chars": 35209
+  },
+  {
+    "code": "R9_Gao2023_ALCE",
+    "url": "https://aclanthology.org/2023.emnlp-main.398.pdf",
+    "date": "2026-10-28",
+    "timezone": "Asia/Shanghai",
+    "status": "PDF obtained and extracted; reading status recorded separately",
+    "file": "research\\sources\\R9_Gao2023_ALCE.pdf",
+    "sha256": "ae9868f07f0f7ffaae5346778f79b7827d9ec6b13b1e6aae4dff6b2ffc37a2e1",
+    "pages": 24,
+    "chars": 97057
+  }
+]

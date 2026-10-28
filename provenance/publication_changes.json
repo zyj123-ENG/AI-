@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-29",
+  "modified_text_files": [
+    "research/B_核心论文论证方法矩阵.md",
+    "research/evidence/元宝桌面版预试_完整会话与元数据.json",
+    "research/evidence/创新续查V1-V4_获取记录.json",
+    "research/evidence/本地PDF清单与哈希.json",
+    "research/evidence/核心精读_N6_S1与补充.md",
+    "research/evidence/浏览器测试_执行前协议_v1.md",
+    "research/evidence/理由纠错近邻_获取记录.json",
+    "research/evidence/用户试跑001_元宝截图核对.md",
+    "research/evidence/用户试跑002_元宝截图核对.md",
+    "research/evidence/用户试跑003_元宝截图核对.md",
+    "research/evidence/补找与官方来源获取日志.json",
+    "research/phase4_simulation_sections_20261028/acronym_check.json",
+    "research/work/check_delivery.py",
+    "research/work/fetch_innovation_neighbours_v2.py",
+    "research/work/fetch_reason_correction_neighbours.py",
+    "research/work/research_fetch_20261028.py",
+    "research/work/research_finalize_20261028.py",
+    "research/work/research_prepare_20261028.py",
+    "research/研究与论证方案_A-I.md",
+    "research/阅读入口.md"
+  ],
+  "originals_preserved": true,
+  "note": "Source hashes refer to local originals; verify current published bytes with repository SHA256 manifest."
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-29",
+  "scope": "published bytes, provenance, JSON/Python syntax, accidental credentials/private locators and selected corrected baseline values; not a new simulation or human validation",
+  "files": 354,
+  "total_bytes": 161521705,
+  "checks": [
+    {
+      "check": "repository_sha256",
+      "pass": true,
+      "files": 354
+    },
+    {
+      "check": "corrected_baseline_D1_R0_C0",
+      "pass": true
+    },
+    {
+      "check": "corrected_baseline_D1_R1_C0",
+      "pass": true
+    },
+    {
+      "check": "corrected_baseline_D1_R0_C1",
+      "pass": true
+    },
+    {
+      "check": "corrected_baseline_D1_R1_C1",
+      "pass": true
+    },
+    {
+      "check": "source_inventory",
+      "files": 384
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

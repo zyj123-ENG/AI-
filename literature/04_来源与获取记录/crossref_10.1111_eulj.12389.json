@@ -1,0 +1,230 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        21
+      ]
+    ],
+    "date-time": "2026-10-21T18:45:51Z",
+    "timestamp": 1792608351854,
+    "version": "4.5.0"
+  },
+  "reference-count": 0,
+  "publisher": "Wiley",
+  "issue": "1-2",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            9
+          ]
+        ],
+        "date-time": "2021-12-09T00:00:00Z",
+        "timestamp": 1639008000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "European Law Journal"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        1
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>The optimisation of sales practices in consumer markets through machine learning not only harbours the potential to better match consumer preferences with products, but also risks to facilitate the exploitation of consumer weaknesses discovered via data analysis. More specifically, recent technological advances have brought us to the edge of mind‐reading technologies, which automatically analyse mental states and adapt offers accordingly, in potentially manipulative ways. This article shows that, in market contexts, the challenges of manipulation by algorithm necessitate an integrated understanding of unfair commercial practice, data protection, and privacy law. It maps the interactions between these contiguous yet distinct fields of law, and draws on economics and computer science to develop a novel framework to deal with algorithmic influence. Furthermore, it critically discusses the Commission proposals for the Digital Services Act and the Artificial Intelligence Act, and suggests to complement them with more broadly applicable measures to mitigate algorithmic manipulation.</jats:p>",
+  "DOI": "10.1111/eulj.12389",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        12,
+        10
+      ]
+    ],
+    "date-time": "2021-12-10T07:31:22Z",
+    "timestamp": 1639121482000
+  },
+  "page": "142-175",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 60,
+  "title": [
+    "Manipulation by algorithms. Exploring the triangle of unfair commercial practice, data protection, and privacy law"
+  ],
+  "prefix": "10.1111",
+  "volume": "29",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-3006-895X",
+      "authenticated-orcid": false,
+      "given": "Philipp",
+      "family": "Hacker",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2021,
+        12,
+        9
+      ]
+    ]
+  },
+  "container-title": [
+    "European Law Journal"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/eulj.12389",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/eulj.12389",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/eulj.12389",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        18
+      ]
+    ],
+    "date-time": "2024-01-18T07:14:23Z",
+    "timestamp": 1705562063000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://onlinelibrary.wiley.com/doi/10.1111/eulj.12389"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        12,
+        9
+      ]
+    ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+    "issue": "1-2",
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          1
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1111/eulj.12389"
+  ],
+  "URL": "https://doi.org/10.1111/eulj.12389",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "1351-5993",
+    "1468-0386"
+  ],
+  "issn-type": [
+    {
+      "value": "1351-5993",
+      "type": "print"
+    },
+    {
+      "value": "1468-0386",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        12,
+        9
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2020-09-11",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2021-04-28",
+      "order": 1,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2021-12-09",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

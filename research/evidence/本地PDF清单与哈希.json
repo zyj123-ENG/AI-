@@ -1,0 +1,107 @@
+[
+  {
+    "code": "C2",
+    "file": "literature\\01_论文全文PDF\\C2_数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径.pdf",
+    "sha256": "176f204792d7ee98fea1493363c19f93354e5958234ec9a0e67d22bdb8ab8c4b",
+    "pages": 17,
+    "chars": 38463
+  },
+  {
+    "code": "C3",
+    "file": "literature\\01_论文全文PDF\\C3_基于信任的自动化决策：算法解释权的原理反思与制度重构.pdf",
+    "sha256": "69030f378e9e570bedbfaadf788e8243a863b76bea68ff3f194bbb39d0bc89e1",
+    "pages": 20,
+    "chars": 33768
+  },
+  {
+    "code": "C4",
+    "file": "literature\\01_论文全文PDF\\C4_算法解释在民法中的体系定位与类型区分.pdf",
+    "sha256": "f66c088e667d2c372c70ceb243c974bb1c8beb03ba1d197ec2b52671f8092423",
+    "pages": 16,
+    "chars": 29656
+  },
+  {
+    "code": "C5",
+    "file": "literature\\01_论文全文PDF\\C5_数字经济中算法消费者的生成机理、保护方案与制度建构.pdf",
+    "sha256": "c1b97ab319ebb3708efbd99f2c4f8f46c35b44b97acbbfeaf75ebcbc00082190",
+    "pages": 11,
+    "chars": 27223
+  },
+  {
+    "code": "I1",
+    "file": "literature\\01_论文全文PDF\\I1_The Role of Consumer Autonomy in Developing Sustainable AI_ A Conceptual Framework.pdf",
+    "sha256": "a6057dd9756eac24f58353f64be624879622a3e5ddceb58c9216e799fabfbe6d",
+    "pages": 18,
+    "chars": 78438
+  },
+  {
+    "code": "I2",
+    "file": "literature\\01_论文全文PDF\\I2_Trademarks in the Age of Automated Commerce_ Consumer Choice and Autonomy.pdf",
+    "sha256": "b02d8da7e947f7c5e171aefbc3239a89b2d42b6cfbdb23ab702c19ad03c6dce3",
+    "pages": 29,
+    "chars": 100617
+  },
+  {
+    "code": "I3",
+    "file": "literature\\01_论文全文PDF\\I3_A Theory of Exploitation for Consumer Law_ Online Choice Architectures, Dark Patterns, and Autonomy Violations.pdf",
+    "sha256": "3125316d1e6ae82f5a2c2de4569f7f4c75ae141c686192c617efe223f3514193",
+    "pages": 38,
+    "chars": 152812
+  },
+  {
+    "code": "I4",
+    "file": "literature\\01_论文全文PDF\\I4_Technology, Autonomy, and Manipulation.pdf",
+    "sha256": "85cf376f3bd6c0c3cb09cb9061983d8c40d14f219f07a318d58d8b373b50ef9e",
+    "pages": 22,
+    "chars": 75102
+  },
+  {
+    "code": "I5",
+    "file": "literature\\01_论文全文PDF\\I5_Consumer Choice and Autonomy in the Age of Artificial Intelligence and Big Data.pdf",
+    "sha256": "bc6a0d86b6c64b746bb56691c8fbd73c908aaadc6f46e047f1155cc2ee5d8a02",
+    "pages": 10,
+    "chars": 55435
+  },
+  {
+    "code": "N2",
+    "file": "literature\\01_论文全文PDF\\N2_Regulating dark patterns.pdf",
+    "sha256": "eacedf568e8a3c6d95f3082855924ad59aff1c679721ecc2b47bf4a55aaf9438",
+    "pages": 41,
+    "chars": 158329
+  },
+  {
+    "code": "N3",
+    "file": "literature\\01_论文全文PDF\\N3_Digital market manipulation.pdf",
+    "sha256": "563758ef8689e2ee1ad2954f2e1d142362a59b48ed775c496528b52a5c00dc75",
+    "pages": 57,
+    "chars": 169180
+  },
+  {
+    "code": "N6",
+    "file": "literature\\01_论文全文PDF\\N6_Human autonomy at risk_ An analysis of the challenges from AI.pdf",
+    "sha256": "19c176ffde5507a84a2dbdf2ca1e4806f4ce52c4823866012d6a9a1bc4301dbe",
+    "pages": 21,
+    "chars": 71140
+  },
+  {
+    "code": "N7",
+    "file": "literature\\01_论文全文PDF\\N7_Slave to the algorithm_ Why a ‘right to an explanation’ is probably not the remedy you are looking for.pdf",
+    "sha256": "2e2a6241860219ac50f76f763821d4769980b795a50721883cb51c0baa828989",
+    "pages": 67,
+    "chars": 200515
+  },
+  {
+    "code": "N8",
+    "file": "literature\\01_论文全文PDF\\N8_The silent death of EU consumer law and its resilient revival_ Reinventing consumer protection against unfair digital comm.pdf",
+    "sha256": "595233e54eea84b6c9469c48cef4631971fd09b50bd8db3b21582c716ad2529f",
+    "pages": 20,
+    "chars": 77307
+  },
+  {
+    "code": "S1",
+    "file": "literature\\01_论文全文PDF\\S1_What Makes a Dark Pattern... Dark_ Design Attributes, Normative Considerations, and Measurement Methods.pdf",
+    "sha256": "0599c70275eb8e70b1ffadf90909152c683ed79bfbcdc3baa020c4cd74bf2df7",
+    "pages": 27,
+    "chars": 105654
+  }
+]

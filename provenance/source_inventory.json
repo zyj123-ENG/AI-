@@ -1,0 +1,3074 @@
+[
+  {
+    "original": "research/00_先看结果.md",
+    "destination": "research/00_先看结果.md",
+    "status": "included",
+    "source_sha256": "b14b911fdfc371904790c76c47fb0231614be68fbe3791c7a4912b3c4c764a12",
+    "published_sha256": "35e4c1e559268605f0124ce8d6bc1371941225f38558eddc06526432b00fd356",
+    "bytes": 1334
+  },
+  {
+    "original": "research/01_执行前方案.md",
+    "destination": "research/01_执行前方案.md",
+    "status": "included",
+    "source_sha256": "ccff845ec4fe7030c0da7817517c44a3b31c08821551ea08c26c66e6bc12bda0",
+    "published_sha256": "ccff845ec4fe7030c0da7817517c44a3b31c08821551ea08c26c66e6bc12bda0",
+    "bytes": 5048
+  },
+  {
+    "original": "research/02_新增材料与模型依据.md",
+    "destination": "research/02_新增材料与模型依据.md",
+    "status": "included",
+    "source_sha256": "2820833881382bbc6508e9d648f0a56f95abb2a97fd3f876fb4787b04476bd36",
+    "published_sha256": "2820833881382bbc6508e9d648f0a56f95abb2a97fd3f876fb4787b04476bd36",
+    "bytes": 6367
+  },
+  {
+    "original": "research/03_变量公式与参数身份.md",
+    "destination": "research/03_变量公式与参数身份.md",
+    "status": "included",
+    "source_sha256": "32ba0954ecee65f9f9b806c0d5c9a1b624501fd459983b263602a41cc79246dc",
+    "published_sha256": "32ba0954ecee65f9f9b806c0d5c9a1b624501fd459983b263602a41cc79246dc",
+    "bytes": 8210
+  },
+  {
+    "original": "research/04_结果报告与创新点修订.md",
+    "destination": "research/04_结果报告与创新点修订.md",
+    "status": "included",
+    "source_sha256": "991c0f44f25bc13563e3748156dad7d898f837ec17dec4cf72b101f856071d57",
+    "published_sha256": "c78be00bb1472ac99561ca2b9dca018f38c70c33300b44bce1c376428ac6c3d1",
+    "bytes": 11615
+  },
+  {
+    "original": "research/05_复现与验收.md",
+    "destination": "research/05_复现与验收.md",
+    "status": "included",
+    "source_sha256": "8f7e24e87f1a2e7df0e848259b109bd914cb3982a526f586f9ff8c5bf6d98436",
+    "published_sha256": "8f7e24e87f1a2e7df0e848259b109bd914cb3982a526f586f9ff8c5bf6d98436",
+    "bytes": 2319
+  },
+  {
+    "original": "research/B_核心论文论证方法矩阵.md",
+    "destination": "research/B_核心论文论证方法矩阵.md",
+    "status": "included",
+    "source_sha256": "7f699e12576b7c4af32b7e5b34e4f24745ce9b684bed75df50fe0c11726ed527",
+    "published_sha256": "9e895ab6e98fe5e4ee97ac927874c25b7bb65602ff7a75c4ef278458244e3453",
+    "bytes": 75546
+  },
+  {
+    "original": "research/code/build_simulation_report.py",
+    "destination": "research/code/build_simulation_report.py",
+    "status": "included",
+    "source_sha256": "15d299e1dd343b3fcc3e404fe0d19347f1a6b570c260c6fc11b7e586bfbfa8b6",
+    "published_sha256": "15d299e1dd343b3fcc3e404fe0d19347f1a6b570c260c6fc11b7e586bfbfa8b6",
+    "bytes": 24508
+  },
+  {
+    "original": "research/code/export_simulation_diagnostics.m",
+    "destination": "research/code/export_simulation_diagnostics.m",
+    "status": "included",
+    "source_sha256": "2e6486d00ada06f71a9ce152c9b7c92befca2c06743a5ed5f7e2d7622eeb6740",
+    "published_sha256": "2e6486d00ada06f71a9ce152c9b7c92befca2c06743a5ed5f7e2d7622eeb6740",
+    "bytes": 1712
+  },
+  {
+    "original": "research/code/export_validation_slice.m",
+    "destination": "research/code/export_validation_slice.m",
+    "status": "included",
+    "source_sha256": "dea373abf95b3c1c9ba0b6240a69a87005f6456caf39c9cba008733a79d624ed",
+    "published_sha256": "dea373abf95b3c1c9ba0b6240a69a87005f6456caf39c9cba008733a79d624ed",
+    "bytes": 838
+  },
+  {
+    "original": "research/code/run_goal_repair_simulation.m",
+    "destination": "research/code/run_goal_repair_simulation.m",
+    "status": "included",
+    "source_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
+    "published_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
+    "bytes": 17252
+  },
+  {
+    "original": "research/E2_MATLAB机制仿真设计.md",
+    "destination": "research/E2_MATLAB机制仿真设计.md",
+    "status": "included",
+    "source_sha256": "39af592b2180b5faeef2496c92778e2932c0e6f42b327fcad19b07c680e2c1d5",
+    "published_sha256": "39af592b2180b5faeef2496c92778e2932c0e6f42b327fcad19b07c680e2c1d5",
+    "bytes": 16800
+  },
+  {
+    "original": "research/evidence/交付文件校验表.json",
+    "destination": "research/evidence/交付文件校验表.json",
+    "status": "included",
+    "source_sha256": "d396df8fafce4bbe41b250c43c71562ee205c093341b13356423d8de212c3f46",
+    "published_sha256": "d396df8fafce4bbe41b250c43c71562ee205c093341b13356423d8de212c3f46",
+    "bytes": 5108
+  },
+  {
+    "original": "research/evidence/交付核验记录.json",
+    "destination": "research/evidence/交付核验记录.json",
+    "status": "included",
+    "source_sha256": "0ecdf03d4f70f8957b321bbbe0077c7894b0cc3c0ed373b7cdb3b645c580a7e3",
+    "published_sha256": "0ecdf03d4f70f8957b321bbbe0077c7894b0cc3c0ed373b7cdb3b645c580a7e3",
+    "bytes": 1315
+  },
+  {
+    "original": "research/evidence/元宝桌面版预试_匿名会话.json",
+    "destination": "research/evidence/元宝桌面版预试_匿名会话.json",
+    "status": "included",
+    "source_sha256": "66f54b8d65b6a08fcc4336e2a5ff7cb0af6bb92573944cda670b63cf7271b098",
+    "published_sha256": "66f54b8d65b6a08fcc4336e2a5ff7cb0af6bb92573944cda670b63cf7271b098",
+    "bytes": 7497
+  },
+  {
+    "original": "research/evidence/元宝桌面版预试_匿名文字摘录.md",
+    "destination": "research/evidence/元宝桌面版预试_匿名文字摘录.md",
+    "status": "included",
+    "source_sha256": "4401945234d29d2f5e89afc932a04f02ad7d2423e1b95063cde84f34fe175c47",
+    "published_sha256": "4401945234d29d2f5e89afc932a04f02ad7d2423e1b95063cde84f34fe175c47",
+    "bytes": 6395
+  },
+  {
+    "original": "research/evidence/元宝桌面版预试_完整会话与元数据.json",
+    "destination": "research/evidence/元宝桌面版预试_完整会话与元数据.json",
+    "status": "included",
+    "source_sha256": "282209a8320b4c3fd9b7f61884889898f51f48544b1c4175a4dc0630d1f10f78",
+    "published_sha256": "91c4b7fd36d9d66fe1b261041b3e628fbb5c247899a511006396edf8bdf46109",
+    "bytes": 7406
+  },
+  {
+    "original": "research/evidence/元宝桌面版预试_完整对话.md",
+    "destination": "research/evidence/元宝桌面版预试_完整对话.md",
+    "status": "included",
+    "source_sha256": "102750ced8475107eab785521bfab93d6718f487856e0445f93339665360034e",
+    "published_sha256": "102750ced8475107eab785521bfab93d6718f487856e0445f93339665360034e",
+    "bytes": 6265
+  },
+  {
+    "original": "research/evidence/元宝桌面版预试_执行前协议.md",
+    "destination": "research/evidence/元宝桌面版预试_执行前协议.md",
+    "status": "included",
+    "source_sha256": "ca379c65dc98f3ea50c21465f9f5bc567818f120c197021f693845bf1817c9ff",
+    "published_sha256": "6a5fd6f78b01a1cced8e1063f8c1946f471784a3962df9b216d81c033cf0bb85",
+    "bytes": 5320
+  },
+  {
+    "original": "research/evidence/元宝桌面版预试_文件校验SHA256.txt",
+    "destination": "research/evidence/元宝桌面版预试_文件校验SHA256.txt.local-record",
+    "status": "included",
+    "source_sha256": "0e872dc5a57f505994f4b47f12b7f7f551a51443f6d3e0eabdfd4c8a5c12df54",
+    "published_sha256": "0e872dc5a57f505994f4b47f12b7f7f551a51443f6d3e0eabdfd4c8a5c12df54",
+    "bytes": 596
+  },
+  {
+    "original": "research/evidence/元宝桌面版预试_材料核对记录.json",
+    "destination": "research/evidence/元宝桌面版预试_材料核对记录.json",
+    "status": "included",
+    "source_sha256": "090a3327202b0c93f413acb12b733c2dfe65d84aaa9ab11ca2a3e42a61dc129a",
+    "published_sha256": "090a3327202b0c93f413acb12b733c2dfe65d84aaa9ab11ca2a3e42a61dc129a",
+    "bytes": 358
+  },
+  {
+    "original": "research/evidence/创新点再核对_检索记录_20261028.json",
+    "destination": "research/evidence/创新点再核对_检索记录_20261028.json",
+    "status": "included",
+    "source_sha256": "1e9de515525a85f419c9e6e1c804c2d438bd7d72e5e60faa6b97f85ed8592526",
+    "published_sha256": "1e9de515525a85f419c9e6e1c804c2d438bd7d72e5e60faa6b97f85ed8592526",
+    "bytes": 4472
+  },
+  {
+    "original": "research/evidence/创新续查V1-V4_获取记录.json",
+    "destination": "research/evidence/创新续查V1-V4_获取记录.json",
+    "status": "included",
+    "source_sha256": "0680605d7c890dab34ba5be4ed75aa3d8ef8935c2d06763f60c98e11bc5b7b57",
+    "published_sha256": "ff5ec78b27c91d470cd504e7dbe2013dde42af23b678618b1376ab435636fa89",
+    "bytes": 1707
+  },
+  {
+    "original": "research/evidence/商品核验001_倍思京东截图.md",
+    "destination": "research/evidence/商品核验001_倍思京东截图.md",
+    "status": "included",
+    "source_sha256": "172979d9fa1ca9528754e07befd4e6466af9a8240816cb300880c6c16f4fa019",
+    "published_sha256": "e84e0a7a5f5eaeab2e3ff557b388e7fcf833ade229b73c89bd1c70759b189032",
+    "bytes": 2314
+  },
+  {
+    "original": "research/evidence/商品核验002_E01230_参数及来源核对.md",
+    "destination": "research/evidence/商品核验002_E01230_参数及来源核对.md",
+    "status": "included",
+    "source_sha256": "1e2b1c022286d26ce3e1e51e8fddb68f34ad449dd34e71e2e0668a784645f794",
+    "published_sha256": "1e2b1c022286d26ce3e1e51e8fddb68f34ad449dd34e71e2e0668a784645f794",
+    "bytes": 3886
+  },
+  {
+    "original": "research/evidence/探索性试跑汇总_截至第二次.md",
+    "destination": "research/evidence/探索性试跑汇总_截至第二次.md",
+    "status": "included",
+    "source_sha256": "dd825b855e35144fd84b1bff6f236aeed830e52e5f49a1e09559074151b7ba2c",
+    "published_sha256": "dd825b855e35144fd84b1bff6f236aeed830e52e5f49a1e09559074151b7ba2c",
+    "bytes": 2585
+  },
+  {
+    "original": "research/evidence/整合审阅版_生成与核对记录.json",
+    "destination": "research/evidence/整合审阅版_生成与核对记录.json",
+    "status": "included",
+    "source_sha256": "883310edefdb6396aca35d301f8a0636ec3f75b2b8ecfab54e2098da1f8b6b34",
+    "published_sha256": "883310edefdb6396aca35d301f8a0636ec3f75b2b8ecfab54e2098da1f8b6b34",
+    "bytes": 1482
+  },
+  {
+    "original": "research/evidence/方案反对意见审查.md",
+    "destination": "research/evidence/方案反对意见审查.md",
+    "status": "included",
+    "source_sha256": "d0e9e9580ba90fe24b2d921579480b9ad4afdc9c378c38bcba4fdde3006fd6ca",
+    "published_sha256": "d0e9e9580ba90fe24b2d921579480b9ad4afdc9c378c38bcba4fdde3006fd6ca",
+    "bytes": 14214
+  },
+  {
+    "original": "research/evidence/本地PDF清单与哈希.json",
+    "destination": "research/evidence/本地PDF清单与哈希.json",
+    "status": "included",
+    "source_sha256": "0142f64c121242b60c8e5edd03e50d3037336382761db21e05654705d1868ba1",
+    "published_sha256": "dd71baa83e0f5d33bc55891f4fe1281785a9841720261cb09ea81397947ae0a6",
+    "bytes": 4233
+  },
+  {
+    "original": "research/evidence/核心精读_C2_C3_I1.md",
+    "destination": "research/evidence/核心精读_C2_C3_I1.md",
+    "status": "included",
+    "source_sha256": "75305de4bfa8c934309e8a8474d16ba95dd94d74b2b20c31fd7cf179540dd03c",
+    "published_sha256": "75305de4bfa8c934309e8a8474d16ba95dd94d74b2b20c31fd7cf179540dd03c",
+    "bytes": 23266
+  },
+  {
+    "original": "research/evidence/核心精读_I3_I4_N2.md",
+    "destination": "research/evidence/核心精读_I3_I4_N2.md",
+    "status": "included",
+    "source_sha256": "5079c86903acd89c347e3a3907bf63209acdae78d8ac2035b7700f86bb73e680",
+    "published_sha256": "5079c86903acd89c347e3a3907bf63209acdae78d8ac2035b7700f86bb73e680",
+    "bytes": 24842
+  },
+  {
+    "original": "research/evidence/核心精读_N6_S1与补充.md",
+    "destination": "research/evidence/核心精读_N6_S1与补充.md",
+    "status": "included",
+    "source_sha256": "119a2402f0c893cfcd25abd0762481ab39f3514ea71f352ec020324582ad7e32",
+    "published_sha256": "7c01051f10de0eb312229b22d267f5d344e0cdc782b1cc3d2ae699ce64c69051",
+    "bytes": 23508
+  },
+  {
+    "original": "research/evidence/浏览器测试_执行前协议_v1.md",
+    "destination": "research/evidence/浏览器测试_执行前协议_v1.md",
+    "status": "included",
+    "source_sha256": "85615bec3522a73624bb35c11f3747f8fa0146da898fee1f6e9ea0cdbc881bbb",
+    "published_sha256": "71b668cfc489df7847cd9136804b5c7d3ef2a27cc619daca88e932e54874cfac",
+    "bytes": 4339
+  },
+  {
+    "original": "research/evidence/理由纠错近邻_获取记录.json",
+    "destination": "research/evidence/理由纠错近邻_获取记录.json",
+    "status": "included",
+    "source_sha256": "76e891c4f6eb7c00b5bcdbfcbf4d26b8cc363653bdedeaf0df899310a189a070",
+    "published_sha256": "6afab97e7d0f8c7c196ea47be50e5fd496f0a0df0ddf6e8aaa58b8aada24708f",
+    "bytes": 1766
+  },
+  {
+    "original": "research/evidence/用户试跑001_元宝截图核对.md",
+    "destination": "research/evidence/用户试跑001_元宝截图核对.md",
+    "status": "included",
+    "source_sha256": "79911f98fbfee3a9bbab4cfe140bf0bc5bdfac7bdf11e94475c62bafa0146a7a",
+    "published_sha256": "8a2bb283998036b72e42debf0e4a20375b3c515c07269b626404e438cf5efff0",
+    "bytes": 11377
+  },
+  {
+    "original": "research/evidence/用户试跑002_元宝截图核对.md",
+    "destination": "research/evidence/用户试跑002_元宝截图核对.md",
+    "status": "included",
+    "source_sha256": "6a1f65736863954b90f1277293c811d9d843a5267ae9b578c361f19b22af7d5f",
+    "published_sha256": "432282962a4b58543a513d1a5b9a38638fb1def7ddbd98b862785a905492d3c3",
+    "bytes": 10692
+  },
+  {
+    "original": "research/evidence/用户试跑003_元宝截图核对.md",
+    "destination": "research/evidence/用户试跑003_元宝截图核对.md",
+    "status": "included",
+    "source_sha256": "c0b7d4302defac7b7fb64cb537cfd5c7139a4c65cf2a849215fa5581e0019240",
+    "published_sha256": "38efb9d2dac5106f50f5977b24a5e72c5c2e13f44bedf361d99022938fe9b67b",
+    "bytes": 5057
+  },
+  {
+    "original": "research/evidence/用户试跑003_后续回复原文.md",
+    "destination": "research/evidence/用户试跑003_后续回复原文.md",
+    "status": "included",
+    "source_sha256": "01f7354f1512c0826cd25012afffa673310ed5842f977da3e3e41a97728c6f50",
+    "published_sha256": "01f7354f1512c0826cd25012afffa673310ed5842f977da3e3e41a97728c6f50",
+    "bytes": 2964
+  },
+  {
+    "original": "research/evidence/用户试跑003_后续纠错核对与案例判准.md",
+    "destination": "research/evidence/用户试跑003_后续纠错核对与案例判准.md",
+    "status": "included",
+    "source_sha256": "4f4af4c25b34fafdf80779562b2a34814c1ccf184c2480e05096bb4944897c4a",
+    "published_sha256": "3e928bebe7dbb6aca04cd59c09fcc9c8c14fe179d22dc15eec8f6c512232903e",
+    "bytes": 7088
+  },
+  {
+    "original": "research/evidence/补找与官方来源获取日志.json",
+    "destination": "research/evidence/补找与官方来源获取日志.json",
+    "status": "included",
+    "source_sha256": "47f7b1b7f4a3967dce5a7a5da4c23a5781b35db26ba323fcd61b2c76a0f874ac",
+    "published_sha256": "3abece6ec8aaf671d355bb95df11912df7477b60bfb568d51440f70cdcb4c282",
+    "bytes": 6038
+  },
+  {
+    "original": "research/evidence/附件1AIC·AI伦理竞赛规则及作品提交要求.pdf.txt",
+    "destination": "research/evidence/附件1AIC·AI伦理竞赛规则及作品提交要求.pdf.txt",
+    "status": "included",
+    "source_sha256": "a023bc21bcfb3c16d381a7647b8c894ca7a74966750e526213b56b6360f955eb",
+    "published_sha256": "a023bc21bcfb3c16d381a7647b8c894ca7a74966750e526213b56b6360f955eb",
+    "bytes": 19193
+  },
+  {
+    "original": "research/evidence/附件2AIC·AI伦理研究报告参考大纲.pdf.txt",
+    "destination": "research/evidence/附件2AIC·AI伦理研究报告参考大纲.pdf.txt",
+    "status": "included",
+    "source_sha256": "fdfe5d96be8abe1d6ee7e3fa3d667c446e2b19a9c911177245965c7761481a0f",
+    "published_sha256": "fdfe5d96be8abe1d6ee7e3fa3d667c446e2b19a9c911177245965c7761481a0f",
+    "bytes": 9477
+  },
+  {
+    "original": "research/figures/fig1_core_mechanisms.pdf",
+    "destination": "research/figures/fig1_core_mechanisms.pdf",
+    "status": "included",
+    "source_sha256": "d4a00347109aa4eb8bb690ebbdcdc0504b58ccb0cd9cf44284abe437cc9de8cf",
+    "published_sha256": "d4a00347109aa4eb8bb690ebbdcdc0504b58ccb0cd9cf44284abe437cc9de8cf",
+    "bytes": 8718
+  },
+  {
+    "original": "research/figures/fig1_core_mechanisms.png",
+    "destination": "research/figures/fig1_core_mechanisms.png",
+    "status": "included",
+    "source_sha256": "61753abe849bbb609c38f25146fb1e2163bf5fbaeb05b860899b522b7714f874",
+    "published_sha256": "61753abe849bbb609c38f25146fb1e2163bf5fbaeb05b860899b522b7714f874",
+    "bytes": 87383
+  },
+  {
+    "original": "research/figures/fig2_effect_cost_boundaries.pdf",
+    "destination": "research/figures/fig2_effect_cost_boundaries.pdf",
+    "status": "included",
+    "source_sha256": "6fae3c637434c41fa0d71cde5b3e1300cd1e33e120dbf312c838fdc87a1f374f",
+    "published_sha256": "6fae3c637434c41fa0d71cde5b3e1300cd1e33e120dbf312c838fdc87a1f374f",
+    "bytes": 113999
+  },
+  {
+    "original": "research/figures/fig2_effect_cost_boundaries.png",
+    "destination": "research/figures/fig2_effect_cost_boundaries.png",
+    "status": "included",
+    "source_sha256": "3cacce090e92a940a370a5f273e54113f0011790e136764d341922baead241cb",
+    "published_sha256": "3cacce090e92a940a370a5f273e54113f0011790e136764d341922baead241cb",
+    "bytes": 95264
+  },
+  {
+    "original": "research/figures/fig3_cost_quality.pdf",
+    "destination": "research/figures/fig3_cost_quality.pdf",
+    "status": "included",
+    "source_sha256": "b1227b197328621795fb7e7fa0f4d5538aa30a4ae5e918c6ef0ebfc7e7afed53",
+    "published_sha256": "b1227b197328621795fb7e7fa0f4d5538aa30a4ae5e918c6ef0ebfc7e7afed53",
+    "bytes": 6183
+  },
+  {
+    "original": "research/figures/fig3_cost_quality.png",
+    "destination": "research/figures/fig3_cost_quality.png",
+    "status": "included",
+    "source_sha256": "8063839706865eab1af89da7770d41aa1fcda465a3e6f26470a4326ed8277eec",
+    "published_sha256": "8063839706865eab1af89da7770d41aa1fcda465a3e6f26470a4326ed8277eec",
+    "bytes": 79089
+  },
+  {
+    "original": "research/figures/fig4_disclosure_and_strong_baseline.pdf",
+    "destination": "research/figures/fig4_disclosure_and_strong_baseline.pdf",
+    "status": "included",
+    "source_sha256": "dc26118c643d51834e3b4901083fab43544ba7f90e302b681c5b4a2ee0c0af4a",
+    "published_sha256": "dc26118c643d51834e3b4901083fab43544ba7f90e302b681c5b4a2ee0c0af4a",
+    "bytes": 5869
+  },
+  {
+    "original": "research/figures/fig4_disclosure_and_strong_baseline.png",
+    "destination": "research/figures/fig4_disclosure_and_strong_baseline.png",
+    "status": "included",
+    "source_sha256": "c37d45fcbc79ea43a92a9c6342393233cc89f29342d53ba4f9c254c6e170b904",
+    "published_sha256": "c37d45fcbc79ea43a92a9c6342393233cc89f29342d53ba4f9c254c6e170b904",
+    "bytes": 59492
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/acronym_check.json",
+    "destination": "research/phase4_simulation_sections_20261028/acronym_check.json",
+    "status": "included",
+    "source_sha256": "f0c3baa7779a58efb6bb1421b0ccdc5c80a8b2ddfe5500973e89bace1ab68e38",
+    "published_sha256": "d5cb9849402601703f80637302e47c02bd307d54fcdaea8afe95a9d5de2fea88",
+    "bytes": 1041
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/build_paper_sections.py",
+    "destination": "research/phase4_simulation_sections_20261028/build_paper_sections.py",
+    "status": "included",
+    "source_sha256": "40aa2263dba4baf449d705a58ef972740a410c89ddb8c001f72c0f48a74251fc",
+    "published_sha256": "40aa2263dba4baf449d705a58ef972740a410c89ddb8c001f72c0f48a74251fc",
+    "bytes": 23506
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/draft.md",
+    "destination": "research/phase4_simulation_sections_20261028/draft.md",
+    "status": "included",
+    "source_sha256": "b29fd4961f0957600f8019d049b0660e5c49bd0979271124a26e5bfdbfef3019",
+    "published_sha256": "b29fd4961f0957600f8019d049b0660e5c49bd0979271124a26e5bfdbfef3019",
+    "bytes": 12854
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/export_paper_figures.m",
+    "destination": "research/phase4_simulation_sections_20261028/export_paper_figures.m",
+    "status": "included",
+    "source_sha256": "da1a8334797b4499148542d93c5f71b41256c77e9962b9084cb472fbf5ae0408",
+    "published_sha256": "da1a8334797b4499148542d93c5f71b41256c77e9962b9084cb472fbf5ae0408",
+    "bytes": 2489
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/figure_export.log",
+    "destination": "research/phase4_simulation_sections_20261028/figure_export.log",
+    "status": "included",
+    "source_sha256": "1dfa15233f9c06ab81592cc4c5b3ea7c565dede631cab685f46383aac37b4fc3",
+    "published_sha256": "1dfa15233f9c06ab81592cc4c5b3ea7c565dede631cab685f46383aac37b4fc3",
+    "bytes": 66
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/figures/图1_基准机制比较.pdf",
+    "destination": "research/phase4_simulation_sections_20261028/figures/图1_基准机制比较.pdf",
+    "status": "included",
+    "source_sha256": "5d7cda9658882d9b12af7cc52f159acc7ada5bf146ee2b4d29ce9662b9edc23e",
+    "published_sha256": "5d7cda9658882d9b12af7cc52f159acc7ada5bf146ee2b4d29ce9662b9edc23e",
+    "bytes": 23293
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/figures/图1_基准机制比较.png",
+    "destination": "research/phase4_simulation_sections_20261028/figures/图1_基准机制比较.png",
+    "status": "included",
+    "source_sha256": "b0aa5c41eee55c00687cbad1f0ac1ff57a8d0feba32ce6c08675bdff0be7759f",
+    "published_sha256": "b0aa5c41eee55c00687cbad1f0ac1ff57a8d0feba32ce6c08675bdff0be7759f",
+    "bytes": 76702
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/figures/图2_条件与反转边界.pdf",
+    "destination": "research/phase4_simulation_sections_20261028/figures/图2_条件与反转边界.pdf",
+    "status": "included",
+    "source_sha256": "11d8025f48a65214abf87f0e77de5ccb5cf8e02ba39b7402832f1fad661a2d52",
+    "published_sha256": "11d8025f48a65214abf87f0e77de5ccb5cf8e02ba39b7402832f1fad661a2d52",
+    "bytes": 88713
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/figures/图2_条件与反转边界.png",
+    "destination": "research/phase4_simulation_sections_20261028/figures/图2_条件与反转边界.png",
+    "status": "included",
+    "source_sha256": "396314c0fe9db30cb678a1e8cb6f14ce8fcbd45cfe9200594dfc2fea89478e50",
+    "published_sha256": "396314c0fe9db30cb678a1e8cb6f14ce8fcbd45cfe9200594dfc2fea89478e50",
+    "bytes": 127080
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_delivery/page-1.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_delivery/page-1.png",
+    "status": "included",
+    "source_sha256": "726fe2ca85a1fff72ee63ceed7ad22501ccb7c552238ecb79237c87db107f9e3",
+    "published_sha256": "726fe2ca85a1fff72ee63ceed7ad22501ccb7c552238ecb79237c87db107f9e3",
+    "bytes": 552256
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_delivery/page-2.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_delivery/page-2.png",
+    "status": "included",
+    "source_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c",
+    "published_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c",
+    "bytes": 675187
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_delivery/page-3.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_delivery/page-3.png",
+    "status": "included",
+    "source_sha256": "d76b3fc39b0c9b48d39f9ec881c4308a00e2817827c30d333849a999c47e6aae",
+    "published_sha256": "d76b3fc39b0c9b48d39f9ec881c4308a00e2817827c30d333849a999c47e6aae",
+    "bytes": 495792
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_delivery/page-4.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_delivery/page-4.png",
+    "status": "included",
+    "source_sha256": "cd8e4a1d34d9965d3ed184e8e6ac479515e58318c4232bae135dc6b423636680",
+    "published_sha256": "cd8e4a1d34d9965d3ed184e8e6ac479515e58318c4232bae135dc6b423636680",
+    "bytes": 413030
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_delivery/page-5.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_delivery/page-5.png",
+    "status": "included",
+    "source_sha256": "e6f3ec2293e7c9aa34f6cc3caa20bd877ffc7c1474ca3d779a61336e9aaf5737",
+    "published_sha256": "e6f3ec2293e7c9aa34f6cc3caa20bd877ffc7c1474ca3d779a61336e9aaf5737",
+    "bytes": 388798
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_delivery/page-6.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_delivery/page-6.png",
+    "status": "included",
+    "source_sha256": "e69566e13f50abdf9e3071aefbbea874b48037244a358f86d1b25eb17f5da7ce",
+    "published_sha256": "e69566e13f50abdf9e3071aefbbea874b48037244a358f86d1b25eb17f5da7ce",
+    "bytes": 530109
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_delivery/论文仿真章节_可编辑稿.pdf",
+    "destination": "research/phase4_simulation_sections_20261028/render_delivery/论文仿真章节_可编辑稿.pdf",
+    "status": "included",
+    "source_sha256": "08f43d6ce25dd6ba3e67d39f8c9d82056e36449c34a444037b1c16e697823059",
+    "published_sha256": "08f43d6ce25dd6ba3e67d39f8c9d82056e36449c34a444037b1c16e697823059",
+    "bytes": 580725
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_final/page-1.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_final/page-1.png",
+    "status": "included",
+    "source_sha256": "726fe2ca85a1fff72ee63ceed7ad22501ccb7c552238ecb79237c87db107f9e3",
+    "published_sha256": "726fe2ca85a1fff72ee63ceed7ad22501ccb7c552238ecb79237c87db107f9e3",
+    "bytes": 552256
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_final/page-2.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_final/page-2.png",
+    "status": "included",
+    "source_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c",
+    "published_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c",
+    "bytes": 675187
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_final/page-3.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_final/page-3.png",
+    "status": "included",
+    "source_sha256": "d76b3fc39b0c9b48d39f9ec881c4308a00e2817827c30d333849a999c47e6aae",
+    "published_sha256": "d76b3fc39b0c9b48d39f9ec881c4308a00e2817827c30d333849a999c47e6aae",
+    "bytes": 495792
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_final/page-4.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_final/page-4.png",
+    "status": "included",
+    "source_sha256": "313d378a14ad3223af0646ddf10531b03d15471dd050952072aa7648933ab479",
+    "published_sha256": "313d378a14ad3223af0646ddf10531b03d15471dd050952072aa7648933ab479",
+    "bytes": 413234
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_final/page-5.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_final/page-5.png",
+    "status": "included",
+    "source_sha256": "e6f3ec2293e7c9aa34f6cc3caa20bd877ffc7c1474ca3d779a61336e9aaf5737",
+    "published_sha256": "e6f3ec2293e7c9aa34f6cc3caa20bd877ffc7c1474ca3d779a61336e9aaf5737",
+    "bytes": 388798
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_final/page-6.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_final/page-6.png",
+    "status": "included",
+    "source_sha256": "805b023e7e6ab82cfda3e8b541efc5ff5d988f03905c264df8cd5aa54ac6891e",
+    "published_sha256": "805b023e7e6ab82cfda3e8b541efc5ff5d988f03905c264df8cd5aa54ac6891e",
+    "bytes": 527412
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_final/论文仿真章节_可编辑稿.pdf",
+    "destination": "research/phase4_simulation_sections_20261028/render_final/论文仿真章节_可编辑稿.pdf",
+    "status": "included",
+    "source_sha256": "f83090c44980108f4ad7c4d52e7be5853b77a9228af5dc06c1cc344d82103a4e",
+    "published_sha256": "f83090c44980108f4ad7c4d52e7be5853b77a9228af5dc06c1cc344d82103a4e",
+    "bytes": 581066
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_qa/page-1.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_qa/page-1.png",
+    "status": "included",
+    "source_sha256": "80e89def270d4c453a4527b6332d1949e2fc5492211e1f48ff16186861812330",
+    "published_sha256": "80e89def270d4c453a4527b6332d1949e2fc5492211e1f48ff16186861812330",
+    "bytes": 547839
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_qa/page-2.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_qa/page-2.png",
+    "status": "included",
+    "source_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c",
+    "published_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c",
+    "bytes": 675187
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_qa/page-3.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_qa/page-3.png",
+    "status": "included",
+    "source_sha256": "2e54e8c2fa5170c03710430e5d9c276565b92aea07d73c88c14ad83d1f907406",
+    "published_sha256": "2e54e8c2fa5170c03710430e5d9c276565b92aea07d73c88c14ad83d1f907406",
+    "bytes": 324023
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_qa/page-4.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_qa/page-4.png",
+    "status": "included",
+    "source_sha256": "644f395e527371027ba04098870936929f36587d0b1cb2220e54710cf9b6a51c",
+    "published_sha256": "644f395e527371027ba04098870936929f36587d0b1cb2220e54710cf9b6a51c",
+    "bytes": 400088
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_qa/page-5.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_qa/page-5.png",
+    "status": "included",
+    "source_sha256": "2ec0404c748b2a9b0626efeb2d9664cfedeb9812c5b64604defa5d2c4be37edb",
+    "published_sha256": "2ec0404c748b2a9b0626efeb2d9664cfedeb9812c5b64604defa5d2c4be37edb",
+    "bytes": 368405
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_qa/page-6.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_qa/page-6.png",
+    "status": "included",
+    "source_sha256": "31e7f198b481eed28515eb7b2a48218daad173767e838be3e3ed47edc0d7f1d1",
+    "published_sha256": "31e7f198b481eed28515eb7b2a48218daad173767e838be3e3ed47edc0d7f1d1",
+    "bytes": 625205
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_qa/page-7.png",
+    "destination": "research/phase4_simulation_sections_20261028/render_qa/page-7.png",
+    "status": "included",
+    "source_sha256": "cc1af460cdb2807b25e9b97bfe436d83c596d01274aa7eb776ddcd9ab248ae07",
+    "published_sha256": "cc1af460cdb2807b25e9b97bfe436d83c596d01274aa7eb776ddcd9ab248ae07",
+    "bytes": 127601
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/render_qa/论文仿真章节_可编辑稿.pdf",
+    "destination": "research/phase4_simulation_sections_20261028/render_qa/论文仿真章节_可编辑稿.pdf",
+    "status": "included",
+    "source_sha256": "7c8aed2720284e2b98e37211e1b25fcf85ebb1a5bf6bfbd3cf5fc16f3173ed75",
+    "published_sha256": "7c8aed2720284e2b98e37211e1b25fcf85ebb1a5bf6bfbd3cf5fc16f3173ed75",
+    "bytes": 579336
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/verify_paper_output.py",
+    "destination": "research/phase4_simulation_sections_20261028/verify_paper_output.py",
+    "status": "included",
+    "source_sha256": "858fb6cfc36ef04a1f7e994b6e36aa85a38eb1a240687bbfa316e49bb3524f2f",
+    "published_sha256": "858fb6cfc36ef04a1f7e994b6e36aa85a38eb1a240687bbfa316e49bb3524f2f",
+    "bytes": 2049
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/并入论文说明.md",
+    "destination": "research/phase4_simulation_sections_20261028/并入论文说明.md",
+    "status": "included",
+    "source_sha256": "3eb3a2b7c356a28a5f07ea6c810f7b1a243c88e39f8b1337c5948283c7a787d3",
+    "published_sha256": "3eb3a2b7c356a28a5f07ea6c810f7b1a243c88e39f8b1337c5948283c7a787d3",
+    "bytes": 1674
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/数值与出处核对.json",
+    "destination": "research/phase4_simulation_sections_20261028/数值与出处核对.json",
+    "status": "included",
+    "source_sha256": "9330244942aecc21719279278cdb4e5b8e83083f272ec26adb856878987e2c6c",
+    "published_sha256": "9330244942aecc21719279278cdb4e5b8e83083f272ec26adb856878987e2c6c",
+    "bytes": 3908
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/最终交付核对.json",
+    "destination": "research/phase4_simulation_sections_20261028/最终交付核对.json",
+    "status": "included",
+    "source_sha256": "70fec596ee0f8bc5b9a8ca56fb9ef231aadb88280f5e520e49036d36750d89c1",
+    "published_sha256": "70fec596ee0f8bc5b9a8ca56fb9ef231aadb88280f5e520e49036d36750d89c1",
+    "bytes": 698
+  },
+  {
+    "original": "research/phase4_simulation_sections_20261028/论文仿真章节_可编辑稿.docx",
+    "destination": "research/phase4_simulation_sections_20261028/论文仿真章节_可编辑稿.docx",
+    "status": "included",
+    "source_sha256": "3cdc2942b3f35adf6d003ec9ec45f945cb7409bf94aa24daa366b7bd6617c995",
+    "published_sha256": "3cdc2942b3f35adf6d003ec9ec45f945cb7409bf94aa24daa366b7bd6617c995",
+    "bytes": 223999
+  },
+  {
+    "original": "research/results/all_grid_effects.csv",
+    "destination": "research/results/all_grid_effects.csv",
+    "status": "included",
+    "source_sha256": "6e3bdb930ea47b1e1cc22842fdbea8de18907ad692009206561076025731d30a",
+    "published_sha256": "b28ca428d8fa1389da4f23a6c44fab9b6195020233801b5684bb325b9461f1ca",
+    "bytes": 5786
+  },
+  {
+    "original": "research/results/all_summary.csv",
+    "destination": "research/results/all_summary.csv",
+    "status": "included",
+    "source_sha256": "d7d9bf0c00578b2454d44c8cd17243d422bb103717d62161b7efea86f82b7aba",
+    "published_sha256": "d7d9bf0c00578b2454d44c8cd17243d422bb103717d62161b7efea86f82b7aba",
+    "bytes": 1779770
+  },
+  {
+    "original": "research/results/base_diagnostics.csv",
+    "destination": "research/results/base_diagnostics.csv",
+    "status": "included",
+    "source_sha256": "744d32e4d7e64f3a6be11f5d4cd2cbec83d95b5a91b528978199f966b6749dde",
+    "published_sha256": "744d32e4d7e64f3a6be11f5d4cd2cbec83d95b5a91b528978199f966b6749dde",
+    "bytes": 15550
+  },
+  {
+    "original": "research/results/base_outcomes.mat",
+    "destination": "research/results/base_outcomes.mat",
+    "status": "included",
+    "source_sha256": "dec724b98cfe0f0809450d69dbfd2a3523a2dc5bfa25c933a994889970d375fd",
+    "published_sha256": "dec724b98cfe0f0809450d69dbfd2a3523a2dc5bfa25c933a994889970d375fd",
+    "bytes": 5105728
+  },
+  {
+    "original": "research/results/independent_validation.json",
+    "destination": "research/results/independent_validation.json",
+    "status": "included",
+    "source_sha256": "b663363ca03a3bfff08c1a35dce9759d98eb28021430baeee1f2dd7b6afb011f",
+    "published_sha256": "b663363ca03a3bfff08c1a35dce9759d98eb28021430baeee1f2dd7b6afb011f",
+    "bytes": 3017
+  },
+  {
+    "original": "research/results/independent_validation_slice.csv",
+    "destination": "research/results/independent_validation_slice.csv",
+    "status": "included",
+    "source_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384",
+    "published_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384",
+    "bytes": 4441255
+  },
+  {
+    "original": "research/results/paired_differences.csv",
+    "destination": "research/results/paired_differences.csv",
+    "status": "included",
+    "source_sha256": "02ae47ce3c1df3448445569bc9ba0ac31c634240c2015c29956f22c952a7223e",
+    "published_sha256": "02ae47ce3c1df3448445569bc9ba0ac31c634240c2015c29956f22c952a7223e",
+    "bytes": 1593654
+  },
+  {
+    "original": "research/results/paired_inputs.mat",
+    "destination": "research/results/paired_inputs.mat",
+    "status": "included",
+    "source_sha256": "2223d8026db8ecef4db933b3ca04d0a68072e0076c2a0d1bf5c1aa6c29929f13",
+    "published_sha256": "2223d8026db8ecef4db933b3ca04d0a68072e0076c2a0d1bf5c1aa6c29929f13",
+    "bytes": 19017101
+  },
+  {
+    "original": "research/results/paired_link_contrasts.csv",
+    "destination": "research/results/paired_link_contrasts.csv",
+    "status": "included",
+    "source_sha256": "caa5427121bd07eb17d225c2fef68d6f9f28f9c3cfb7a4c3e0dfb37998fc24ce",
+    "published_sha256": "caa5427121bd07eb17d225c2fef68d6f9f28f9c3cfb7a4c3e0dfb37998fc24ce",
+    "bytes": 254414
+  },
+  {
+    "original": "research/results/policies.csv",
+    "destination": "research/results/policies.csv",
+    "status": "included",
+    "source_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
+    "published_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
+    "bytes": 210
+  },
+  {
+    "original": "research/results/run.log",
+    "destination": "research/results/run.log",
+    "status": "included",
+    "source_sha256": "dd0b3d16250067ba7dc95bbf8b525ab62d74dde499d4b46989a3fabee77659d8",
+    "published_sha256": "dd0b3d16250067ba7dc95bbf8b525ab62d74dde499d4b46989a3fabee77659d8",
+    "bytes": 4640
+  },
+  {
+    "original": "research/results/scenarios.csv",
+    "destination": "research/results/scenarios.csv",
+    "status": "included",
+    "source_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60",
+    "published_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60",
+    "bytes": 4873
+  },
+  {
+    "original": "research/results/synthetic_catalog.csv",
+    "destination": "research/results/synthetic_catalog.csv",
+    "status": "included",
+    "source_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
+    "published_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
+    "bytes": 130
+  },
+  {
+    "original": "research/results/validation.json",
+    "destination": "research/results/validation.json",
+    "status": "included",
+    "source_sha256": "7083b169a8ef4f86e9de5ba232d35008208cbe569db477b5a69a9443f1e558da",
+    "published_sha256": "7083b169a8ef4f86e9de5ba232d35008208cbe569db477b5a69a9443f1e558da",
+    "bytes": 642
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/00_先看结果.md",
+    "destination": "research/simulation_goal_repair_20261028/00_先看结果.md",
+    "status": "included",
+    "source_sha256": "b14b911fdfc371904790c76c47fb0231614be68fbe3791c7a4912b3c4c764a12",
+    "published_sha256": "35e4c1e559268605f0124ce8d6bc1371941225f38558eddc06526432b00fd356",
+    "bytes": 1334
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/01_执行前方案.md",
+    "destination": "research/simulation_goal_repair_20261028/01_执行前方案.md",
+    "status": "included",
+    "source_sha256": "ccff845ec4fe7030c0da7817517c44a3b31c08821551ea08c26c66e6bc12bda0",
+    "published_sha256": "ccff845ec4fe7030c0da7817517c44a3b31c08821551ea08c26c66e6bc12bda0",
+    "bytes": 5048
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/02_新增材料与模型依据.md",
+    "destination": "research/simulation_goal_repair_20261028/02_新增材料与模型依据.md",
+    "status": "included",
+    "source_sha256": "2820833881382bbc6508e9d648f0a56f95abb2a97fd3f876fb4787b04476bd36",
+    "published_sha256": "2820833881382bbc6508e9d648f0a56f95abb2a97fd3f876fb4787b04476bd36",
+    "bytes": 6367
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/03_变量公式与参数身份.md",
+    "destination": "research/simulation_goal_repair_20261028/03_变量公式与参数身份.md",
+    "status": "included",
+    "source_sha256": "32ba0954ecee65f9f9b806c0d5c9a1b624501fd459983b263602a41cc79246dc",
+    "published_sha256": "32ba0954ecee65f9f9b806c0d5c9a1b624501fd459983b263602a41cc79246dc",
+    "bytes": 8210
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/04_结果报告与创新点修订.md",
+    "destination": "research/simulation_goal_repair_20261028/04_结果报告与创新点修订.md",
+    "status": "included",
+    "source_sha256": "991c0f44f25bc13563e3748156dad7d898f837ec17dec4cf72b101f856071d57",
+    "published_sha256": "c78be00bb1472ac99561ca2b9dca018f38c70c33300b44bce1c376428ac6c3d1",
+    "bytes": 11615
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/05_复现与验收.md",
+    "destination": "research/simulation_goal_repair_20261028/05_复现与验收.md",
+    "status": "included",
+    "source_sha256": "8f7e24e87f1a2e7df0e848259b109bd914cb3982a526f586f9ff8c5bf6d98436",
+    "published_sha256": "8f7e24e87f1a2e7df0e848259b109bd914cb3982a526f586f9ff8c5bf6d98436",
+    "bytes": 2319
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/code/build_simulation_report.py",
+    "destination": "research/simulation_goal_repair_20261028/code/build_simulation_report.py",
+    "status": "included",
+    "source_sha256": "15d299e1dd343b3fcc3e404fe0d19347f1a6b570c260c6fc11b7e586bfbfa8b6",
+    "published_sha256": "15d299e1dd343b3fcc3e404fe0d19347f1a6b570c260c6fc11b7e586bfbfa8b6",
+    "bytes": 24508
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/code/export_simulation_diagnostics.m",
+    "destination": "research/simulation_goal_repair_20261028/code/export_simulation_diagnostics.m",
+    "status": "included",
+    "source_sha256": "2e6486d00ada06f71a9ce152c9b7c92befca2c06743a5ed5f7e2d7622eeb6740",
+    "published_sha256": "2e6486d00ada06f71a9ce152c9b7c92befca2c06743a5ed5f7e2d7622eeb6740",
+    "bytes": 1712
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/code/export_validation_slice.m",
+    "destination": "research/simulation_goal_repair_20261028/code/export_validation_slice.m",
+    "status": "included",
+    "source_sha256": "dea373abf95b3c1c9ba0b6240a69a87005f6456caf39c9cba008733a79d624ed",
+    "published_sha256": "dea373abf95b3c1c9ba0b6240a69a87005f6456caf39c9cba008733a79d624ed",
+    "bytes": 838
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/code/run_goal_repair_simulation.m",
+    "destination": "research/simulation_goal_repair_20261028/code/run_goal_repair_simulation.m",
+    "status": "included",
+    "source_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
+    "published_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
+    "bytes": 17252
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/figures/fig1_core_mechanisms.pdf",
+    "destination": "research/simulation_goal_repair_20261028/figures/fig1_core_mechanisms.pdf",
+    "status": "included",
+    "source_sha256": "d4a00347109aa4eb8bb690ebbdcdc0504b58ccb0cd9cf44284abe437cc9de8cf",
+    "published_sha256": "d4a00347109aa4eb8bb690ebbdcdc0504b58ccb0cd9cf44284abe437cc9de8cf",
+    "bytes": 8718
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/figures/fig1_core_mechanisms.png",
+    "destination": "research/simulation_goal_repair_20261028/figures/fig1_core_mechanisms.png",
+    "status": "included",
+    "source_sha256": "61753abe849bbb609c38f25146fb1e2163bf5fbaeb05b860899b522b7714f874",
+    "published_sha256": "61753abe849bbb609c38f25146fb1e2163bf5fbaeb05b860899b522b7714f874",
+    "bytes": 87383
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/figures/fig2_effect_cost_boundaries.pdf",
+    "destination": "research/simulation_goal_repair_20261028/figures/fig2_effect_cost_boundaries.pdf",
+    "status": "included",
+    "source_sha256": "6fae3c637434c41fa0d71cde5b3e1300cd1e33e120dbf312c838fdc87a1f374f",
+    "published_sha256": "6fae3c637434c41fa0d71cde5b3e1300cd1e33e120dbf312c838fdc87a1f374f",
+    "bytes": 113999
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/figures/fig2_effect_cost_boundaries.png",
+    "destination": "research/simulation_goal_repair_20261028/figures/fig2_effect_cost_boundaries.png",
+    "status": "included",
+    "source_sha256": "3cacce090e92a940a370a5f273e54113f0011790e136764d341922baead241cb",
+    "published_sha256": "3cacce090e92a940a370a5f273e54113f0011790e136764d341922baead241cb",
+    "bytes": 95264
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/figures/fig3_cost_quality.pdf",
+    "destination": "research/simulation_goal_repair_20261028/figures/fig3_cost_quality.pdf",
+    "status": "included",
+    "source_sha256": "b1227b197328621795fb7e7fa0f4d5538aa30a4ae5e918c6ef0ebfc7e7afed53",
+    "published_sha256": "b1227b197328621795fb7e7fa0f4d5538aa30a4ae5e918c6ef0ebfc7e7afed53",
+    "bytes": 6183
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/figures/fig3_cost_quality.png",
+    "destination": "research/simulation_goal_repair_20261028/figures/fig3_cost_quality.png",
+    "status": "included",
+    "source_sha256": "8063839706865eab1af89da7770d41aa1fcda465a3e6f26470a4326ed8277eec",
+    "published_sha256": "8063839706865eab1af89da7770d41aa1fcda465a3e6f26470a4326ed8277eec",
+    "bytes": 79089
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/figures/fig4_disclosure_and_strong_baseline.pdf",
+    "destination": "research/simulation_goal_repair_20261028/figures/fig4_disclosure_and_strong_baseline.pdf",
+    "status": "included",
+    "source_sha256": "dc26118c643d51834e3b4901083fab43544ba7f90e302b681c5b4a2ee0c0af4a",
+    "published_sha256": "dc26118c643d51834e3b4901083fab43544ba7f90e302b681c5b4a2ee0c0af4a",
+    "bytes": 5869
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/figures/fig4_disclosure_and_strong_baseline.png",
+    "destination": "research/simulation_goal_repair_20261028/figures/fig4_disclosure_and_strong_baseline.png",
+    "status": "included",
+    "source_sha256": "c37d45fcbc79ea43a92a9c6342393233cc89f29342d53ba4f9c254c6e170b904",
+    "published_sha256": "c37d45fcbc79ea43a92a9c6342393233cc89f29342d53ba4f9c254c6e170b904",
+    "bytes": 59492
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results/all_grid_effects.csv",
+    "destination": "research/simulation_goal_repair_20261028/results/all_grid_effects.csv",
+    "status": "included",
+    "source_sha256": "6e3bdb930ea47b1e1cc22842fdbea8de18907ad692009206561076025731d30a",
+    "published_sha256": "b28ca428d8fa1389da4f23a6c44fab9b6195020233801b5684bb325b9461f1ca",
+    "bytes": 5786
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results/all_summary.csv",
+    "destination": "research/simulation_goal_repair_20261028/results/all_summary.csv",
+    "status": "included",
+    "source_sha256": "d7d9bf0c00578b2454d44c8cd17243d422bb103717d62161b7efea86f82b7aba",
+    "published_sha256": "d7d9bf0c00578b2454d44c8cd17243d422bb103717d62161b7efea86f82b7aba",
+    "bytes": 1779770
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results/base_diagnostics.csv",
+    "destination": "research/simulation_goal_repair_20261028/results/base_diagnostics.csv",
+    "status": "included",
+    "source_sha256": "744d32e4d7e64f3a6be11f5d4cd2cbec83d95b5a91b528978199f966b6749dde",
+    "published_sha256": "744d32e4d7e64f3a6be11f5d4cd2cbec83d95b5a91b528978199f966b6749dde",
+    "bytes": 15550
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results/base_outcomes.mat",
+    "destination": "research/simulation_goal_repair_20261028/results/base_outcomes.mat",
+    "status": "included",
+    "source_sha256": "dec724b98cfe0f0809450d69dbfd2a3523a2dc5bfa25c933a994889970d375fd",
+    "published_sha256": "dec724b98cfe0f0809450d69dbfd2a3523a2dc5bfa25c933a994889970d375fd",
+    "bytes": 5105728
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results/independent_validation.json",
+    "destination": "research/simulation_goal_repair_20261028/results/independent_validation.json",
+    "status": "included",
+    "source_sha256": "b663363ca03a3bfff08c1a35dce9759d98eb28021430baeee1f2dd7b6afb011f",
+    "published_sha256": "b663363ca03a3bfff08c1a35dce9759d98eb28021430baeee1f2dd7b6afb011f",
+    "bytes": 3017
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results/independent_validation_slice.csv",
+    "destination": "research/simulation_goal_repair_20261028/results/independent_validation_slice.csv",
+    "status": "included",
+    "source_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384",
+    "published_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384",
+    "bytes": 4441255
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results/paired_differences.csv",
+    "destination": "research/simulation_goal_repair_20261028/results/paired_differences.csv",
+    "status": "included",
+    "source_sha256": "02ae47ce3c1df3448445569bc9ba0ac31c634240c2015c29956f22c952a7223e",
+    "published_sha256": "02ae47ce3c1df3448445569bc9ba0ac31c634240c2015c29956f22c952a7223e",
+    "bytes": 1593654
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results/paired_inputs.mat",
+    "destination": "research/simulation_goal_repair_20261028/results/paired_inputs.mat",
+    "status": "included",
+    "source_sha256": "2223d8026db8ecef4db933b3ca04d0a68072e0076c2a0d1bf5c1aa6c29929f13",
+    "published_sha256": "2223d8026db8ecef4db933b3ca04d0a68072e0076c2a0d1bf5c1aa6c29929f13",
+    "bytes": 19017101
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results/paired_link_contrasts.csv",
+    "destination": "research/simulation_goal_repair_20261028/results/paired_link_contrasts.csv",
+    "status": "included",
+    "source_sha256": "caa5427121bd07eb17d225c2fef68d6f9f28f9c3cfb7a4c3e0dfb37998fc24ce",
+    "published_sha256": "caa5427121bd07eb17d225c2fef68d6f9f28f9c3cfb7a4c3e0dfb37998fc24ce",
+    "bytes": 254414
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results/policies.csv",
+    "destination": "research/simulation_goal_repair_20261028/results/policies.csv",
+    "status": "included",
+    "source_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
+    "published_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
+    "bytes": 210
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results/run.log",
+    "destination": "research/simulation_goal_repair_20261028/results/run.log",
+    "status": "included",
+    "source_sha256": "dd0b3d16250067ba7dc95bbf8b525ab62d74dde499d4b46989a3fabee77659d8",
+    "published_sha256": "dd0b3d16250067ba7dc95bbf8b525ab62d74dde499d4b46989a3fabee77659d8",
+    "bytes": 4640
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results/scenarios.csv",
+    "destination": "research/simulation_goal_repair_20261028/results/scenarios.csv",
+    "status": "included",
+    "source_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60",
+    "published_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60",
+    "bytes": 4873
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results/synthetic_catalog.csv",
+    "destination": "research/simulation_goal_repair_20261028/results/synthetic_catalog.csv",
+    "status": "included",
+    "source_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
+    "published_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
+    "bytes": 130
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results/validation.json",
+    "destination": "research/simulation_goal_repair_20261028/results/validation.json",
+    "status": "included",
+    "source_sha256": "7083b169a8ef4f86e9de5ba232d35008208cbe569db477b5a69a9443f1e558da",
+    "published_sha256": "7083b169a8ef4f86e9de5ba232d35008208cbe569db477b5a69a9443f1e558da",
+    "bytes": 642
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results_smoke/all_summary.csv",
+    "destination": "research/simulation_goal_repair_20261028/results_smoke/all_summary.csv",
+    "status": "included",
+    "source_sha256": "9d6936ccbe8e5a34ae6d67a72105793e84779c5e7fb90c3ab62eda60f692b94c",
+    "published_sha256": "9d6936ccbe8e5a34ae6d67a72105793e84779c5e7fb90c3ab62eda60f692b94c",
+    "bytes": 386060
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results_smoke/base_outcomes.mat",
+    "destination": "research/simulation_goal_repair_20261028/results_smoke/base_outcomes.mat",
+    "status": "included",
+    "source_sha256": "bf56720eb11cfcae21c0573c1c5b00ae6c2fce46200b9bc387bbe1cdf121b418",
+    "published_sha256": "bf56720eb11cfcae21c0573c1c5b00ae6c2fce46200b9bc387bbe1cdf121b418",
+    "bytes": 34451
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results_smoke/paired_differences.csv",
+    "destination": "research/simulation_goal_repair_20261028/results_smoke/paired_differences.csv",
+    "status": "included",
+    "source_sha256": "094bd2f8d312ef7bf26d68fc1693629ed7132cc10abc65a6ec1ec7bbd46de8b0",
+    "published_sha256": "094bd2f8d312ef7bf26d68fc1693629ed7132cc10abc65a6ec1ec7bbd46de8b0",
+    "bytes": 332245
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results_smoke/paired_inputs.mat",
+    "destination": "research/simulation_goal_repair_20261028/results_smoke/paired_inputs.mat",
+    "status": "included",
+    "source_sha256": "85dfd7bcfda03e5eaed504da2d4b21ef6605a6e7b734fb2e3f686c9edbb52157",
+    "published_sha256": "85dfd7bcfda03e5eaed504da2d4b21ef6605a6e7b734fb2e3f686c9edbb52157",
+    "bytes": 98716
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results_smoke/policies.csv",
+    "destination": "research/simulation_goal_repair_20261028/results_smoke/policies.csv",
+    "status": "included",
+    "source_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
+    "published_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
+    "bytes": 210
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results_smoke/run.log",
+    "destination": "research/simulation_goal_repair_20261028/results_smoke/run.log",
+    "status": "included",
+    "source_sha256": "04517169493e9919fa3bb4b943d5cfb8fb3df15ce6c94a98c1b4fcb23c47a969",
+    "published_sha256": "04517169493e9919fa3bb4b943d5cfb8fb3df15ce6c94a98c1b4fcb23c47a969",
+    "bytes": 699
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results_smoke/scenarios.csv",
+    "destination": "research/simulation_goal_repair_20261028/results_smoke/scenarios.csv",
+    "status": "included",
+    "source_sha256": "f06ab93fb1779b7f5598e98ada3fc347c6b1a09aa3299401b2654e800fc5db92",
+    "published_sha256": "f06ab93fb1779b7f5598e98ada3fc347c6b1a09aa3299401b2654e800fc5db92",
+    "bytes": 1457
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results_smoke/synthetic_catalog.csv",
+    "destination": "research/simulation_goal_repair_20261028/results_smoke/synthetic_catalog.csv",
+    "status": "included",
+    "source_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
+    "published_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
+    "bytes": 130
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/results_smoke/validation.json",
+    "destination": "research/simulation_goal_repair_20261028/results_smoke/validation.json",
+    "status": "included",
+    "source_sha256": "1f4536ac766617c470ff81e1a78136a526a804545e75103e2a52431033c5aa27",
+    "published_sha256": "1f4536ac766617c470ff81e1a78136a526a804545e75103e2a52431033c5aa27",
+    "bytes": 637
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/sources/acquisition_log.json",
+    "destination": "research/simulation_goal_repair_20261028/sources/acquisition_log.json",
+    "status": "included",
+    "source_sha256": "6183c088ae9e6170844f69cb0de83548734ad9d7eebd106d5ead6fb98e12bf9e",
+    "published_sha256": "6183c088ae9e6170844f69cb0de83548734ad9d7eebd106d5ead6fb98e12bf9e",
+    "bytes": 1093
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/sources/M3_Scheibehenne2010_ChoiceOverload.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "38838cd013ff6eef376ca5c84e8f5617ff4bcd233919540fec97e39ef60dcf04",
+    "bytes": 380769
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/sources/M4_acquisition.json",
+    "destination": "research/simulation_goal_repair_20261028/sources/M4_acquisition.json",
+    "status": "included",
+    "source_sha256": "6f20a2dd0027e1f644861f3991baf3268c3130f919516aa962f913183f7f27f1",
+    "published_sha256": "6f20a2dd0027e1f644861f3991baf3268c3130f919516aa962f913183f7f27f1",
+    "bytes": 267
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/sources/M4_Retractions_arxiv2106.11433.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "5bf84de985f734a22febd80f473fecedcf079f36d5fa3fd92e09d1fb6d204522",
+    "bytes": 2640090
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/sources/reading_log.json",
+    "destination": "research/simulation_goal_repair_20261028/sources/reading_log.json",
+    "status": "included",
+    "source_sha256": "1d46a2c1f032b66b456984952206afa597fe1d886d435ba8f37d57fe27de8d83",
+    "published_sha256": "1d46a2c1f032b66b456984952206afa597fe1d886d435ba8f37d57fe27de8d83",
+    "bytes": 859
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/all_summary.csv",
+    "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/all_summary.csv",
+    "status": "included",
+    "source_sha256": "0737280e8eb107a83fba631f7cb6820a924b87f5da2556c4c6ae0c6f8d9d91bf",
+    "published_sha256": "0737280e8eb107a83fba631f7cb6820a924b87f5da2556c4c6ae0c6f8d9d91bf",
+    "bytes": 1799800
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/base_outcomes.mat",
+    "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/base_outcomes.mat",
+    "status": "included",
+    "source_sha256": "467b34ac42b975b0a94131118ba45b25fc4a78a1a592e88fd7a0a9f0bbcab45d",
+    "published_sha256": "467b34ac42b975b0a94131118ba45b25fc4a78a1a592e88fd7a0a9f0bbcab45d",
+    "bytes": 5228642
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/independent_validation_slice.csv",
+    "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/independent_validation_slice.csv",
+    "status": "included",
+    "source_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384",
+    "published_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384",
+    "bytes": 4441255
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/paired_differences.csv",
+    "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/paired_differences.csv",
+    "status": "included",
+    "source_sha256": "06ecd33f4d9dae60d03922b096db8db43f1632857f6a1d6bda4131b8c9c016ed",
+    "published_sha256": "06ecd33f4d9dae60d03922b096db8db43f1632857f6a1d6bda4131b8c9c016ed",
+    "bytes": 1593428
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/paired_inputs.mat",
+    "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/paired_inputs.mat",
+    "status": "included",
+    "source_sha256": "531eefb6f9b48ff3d554d1a012681e0ada26ade78b4df5b7c2e298ced8acff89",
+    "published_sha256": "531eefb6f9b48ff3d554d1a012681e0ada26ade78b4df5b7c2e298ced8acff89",
+    "bytes": 19017101
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/paired_link_contrasts.csv",
+    "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/paired_link_contrasts.csv",
+    "status": "included",
+    "source_sha256": "cd4e122fb8d307476db4255fd15ff1e11795a0c755aa498f8073b08f96f7d7a1",
+    "published_sha256": "cd4e122fb8d307476db4255fd15ff1e11795a0c755aa498f8073b08f96f7d7a1",
+    "bytes": 254358
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/policies.csv",
+    "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/policies.csv",
+    "status": "included",
+    "source_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
+    "published_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
+    "bytes": 210
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/run.log",
+    "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/run.log",
+    "status": "included",
+    "source_sha256": "06cc096e92438e4ef665f8145a7f78fa7f22d9f2dd471a80a7d568b378a72cd3",
+    "published_sha256": "06cc096e92438e4ef665f8145a7f78fa7f22d9f2dd471a80a7d568b378a72cd3",
+    "bytes": 2320
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/scenarios.csv",
+    "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/scenarios.csv",
+    "status": "included",
+    "source_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60",
+    "published_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60",
+    "bytes": 4873
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/synthetic_catalog.csv",
+    "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/synthetic_catalog.csv",
+    "status": "included",
+    "source_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
+    "published_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
+    "bytes": 130
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/validation.json",
+    "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/validation.json",
+    "status": "included",
+    "source_sha256": "cc8ba971acbef2f0f70715e0b2a1f3c472abffed2d37be0d75b3550b2acc7ad4",
+    "published_sha256": "cc8ba971acbef2f0f70715e0b2a1f3c472abffed2d37be0d75b3550b2acc7ad4",
+    "bytes": 642
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/diagnostic_export.log",
+    "destination": "research/simulation_goal_repair_20261028/work/diagnostic_export.log",
+    "status": "included",
+    "source_sha256": "ea93f5a7b3ef4a5c5a90a416441cfdfe70c3c2e3327cf118aec66bac579e1173",
+    "published_sha256": "ea93f5a7b3ef4a5c5a90a416441cfdfe70c3c2e3327cf118aec66bac579e1173",
+    "bytes": 50
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/executed_numerical_code_v1.m",
+    "destination": "research/simulation_goal_repair_20261028/work/executed_numerical_code_v1.m",
+    "status": "included",
+    "source_sha256": "07b96170d0090cde3d868a285194c0f26fb4731a3360f959d7798fe1535ff15b",
+    "published_sha256": "07b96170d0090cde3d868a285194c0f26fb4731a3360f959d7798fe1535ff15b",
+    "bytes": 15209
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/executed_numerical_code_v2.m",
+    "destination": "research/simulation_goal_repair_20261028/work/executed_numerical_code_v2.m",
+    "status": "included",
+    "source_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
+    "published_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
+    "bytes": 17252
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/figure_revision.log",
+    "destination": "research/simulation_goal_repair_20261028/work/figure_revision.log",
+    "status": "included",
+    "source_sha256": "2caee46254b98fee35b94b79bb5334ef14355b5db4b56915736b6bc025a57d6a",
+    "published_sha256": "2caee46254b98fee35b94b79bb5334ef14355b5db4b56915736b6bc025a57d6a",
+    "bytes": 47
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/figure_revision2.log",
+    "destination": "research/simulation_goal_repair_20261028/work/figure_revision2.log",
+    "status": "included",
+    "source_sha256": "2caee46254b98fee35b94b79bb5334ef14355b5db4b56915736b6bc025a57d6a",
+    "published_sha256": "2caee46254b98fee35b94b79bb5334ef14355b5db4b56915736b6bc025a57d6a",
+    "bytes": 47
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/full_corrected_launcher.log",
+    "destination": "research/simulation_goal_repair_20261028/work/full_corrected_launcher.log",
+    "status": "included",
+    "source_sha256": "219f6f972c3a649fe566bb18c8e1fa2bbe15b5eec84f16c322ce0f2e4dd14220",
+    "published_sha256": "219f6f972c3a649fe566bb18c8e1fa2bbe15b5eec84f16c322ce0f2e4dd14220",
+    "bytes": 2447
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/full_launcher.log",
+    "destination": "research/simulation_goal_repair_20261028/work/full_launcher.log",
+    "status": "included",
+    "source_sha256": "06cc096e92438e4ef665f8145a7f78fa7f22d9f2dd471a80a7d568b378a72cd3",
+    "published_sha256": "06cc096e92438e4ef665f8145a7f78fa7f22d9f2dd471a80a7d568b378a72cd3",
+    "bytes": 2320
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/M3_Scheibehenne2010_ChoiceOverload_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "88e1ae46af2ce429c310541453786d5643f638bf140be62da2ca4d123b81160c",
+    "bytes": 87921
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/M3_Scheibehenne2010_ChoiceOverload_text.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "6be232a15de9d4df476517553f69f78dbe5dad45f8a2095a0f68bbafb1e60c71",
+    "bytes": 88194
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/M4_Retractions_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "6dbc93be2d196f3aa9703c537bd7195fae41f016ba51bbec1e0c0f0bd9192fa9",
+    "bytes": 229379
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/paired_contrast_export.log",
+    "destination": "research/simulation_goal_repair_20261028/work/paired_contrast_export.log",
+    "status": "included",
+    "source_sha256": "ba08928dc76e225727629c14306759332874acf4a2c7b0833c526f271c44df81",
+    "published_sha256": "ba08928dc76e225727629c14306759332874acf4a2c7b0833c526f271c44df81",
+    "bytes": 71
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/pre_T3_fix_with_exports.m",
+    "destination": "research/simulation_goal_repair_20261028/work/pre_T3_fix_with_exports.m",
+    "status": "included",
+    "source_sha256": "5b0f051b1580e277ab39be4540fb6da069b8ef40251cd0ce8b0deb49c127a4ce",
+    "published_sha256": "5b0f051b1580e277ab39be4540fb6da069b8ef40251cd0ce8b0deb49c127a4ce",
+    "bytes": 17080
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/smoke_launcher.log",
+    "destination": "research/simulation_goal_repair_20261028/work/smoke_launcher.log",
+    "status": "included",
+    "source_sha256": "04517169493e9919fa3bb4b943d5cfb8fb3df15ce6c94a98c1b4fcb23c47a969",
+    "published_sha256": "04517169493e9919fa3bb4b943d5cfb8fb3df15ce6c94a98c1b4fcb23c47a969",
+    "bytes": 699
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/validation_export.log",
+    "destination": "research/simulation_goal_repair_20261028/work/validation_export.log",
+    "status": "included",
+    "source_sha256": "17e26a15f875300e83039600492692bace44daf7af07e2551820441d8a8d738c",
+    "published_sha256": "17e26a15f875300e83039600492692bace44daf7af07e2551820441d8a8d738c",
+    "bytes": 56
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/变更日志.md",
+    "destination": "research/simulation_goal_repair_20261028/work/变更日志.md",
+    "status": "included",
+    "source_sha256": "d825f4a8803bb74dff30e05c834869aa4d8c25f373b9c8e349242c270d254755",
+    "published_sha256": "d825f4a8803bb74dff30e05c834869aa4d8c25f373b9c8e349242c270d254755",
+    "bytes": 1715
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/work/并行复核与处理.md",
+    "destination": "research/simulation_goal_repair_20261028/work/并行复核与处理.md",
+    "status": "included",
+    "source_sha256": "a808ade01b4df3ad20efcff7565136a4689b2eebd4a0614a98148e7a26e86cb3",
+    "published_sha256": "a808ade01b4df3ad20efcff7565136a4689b2eebd4a0614a98148e7a26e86cb3",
+    "bytes": 1402
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/文件校验SHA256.json",
+    "destination": "research/simulation_goal_repair_20261028/文件校验SHA256.json.local-record",
+    "status": "included",
+    "source_sha256": "ca93e96c0f0db98d454a39890b3dcc7e75fb77a43acb1fbc815490bfaacb869b",
+    "published_sha256": "ca93e96c0f0db98d454a39890b3dcc7e75fb77a43acb1fbc815490bfaacb869b",
+    "bytes": 5895
+  },
+  {
+    "original": "research/simulation_goal_repair_20261028/研究简介_仿真后草案.txt",
+    "destination": "research/simulation_goal_repair_20261028/研究简介_仿真后草案.txt",
+    "status": "included",
+    "source_sha256": "5c0c3a6fde9f086da05bba47ffb7ba956d1edda72c2b91018f15301c7701ef73",
+    "published_sha256": "5c0c3a6fde9f086da05bba47ffb7ba956d1edda72c2b91018f15301c7701ef73",
+    "bytes": 589
+  },
+  {
+    "original": "research/sources/acquisition_log.json",
+    "destination": "research/sources/acquisition_log.json",
+    "status": "included",
+    "source_sha256": "6183c088ae9e6170844f69cb0de83548734ad9d7eebd106d5ead6fb98e12bf9e",
+    "published_sha256": "6183c088ae9e6170844f69cb0de83548734ad9d7eebd106d5ead6fb98e12bf9e",
+    "bytes": 1093
+  },
+  {
+    "original": "research/sources/Apple快充条件.html",
+    "destination": "research/sources/Apple快充条件.html",
+    "status": "included",
+    "source_sha256": "ee095b9c479492da4414c6657c93246ca6407f4239e60b95f94f309a7d3ceabb",
+    "published_sha256": "58f3666657d7b94839de8807c7ed0cf302dee9356698a39affda485e68980ffc",
+    "bytes": 161901
+  },
+  {
+    "original": "research/sources/M4_acquisition.json",
+    "destination": "research/sources/M4_acquisition.json",
+    "status": "included",
+    "source_sha256": "6f20a2dd0027e1f644861f3991baf3268c3130f919516aa962f913183f7f27f1",
+    "published_sha256": "6f20a2dd0027e1f644861f3991baf3268c3130f919516aa962f913183f7f27f1",
+    "bytes": 267
+  },
+  {
+    "original": "research/sources/R1_lara2026.pdf",
+    "destination": "research/sources/R1_lara2026.pdf",
+    "status": "included",
+    "source_sha256": "6a227c4ca79e7b06ce1ebcdb1cc78bceb95a330c32d297af446de08ae99ce23c",
+    "published_sha256": "6a227c4ca79e7b06ce1ebcdb1cc78bceb95a330c32d297af446de08ae99ce23c",
+    "bytes": 792266
+  },
+  {
+    "original": "research/sources/R2_delvalle2023.pdf",
+    "destination": "research/sources/R2_delvalle2023.pdf",
+    "status": "included",
+    "source_sha256": "00bd930b14c1963677d540f597ce95fbed1ec90bd2edad47de394b42f88e4acb",
+    "published_sha256": "00bd930b14c1963677d540f597ce95fbed1ec90bd2edad47de394b42f88e4acb",
+    "bytes": 694527
+  },
+  {
+    "original": "research/sources/R6_Xie2023_PRAG.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "06893c29bb307b9be1358cda71acfac1cba96e28fdf0204ebaef2b37fd51dbb5",
+    "bytes": 834728
+  },
+  {
+    "original": "research/sources/R7_Zhang2025_Refinement.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "fda7a4580c0c369957bd5ceea3fa56aa3f9dd01c00d3befe98c19a7d57740ac8",
+    "bytes": 567557
+  },
+  {
+    "original": "research/sources/R8_Kabongo2026_FactualConsistency_v2.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "68e1b89e00f0e1eb157871db9934274e1bf74c3069f221033991b6cda1ec7ff1",
+    "bytes": 542928
+  },
+  {
+    "original": "research/sources/R9_Gao2023_ALCE.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "ae9868f07f0f7ffaae5346778f79b7827d9ec6b13b1e6aae4dff6b2ffc37a2e1",
+    "bytes": 481920
+  },
+  {
+    "original": "research/sources/reading_log.json",
+    "destination": "research/sources/reading_log.json",
+    "status": "included",
+    "source_sha256": "1d46a2c1f032b66b456984952206afa597fe1d886d435ba8f37d57fe27de8d83",
+    "published_sha256": "1d46a2c1f032b66b456984952206afa597fe1d886d435ba8f37d57fe27de8d83",
+    "bytes": 859
+  },
+  {
+    "original": "research/sources/V1_Alfrink2023_ContestableAI.pdf",
+    "destination": "research/sources/V1_Alfrink2023_ContestableAI.pdf",
+    "status": "included",
+    "source_sha256": "2d9f5424f022b095e303d0ad116cd13800b321d8995112cd0872f2fb4ba6f326",
+    "published_sha256": "2d9f5424f022b095e303d0ad116cd13800b321d8995112cd0872f2fb4ba6f326",
+    "bytes": 1044720
+  },
+  {
+    "original": "research/sources/V2_AshtonFranklin2022_MetaPreferences.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "1ffca5ecc384409c2665cdcfcfa1f2c8a41d045f61b03bcfa8e8af19f33a232c",
+    "bytes": 102351
+  },
+  {
+    "original": "research/sources/V3_Fischli2026_ManyFacesAutonomy.pdf",
+    "destination": "research/sources/V3_Fischli2026_ManyFacesAutonomy.pdf",
+    "status": "included",
+    "source_sha256": "adbd5cddafbeb6b8869231278fdb981f10de4cc00c210cfa1d05768de554f81e",
+    "published_sha256": "adbd5cddafbeb6b8869231278fdb981f10de4cc00c210cfa1d05768de554f81e",
+    "bytes": 773414
+  },
+  {
+    "original": "research/sources/V4_Li2026_PredictionMemory.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "31ccff06679450d2746452118ba97614148b143424391c28e751e44fe0089003",
+    "bytes": 402155
+  },
+  {
+    "original": "research/sources/个保法.html",
+    "destination": "research/sources/个保法.html",
+    "status": "included",
+    "source_sha256": "50b62bb9868648fe0417d8757a8cff62641eba6d879403f363d771f8c6d3acff",
+    "published_sha256": "50b62bb9868648fe0417d8757a8cff62641eba6d879403f363d771f8c6d3acff",
+    "bytes": 60221
+  },
+  {
+    "original": "research/sources/互联网广告办法.html",
+    "destination": "research/sources/互联网广告办法.html",
+    "status": "included",
+    "source_sha256": "8b43afcf58d7a92a5a826f2cb51c376779a3ac74adecc80771392347ee469bcb",
+    "published_sha256": "8b43afcf58d7a92a5a826f2cb51c376779a3ac74adecc80771392347ee469bcb",
+    "bytes": 34400
+  },
+  {
+    "original": "research/sources/比赛通知.html",
+    "destination": "research/sources/比赛通知.html",
+    "status": "included",
+    "source_sha256": "bfaa7264255ffeb32d81cc02ab7666c8040a796982bc93b2e2ef46d609eab85e",
+    "published_sha256": "bfaa7264255ffeb32d81cc02ab7666c8040a796982bc93b2e2ef46d609eab85e",
+    "bytes": 25149
+  },
+  {
+    "original": "research/sources/消法.html",
+    "destination": "research/sources/消法.html",
+    "status": "included",
+    "source_sha256": "f38cb5faa197717526b483afe37a70db9aa936186157669240bf44aae7741c8d",
+    "published_sha256": "f38cb5faa197717526b483afe37a70db9aa936186157669240bf44aae7741c8d",
+    "bytes": 42008
+  },
+  {
+    "original": "research/sources/消法实施条例.html",
+    "destination": "research/sources/消法实施条例.html",
+    "status": "included",
+    "source_sha256": "3060ccdeca876b90750503efaa78431126513ef16d228a3541840267cf02b427",
+    "published_sha256": "3060ccdeca876b90750503efaa78431126513ef16d228a3541840267cf02b427",
+    "bytes": 84893
+  },
+  {
+    "original": "research/sources/算法推荐规定.html",
+    "destination": "research/sources/算法推荐规定.html",
+    "status": "included",
+    "source_sha256": "89aa514b53377b1cda3742f74addddbbc9f44bb2927c9eaf65793f55ce19eda9",
+    "published_sha256": "89aa514b53377b1cda3742f74addddbbc9f44bb2927c9eaf65793f55ce19eda9",
+    "bytes": 31231
+  },
+  {
+    "original": "research/sources/赛程调整.html",
+    "destination": "research/sources/赛程调整.html",
+    "status": "included",
+    "source_sha256": "e1f5c544ebea5aebf602fb751e7d019b3e1b7452764b2297c4a0a1fd4460cbc5",
+    "published_sha256": "e1f5c544ebea5aebf602fb751e7d019b3e1b7452764b2297c4a0a1fd4460cbc5",
+    "bytes": 21543
+  },
+  {
+    "original": "research/sources/附件1AIC·AI伦理竞赛规则及作品提交要求.pdf",
+    "destination": "research/sources/附件1AIC·AI伦理竞赛规则及作品提交要求.pdf",
+    "status": "included",
+    "source_sha256": "f859e1e65a71ad1a90e3cbc9d58610d36e11ef80c596168c0090283b4649ae94",
+    "published_sha256": "f859e1e65a71ad1a90e3cbc9d58610d36e11ef80c596168c0090283b4649ae94",
+    "bytes": 322834
+  },
+  {
+    "original": "research/sources/附件2AIC·AI伦理研究报告参考大纲.pdf",
+    "destination": "research/sources/附件2AIC·AI伦理研究报告参考大纲.pdf",
+    "status": "included",
+    "source_sha256": "daee211b308a41249dff128d43dadb3af278681ab4bb1430fe7cc779a89600b1",
+    "published_sha256": "daee211b308a41249dff128d43dadb3af278681ab4bb1430fe7cc779a89600b1",
+    "bytes": 248388
+  },
+  {
+    "original": "research/work/all_cards.txt",
+    "destination": "research/work/all_cards.txt",
+    "status": "included",
+    "source_sha256": "76548a3a5729f89469355d00ab51c4c2c2cee627f0c8fbccce75ce1fc87d1758",
+    "published_sha256": "76548a3a5729f89469355d00ab51c4c2c2cee627f0c8fbccce75ce1fc87d1758",
+    "bytes": 45004
+  },
+  {
+    "original": "research/work/build_review_materials_20261028.py",
+    "destination": "research/work/build_review_materials_20261028.py",
+    "status": "included",
+    "source_sha256": "2f87992eda129ba3f2f404f1f3754fb28abe7a3cbc1f897cd1c02106dca79fe7",
+    "published_sha256": "2f87992eda129ba3f2f404f1f3754fb28abe7a3cbc1f897cd1c02106dca79fe7",
+    "bytes": 11626
+  },
+  {
+    "original": "research/work/C2_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "1e468b0a61184e761fec6c9b97c44066a8ca683b7aad48518eb7ddbf89557d48",
+    "bytes": 80708
+  },
+  {
+    "original": "research/work/C2_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "b08c53d4f9b5089ed94812aa42ade60c0dc7cf72a84a2f1fa6964553a9d4bca1",
+    "bytes": 80316
+  },
+  {
+    "original": "research/work/C3_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "729200a657d5755b7939ec4a83ce001043e582e504cd28295a0ce031befd2325",
+    "bytes": 75544
+  },
+  {
+    "original": "research/work/C3_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "83549f439593281372dddff7271a0ea6d5ab70fc29c883c42f0953e3828510ef",
+    "bytes": 76060
+  },
+  {
+    "original": "research/work/C4_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "de06df81085168ff1b86b247e1bf52fcc2ec46678bb37904b281f54862754162",
+    "bytes": 67447
+  },
+  {
+    "original": "research/work/C4_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "53d72ac09c2499958dc7c3856c1f2b36c2adfe2510d121a968ca056bc3344b90",
+    "bytes": 67079
+  },
+  {
+    "original": "research/work/C5_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "8cc4861fc238d43011d4cf6b4934da269c699d2b56a7fb12c1aad024fb9e838d",
+    "bytes": 58506
+  },
+  {
+    "original": "research/work/C5_governance.png",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "第三方原文或网页长缓存；公开研究记录保留来源定位",
+    "source_sha256": "e2d7ba704aa578204e7ff1f6ef2f30368da5aa14fe1cee219bda2435d8e7fb0f",
+    "bytes": 844798
+  },
+  {
+    "original": "research/work/C5_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "70194ef0bed8fdb82a743fa27da23b9e5cca58cdec3e037b71ce82e199fc1bd7",
+    "bytes": 58258
+  },
+  {
+    "original": "research/work/check_delivery.py",
+    "destination": "research/work/check_delivery.py",
+    "status": "included",
+    "source_sha256": "4d632468a10521b6e33448fa993b96f096581234f7aa59bfe50e81d033fb23b1",
+    "published_sha256": "59a5080ced506c00a9a7744d25d7ead508b82e0bbf9e74abbae19eb8c1be1472",
+    "bytes": 4262
+  },
+  {
+    "original": "research/work/E01230_来源核对检索记录.json",
+    "destination": "research/work/E01230_来源核对检索记录.json",
+    "status": "included",
+    "source_sha256": "6d69f07e0a0f6181272b28411f7bc163b0dc3992a4974e35cfee382936c13c6f",
+    "published_sha256": "6d69f07e0a0f6181272b28411f7bc163b0dc3992a4974e35cfee382936c13c6f",
+    "bytes": 51226
+  },
+  {
+    "original": "research/work/executed_numerical_code_v1.m",
+    "destination": "research/work/executed_numerical_code_v1.m",
+    "status": "included",
+    "source_sha256": "07b96170d0090cde3d868a285194c0f26fb4731a3360f959d7798fe1535ff15b",
+    "published_sha256": "07b96170d0090cde3d868a285194c0f26fb4731a3360f959d7798fe1535ff15b",
+    "bytes": 15209
+  },
+  {
+    "original": "research/work/executed_numerical_code_v2.m",
+    "destination": "research/work/executed_numerical_code_v2.m",
+    "status": "included",
+    "source_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
+    "published_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
+    "bytes": 17252
+  },
+  {
+    "original": "research/work/fetch_innovation_neighbours_v2.py",
+    "destination": "research/work/fetch_innovation_neighbours_v2.py",
+    "status": "included",
+    "source_sha256": "2337d5d6c8ddda2078424773f71fa9442d56ecfb039283880114658c53f9479b",
+    "published_sha256": "7dfbe3e0081651af3eebc5ad7eaeb25a66bde999928c83305c326c071d071e73",
+    "bytes": 1815
+  },
+  {
+    "original": "research/work/fetch_reason_correction_neighbours.py",
+    "destination": "research/work/fetch_reason_correction_neighbours.py",
+    "status": "included",
+    "source_sha256": "0ce12a40527bfc8d7959c14ff897c53aa47c47fa15414ce01792d1b37b01cd64",
+    "published_sha256": "52b496230e51b9069dcae7d2476db0173b4cc9213f9ee60c3319117a4043f08f",
+    "bytes": 2090
+  },
+  {
+    "original": "research/work/fetch_sim_materials.py",
+    "destination": "research/work/fetch_sim_materials.py",
+    "status": "included",
+    "source_sha256": "fd85cdfc60cc400ae383b3470caf530dd0a1e86a4feae04e24ee74863be7bc51",
+    "published_sha256": "fd85cdfc60cc400ae383b3470caf530dd0a1e86a4feae04e24ee74863be7bc51",
+    "bytes": 1807
+  },
+  {
+    "original": "research/work/I1_figure1_p12.png",
+    "destination": "research/work/I1_figure1_p12.png",
+    "status": "included",
+    "source_sha256": "fe5cb3ecd49cbb1417b6a87137c4099c57d99a3786aeedab2b835baa70dd62a9",
+    "published_sha256": "fe5cb3ecd49cbb1417b6a87137c4099c57d99a3786aeedab2b835baa70dd62a9",
+    "bytes": 218863
+  },
+  {
+    "original": "research/work/I1_fulltext.txt",
+    "destination": "research/work/I1_fulltext.txt",
+    "status": "included",
+    "source_sha256": "d70f224cf2450819bb18b93bf41057301fe540f49032804b6e9ea7e1ba8b5cdc",
+    "published_sha256": "d70f224cf2450819bb18b93bf41057301fe540f49032804b6e9ea7e1ba8b5cdc",
+    "bytes": 80933
+  },
+  {
+    "original": "research/work/I1_pages.json",
+    "destination": "research/work/I1_pages.json",
+    "status": "included",
+    "source_sha256": "be97c82ad358eb7e5301ad428eba013f0eec7379252ce61df76ef03ec01d6f32",
+    "published_sha256": "be97c82ad358eb7e5301ad428eba013f0eec7379252ce61df76ef03ec01d6f32",
+    "bytes": 80517
+  },
+  {
+    "original": "research/work/I2_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "24df680a96f8ff005e9b8acaa16d88f8478abcc3d80ea613688bcb14894de3b4",
+    "bytes": 104425
+  },
+  {
+    "original": "research/work/I2_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "aaecba5eb145a0cf699b588e3cc6f4c68835c1d327badb0fe41237e1ca3dfe37",
+    "bytes": 103745
+  },
+  {
+    "original": "research/work/I3_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "e03fb900071ee54dc6e9555fd8fff57df7320de946a0811d96b6a53de347354e",
+    "bytes": 156792
+  },
+  {
+    "original": "research/work/I3_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "d60ef8031b6e0a64eb8e315911e318d4b7526fd2d30f7fe3f5392c41053c7d96",
+    "bytes": 155896
+  },
+  {
+    "original": "research/work/I3_首页核验.png",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "第三方原文或网页长缓存；公开研究记录保留来源定位",
+    "source_sha256": "2e766f7b71a98f81f42aea81c9a9e3e7f0092fafb3eba473bf30305852c16e95",
+    "bytes": 236540
+  },
+  {
+    "original": "research/work/I4_fulltext.txt",
+    "destination": "research/work/I4_fulltext.txt",
+    "status": "included",
+    "source_sha256": "c9b5db7ce9f886039a79e86eed5c39ee61a290fd2eeaa12fa762e088e5fcd078",
+    "published_sha256": "c9b5db7ce9f886039a79e86eed5c39ee61a290fd2eeaa12fa762e088e5fcd078",
+    "bytes": 77446
+  },
+  {
+    "original": "research/work/I4_pages.json",
+    "destination": "research/work/I4_pages.json",
+    "status": "included",
+    "source_sha256": "c45a83996c9b8d27c8341469d5f1bee527d16040f4198b5a05ec411fac1cfe30",
+    "published_sha256": "c45a83996c9b8d27c8341469d5f1bee527d16040f4198b5a05ec411fac1cfe30",
+    "bytes": 76934
+  },
+  {
+    "original": "research/work/I5_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "794e33890616ac48234f67141ed3b49abdd932c3919f332be9aea33e42ead267",
+    "bytes": 56983
+  },
+  {
+    "original": "research/work/I5_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "b27bbb20a30af84dce991db9d3393fe347fc56aec311d6a4fb313e18f9b36f0f",
+    "bytes": 56759
+  },
+  {
+    "original": "research/work/N2_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "f3dbf777d3c572bb1a77d22213f7f22ac271de524316af993091f8aaafbf3c73",
+    "bytes": 163186
+  },
+  {
+    "original": "research/work/N2_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "8bc0cf032cbbb542a7421a1ececa955acb46e6354294fa4519e9f4091af502ed",
+    "bytes": 162218
+  },
+  {
+    "original": "research/work/N3_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "4100590de86a45ec8a3215cb6a12ba10f7fe288e5a70208b5b64069c96a5ed44",
+    "bytes": 173504
+  },
+  {
+    "original": "research/work/N3_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "6bb765b2d70cff221f7c114f4e93004bc54021a336c25e45356f60a0392e306f",
+    "bytes": 172594
+  },
+  {
+    "original": "research/work/N6_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "0a42cdba584367fe31029ff8edac9196759d77e6acf4f1218c11472957b56070",
+    "bytes": 73349
+  },
+  {
+    "original": "research/work/N6_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "cfb5f820df50a69e5db44f76535792e29325bdff40253aed0fe0d348c46ab1ca",
+    "bytes": 72862
+  },
+  {
+    "original": "research/work/N7_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "4c8ee97250b5386e58b51f7a12e3f75589a3aa7061ab3c0b97b2e82ef8f5f3c0",
+    "bytes": 207550
+  },
+  {
+    "original": "research/work/N7_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "ad1afbed38248151d1f52020b40036aa2e08cad3479dcaba988270e25a5fda81",
+    "bytes": 205991
+  },
+  {
+    "original": "research/work/N8_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "844a585837525e51fd9bcebcfe8edb07cc5b08a546d08707b86be55446e91595",
+    "bytes": 79472
+  },
+  {
+    "original": "research/work/N8_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "a2c8cc84e0573aac0fa7ac50607bfb1df90d78fde2e45ae5c15babba1f680e04",
+    "bytes": 79016
+  },
+  {
+    "original": "research/work/R1_lara2026.pdf.txt",
+    "destination": "research/work/R1_lara2026.pdf.txt",
+    "status": "included",
+    "source_sha256": "2446159051c3b1d81e81dfdea0ac2c934bddd7a55b54247b09a3be003a9cf8ce",
+    "published_sha256": "2446159051c3b1d81e81dfdea0ac2c934bddd7a55b54247b09a3be003a9cf8ce",
+    "bytes": 92171
+  },
+  {
+    "original": "research/work/R2_delvalle2023.pdf.txt",
+    "destination": "research/work/R2_delvalle2023.pdf.txt",
+    "status": "included",
+    "source_sha256": "6f9c45dd41b4fdf36afd38d0e58c0309c1e9d966e6372008f810fa7687bdc949",
+    "published_sha256": "6f9c45dd41b4fdf36afd38d0e58c0309c1e9d966e6372008f810fa7687bdc949",
+    "bytes": 74054
+  },
+  {
+    "original": "research/work/R6_Xie2023_PRAG_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "ec8ac3dc18b0ab69755143d57ee771dbbd26f36a047affd483ed97241a8a082f",
+    "bytes": 49488
+  },
+  {
+    "original": "research/work/R6_Xie2023_PRAG_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "720ca4bf4063ee6d1818ee84d7796563e3cb85c352c82a087273e44a79b0ced1",
+    "bytes": 49306
+  },
+  {
+    "original": "research/work/R7_Zhang2025_Refinement_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "37b8d046e85edebc34f517a1b9c00f1abbec886b8121b20af55cc654691412b2",
+    "bytes": 66178
+  },
+  {
+    "original": "research/work/R7_Zhang2025_Refinement_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "056a2adb47168c501f0280f3f077c8247feb6714d3d2486ba6b35327003e639c",
+    "bytes": 65876
+  },
+  {
+    "original": "research/work/R8_Kabongo2026_FactualConsistency_v2_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "7af2b2ffa53159ffdac1e039bdfda9bcff1b28f64be9f5719fb3aae4803760ea",
+    "bytes": 36476
+  },
+  {
+    "original": "research/work/R8_Kabongo2026_FactualConsistency_v2_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "5d6b56b2bbbdbbeb2321a85aacdeb670d87f950dc2b985ece826db01c692e2a6",
+    "bytes": 36228
+  },
+  {
+    "original": "research/work/R9_Gao2023_ALCE_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "34c29c8e6086a74c80edf9f1059fb6700ce15a064001f9f9f7c0e249529031a8",
+    "bytes": 100398
+  },
+  {
+    "original": "research/work/R9_Gao2023_ALCE_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "ff5fd7c8ec5149e416e3cc24d732a4025ea9cf9b560c935ea2b455d6e8097d3b",
+    "bytes": 99911
+  },
+  {
+    "original": "research/work/refusal_draft_comparison_20261028/draft_pages.json",
+    "destination": "research/work/refusal_draft_comparison_20261028/draft_pages.json",
+    "status": "included",
+    "source_sha256": "493707528f07878705c410d35f8f0ecbdf9ccde01b6025029f68cd934cf00c08",
+    "published_sha256": "493707528f07878705c410d35f8f0ecbdf9ccde01b6025029f68cd934cf00c08",
+    "bytes": 44090
+  },
+  {
+    "original": "research/work/refusal_draft_comparison_20261028/draft_text.txt",
+    "destination": "research/work/refusal_draft_comparison_20261028/draft_text.txt",
+    "status": "included",
+    "source_sha256": "e77ff054e0ae5b9d27c07037fd7bcce82ebdda8f023cbf82aff1ff270ef3ebd3",
+    "published_sha256": "e77ff054e0ae5b9d27c07037fd7bcce82ebdda8f023cbf82aff1ff270ef3ebd3",
+    "bytes": 43798
+  },
+  {
+    "original": "research/work/refusal_draft_comparison_20261028/page-03.png",
+    "destination": "research/work/refusal_draft_comparison_20261028/page-03.png",
+    "status": "included",
+    "source_sha256": "210735cee4cdb3428f30cb7c9b0767803de7082c9d5bfa38c27b966e2b75f94c",
+    "published_sha256": "210735cee4cdb3428f30cb7c9b0767803de7082c9d5bfa38c27b966e2b75f94c",
+    "bytes": 419607
+  },
+  {
+    "original": "research/work/refusal_draft_comparison_20261028/page-04.png",
+    "destination": "research/work/refusal_draft_comparison_20261028/page-04.png",
+    "status": "included",
+    "source_sha256": "135c76bb143e1b4fa9d435dfc01056cecc785e7db135e1606729aba94be6a4fc",
+    "published_sha256": "135c76bb143e1b4fa9d435dfc01056cecc785e7db135e1606729aba94be6a4fc",
+    "bytes": 462527
+  },
+  {
+    "original": "research/work/refusal_draft_comparison_20261028/page-05.png",
+    "destination": "research/work/refusal_draft_comparison_20261028/page-05.png",
+    "status": "included",
+    "source_sha256": "6f2c537885282fb3e4da4bd9ef9e695f783ce4b8acf09121d942e97bb70c9f1f",
+    "published_sha256": "6f2c537885282fb3e4da4bd9ef9e695f783ce4b8acf09121d942e97bb70c9f1f",
+    "bytes": 372244
+  },
+  {
+    "original": "research/work/refusal_draft_comparison_20261028/page-06.png",
+    "destination": "research/work/refusal_draft_comparison_20261028/page-06.png",
+    "status": "included",
+    "source_sha256": "2a4623c94581c2ae8ed05e622f3f27eb1719202bcb4b18fafc38df8c99f6b930",
+    "published_sha256": "2a4623c94581c2ae8ed05e622f3f27eb1719202bcb4b18fafc38df8c99f6b930",
+    "bytes": 453485
+  },
+  {
+    "original": "research/work/research_fetch_20261028.py",
+    "destination": "research/work/research_fetch_20261028.py",
+    "status": "included",
+    "source_sha256": "3577b5697a06e77b3c726e301e2c611eb6e5b88fa6e70cdf2bde090c76a92605",
+    "published_sha256": "8af54497b21736befd4eb52db78341d4c8b6aaee6be69f3ced8f1dbfd1da4505",
+    "bytes": 2724
+  },
+  {
+    "original": "research/work/research_finalize_20261028.py",
+    "destination": "research/work/research_finalize_20261028.py",
+    "status": "included",
+    "source_sha256": "cf2b6e55dc67123a3231ff6e9908e2ad5465ef8179949650a45e5bc8053a36f4",
+    "published_sha256": "301db77b886387c480ea9c10ff31612d643dce98ffc7537fc4f2cc39ab601c3f",
+    "bytes": 5692
+  },
+  {
+    "original": "research/work/research_prepare_20261028.py",
+    "destination": "research/work/research_prepare_20261028.py",
+    "status": "included",
+    "source_sha256": "a7641ad3fe6a2231d6939c74c422ee8c254b1e54d27e9abe13c4c13e5b0ee6e5",
+    "published_sha256": "3e66a2d705f11c1a2413a3488222ee06d92fbf50c465210d5916298b1f104721",
+    "bytes": 2006
+  },
+  {
+    "original": "research/work/S1_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "29661a148713ce978f4c7b425cc0d30acb1e9250e2c8ffc7461305f43b48cfe5",
+    "bytes": 108453
+  },
+  {
+    "original": "research/work/S1_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "36e3bfc4daa21cb47fb3eeb9208a332867140f4bcbcc7d461c759cb6573021c7",
+    "bytes": 107821
+  },
+  {
+    "original": "research/work/S1_table2.png",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "第三方原文或网页长缓存；公开研究记录保留来源定位",
+    "source_sha256": "3187f61ba40a6316fc282953798f3439a14b9211448274577587d99a2bfb3596",
+    "bytes": 319300
+  },
+  {
+    "original": "research/work/V1_Alfrink2023_ContestableAI_fulltext.txt",
+    "destination": "research/work/V1_Alfrink2023_ContestableAI_fulltext.txt",
+    "status": "included",
+    "source_sha256": "df49753fe9aa090faa2c68803d9417e7ee71dd3008c45f1a614130570f4d1efa",
+    "published_sha256": "df49753fe9aa090faa2c68803d9417e7ee71dd3008c45f1a614130570f4d1efa",
+    "bytes": 80571
+  },
+  {
+    "original": "research/work/V1_Alfrink2023_ContestableAI_pages.json",
+    "destination": "research/work/V1_Alfrink2023_ContestableAI_pages.json",
+    "status": "included",
+    "source_sha256": "08183f7c50050b71166a8eb760de3196e685c38db416f66300fa95b7dc1d61d5",
+    "published_sha256": "08183f7c50050b71166a8eb760de3196e685c38db416f66300fa95b7dc1d61d5",
+    "bytes": 80009
+  },
+  {
+    "original": "research/work/V2_AshtonFranklin2022_MetaPreferences_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "43da0e625360ad6e3dafe76f9c96097d6ca0e7ceaae22d9274adc3a5df6616e3",
+    "bytes": 19382
+  },
+  {
+    "original": "research/work/V2_AshtonFranklin2022_MetaPreferences_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "8a1ef1d0b35c8c780b52006fcf3bc9ffa22652e762fd7fd5e6601d68aa5de481",
+    "bytes": 19326
+  },
+  {
+    "original": "research/work/V3_Fischli2026_ManyFacesAutonomy_fulltext.txt",
+    "destination": "research/work/V3_Fischli2026_ManyFacesAutonomy_fulltext.txt",
+    "status": "included",
+    "source_sha256": "7fb894cc05194e78e3635ec15756c70d5d0ac1e69e5142cabc034bdd737e2375",
+    "published_sha256": "7fb894cc05194e78e3635ec15756c70d5d0ac1e69e5142cabc034bdd737e2375",
+    "bytes": 90840
+  },
+  {
+    "original": "research/work/V3_Fischli2026_ManyFacesAutonomy_pages.json",
+    "destination": "research/work/V3_Fischli2026_ManyFacesAutonomy_pages.json",
+    "status": "included",
+    "source_sha256": "6add775118b89fdddf37a734fd700b09bf69fd75a3213adf860bc71d403ee1f4",
+    "published_sha256": "6add775118b89fdddf37a734fd700b09bf69fd75a3213adf860bc71d403ee1f4",
+    "bytes": 90329
+  },
+  {
+    "original": "research/work/V4_Li2026_PredictionMemory_fulltext.txt",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "07737738bce0eb3deea6e7796b9acdf2ffd55607d170f6604b7a7a0885e4f38a",
+    "bytes": 35768
+  },
+  {
+    "original": "research/work/V4_Li2026_PredictionMemory_pages.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "source_sha256": "7510219c03b0f3a3164a50be3989380333fa4a98a92375258c8f98d0cba0feb6",
+    "bytes": 35601
+  },
+  {
+    "original": "research/work/创新续查_网页返回.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "第三方原文或网页长缓存；公开研究记录保留来源定位",
+    "source_sha256": "c584dd6d76173e4aa76f4da90fe7482e2319762a535759ad937bb24c5df661e8",
+    "bytes": 278272
+  },
+  {
+    "original": "research/work/变更日志.md",
+    "destination": "research/work/变更日志.md",
+    "status": "included",
+    "source_sha256": "d825f4a8803bb74dff30e05c834869aa4d8c25f373b9c8e349242c270d254755",
+    "published_sha256": "d825f4a8803bb74dff30e05c834869aa4d8c25f373b9c8e349242c270d254755",
+    "bytes": 1715
+  },
+  {
+    "original": "research/work/并行复核与处理.md",
+    "destination": "research/work/并行复核与处理.md",
+    "status": "included",
+    "source_sha256": "a808ade01b4df3ad20efcff7565136a4689b2eebd4a0614a98148e7a26e86cb3",
+    "published_sha256": "a808ade01b4df3ad20efcff7565136a4689b2eebd4a0614a98148e7a26e86cb3",
+    "bytes": 1402
+  },
+  {
+    "original": "research/work/理由纠错_网页检索返回.json",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "第三方原文或网页长缓存；公开研究记录保留来源定位",
+    "source_sha256": "5f009e6c64d67220e5aa2063b635f619fc3d7650c2ac2a913cd6300e240d9d1f",
+    "bytes": 149802
+  },
+  {
+    "original": "research/work/用户原始试跑截图/商品页_倍思30W_001.jpg",
+    "destination": "research/work/用户原始试跑截图/商品页_倍思30W_001.jpg",
+    "status": "included",
+    "source_sha256": "ebda7b07e9cdc16ca4a3f2dae23eb4e891f0e1d5f0f6d678a0a47be3017f020c",
+    "published_sha256": "ebda7b07e9cdc16ca4a3f2dae23eb4e891f0e1d5f0f6d678a0a47be3017f020c",
+    "bytes": 280256
+  },
+  {
+    "original": "research/work/用户原始试跑截图/商品页_倍思30W_002_参数.jpg",
+    "destination": "research/work/用户原始试跑截图/商品页_倍思30W_002_参数.jpg",
+    "status": "included",
+    "source_sha256": "12218226abf513a4dc161a8d413099a76fc3d00fd5f52b7635929314c48ba452",
+    "published_sha256": "12218226abf513a4dc161a8d413099a76fc3d00fd5f52b7635929314c48ba452",
+    "bytes": 179440
+  },
+  {
+    "original": "research/work/用户原始试跑截图/试跑1.jpg",
+    "destination": "research/work/用户原始试跑截图/试跑1.jpg",
+    "status": "included",
+    "source_sha256": "39c5f6436656dcb818d288cded6db13a86038f2bb22b270281d9874d0cd50623",
+    "published_sha256": "39c5f6436656dcb818d288cded6db13a86038f2bb22b270281d9874d0cd50623",
+    "bytes": 858782
+  },
+  {
+    "original": "research/work/用户原始试跑截图/试跑2.jpg",
+    "destination": "research/work/用户原始试跑截图/试跑2.jpg",
+    "status": "included",
+    "source_sha256": "77d314393c2960cfadd8a2bf77dc3aaec39c01688495e4682b596bc03a4893a1",
+    "published_sha256": "77d314393c2960cfadd8a2bf77dc3aaec39c01688495e4682b596bc03a4893a1",
+    "bytes": 886091
+  },
+  {
+    "original": "research/work/用户原始试跑截图/试跑3.jpg",
+    "destination": "research/work/用户原始试跑截图/试跑3.jpg",
+    "status": "included",
+    "source_sha256": "f11aa9d2acb2f5c1cdcdb3834c508d64f998a74e931d6456e9e53e1a50f34d58",
+    "published_sha256": "f11aa9d2acb2f5c1cdcdb3834c508d64f998a74e931d6456e9e53e1a50f34d58",
+    "bytes": 865259
+  },
+  {
+    "original": "research/work/用户试跑截图/片段1.png",
+    "destination": "research/work/用户试跑截图/片段1.png",
+    "status": "included",
+    "source_sha256": "ec83482a9b9f6645b814027c479134ec018c5424a928207c79f44b0824f77f0d",
+    "published_sha256": "ec83482a9b9f6645b814027c479134ec018c5424a928207c79f44b0824f77f0d",
+    "bytes": 670438
+  },
+  {
+    "original": "research/work/用户试跑截图/片段2.png",
+    "destination": "research/work/用户试跑截图/片段2.png",
+    "status": "included",
+    "source_sha256": "d3f05cec6f475842adb5b8f1747b2def062267090c3799eb817d0e972cd3bb92",
+    "published_sha256": "d3f05cec6f475842adb5b8f1747b2def062267090c3799eb817d0e972cd3bb92",
+    "bytes": 656726
+  },
+  {
+    "original": "research/work/用户试跑截图/片段3.png",
+    "destination": "research/work/用户试跑截图/片段3.png",
+    "status": "included",
+    "source_sha256": "8739df213382ca643ecd66ce86eef04ccb691eca13a7ab4b46f331b509d748ea",
+    "published_sha256": "8739df213382ca643ecd66ce86eef04ccb691eca13a7ab4b46f331b509d748ea",
+    "bytes": 834957
+  },
+  {
+    "original": "research/work/用户试跑截图/片段4.png",
+    "destination": "research/work/用户试跑截图/片段4.png",
+    "status": "included",
+    "source_sha256": "b925d3797a4aa331492e4507601c7ee81e675c6bfd4136d8c586ba5d9ae80e96",
+    "published_sha256": "b925d3797a4aa331492e4507601c7ee81e675c6bfd4136d8c586ba5d9ae80e96",
+    "bytes": 712470
+  },
+  {
+    "original": "research/work/用户试跑截图/片段5.png",
+    "destination": "research/work/用户试跑截图/片段5.png",
+    "status": "included",
+    "source_sha256": "20e7bb722293126826f0af61dcd4b9c7d22a051eea2e4573631c333329ea67cd",
+    "published_sha256": "20e7bb722293126826f0af61dcd4b9c7d22a051eea2e4573631c333329ea67cd",
+    "bytes": 659800
+  },
+  {
+    "original": "research/work/用户试跑截图/片段6.png",
+    "destination": "research/work/用户试跑截图/片段6.png",
+    "status": "included",
+    "source_sha256": "f4cbe0390369630952e655f255e0fbf8cacf6f475cce35d106487b12fc989e5c",
+    "published_sha256": "f4cbe0390369630952e655f255e0fbf8cacf6f475cce35d106487b12fc989e5c",
+    "bytes": 458980
+  },
+  {
+    "original": "research/work/用户试跑截图002/片段1.png",
+    "destination": "research/work/用户试跑截图002/片段1.png",
+    "status": "included",
+    "source_sha256": "fdfd92da52da84c2a3e66e606cd6038c222839d920844103d4532299313f145a",
+    "published_sha256": "fdfd92da52da84c2a3e66e606cd6038c222839d920844103d4532299313f145a",
+    "bytes": 678026
+  },
+  {
+    "original": "research/work/用户试跑截图002/片段2.png",
+    "destination": "research/work/用户试跑截图002/片段2.png",
+    "status": "included",
+    "source_sha256": "d0fce560c231788f88075035e2e6a5b2fc94ec1fe75e35972fa632c9798186fe",
+    "published_sha256": "d0fce560c231788f88075035e2e6a5b2fc94ec1fe75e35972fa632c9798186fe",
+    "bytes": 602873
+  },
+  {
+    "original": "research/work/用户试跑截图002/片段3.png",
+    "destination": "research/work/用户试跑截图002/片段3.png",
+    "status": "included",
+    "source_sha256": "ea560bd3894ea5b873c55fe279068a442fa13627f15d81faa8d988e5fb2f0dee",
+    "published_sha256": "ea560bd3894ea5b873c55fe279068a442fa13627f15d81faa8d988e5fb2f0dee",
+    "bytes": 831788
+  },
+  {
+    "original": "research/work/用户试跑截图002/片段4.png",
+    "destination": "research/work/用户试跑截图002/片段4.png",
+    "status": "included",
+    "source_sha256": "fac73577a95da652e79d3591f905ad1e9554141d7eb0ebcbef7c98f68643e2b3",
+    "published_sha256": "fac73577a95da652e79d3591f905ad1e9554141d7eb0ebcbef7c98f68643e2b3",
+    "bytes": 647405
+  },
+  {
+    "original": "research/work/用户试跑截图002/片段5.png",
+    "destination": "research/work/用户试跑截图002/片段5.png",
+    "status": "included",
+    "source_sha256": "ed4bccde5e2b0306aae56b0e0347e1d160058e8a2add87c119674986adc17ef4",
+    "published_sha256": "ed4bccde5e2b0306aae56b0e0347e1d160058e8a2add87c119674986adc17ef4",
+    "bytes": 601836
+  },
+  {
+    "original": "research/work/用户试跑截图002/片段6.png",
+    "destination": "research/work/用户试跑截图002/片段6.png",
+    "status": "included",
+    "source_sha256": "acf700c4b19feb8aec5ec2d425f2b9af58bbdeb47a41bcf10fb6e50b7f3e663a",
+    "published_sha256": "acf700c4b19feb8aec5ec2d425f2b9af58bbdeb47a41bcf10fb6e50b7f3e663a",
+    "bytes": 608609
+  },
+  {
+    "original": "research/work/用户试跑截图002/片段7.png",
+    "destination": "research/work/用户试跑截图002/片段7.png",
+    "status": "included",
+    "source_sha256": "e0c9dbda377a0ffa466ba2e36dfb21ec8cafe20e22ed464f91c5562b64d047fa",
+    "published_sha256": "e0c9dbda377a0ffa466ba2e36dfb21ec8cafe20e22ed464f91c5562b64d047fa",
+    "bytes": 81570
+  },
+  {
+    "original": "research/work/用户试跑截图003/片段1.png",
+    "destination": "research/work/用户试跑截图003/片段1.png",
+    "status": "included",
+    "source_sha256": "9277c4b4e89d8dfb55390aea3b4be972f25e399ac3b22e6c1d81e35bdd201730",
+    "published_sha256": "9277c4b4e89d8dfb55390aea3b4be972f25e399ac3b22e6c1d81e35bdd201730",
+    "bytes": 624643
+  },
+  {
+    "original": "research/work/用户试跑截图003/片段2.png",
+    "destination": "research/work/用户试跑截图003/片段2.png",
+    "status": "included",
+    "source_sha256": "ab6866dac7480afd7f3954c83c2443ca35179f9c14362dff46e0659937a63c56",
+    "published_sha256": "ab6866dac7480afd7f3954c83c2443ca35179f9c14362dff46e0659937a63c56",
+    "bytes": 568183
+  },
+  {
+    "original": "research/work/用户试跑截图003/片段3.png",
+    "destination": "research/work/用户试跑截图003/片段3.png",
+    "status": "included",
+    "source_sha256": "a151655287737826571779d19ca04a4213296937210a90781aab88a69126b4f3",
+    "published_sha256": "a151655287737826571779d19ca04a4213296937210a90781aab88a69126b4f3",
+    "bytes": 777869
+  },
+  {
+    "original": "research/work/用户试跑截图003/片段4.png",
+    "destination": "research/work/用户试跑截图003/片段4.png",
+    "status": "included",
+    "source_sha256": "b7dfc6e9b086b5d1300689b2f6f67fb73706782502626afe29815d2ae9467052",
+    "published_sha256": "b7dfc6e9b086b5d1300689b2f6f67fb73706782502626afe29815d2ae9467052",
+    "bytes": 718803
+  },
+  {
+    "original": "research/work/用户试跑截图003/片段5.png",
+    "destination": "research/work/用户试跑截图003/片段5.png",
+    "status": "included",
+    "source_sha256": "b329d5ab9f67c711a53053c2056b9a42c847e6f9eec8fd3402d925d5b9d83807",
+    "published_sha256": "b329d5ab9f67c711a53053c2056b9a42c847e6f9eec8fd3402d925d5b9d83807",
+    "bytes": 590515
+  },
+  {
+    "original": "research/work/用户试跑截图003/片段6.png",
+    "destination": "research/work/用户试跑截图003/片段6.png",
+    "status": "included",
+    "source_sha256": "74e9870046a25fac8c7b0fc83189c226f2eddaaf502f63e958500c8298f79384",
+    "published_sha256": "74e9870046a25fac8c7b0fc83189c226f2eddaaf502f63e958500c8298f79384",
+    "bytes": 601383
+  },
+  {
+    "original": "research/work/用户试跑截图003/片段7.png",
+    "destination": "research/work/用户试跑截图003/片段7.png",
+    "status": "included",
+    "source_sha256": "12ce8df77a5f8133655ded47e96da2da922e981bdb2e39d259a4c25268808128",
+    "published_sha256": "12ce8df77a5f8133655ded47e96da2da922e981bdb2e39d259a4c25268808128",
+    "bytes": 90090
+  },
+  {
+    "original": "research/work/规则-4.png",
+    "destination": "research/work/规则-4.png",
+    "status": "included",
+    "source_sha256": "90553f3192a569c897374d4da395983d5d4c729780a4f1fd114500d286e0d453",
+    "published_sha256": "90553f3192a569c897374d4da395983d5d4c729780a4f1fd114500d286e0d453",
+    "bytes": 386867
+  },
+  {
+    "original": "research/work/规则-5.png",
+    "destination": "research/work/规则-5.png",
+    "status": "included",
+    "source_sha256": "20625a33bb6bb1d2531cb53550b193abf96ad63d1cbb4cd4e3517b817db2c65c",
+    "published_sha256": "20625a33bb6bb1d2531cb53550b193abf96ad63d1cbb4cd4e3517b817db2c65c",
+    "bytes": 455383
+  },
+  {
+    "original": "research/work/规则-6.png",
+    "destination": "research/work/规则-6.png",
+    "status": "included",
+    "source_sha256": "43a0bdef2293784975a2f63b8eaaefa25486b1c0c3ae48918aba13512cd724ba",
+    "published_sha256": "43a0bdef2293784975a2f63b8eaaefa25486b1c0c3ae48918aba13512cd724ba",
+    "bytes": 279636
+  },
+  {
+    "original": "research/三次试跑_关键断言与纠错证据表.md",
+    "destination": "research/三次试跑_关键断言与纠错证据表.md",
+    "status": "included",
+    "source_sha256": "5c389982980d249b13fb0c38b903eec7300dfa2cf807de1bf78701f842c9ea06",
+    "published_sha256": "53ba2727c18c3de9763d762d4e847efc91eee09c7c1f4bfd1df3b931b8802d9f",
+    "bytes": 6108
+  },
+  {
+    "original": "research/三次试跑汇总与研究切口修订建议.md",
+    "destination": "research/三次试跑汇总与研究切口修订建议.md",
+    "status": "included",
+    "source_sha256": "de149ead74419fe38bf26b4924eccd71517e6ca45caabf859dd5a81beb8c6362",
+    "published_sha256": "d0c6d77f689aae35a5aed0b60171d9c31521939cbf625c532b52ffbe6c6b7d04",
+    "bytes": 9418
+  },
+  {
+    "original": "research/交互审计记录_空白.csv",
+    "destination": "research/交互审计记录_空白.csv",
+    "status": "included",
+    "source_sha256": "e87e1d3be1cfb85641828b9e96b8d84fdf683070e6cd2643fc5d6d9e18207a86",
+    "published_sha256": "8d9d2add727c28497e61c0aa922c969ca4a853ca07e9e1cf15d8f053003cc635",
+    "bytes": 443
+  },
+  {
+    "original": "research/交互编码手册_v1.0.md",
+    "destination": "research/交互编码手册_v1.0.md",
+    "status": "included",
+    "source_sha256": "2375a85d0941a3364fb382e558d1b325b41247baa7268a95a0a65e323b790ce8",
+    "published_sha256": "2375a85d0941a3364fb382e558d1b325b41247baa7268a95a0a65e323b790ce8",
+    "bytes": 2636
+  },
+  {
+    "original": "research/仿真复现包_纠错与目标修订_20261028.zip",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "按公开副本重建复现包，避免包内旧路径及重复版本",
+    "source_sha256": "91bede82fab81d6bf050f197e482453468fba41122ef32d0e2052d96cd7d3e05",
+    "bytes": 24854416
+  },
+  {
+    "original": "research/元宝桌面版预试_结果与论证修订.md",
+    "destination": "research/元宝桌面版预试_结果与论证修订.md",
+    "status": "included",
+    "source_sha256": "fe22ca653a31aa139832954753ae9b242c9be340aaf1d2ffbb4130b3000d6332",
+    "published_sha256": "aa7e79947218f9a275c27d350bec89ac010ee92697df4f5656ab91db138e5119",
+    "bytes": 8631
+  },
+  {
+    "original": "research/先看这一页_研究方案白话版.md",
+    "destination": "research/先看这一页_研究方案白话版.md",
+    "status": "included",
+    "source_sha256": "563842359796027426de90f6c0ad15362eee995a5bacfa2b0d09e3edc93d60af",
+    "published_sha256": "e0ec7eb8e718dc54419a237c43e41d0a7de8b31cb491668a2df20bdda994fb8b",
+    "bytes": 4368
+  },
+  {
+    "original": "research/创新方向续查_三条候选与推荐.md",
+    "destination": "research/创新方向续查_三条候选与推荐.md",
+    "status": "included",
+    "source_sha256": "58e951022167dd3fe0366e230e2e7d504004f99555f1db1a222c219883bc5860",
+    "published_sha256": "e1dc1de1d85ddb08d2f001ec0ed4e570b1c7e72b36dc8e21e7b1c436e05f2787",
+    "bytes": 17665
+  },
+  {
+    "original": "research/创新比较_拒绝边界与纠错重审_20261028.md",
+    "destination": "research/创新比较_拒绝边界与纠错重审_20261028.md",
+    "status": "included",
+    "source_sha256": "2b7be532e081ae3fcc4a8677160689116cedb0a931e3e253ec6511e2395bdf29",
+    "published_sha256": "2b7be532e081ae3fcc4a8677160689116cedb0a931e3e253ec6511e2395bdf29",
+    "bytes": 12301
+  },
+  {
+    "original": "research/创新点_可主张的具体命题.md",
+    "destination": "research/创新点_可主张的具体命题.md",
+    "status": "included",
+    "source_sha256": "2c555bbdffbe0bbedc28378b9ffa9263041edd876281bf863b4bfd2b5fa4895a",
+    "published_sha256": "dd0e5c8e106be4a39d5d291028c797ce6c4f3a579cdbe42ace1eff581b3e74a4",
+    "bytes": 4844
+  },
+  {
+    "original": "research/创新续查_文献方法与读取记录.md",
+    "destination": "research/创新续查_文献方法与读取记录.md",
+    "status": "included",
+    "source_sha256": "1b1ea2aafb96b5d672c9024eefb8685b15a33f21ce9b41c4882ed3313977d570",
+    "published_sha256": "f80c77ae6a3ed39c6367dd8de37207c458c7c061c9c943f8c03ee8aab902c8de",
+    "bytes": 8592
+  },
+  {
+    "original": "research/参赛研究方案_整合审阅版.md",
+    "destination": "research/参赛研究方案_整合审阅版.md",
+    "status": "included",
+    "source_sha256": "9298be0e134767ea385d9e206f74a7e1181b5e25bc22f183f1f047dda822f7ba",
+    "published_sha256": "a52fbe08033b079b5c0e8d4ee1caed6caa9bbbe8039bae38897c3a7e6cde8d5e",
+    "bytes": 31693
+  },
+  {
+    "original": "research/商品事实表_空白.csv",
+    "destination": "research/商品事实表_空白.csv",
+    "status": "included",
+    "source_sha256": "895b16d3ead9d41cd74e54bae8bc2fdfec6eafc8a59504d0f631ebbe130a6dae",
+    "published_sha256": "688080f6ec6bf5e9c8e84242b060b7f84eb8e546771603a7b83659becaadff09",
+    "bytes": 329
+  },
+  {
+    "original": "research/文件校验SHA256.json",
+    "destination": "research/文件校验SHA256.json.local-record",
+    "status": "included",
+    "source_sha256": "ca93e96c0f0db98d454a39890b3dcc7e75fb77a43acb1fbc815490bfaacb869b",
+    "published_sha256": "ca93e96c0f0db98d454a39890b3dcc7e75fb77a43acb1fbc815490bfaacb869b",
+    "bytes": 5895
+  },
+  {
+    "original": "research/构造案例_错误依据与目标变更_研究设计.md",
+    "destination": "research/构造案例_错误依据与目标变更_研究设计.md",
+    "status": "included",
+    "source_sha256": "d75a5135c354cb42bfd7ee52582e84c7be6c2b5f14f53e3234ab6ec6a688bf21",
+    "published_sha256": "d75a5135c354cb42bfd7ee52582e84c7be6c2b5f14f53e3234ab6ec6a688bf21",
+    "bytes": 6303
+  },
+  {
+    "original": "research/检索日志与最近研究核对.md",
+    "destination": "research/检索日志与最近研究核对.md",
+    "status": "included",
+    "source_sha256": "70a91a98323e5423fc753def2b72b44d4ac8c3d54af715490d3fea98212b175f",
+    "published_sha256": "b78b05ee589a728ac63629ef89aefb7ab7a6206b93f11fd7358cfda874482783",
+    "bytes": 10767
+  },
+  {
+    "original": "research/现在看这一页_整合方案说明.md",
+    "destination": "research/现在看这一页_整合方案说明.md",
+    "status": "included",
+    "source_sha256": "d1e453cb90f9ecb75a3e2271e203a530770297fba76b4b0397957ea5f44c86aa",
+    "published_sha256": "5adef21a35d700ef80c43fc11d8c0f0d1a4d2f7bebcb559ff571a3f511b708bc",
+    "bytes": 1891
+  },
+  {
+    "original": "research/理由核验与纠错_近邻研究核对.md",
+    "destination": "research/理由核验与纠错_近邻研究核对.md",
+    "status": "included",
+    "source_sha256": "fe5b0ae5e5d1b5465c4dd29bc2ba83e12de25f0adc86c769b3688d62a93fa729",
+    "published_sha256": "d804b2c05837f785bae3bf215c96dd16f59301f350f71ba0f78c3ea2688f0156",
+    "bytes": 10252
+  },
+  {
+    "original": "research/研究与论证方案_A-I.md",
+    "destination": "research/研究与论证方案_A-I.md",
+    "status": "included",
+    "source_sha256": "dfc68babc3672f290502d9dd1aa5dc94a17812378e2c82055be1302ca8d9374f",
+    "published_sha256": "fb4840832776288de0ec2eb9c5f6234d74c910b4717544f816a48b387c221deb",
+    "bytes": 59538
+  },
+  {
+    "original": "research/研究简介_仿真后草案.txt",
+    "destination": "research/研究简介_仿真后草案.txt",
+    "status": "included",
+    "source_sha256": "5c0c3a6fde9f086da05bba47ffb7ba956d1edda72c2b91018f15301c7701ef73",
+    "published_sha256": "5c0c3a6fde9f086da05bba47ffb7ba956d1edda72c2b91018f15301c7701ef73",
+    "bytes": 589
+  },
+  {
+    "original": "research/研究简介_审阅稿.txt",
+    "destination": "research/研究简介_审阅稿.txt",
+    "status": "included",
+    "source_sha256": "4b0de0da8fd38cabaaf13b50f7ed1519f6ba3816ad61e9638257a46168a604cf",
+    "published_sha256": "4b0de0da8fd38cabaaf13b50f7ed1519f6ba3816ad61e9638257a46168a604cf",
+    "bytes": 553
+  },
+  {
+    "original": "research/纠错对照案例与审计设计_未执行.md",
+    "destination": "research/纠错对照案例与审计设计_未执行.md",
+    "status": "included",
+    "source_sha256": "d098faa221b4d1737b838635d0eb3392a1386edf7755c058e93d37c873e3f0ce",
+    "published_sha256": "d098faa221b4d1737b838635d0eb3392a1386edf7755c058e93d37c873e3f0ce",
+    "bytes": 9736
+  },
+  {
+    "original": "research/继续研究_案例分析与论证方案.md",
+    "destination": "research/继续研究_案例分析与论证方案.md",
+    "status": "included",
+    "source_sha256": "4dba3f062b755843797b52e762b48ae9f81923024fcceb84badb071fc5e022fd",
+    "published_sha256": "87e4f5630df652bf7697519717663afd1aee66bea437f08738920b90d8fef977",
+    "bytes": 22268
+  },
+  {
+    "original": "research/编码复核_空白.csv",
+    "destination": "research/编码复核_空白.csv",
+    "status": "included",
+    "source_sha256": "c7648a0833d1f4a70487c363c540bd8fe9f957cb0cd29b04d6542513535cccc0",
+    "published_sha256": "fd878091b244bf6ff485f51fa1e0a2f33830a0ec8de1445635c652df43807ebd",
+    "bytes": 113
+  },
+  {
+    "original": "research/论点证据台账_已填.csv",
+    "destination": "research/论点证据台账_已填.csv",
+    "status": "included",
+    "source_sha256": "2847ccdc8f29f21320d9ff8722219ea3c14138693d86d9bfaac5700fcab8fb46",
+    "published_sha256": "bac372f034f6d203014454da4cf5d3a88db7d816f93118883eeae138d982f374",
+    "bytes": 4845
+  },
+  {
+    "original": "research/论点证据台账_空白.csv",
+    "destination": "research/论点证据台账_空白.csv",
+    "status": "included",
+    "source_sha256": "18733e36975d0ab958b7448db0b1c4a7e3e176a04690f0afa4ad65bdbdd87aa2",
+    "published_sha256": "dbbdc2592acd432ee9c1ffbfa234ea62de21148c9795abbb088114bce5e7e51a",
+    "bytes": 175
+  },
+  {
+    "original": "research/阅读入口.md",
+    "destination": "research/阅读入口.md",
+    "status": "included",
+    "source_sha256": "3b102367a61cb5b17e0a1358db7633fbbd039d76318cacf03ba1076953f5b44f",
+    "published_sha256": "cafa22cb02d7055b7d9685de1370673a4953f25e3cd8d084ef71bc706d572898",
+    "bytes": 8105
+  },
+  {
+    "original": "research/预试后继续分析_创新增量与强基线比较.md",
+    "destination": "research/预试后继续分析_创新增量与强基线比较.md",
+    "status": "included",
+    "source_sha256": "16d4fbd4e4693c8cd845f4cdd9b4e391df9fdac77451b5a1ccb9e62974851904",
+    "published_sha256": "b2df2f6a0b3b0aff5ea46ccc017780659e65289c91b5084fe6b60655ca9d7f4b",
+    "bytes": 11412
+  },
+  {
+    "original": "literature/01_论文全文PDF/C2_数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "176f204792d7ee98fea1493363c19f93354e5958234ec9a0e67d22bdb8ab8c4b",
+    "bytes": 829511
+  },
+  {
+    "original": "literature/01_论文全文PDF/C3_基于信任的自动化决策：算法解释权的原理反思与制度重构.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "69030f378e9e570bedbfaadf788e8243a863b76bea68ff3f194bbb39d0bc89e1",
+    "bytes": 1697458
+  },
+  {
+    "original": "literature/01_论文全文PDF/C4_算法解释在民法中的体系定位与类型区分.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "f66c088e667d2c372c70ceb243c974bb1c8beb03ba1d197ec2b52671f8092423",
+    "bytes": 1159129
+  },
+  {
+    "original": "literature/01_论文全文PDF/C5_数字经济中算法消费者的生成机理、保护方案与制度建构.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "c1b97ab319ebb3708efbd99f2c4f8f46c35b44b97acbbfeaf75ebcbc00082190",
+    "bytes": 558404
+  },
+  {
+    "original": "literature/01_论文全文PDF/I1_The Role of Consumer Autonomy in Developing Sustainable AI_ A Conceptual Framework.pdf",
+    "destination": "literature/01_论文全文PDF/I1_The Role of Consumer Autonomy in Developing Sustainable AI_ A Conceptual Framework.pdf",
+    "status": "included",
+    "source_sha256": "a6057dd9756eac24f58353f64be624879622a3e5ddceb58c9216e799fabfbe6d",
+    "published_sha256": "a6057dd9756eac24f58353f64be624879622a3e5ddceb58c9216e799fabfbe6d",
+    "bytes": 444214
+  },
+  {
+    "original": "literature/01_论文全文PDF/I2_Trademarks in the Age of Automated Commerce_ Consumer Choice and Autonomy.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "b02d8da7e947f7c5e171aefbc3239a89b2d42b6cfbdb23ab702c19ad03c6dce3",
+    "bytes": 518284
+  },
+  {
+    "original": "literature/01_论文全文PDF/I3_A Theory of Exploitation for Consumer Law_ Online Choice Architectures, Dark Patterns, and Autonomy Violations.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "3125316d1e6ae82f5a2c2de4569f7f4c75ae141c686192c617efe223f3514193",
+    "bytes": 935005
+  },
+  {
+    "original": "literature/01_论文全文PDF/I4_Technology, Autonomy, and Manipulation.pdf",
+    "destination": "literature/01_论文全文PDF/I4_Technology, Autonomy, and Manipulation.pdf",
+    "status": "included",
+    "source_sha256": "85cf376f3bd6c0c3cb09cb9061983d8c40d14f219f07a318d58d8b373b50ef9e",
+    "published_sha256": "85cf376f3bd6c0c3cb09cb9061983d8c40d14f219f07a318d58d8b373b50ef9e",
+    "bytes": 275871
+  },
+  {
+    "original": "literature/01_论文全文PDF/I5_Consumer Choice and Autonomy in the Age of Artificial Intelligence and Big Data.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "bc6a0d86b6c64b746bb56691c8fbd73c908aaadc6f46e047f1155cc2ee5d8a02",
+    "bytes": 430682
+  },
+  {
+    "original": "literature/01_论文全文PDF/N2_Regulating dark patterns.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "eacedf568e8a3c6d95f3082855924ad59aff1c679721ecc2b47bf4a55aaf9438",
+    "bytes": 672396
+  },
+  {
+    "original": "literature/01_论文全文PDF/N3_Digital market manipulation.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "563758ef8689e2ee1ad2954f2e1d142362a59b48ed775c496528b52a5c00dc75",
+    "bytes": 9881963
+  },
+  {
+    "original": "literature/01_论文全文PDF/N6_Human autonomy at risk_ An analysis of the challenges from AI.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "19c176ffde5507a84a2dbdf2ca1e4806f4ce52c4823866012d6a9a1bc4301dbe",
+    "bytes": 666151
+  },
+  {
+    "original": "literature/01_论文全文PDF/N7_Slave to the algorithm_ Why a ‘right to an explanation’ is probably not the remedy you are looking for.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "2e2a6241860219ac50f76f763821d4769980b795a50721883cb51c0baa828989",
+    "bytes": 973902
+  },
+  {
+    "original": "literature/01_论文全文PDF/N8_The silent death of EU consumer law and its resilient revival_ Reinventing consumer protection against unfair digital comm.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "595233e54eea84b6c9469c48cef4631971fd09b50bd8db3b21582c716ad2529f",
+    "bytes": 712203
+  },
+  {
+    "original": "literature/01_论文全文PDF/S1_What Makes a Dark Pattern... Dark_ Design Attributes, Normative Considerations, and Measurement Methods.pdf",
+    "destination": "",
+    "status": "indexed_only",
+    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "source_sha256": "0599c70275eb8e70b1ffadf90909152c683ed79bfbcdc3baa020c4cd74bf2df7",
+    "bytes": 885680
+  },
+  {
+    "original": "literature/02_网页全文/C2_数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径.html",
+    "destination": "literature/02_网页全文/C2_数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径.html",
+    "status": "included",
+    "source_sha256": "68f02e797b205f5e57d49168d7d00131bde7d014773304b9e08dc900884241b1",
+    "published_sha256": "68f02e797b205f5e57d49168d7d00131bde7d014773304b9e08dc900884241b1",
+    "bytes": 95019
+  },
+  {
+    "original": "literature/02_网页全文/I2_自动化商业时代的商标：消费者选择与自主性.html",
+    "destination": "literature/02_网页全文/I2_自动化商业时代的商标：消费者选择与自主性.html",
+    "status": "included",
+    "source_sha256": "776e070081173f4db2b17af2f8cd3e288dd0e4ee8f6138a6f78a35c7ffd71051",
+    "published_sha256": "776e070081173f4db2b17af2f8cd3e288dd0e4ee8f6138a6f78a35c7ffd71051",
+    "bytes": 109145
+  },
+  {
+    "original": "literature/02_网页全文/I3_消费者法中的剥削理论：在线选择架构、暗黑模式与自主性侵害.html",
+    "destination": "literature/02_网页全文/I3_消费者法中的剥削理论：在线选择架构、暗黑模式与自主性侵害.html",
+    "status": "included",
+    "source_sha256": "d1c61c1b216d8c7b0b30e9b2f84ff2bd8b2ce619596e5622954a7fa1dccd0513",
+    "published_sha256": "d1c61c1b216d8c7b0b30e9b2f84ff2bd8b2ce619596e5622954a7fa1dccd0513",
+    "bytes": 158580
+  },
+  {
+    "original": "literature/02_网页全文/I4_技术、自主性与操纵.html",
+    "destination": "literature/02_网页全文/I4_技术、自主性与操纵.html",
+    "status": "included",
+    "source_sha256": "97c3b007335bf11d2226c50c9dd1b0ec6789ab3c056b0c2da8bb015d1d5b4645",
+    "published_sha256": "97c3b007335bf11d2226c50c9dd1b0ec6789ab3c056b0c2da8bb015d1d5b4645",
+    "bytes": 79216
+  },
+  {
+    "original": "literature/02_网页全文/I5_人工智能与大数据时代的消费者选择与自主性.html",
+    "destination": "literature/02_网页全文/I5_人工智能与大数据时代的消费者选择与自主性.html",
+    "status": "included",
+    "source_sha256": "e64e225ef6150754c691ac0c319adb5c0ccec29378c492396f64fb89d5ed3984",
+    "published_sha256": "e64e225ef6150754c691ac0c319adb5c0ccec29378c492396f64fb89d5ed3984",
+    "bytes": 63450
+  },
+  {
+    "original": "literature/02_网页全文/N6_人的自主性面临风险？对人工智能挑战的分析.html",
+    "destination": "literature/02_网页全文/N6_人的自主性面临风险？对人工智能挑战的分析.html",
+    "status": "included",
+    "source_sha256": "38b5dc89f73383c3299ea95b163952394dc7c8eeebc491752dfcdc416a3a0c4b",
+    "published_sha256": "38b5dc89f73383c3299ea95b163952394dc7c8eeebc491752dfcdc416a3a0c4b",
+    "bytes": 77541
+  },
+  {
+    "original": "literature/02_网页全文/N8_欧盟消费者法的无声消亡与韧性复兴：重塑对不公平数字商业行为的消费者保护.html",
+    "destination": "literature/02_网页全文/N8_欧盟消费者法的无声消亡与韧性复兴：重塑对不公平数字商业行为的消费者保护.html",
+    "status": "included",
+    "source_sha256": "b688f430bd84682e4a91a129e905ece3a79b7d23b520450b37c74d6313e51fbf",
+    "published_sha256": "b688f430bd84682e4a91a129e905ece3a79b7d23b520450b37c74d6313e51fbf",
+    "bytes": 82570
+  },
+  {
+    "original": "literature/03_逐篇文献卡/C1_人机交互中的消费者自主选择权.md",
+    "destination": "literature/03_逐篇文献卡/C1_人机交互中的消费者自主选择权.md",
+    "status": "included",
+    "source_sha256": "0a4d818fd4ad5ede9237d69f5122900d3d5ae10fb6d5df4133372cd7673dc44c",
+    "published_sha256": "0a4d818fd4ad5ede9237d69f5122900d3d5ae10fb6d5df4133372cd7673dc44c",
+    "bytes": 1560
+  },
+  {
+    "original": "literature/03_逐篇文献卡/C2_数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径.md",
+    "destination": "literature/03_逐篇文献卡/C2_数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径.md",
+    "status": "included",
+    "source_sha256": "5820c730ca2b80cb0e15f9c74702a37ad3aec733569de18919e9c4e651b2dbf2",
+    "published_sha256": "d9c429627cc59e8a255c269e86aaa29ed093e6a25db60853c7055283a25c7e13",
+    "bytes": 2410
+  },
+  {
+    "original": "literature/03_逐篇文献卡/C3_基于信任的自动化决策：算法解释权的原理反思与制度重构.md",
+    "destination": "literature/03_逐篇文献卡/C3_基于信任的自动化决策：算法解释权的原理反思与制度重构.md",
+    "status": "included",
+    "source_sha256": "1e16a5d4fc6309c312f278c00e35e9f75b9d84daa900ad3c5bb4c5cd716c36e9",
+    "published_sha256": "974fa62121b4e931a9c28d8ac0bfdedd6948ad2dd9c3319f001d54f9676211f2",
+    "bytes": 2222
+  },
+  {
+    "original": "literature/03_逐篇文献卡/C4_算法解释在民法中的体系定位与类型区分.md",
+    "destination": "literature/03_逐篇文献卡/C4_算法解释在民法中的体系定位与类型区分.md",
+    "status": "included",
+    "source_sha256": "ef477833a82d33a2c3a7b3dcb0a7da38e7d7e74f15ebdadcabdb1ab8cfdf2e9e",
+    "published_sha256": "26b5fb4caa97c7732df23bdcf1865c110cf0c3c9bcfb6a29f95b14cbb2be91ce",
+    "bytes": 1940
+  },
+  {
+    "original": "literature/03_逐篇文献卡/C5_数字经济中算法消费者的生成机理、保护方案与制度建构.md",
+    "destination": "literature/03_逐篇文献卡/C5_数字经济中算法消费者的生成机理、保护方案与制度建构.md",
+    "status": "included",
+    "source_sha256": "99f7d55c018c370a6c6980694b55f64a6d0a639dc9dfc8b6e8686970f9fba21b",
+    "published_sha256": "3edb6aa861b87af287ca25e92f0886111ae783aeb3c5baa91c109950914fcb50",
+    "bytes": 1766
+  },
+  {
+    "original": "literature/03_逐篇文献卡/I1_消费者自主性在可持续人工智能发展中的作用：概念框架.md",
+    "destination": "literature/03_逐篇文献卡/I1_消费者自主性在可持续人工智能发展中的作用：概念框架.md",
+    "status": "included",
+    "source_sha256": "427b03e74faba820a403fa2e5ad846a58a108be7aaf67dddfa26bc588669dc2d",
+    "published_sha256": "427b03e74faba820a403fa2e5ad846a58a108be7aaf67dddfa26bc588669dc2d",
+    "bytes": 2181
+  },
+  {
+    "original": "literature/03_逐篇文献卡/I2_自动化商业时代的商标：消费者选择与自主性.md",
+    "destination": "literature/03_逐篇文献卡/I2_自动化商业时代的商标：消费者选择与自主性.md",
+    "status": "included",
+    "source_sha256": "5a929c1a92fd92fb9e8fccb80089cc4e7478c95ae685f0b7058da8c8c1a4143b",
+    "published_sha256": "10aa6aa9194a7041680f808c9b07a87f99b721aa59d50e448886e946407fdeed",
+    "bytes": 2216
+  },
+  {
+    "original": "literature/03_逐篇文献卡/I3_消费者法中的剥削理论：在线选择架构、暗黑模式与自主性侵害.md",
+    "destination": "literature/03_逐篇文献卡/I3_消费者法中的剥削理论：在线选择架构、暗黑模式与自主性侵害.md",
+    "status": "included",
+    "source_sha256": "4885872607d6ea097948e693179a4c5f5cf7302a215271279fe4e9b24e1786fd",
+    "published_sha256": "6ff57d3565f925834efe5b7e47efe034689f93703562dac16e1d321cb6d4fb5a",
+    "bytes": 2595
+  },
+  {
+    "original": "literature/03_逐篇文献卡/I4_技术、自主性与操纵.md",
+    "destination": "literature/03_逐篇文献卡/I4_技术、自主性与操纵.md",
+    "status": "included",
+    "source_sha256": "6c03227c8af66ac04d9306285a8af95ef78ddec1e6190598fc130bb63964900f",
+    "published_sha256": "6c03227c8af66ac04d9306285a8af95ef78ddec1e6190598fc130bb63964900f",
+    "bytes": 1909
+  },
+  {
+    "original": "literature/03_逐篇文献卡/I5_人工智能与大数据时代的消费者选择与自主性.md",
+    "destination": "literature/03_逐篇文献卡/I5_人工智能与大数据时代的消费者选择与自主性.md",
+    "status": "included",
+    "source_sha256": "42ffe771026275dd83a4a609a1a528ebb9f79c905e3f3f3fe7e8bd747ea1ae0d",
+    "published_sha256": "f3717595005e79e6a51873c7f28ee2b475b11c6e394bf264f5b1bb69276a563c",
+    "bytes": 2377
+  },
+  {
+    "original": "literature/03_逐篇文献卡/I6_消费者操纵：定义、分类与未来研究议程.md",
+    "destination": "literature/03_逐篇文献卡/I6_消费者操纵：定义、分类与未来研究议程.md",
+    "status": "included",
+    "source_sha256": "12008ee9998bb68cf4009a6608bc4191a1c04623d089b7f2122cea0a060f224d",
+    "published_sha256": "12008ee9998bb68cf4009a6608bc4191a1c04623d089b7f2122cea0a060f224d",
+    "bytes": 2264
+  },
+  {
+    "original": "literature/03_逐篇文献卡/N1_在线消费交易中自主性的侵蚀.md",
+    "destination": "literature/03_逐篇文献卡/N1_在线消费交易中自主性的侵蚀.md",
+    "status": "included",
+    "source_sha256": "fdef77ee90bc7604bbb10848b16fde063e458308cc9ec615ed45fc0296c9f870",
+    "published_sha256": "fdef77ee90bc7604bbb10848b16fde063e458308cc9ec615ed45fc0296c9f870",
+    "bytes": 1961
+  },
+  {
+    "original": "literature/03_逐篇文献卡/N2_暗黑模式的规制.md",
+    "destination": "literature/03_逐篇文献卡/N2_暗黑模式的规制.md",
+    "status": "included",
+    "source_sha256": "ea5e32a5d72a559c50f51f1deeceb941f8279c48ff24aac43c331dc7bf0cd51f",
+    "published_sha256": "7f0b3bfd583e625a468d7ddee91caf918f74be645c7cd73f72bae8992f865ab0",
+    "bytes": 1728
+  },
+  {
+    "original": "literature/03_逐篇文献卡/N3_数字市场操纵.md",
+    "destination": "literature/03_逐篇文献卡/N3_数字市场操纵.md",
+    "status": "included",
+    "source_sha256": "9667a745c9b5195f7b5c781f685f24101af1b62d1ce349e109a380ae40b13ce4",
+    "published_sha256": "7161f86e0c10267a04bad2f1fdabf657bc8cf94803dc23f28932100e5786f6e8",
+    "bytes": 1552
+  },
+  {
+    "original": "literature/03_逐篇文献卡/N4_算法操纵：探索不公平商业行为、数据保护与隐私法的三角关系.md",
+    "destination": "literature/03_逐篇文献卡/N4_算法操纵：探索不公平商业行为、数据保护与隐私法的三角关系.md",
+    "status": "included",
+    "source_sha256": "1c1cf788d2ae39c7658c7882bb7dc15c56c5e91a5af28acf5ad4d2e93e0dce2b",
+    "published_sha256": "1c1cf788d2ae39c7658c7882bb7dc15c56c5e91a5af28acf5ad4d2e93e0dce2b",
+    "bytes": 2100
+  },
+  {
+    "original": "literature/03_逐篇文献卡/N5_超级助推：大数据作为通过设计实施规制的模式.md",
+    "destination": "literature/03_逐篇文献卡/N5_超级助推：大数据作为通过设计实施规制的模式.md",
+    "status": "included",
+    "source_sha256": "c41a8244b0cda81a061b852ad3f8159fa90f771577f82f837c7b45f934b61cf4",
+    "published_sha256": "c41a8244b0cda81a061b852ad3f8159fa90f771577f82f837c7b45f934b61cf4",
+    "bytes": 2170
+  },
+  {
+    "original": "literature/03_逐篇文献卡/N6_人的自主性面临风险？对人工智能挑战的分析.md",
+    "destination": "literature/03_逐篇文献卡/N6_人的自主性面临风险？对人工智能挑战的分析.md",
+    "status": "included",
+    "source_sha256": "61d0c78c642a81866569ad36fd496c327d407be0d12ce8b4a11bd1db3d840faf",
+    "published_sha256": "0cbbc22489f05f763f4cfd9d36f34f22c1531bac78ef1c9ab92a399895bf2d14",
+    "bytes": 2235
+  },
+  {
+    "original": "literature/03_逐篇文献卡/N7_算法的奴隶？为何解释权可能不是你要的救济.md",
+    "destination": "literature/03_逐篇文献卡/N7_算法的奴隶？为何解释权可能不是你要的救济.md",
+    "status": "included",
+    "source_sha256": "ca33f0a44fe0bc21c672b976aa479fbe08b7f48bb7494d9d6231d4e34a2d7e11",
+    "published_sha256": "aa0d8970642a1e1b75b708e85431a7a2217ddfce114e3cced9acbda54e5a70af",
+    "bytes": 1865
+  },
+  {
+    "original": "literature/03_逐篇文献卡/N8_欧盟消费者法的无声消亡与韧性复兴：重塑对不公平数字商业行为的消费者保护.md",
+    "destination": "literature/03_逐篇文献卡/N8_欧盟消费者法的无声消亡与韧性复兴：重塑对不公平数字商业行为的消费者保护.md",
+    "status": "included",
+    "source_sha256": "59375a4fd61cba4fd325c717cc116a2c7a63af10e949b24ac55e21869dbaa6f8",
+    "published_sha256": "d10432ef40cd8249b233400f8ddee7b3fd9792d8a2eab3424226d3cb8cda9654",
+    "bytes": 2588
+  },
+  {
+    "original": "literature/03_逐篇文献卡/S1_何以使暗黑模式成为暗黑模式？设计属性、规范考量与测量方法.md",
+    "destination": "literature/03_逐篇文献卡/S1_何以使暗黑模式成为暗黑模式？设计属性、规范考量与测量方法.md",
+    "status": "included",
+    "source_sha256": "53496065040a3f0b801e35d5aa6f7920bbb77dffba80802f1efa5f4f22b10e7b",
+    "published_sha256": "c5b12291b43824400791dac3db3f1918f25479d28fbdb59511cd23512546f1b7",
+    "bytes": 1835
+  },
+  {
+    "original": "literature/03_逐篇文献卡/S2_房间中的AI代理：自主AI时代消费者决策的再思考.md",
+    "destination": "literature/03_逐篇文献卡/S2_房间中的AI代理：自主AI时代消费者决策的再思考.md",
+    "status": "included",
+    "source_sha256": "9b2ce270af19de785954146beb1cb8b6e3e5cdac27615b87453852a8023000d2",
+    "published_sha256": "9b2ce270af19de785954146beb1cb8b6e3e5cdac27615b87453852a8023000d2",
+    "bytes": 1866
+  },
+  {
+    "original": "literature/04_来源与获取记录/crossref_10.1002_mar.70165.json",
+    "destination": "literature/04_来源与获取记录/crossref_10.1002_mar.70165.json",
+    "status": "included",
+    "source_sha256": "f0771c65e9b7df7b080772df78f40f08fc06b05653014f3f10503168d24c6de5",
+    "published_sha256": "f0771c65e9b7df7b080772df78f40f08fc06b05653014f3f10503168d24c6de5",
+    "bytes": 16599
+  },
+  {
+    "original": "literature/04_来源与获取记录/crossref_10.1108_JICES-09-2023-0119.json",
+    "destination": "literature/04_来源与获取记录/crossref_10.1108_JICES-09-2023-0119.json",
+    "status": "included",
+    "source_sha256": "c3d07beffc1a30bf5a57643e712a0f9b8345bee941badc61e9ed7f7226f19c2c",
+    "published_sha256": "c3d07beffc1a30bf5a57643e712a0f9b8345bee941badc61e9ed7f7226f19c2c",
+    "bytes": 28813
+  },
+  {
+    "original": "literature/04_来源与获取记录/crossref_10.1111_eulj.12389.json",
+    "destination": "literature/04_来源与获取记录/crossref_10.1111_eulj.12389.json",
+    "status": "included",
+    "source_sha256": "f24156d5e6fd0857622d20bc7a91999c67d260d26a93d982f0a4b42d61f0888c",
+    "published_sha256": "f24156d5e6fd0857622d20bc7a91999c67d260d26a93d982f0a4b42d61f0888c",
+    "bytes": 5798
+  },
+  {
+    "original": "literature/04_来源与获取记录/crossref_10.3390_su13042332.json",
+    "destination": "literature/04_来源与获取记录/crossref_10.3390_su13042332.json",
+    "status": "included",
+    "source_sha256": "0030f53062f2b5d5959f5a45b26d31b6a12fbdc000376ff0902a052b2f99a016",
+    "published_sha256": "0030f53062f2b5d5959f5a45b26d31b6a12fbdc000376ff0902a052b2f99a016",
+    "bytes": 31319
+  },
+  {
+    "original": "literature/04_来源与获取记录/收集与核对说明.md",
+    "destination": "literature/04_来源与获取记录/收集与核对说明.md",
+    "status": "included",
+    "source_sha256": "a1c44f7e4ab464c44314c8d3bf2eb34e6a08ceb0c31003182b5b8756b5f36db2",
+    "published_sha256": "a1c44f7e4ab464c44314c8d3bf2eb34e6a08ceb0c31003182b5b8756b5f36db2",
+    "bytes": 1583
+  },
+  {
+    "original": "literature/04_来源与获取记录/文献与下载记录.json",
+    "destination": "literature/04_来源与获取记录/文献与下载记录.json",
+    "status": "included",
+    "source_sha256": "f5f014a76fd4ebea6dea94e7ceee5d32388e0b2e30b37ff61179ccf22f014e1c",
+    "published_sha256": "f5f014a76fd4ebea6dea94e7ceee5d32388e0b2e30b37ff61179ccf22f014e1c",
+    "bytes": 67843
+  },
+  {
+    "original": "literature/原始两轮文献汇总.md",
+    "destination": "literature/原始两轮文献汇总.md",
+    "status": "included",
+    "source_sha256": "3d75afeec4e2f1967450433578647b5688fa6c1c34184d4560d9fbbfeaf32815",
+    "published_sha256": "3d75afeec4e2f1967450433578647b5688fa6c1c34184d4560d9fbbfeaf32815",
+    "bytes": 25905
+  },
+  {
+    "original": "literature/参考文献.bib",
+    "destination": "literature/参考文献.bib",
+    "status": "included",
+    "source_sha256": "9a767af6e030c0637ae7e0f4b3427956f8f3203540c7726ee5249d8674de909a",
+    "published_sha256": "9a767af6e030c0637ae7e0f4b3427956f8f3203540c7726ee5249d8674de909a",
+    "bytes": 7632
+  },
+  {
+    "original": "literature/参考文献.ris",
+    "destination": "literature/参考文献.ris",
+    "status": "included",
+    "source_sha256": "b4fe60454c9f7c4dc09ae3a2b7c8c55e86b44e29fb562d8657db182bf71199b3",
+    "published_sha256": "cc42d44a6471fca8a2749f5223da771aa26dae4939a15b7033a02bd14b02f858",
+    "bytes": 8319
+  },
+  {
+    "original": "literature/文献目录与下载状态.md",
+    "destination": "literature/文献目录与下载状态.md",
+    "status": "included",
+    "source_sha256": "c94610373a49d7989d3061a9f0072802889b088b37d134ec7f4b42f8c30a9aca",
+    "published_sha256": "3036bbf9ec049c2113609fd2a1436f48d316934f17d6afe69e11365a0a62eb0c",
+    "bytes": 14103
+  },
+  {
+    "original": "literature/阅读导航.html",
+    "destination": "literature/阅读导航.html",
+    "status": "included",
+    "source_sha256": "38ebc710ce5f99b82b6ed748a26bb0f688399fdb23791ac9bf2add63637dc4af",
+    "published_sha256": "6032564d64665978e4c9c87bb708e5b77a65643081e7493dfa94a70c26e2eb58",
+    "bytes": 21009
+  },
+  {
+    "original": "stage1/拒绝后的再建议边界_研究报告初稿.pdf",
+    "destination": "stage1/拒绝后的再建议边界_研究报告初稿.pdf",
+    "status": "included",
+    "source_sha256": "cc1812749cc8cf9c711757e4af0b78adc5744da7a9c8caa48993e25080c89fd7",
+    "published_sha256": "cc1812749cc8cf9c711757e4af0b78adc5744da7a9c8caa48993e25080c89fd7",
+    "bytes": 352793
+  },
+  {
+    "original": "literature/两轮文献汇总_消费者自主选择权_20261027.md",
+    "destination": "literature/两轮文献汇总_消费者自主选择权_20261027.md",
+    "status": "included",
+    "source_sha256": "3d75afeec4e2f1967450433578647b5688fa6c1c34184d4560d9fbbfeaf32815",
+    "published_sha256": "3d75afeec4e2f1967450433578647b5688fa6c1c34184d4560d9fbbfeaf32815",
+    "bytes": 25905
+  }
+]

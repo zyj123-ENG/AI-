@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Asia/Shanghai",
+  "deliverable_scope": "研究与论证方案；非整篇参赛论文",
+  "source_md_sha256": "3d75afeec4e2f1967450433578647b5688fa6c1c34184d4560d9fbbfeaf32815",
+  "source_md_matches_package_copy": true,
+  "main_sections": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I"
+  ],
+  "core_full_argument_read_count": 8,
+  "original_pdf_count": 15,
+  "title": "AI导购中消费目标修订与自主选择",
+  "title_characters": 16,
+  "intro_characters": 185,
+  "local_markdown_links_checked": 24,
+  "missing_local_links": [],
+  "empty_csv_templates": 4,
+  "real_ai_audit": "not_performed",
+  "human_participant_study": "not_performed",
+  "matlab_simulation": "not_run",
+  "reference_lists_individually_verified": false,
+  "user_attested_reading": false,
+  "author_topic_and_contribution_decision": "pending_review",
+  "submission": "not_performed",
+  "cnki_similarity_check": "not_performed",
+  "reviewed_design_repairs": [
+    "区分重筛有解与停止有效",
+    "披露D与控制C分离",
+    "识别b/阅读r/理解q分离",
+    "请求停止与执行停止分离",
+    "主CASE同事实",
+    "加入较强逐轮遵从竞争基线",
+    "仿真限定任务级预算更新"
+  ]
+}

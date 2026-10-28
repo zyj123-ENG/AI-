@@ -1,0 +1,144 @@
+[
+  {
+    "id": "N1_smu.pdf",
+    "url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=3688&context=sol_research",
+    "access_date": "2026-10-28",
+    "status": "failed",
+    "content_type": "text/html",
+    "final_url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=3688&context=sol_research",
+    "error": "Response is not a PDF"
+  },
+  {
+    "id": "N5_yeung.pdf",
+    "url": "https://law.unimelb.edu.au/__data/assets/pdf_file/0003/3290385/Yeung-2017-Hypernudge-Big-Data-as-a-mode-of-regulation-by-.pdf",
+    "access_date": "2026-10-28",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "N4_hacker.html",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/eulj.12389",
+    "access_date": "2026-10-28",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "N4_hacker.pdf",
+    "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/eulj.12389",
+    "access_date": "2026-10-28",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "R1_lara2026.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/s11948-026-00619-7.pdf",
+    "access_date": "2026-10-28",
+    "status": "saved",
+    "content_type": "application/pdf",
+    "final_url": "https://link.springer.com/content/pdf/10.1007/s11948-026-00619-7.pdf?error=cookies_not_supported&code=eda77027-c517-4d69-b94b-ac87082530f4",
+    "bytes": 792266,
+    "sha256": "6a227c4ca79e7b06ce1ebcdb1cc78bceb95a330c32d297af446de08ae99ce23c",
+    "file": "research\\sources\\R1_lara2026.pdf",
+    "pages": 24
+  },
+  {
+    "id": "R2_delvalle2023.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/s00146-023-01720-2.pdf",
+    "access_date": "2026-10-28",
+    "status": "saved",
+    "content_type": "application/pdf",
+    "final_url": "https://link.springer.com/content/pdf/10.1007/s00146-023-01720-2.pdf?error=cookies_not_supported&code=701dc4b0-637e-40ed-8635-c322d86e9e6c",
+    "bytes": 694527,
+    "sha256": "00bd930b14c1963677d540f597ce95fbed1ec90bd2edad47de394b42f88e4acb",
+    "file": "research\\sources\\R2_delvalle2023.pdf",
+    "pages": 13
+  },
+  {
+    "id": "比赛通知.html",
+    "url": "https://www.aicomp.cn/notice/notice-3/3921.html",
+    "access_date": "2026-10-28",
+    "status": "saved",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.aicomp.cn/notice/notice-3/3921.html",
+    "bytes": 25149,
+    "sha256": "bfaa7264255ffeb32d81cc02ab7666c8040a796982bc93b2e2ef46d609eab85e",
+    "file": "research\\sources\\比赛通知.html"
+  },
+  {
+    "id": "赛程调整.html",
+    "url": "https://www.aicomp.cn/notice/notice-3/5435.html",
+    "access_date": "2026-10-28",
+    "status": "saved",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.aicomp.cn/notice/notice-3/5435.html",
+    "bytes": 21543,
+    "sha256": "e1f5c544ebea5aebf602fb751e7d019b3e1b7452764b2297c4a0a1fd4460cbc5",
+    "file": "research\\sources\\赛程调整.html"
+  },
+  {
+    "id": "消法.html",
+    "url": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+    "access_date": "2026-10-28",
+    "status": "saved",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+    "bytes": 42008,
+    "sha256": "f38cb5faa197717526b483afe37a70db9aa936186157669240bf44aae7741c8d",
+    "file": "research\\sources\\消法.html"
+  },
+  {
+    "id": "消法实施条例.html",
+    "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2024/art_0aea188276a44f0baf940ab95ee00e0a.html",
+    "access_date": "2026-10-28",
+    "status": "saved",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2024/art_0aea188276a44f0baf940ab95ee00e0a.html",
+    "bytes": 84893,
+    "sha256": "3060ccdeca876b90750503efaa78431126513ef16d228a3541840267cf02b427",
+    "file": "research\\sources\\消法实施条例.html"
+  },
+  {
+    "id": "个保法.html",
+    "url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "access_date": "2026-10-28",
+    "status": "saved",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "bytes": 60221,
+    "sha256": "50b62bb9868648fe0417d8757a8cff62641eba6d879403f363d771f8c6d3acff",
+    "file": "research\\sources\\个保法.html"
+  },
+  {
+    "id": "算法推荐规定.html",
+    "url": "https://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm",
+    "access_date": "2026-10-28",
+    "status": "saved",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm",
+    "bytes": 31231,
+    "sha256": "89aa514b53377b1cda3742f74addddbbc9f44bb2927c9eaf65793f55ce19eda9",
+    "file": "research\\sources\\算法推荐规定.html"
+  },
+  {
+    "id": "互联网广告办法.html",
+    "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_d93a579afd45413e8576e4623fab348f.html",
+    "access_date": "2026-10-28",
+    "status": "saved",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_d93a579afd45413e8576e4623fab348f.html",
+    "bytes": 34400,
+    "sha256": "8b43afcf58d7a92a5a826f2cb51c376779a3ac74adecc80771392347ee469bcb",
+    "file": "research\\sources\\互联网广告办法.html"
+  },
+  {
+    "id": "Apple快充条件.html",
+    "url": "https://support.apple.com/zh-cn/102574",
+    "access_date": "2026-10-28",
+    "status": "saved",
+    "content_type": "text/html;charset=utf-8",
+    "final_url": "https://support.apple.com/zh-cn/102574",
+    "bytes": 161904,
+    "sha256": "ee095b9c479492da4414c6657c93246ca6407f4239e60b95f94f309a7d3ceabb",
+    "file": "research\\sources\\Apple快充条件.html"
+  }
+]

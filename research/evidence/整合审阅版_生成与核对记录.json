@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-28",
+  "title": "AI导购纠错与目标重审",
+  "titleCharacters": 11,
+  "introCharactersIncludingPunctuation": 191,
+  "ledgerRows": 16,
+  "cases": 3,
+  "userMessages": 9,
+  "anonymousDialogueMatchesOriginal": true,
+  "privateURLAndPathPatternCheck": "pass for anonymous dialogue outputs only",
+  "mainLocalLinksChecked": 14,
+  "scope": "研究方案与材料完整性；不是正式参赛包验收，也不是命题真实性的独立证明",
+  "files": {
+    "参赛研究方案_整合审阅版.md": {
+      "bytes": 30069,
+      "sha256": "7d6991434f450f62e091c6be417ecea04ef1c32057d742634a9e2834b431f4ae"
+    },
+    "现在看这一页_整合方案说明.md": {
+      "bytes": 1521,
+      "sha256": "47476ce6a4f1f98583215ba5042b9693daa183f411d01cc333929706ab0412c2"
+    },
+    "研究简介_审阅稿.txt": {
+      "bytes": 553,
+      "sha256": "4b0de0da8fd38cabaaf13b50f7ed1519f6ba3816ad61e9638257a46168a604cf"
+    },
+    "论点证据台账_已填.csv": {
+      "bytes": 4848,
+      "sha256": "2847ccdc8f29f21320d9ff8722219ea3c14138693d86d9bfaac5700fcab8fb46"
+    },
+    "evidence/元宝桌面版预试_匿名文字摘录.md": {
+      "bytes": 6395,
+      "sha256": "4401945234d29d2f5e89afc932a04f02ad7d2423e1b95063cde84f34fe175c47"
+    },
+    "evidence/元宝桌面版预试_匿名会话.json": {
+      "bytes": 7497,
+      "sha256": "66f54b8d65b6a08fcc4336e2a5ff7cb0af6bb92573944cda670b63cf7271b098"
+    }
+  }
+}

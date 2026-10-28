@@ -1,0 +1,1451 @@
+[
+  {
+    "id": "C1",
+    "title": "人机交互中的消费者自主选择权",
+    "chinese_title": "人机交互中的消费者自主选择权",
+    "citation": "李术平. (2026). 人机交互中的消费者自主选择权. 东方法学, (4), 161–173. DOI：10.19404/j.cnki.dffx.2026.04.009。",
+    "doi": "10.19404/j.cnki.dffx.2026.04.009",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "李术平"
+      ],
+      "year": 2026,
+      "journal": "东方法学",
+      "issue": "4",
+      "pages": "161-173"
+    },
+    "status": "未获取全文",
+    "download_version": "未取得可交付的全文文件；保留原始书目、已有介绍与访问入口",
+    "urls": [
+      "https://dffx.cbpt.cnki.net/portal/journal/portal/client/paper/733a7018411f03dc6a6b65090b27fbf8"
+    ],
+    "attempts": [
+      {
+        "url": "https://dffx.cbpt.cnki.net/portal/journal/portal/client/paper/733a7018411f03dc6a6b65090b27fbf8",
+        "final_url": "https://dffx.cbpt.cnki.net/portal/journal/portal/client/paper/733a7018411f03dc6a6b65090b27fbf8",
+        "http_status": 200,
+        "content_type": "text/html;charset=UTF-8",
+        "bytes": 115725,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "东方法学",
+        "text_length": 12066,
+        "pdf_candidates": []
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：A，期刊知网门户摘要、中英文书目及参考文献；未获取论文正文，不评估其全文论证强弱。",
+    "card_path": "03_逐篇文献卡\\C1_人机交互中的消费者自主选择权.md",
+    "web_files": [],
+    "pdfs": [],
+    "excluded_downloads": []
+  },
+  {
+    "id": "C2",
+    "title": "数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径",
+    "chinese_title": "数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径",
+    "citation": "刘颖, 刘佳璇. (2024). 数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径. 上海财经大学学报, 26(5), 122–138. DOI：10.16538/j.cnki.jsufe.2024.05.009。",
+    "doi": "10.16538/j.cnki.jsufe.2024.05.009",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "刘颖",
+        "刘佳璇"
+      ],
+      "year": 2024,
+      "journal": "上海财经大学学报",
+      "volume": "26",
+      "issue": "5",
+      "pages": "122-138"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "公开PDF版本；题名、页数及PDF结构已检查",
+    "urls": [
+      "https://qks.sufe.edu.cn/J/CDXB/Article/Details/v0egHuVr-W1ly-7zCM-1Orz-Rp6QuvA2XDdh/CN",
+      "https://qks.sufe.edu.cn/mv_html/j00003/202405/v0egHuVr-W1ly-7zCM-1Orz-Rp6QuvA2XDdh_WEB.htm"
+    ],
+    "attempts": [
+      {
+        "url": "https://qks.sufe.edu.cn/J/CDXB/Article/Details/v0egHuVr-W1ly-7zCM-1Orz-Rp6QuvA2XDdh/CN",
+        "final_url": "https://qks.sufe.edu.cn/J/CDXB/Article/Details/v0egHuVr-W1ly-7zCM-1Orz-Rp6QuvA2XDdh/CN",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 54380,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径 -- 上海财经大学期刊社",
+        "text_length": 1486,
+        "pdf_candidates": [
+          "http://qks.sufe.edu.cn/J/PDFFull/v0egHuVr-W1ly-7zCM-1Orz-Rp6QuvA2XDdh.pdf",
+          "https://qks.sufe.edu.cn/j/PDFFull/v0egHuVr-W1ly-7zCM-1Orz-Rp6QuvA2XDdh.pdf"
+        ]
+      },
+      {
+        "url": "https://qks.sufe.edu.cn/mv_html/j00003/202405/v0egHuVr-W1ly-7zCM-1Orz-Rp6QuvA2XDdh_WEB.htm",
+        "final_url": "https://qks.sufe.edu.cn/mv_html/j00003/202405/v0egHuVr-W1ly-7zCM-1Orz-Rp6QuvA2XDdh_WEB.htm",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes": 164862,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径",
+        "text_length": 51430,
+        "pdf_candidates": []
+      },
+      {
+        "url": "http://qks.sufe.edu.cn/J/PDFFull/v0egHuVr-W1ly-7zCM-1Orz-Rp6QuvA2XDdh.pdf",
+        "final_url": "https://qks.sufe.edu.cn/J/PDFFull/v0egHuVr-W1ly-7zCM-1Orz-Rp6QuvA2XDdh.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 829511,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：S，官方摘要及正文中分类、知情同意与意思自治的相关段落；未逐项核实文中所有案例与引文。",
+    "card_path": "03_逐篇文献卡\\C2_数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径.md",
+    "web_files": [
+      "02_网页全文\\C2_数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径.html"
+    ],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\C2_数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径.pdf",
+        "source": "https://qks.sufe.edu.cn/J/PDFFull/v0egHuVr-W1ly-7zCM-1Orz-Rp6QuvA2XDdh.pdf",
+        "pages": 17,
+        "metadata_title": "",
+        "sha256": "176f204792d7ee98fea1493363c19f93354e5958234ec9a0e67d22bdb8ab8c4b",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 17,
+          "sha256": "176f204792d7ee98fea1493363c19f93354e5958234ec9a0e67d22bdb8ab8c4b"
+        }
+      }
+    ],
+    "excluded_downloads": []
+  },
+  {
+    "id": "C3",
+    "title": "基于信任的自动化决策：算法解释权的原理反思与制度重构",
+    "chinese_title": "基于信任的自动化决策：算法解释权的原理反思与制度重构",
+    "citation": "丁晓东. (2022). 基于信任的自动化决策：算法解释权的原理反思与制度重构. 中国法学, (1), 99–118. https://doi.org/10.14111/j.cnki.zgfx.20211230.001",
+    "doi": "10.14111/j.cnki.zgfx.20211230.001",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "丁晓东"
+      ],
+      "year": 2022,
+      "journal": "中国法学",
+      "issue": "1",
+      "pages": "99-118"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "公开PDF版本；题名、页数及PDF结构已检查",
+    "urls": [
+      "https://lti.ruc.edu.cn/sy/xsgd/rgznyfz_/0ba974b152904bd2841da5aa41f094f4.htm",
+      "https://www.civillaw.com.cn/lw/t/?id=38534",
+      "https://www.civillaw.com.cn/uploadfile/lmpic/20220313/20220313154753180.pdf"
+    ],
+    "attempts": [
+      {
+        "url": "https://lti.ruc.edu.cn/sy/xsgd/rgznyfz_/0ba974b152904bd2841da5aa41f094f4.htm",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://www.civillaw.com.cn/lw/t/?id=38534",
+        "final_url": "https://www.civillaw.com.cn/lw/t/?id=38534",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes": 110046,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "���������������ε��Զ������ߡ����㷨����Ȩ��ԭ����˼���ƶ��ع�- ѧ��ǰ�� - ���̷�����",
+        "text_length": 10574,
+        "pdf_candidates": []
+      },
+      {
+        "url": "https://www.civillaw.com.cn/uploadfile/lmpic/20220313/20220313154753180.pdf",
+        "final_url": "https://www.civillaw.com.cn/uploadfile/lmpic/20220313/20220313154753180.pdf",
+        "http_status": 200,
+        "content_type": "application/octet-stream",
+        "bytes": 1697458,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      }
+    ],
+    "metadata_updates": [
+      "从本次取得的正式版PDF首页补核DOI。原始清单保持不变。"
+    ],
+    "input_reading_scope": "读取范围：S，仅检索索引提供的作者所在研究院内容及授权学者选编摘要；机构页和选编页直接打开均超时，未获取期刊全文。99–118页另与学术文献书目交叉核对。正式引用观点前宜补正文。",
+    "card_path": "03_逐篇文献卡\\C3_基于信任的自动化决策：算法解释权的原理反思与制度重构.md",
+    "web_files": [],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\C3_基于信任的自动化决策：算法解释权的原理反思与制度重构.pdf",
+        "source": "https://www.civillaw.com.cn/uploadfile/lmpic/20220313/20220313154753180.pdf",
+        "pages": 20,
+        "metadata_title": "",
+        "sha256": "69030f378e9e570bedbfaadf788e8243a863b76bea68ff3f194bbb39d0bc89e1",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 20,
+          "sha256": "69030f378e9e570bedbfaadf788e8243a863b76bea68ff3f194bbb39d0bc89e1"
+        }
+      }
+    ],
+    "excluded_downloads": []
+  },
+  {
+    "id": "C4",
+    "title": "算法解释在民法中的体系定位与类型区分",
+    "chinese_title": "算法解释在民法中的体系定位与类型区分",
+    "citation": "胡巧莉, 刘征峰. (2022). 算法解释在民法中的体系定位与类型区分. 财经法学, (4), 67–82. DOI：10.16823/j.cnki.10-1281/d.2022.04.002。",
+    "doi": "10.16823/j.cnki.10-1281/d.2022.04.002",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "胡巧莉",
+        "刘征峰"
+      ],
+      "year": 2022,
+      "journal": "财经法学",
+      "issue": "4",
+      "pages": "67-82"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "公开PDF版本；题名、页数及PDF结构已检查",
+    "urls": [
+      "https://cjfx.cbpt.cnki.net/portal/journal/portal/client/paper/c5232ddeb00c96fb7291904492be257e",
+      "https://cjfx.cufe.edu.cn/__local/D/EA/87/5631C75AE8F5D300A59CD9772E1_7413AFA2_11AFD9.pdf"
+    ],
+    "attempts": [
+      {
+        "url": "https://cjfx.cufe.edu.cn/__local/D/EA/87/5631C75AE8F5D300A59CD9772E1_7413AFA2_11AFD9.pdf",
+        "final_url": "https://cjfx.cufe.edu.cn/__local/D/EA/87/5631C75AE8F5D300A59CD9772E1_7413AFA2_11AFD9.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 1159129,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      },
+      {
+        "url": "https://cjfx.cbpt.cnki.net/portal/journal/portal/client/paper/c5232ddeb00c96fb7291904492be257e",
+        "final_url": "https://cjfx.cbpt.cnki.net/portal/journal/portal/client/paper/c5232ddeb00c96fb7291904492be257e",
+        "http_status": 200,
+        "content_type": "text/html;charset=UTF-8",
+        "bytes": 113920,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "财经法学",
+        "text_length": 10806,
+        "pdf_candidates": []
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：S，期刊官方摘要及官方PDF首页引言／内容提要，未通读16页全文。",
+    "card_path": "03_逐篇文献卡\\C4_算法解释在民法中的体系定位与类型区分.md",
+    "web_files": [],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\C4_算法解释在民法中的体系定位与类型区分.pdf",
+        "source": "https://cjfx.cufe.edu.cn/__local/D/EA/87/5631C75AE8F5D300A59CD9772E1_7413AFA2_11AFD9.pdf",
+        "pages": 16,
+        "metadata_title": "标题",
+        "sha256": "f66c088e667d2c372c70ceb243c974bb1c8beb03ba1d197ec2b52671f8092423",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 16,
+          "sha256": "f66c088e667d2c372c70ceb243c974bb1c8beb03ba1d197ec2b52671f8092423"
+        }
+      }
+    ],
+    "excluded_downloads": []
+  },
+  {
+    "id": "C5",
+    "title": "数字经济中算法消费者的生成机理、保护方案与制度建构",
+    "chinese_title": "数字经济中算法消费者的生成机理、保护方案与制度建构",
+    "citation": "刘颖. (2023). 数字经济中算法消费者的生成机理、保护方案与制度建构. 深圳大学学报（人文社会科学版）, 40(2), 112–122。期刊页面DOI栏未显示数值，不补造。",
+    "doi": "",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "刘颖"
+      ],
+      "year": 2023,
+      "journal": "深圳大学学报（人文社会科学版）",
+      "volume": "40",
+      "issue": "2",
+      "pages": "112-122"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "公开PDF版本；题名、页数及PDF结构已检查",
+    "urls": [
+      "https://xb.szu.edu.cn/CN/abstract/abstract1050.shtml"
+    ],
+    "attempts": [
+      {
+        "url": "https://xb.szu.edu.cn/CN/abstract/abstract1050.shtml",
+        "final_url": "https://xb.szu.edu.cn/CN/abstract/abstract1050.shtml",
+        "http_status": 200,
+        "content_type": "text/html;charset=UTF-8",
+        "bytes": 46327,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "数字经济中算法消费者的生成机理、保护方案与制度建构",
+        "text_length": 6908,
+        "pdf_candidates": [
+          "https://xb.szu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=1050"
+        ]
+      },
+      {
+        "url": "https://xb.szu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=1050",
+        "final_url": "https://xb.szu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=1050",
+        "http_status": 200,
+        "content_type": "application/x-download",
+        "bytes": 558404,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：A，官方检索索引中的摘要与书目；直接获取期刊页超时，未读取全文，不评价具体方法缺陷。",
+    "card_path": "03_逐篇文献卡\\C5_数字经济中算法消费者的生成机理、保护方案与制度建构.md",
+    "web_files": [],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\C5_数字经济中算法消费者的生成机理、保护方案与制度建构.pdf",
+        "source": "https://xb.szu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=1050",
+        "pages": 11,
+        "metadata_title": "FIT Document(C:\\Documents and Settings\\Administrator\\桌面\\2023-2\\飞腾\\1.付文军.FIT)",
+        "sha256": "c1b97ab319ebb3708efbd99f2c4f8f46c35b44b97acbbfeaf75ebcbc00082190",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 11,
+          "sha256": "c1b97ab319ebb3708efbd99f2c4f8f46c35b44b97acbbfeaf75ebcbc00082190"
+        }
+      }
+    ],
+    "excluded_downloads": []
+  },
+  {
+    "id": "I1",
+    "title": "The Role of Consumer Autonomy in Developing Sustainable AI: A Conceptual Framework",
+    "chinese_title": "消费者自主性在可持续人工智能发展中的作用：概念框架",
+    "citation": "Bjørlo, L., Moen, Ø., & Pasquine, M. (2021). The role of consumer autonomy in developing sustainable AI: A conceptual framework. Sustainability, 13(4), Article 2332. https://doi.org/10.3390/su13042332",
+    "doi": "10.3390/su13042332",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "Bjørlo, Lena",
+        "Moen, Øystein",
+        "Pasquine, Mark"
+      ],
+      "year": 2021,
+      "journal": "Sustainability",
+      "volume": "13",
+      "issue": "4",
+      "article": "2332"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "开放获取期刊排版PDF，来自Semantic Scholar公开存档；出版者登记许可为CC BY 4.0",
+    "urls": [
+      "https://www.mdpi.com/2071-1050/13/4/2332",
+      "https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/2730181/Bj%25C3%25B8rlo%252C%2BMoen%2B%2526%2BPasquine%2B%25282021%2529.pdf?isAllowed=y&sequence=1",
+      "https://pdfs.semanticscholar.org/8ead/5a73a267032480cbb489eee1cafaa3803cb2.pdf"
+    ],
+    "attempts": [
+      {
+        "url": "https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/2730181/Bj%25C3%25B8rlo%252C%2BMoen%2B%2526%2BPasquine%2B%25282021%2529.pdf?isAllowed=y&sequence=1",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://www.mdpi.com/2071-1050/13/4/2332",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://pdfs.semanticscholar.org/8ead/5a73a267032480cbb489eee1cafaa3803cb2.pdf",
+        "final_url": "https://pdfs.semanticscholar.org/8ead/5a73a267032480cbb489eee1cafaa3803cb2.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 444214,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：S，出版社搜索索引提供的正文关键章节、命题与讨论；直接打开出版社页返回429。机构库存在公开全文入口。理论命题不能写成已验证效果。",
+    "card_path": "03_逐篇文献卡\\I1_消费者自主性在可持续人工智能发展中的作用：概念框架.md",
+    "web_files": [],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\I1_The Role of Consumer Autonomy in Developing Sustainable AI_ A Conceptual Framework.pdf",
+        "source": "https://pdfs.semanticscholar.org/8ead/5a73a267032480cbb489eee1cafaa3803cb2.pdf",
+        "pages": 18,
+        "metadata_title": "The Role of Consumer Autonomy in Developing Sustainable AI: A Conceptual Framework",
+        "sha256": "a6057dd9756eac24f58353f64be624879622a3e5ddceb58c9216e799fabfbe6d",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 18,
+          "sha256": "a6057dd9756eac24f58353f64be624879622a3e5ddceb58c9216e799fabfbe6d"
+        }
+      }
+    ],
+    "excluded_downloads": []
+  },
+  {
+    "id": "I2",
+    "title": "Trademarks in the Age of Automated Commerce: Consumer Choice and Autonomy",
+    "chinese_title": "自动化商业时代的商标：消费者选择与自主性",
+    "citation": "Sevastianova, V. N. (2023). Trademarks in the age of automated commerce: Consumer choice and autonomy. IIC—International Review of Intellectual Property and Competition Law, 54, 1561–1589. https://doi.org/10.1007/s40319-023-01402-y",
+    "doi": "10.1007/s40319-023-01402-y",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "Sevastianova, Vera N."
+      ],
+      "year": 2023,
+      "journal": "IIC - International Review of Intellectual Property and Competition Law",
+      "volume": "54",
+      "pages": "1561-1589"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "公开PDF版本；题名、页数及PDF结构已检查",
+    "urls": [
+      "https://link.springer.com/article/10.1007/s40319-023-01402-y"
+    ],
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s40319-023-01402-y",
+        "final_url": "https://link.springer.com/article/10.1007/s40319-023-01402-y?error=cookies_not_supported&code=7cc0760c-f568-4741-bd66-fa72c760749a",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 586126,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "Trademarks in the Age of Automated Commerce: Consumer Choice and Autonomy | IIC - International Review of Intellectual Property and Competition Law | Springer Nature Link",
+        "text_length": 104839,
+        "pdf_candidates": [
+          "https://link.springer.com/content/pdf/10.1007/s40319-023-01402-y.pdf",
+          "https://dsa-observatory.eu/wp-content/uploads/2021/11/Buri-Van-Hoboken-DSA-discussion-paper-Version-28_10_21.pdf",
+          "https://su.diva-portal.org/smash/get/diva2:1605131/FULLTEXT01.pdf",
+          "http://www.beuc.eu/sites/default/files/publications/beuc-x-2021-018_eu_consumer_protection_2.0.pdf",
+          "http://www.beuc.eu/sites/default/files/publications/beuc-x-2021-116_the_regulatory_gap-consumer_protection_in_the_digital_economy.pdf"
+        ]
+      },
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/s40319-023-01402-y.pdf",
+        "final_url": "https://link.springer.com/content/pdf/10.1007/s40319-023-01402-y.pdf?error=cookies_not_supported&code=dc21981f-062f-4429-bc22-5f6c2cf9b82a",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 518284,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：S，官方摘要、书目及部分正文；未逐案核对其欧盟判例。不能把其中预测的商业模式当作2026年已普及事实。",
+    "card_path": "03_逐篇文献卡\\I2_自动化商业时代的商标：消费者选择与自主性.md",
+    "web_files": [
+      "02_网页全文\\I2_自动化商业时代的商标：消费者选择与自主性.html"
+    ],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\I2_Trademarks in the Age of Automated Commerce_ Consumer Choice and Autonomy.pdf",
+        "source": "https://link.springer.com/content/pdf/10.1007/s40319-023-01402-y.pdf?error=cookies_not_supported&code=dc21981f-062f-4429-bc22-5f6c2cf9b82a",
+        "pages": 29,
+        "metadata_title": "Trademarks in the Age of Automated Commerce: Consumer Choice and Autonomy",
+        "sha256": "b02d8da7e947f7c5e171aefbc3239a89b2d42b6cfbdb23ab702c19ad03c6dce3",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 29,
+          "sha256": "b02d8da7e947f7c5e171aefbc3239a89b2d42b6cfbdb23ab702c19ad03c6dce3"
+        }
+      }
+    ],
+    "excluded_downloads": []
+  },
+  {
+    "id": "I3",
+    "title": "A Theory of Exploitation for Consumer Law: Online Choice Architectures, Dark Patterns, and Autonomy Violations",
+    "chinese_title": "消费者法中的剥削理论：在线选择架构、暗黑模式与自主性侵害",
+    "citation": "Brenncke, M. (2024). A theory of exploitation for consumer law: Online choice architectures, dark patterns, and autonomy violations. Journal of Consumer Policy, 47, 127–164. https://doi.org/10.1007/s10603-023-09554-7",
+    "doi": "10.1007/s10603-023-09554-7",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "Brenncke, Martin"
+      ],
+      "year": 2024,
+      "journal": "Journal of Consumer Policy",
+      "volume": "47",
+      "pages": "127-164"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "开放获取期刊排版PDF，来自作者机构库；首页网络首发年份为2023，正式卷期为2024",
+    "urls": [
+      "https://link.springer.com/article/10.1007/s10603-023-09554-7",
+      "https://publications.aston.ac.uk/id/eprint/45826/1/M_Brenncke_Theory_of_Exploitation_for_Consumer_Law_Online_Choice_Architectures_Dark_Patterns_and_Autonomy_Violations.pdf"
+    ],
+    "attempts": [
+      {
+        "url": "https://publications.aston.ac.uk/id/eprint/45826/1/M_Brenncke_Theory_of_Exploitation_for_Consumer_Law_Online_Choice_Architectures_Dark_Patterns_and_Autonomy_Violations.pdf",
+        "final_url": "https://publications.aston.ac.uk/id/eprint/45826/1/M_Brenncke_Theory_of_Exploitation_for_Consumer_Law_Online_Choice_Architectures_Dark_Patterns_and_Autonomy_Violations.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 935005,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s10603-023-09554-7",
+        "final_url": "https://link.springer.com/article/10.1007/s10603-023-09554-7?error=cookies_not_supported&code=578c7a11-1a8d-4902-a3c0-a105af531cd4",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 640294,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "A Theory of Exploitation for Consumer Law: Online Choice Architectures, Dark Patterns, and Autonomy Violations | Journal of Consumer Policy | Springer Nature Link",
+        "text_length": 153840,
+        "pdf_candidates": [
+          "https://link.springer.com/content/pdf/10.1007/s10603-023-09554-7.pdf",
+          "http://www.law.harvard.edu/programs/olin_center/papers/pdf/Bar-Gill_1091.pdf",
+          "https://www.europarl.europa.eu/RegData/seance_pleniere/textes_adoptes/definitif/2022/01-20/0014/P9_TA(2022)0014_EN.pdf",
+          "https://fil.forbrukerradet.no/wp-content/uploads/2021/01/2021-01-14-you-can-log-out-but-you-can-never-leave-final.pdf",
+          "https://www.europeanlawinstitute.eu/fileadmin/user_upload/p_eli/Publications/Response_of_the_ELI_to_the_European_Commission_s_Public_Consultation_on_Digital_Fairness_.pdf"
+        ]
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：S，官方摘要、引言、部分理论比较与结论；不是对全部欧盟法条现行状态的核查。",
+    "card_path": "03_逐篇文献卡\\I3_消费者法中的剥削理论：在线选择架构、暗黑模式与自主性侵害.md",
+    "web_files": [
+      "02_网页全文\\I3_消费者法中的剥削理论：在线选择架构、暗黑模式与自主性侵害.html"
+    ],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\I3_A Theory of Exploitation for Consumer Law_ Online Choice Architectures, Dark Patterns, and Autonomy Violations.pdf",
+        "source": "https://publications.aston.ac.uk/id/eprint/45826/1/M_Brenncke_Theory_of_Exploitation_for_Consumer_Law_Online_Choice_Architectures_Dark_Patterns_and_Autonomy_Violations.pdf",
+        "pages": 38,
+        "metadata_title": "A Theory of Exploitation for Consumer Law: Online Choice Architectures, Dark Patterns, and Autonomy Violations",
+        "sha256": "3125316d1e6ae82f5a2c2de4569f7f4c75ae141c686192c617efe223f3514193",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 38,
+          "sha256": "3125316d1e6ae82f5a2c2de4569f7f4c75ae141c686192c617efe223f3514193"
+        }
+      }
+    ],
+    "excluded_downloads": []
+  },
+  {
+    "id": "I4",
+    "title": "Technology, Autonomy, and Manipulation",
+    "chinese_title": "技术、自主性与操纵",
+    "citation": "Susser, D., Roessler, B., & Nissenbaum, H. (2019). Technology, autonomy, and manipulation. Internet Policy Review, 8(2). https://doi.org/10.14763/2019.2.1410",
+    "doi": "10.14763/2019.2.1410",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "Susser, Daniel",
+        "Roessler, Beate",
+        "Nissenbaum, Helen"
+      ],
+      "year": 2019,
+      "journal": "Internet Policy Review",
+      "volume": "8",
+      "issue": "2"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "公开PDF版本；题名、页数及PDF结构已检查",
+    "urls": [
+      "https://policyreview.info/articles/analysis/technology-autonomy-and-manipulation",
+      "https://policyreview.info/pdf/policyreview-2019-2-1410.pdf"
+    ],
+    "attempts": [
+      {
+        "url": "https://policyreview.info/articles/analysis/technology-autonomy-and-manipulation",
+        "final_url": "https://policyreview.info/articles/analysis/technology-autonomy-and-manipulation",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 131918,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "Technology, autonomy, and manipulation | Internet Policy Review",
+        "text_length": 75592,
+        "pdf_candidates": [
+          "https://www.gwlr.org/wp-content/uploads/2018/01/82-Geo.-Wash.-L.-Rev.-995.pdf",
+          "http://www.aies-conference.com/wp-content/papers/main/AIES-19_paper_54.pdf",
+          "https://policyreview.info/pdf/policyreview-2019-2-1410.pdf"
+        ]
+      },
+      {
+        "url": "https://www.gwlr.org/wp-content/uploads/2018/01/82-Geo.-Wash.-L.-Rev.-995.pdf",
+        "final_url": "https://www.gwlr.org/wp-content/uploads/2018/01/82-Geo.-Wash.-L.-Rev.-995.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 9881963,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      },
+      {
+        "url": "https://policyreview.info/pdf/policyreview-2019-2-1410.pdf",
+        "final_url": "https://policyreview.info/pdf/policyreview-2019-2-1410.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 275871,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：S，官方摘要、引言及第1节相关段落，未精读全部参考文献。向AI导购的迁移属于本研究自己的应用，不是作者测试结果。",
+    "card_path": "03_逐篇文献卡\\I4_技术、自主性与操纵.md",
+    "web_files": [
+      "02_网页全文\\I4_技术、自主性与操纵.html"
+    ],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\I4_Technology, Autonomy, and Manipulation.pdf",
+        "source": "https://policyreview.info/pdf/policyreview-2019-2-1410.pdf",
+        "pages": 22,
+        "metadata_title": "",
+        "sha256": "85cf376f3bd6c0c3cb09cb9061983d8c40d14f219f07a318d58d8b373b50ef9e",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 22,
+          "sha256": "85cf376f3bd6c0c3cb09cb9061983d8c40d14f219f07a318d58d8b373b50ef9e"
+        }
+      }
+    ],
+    "excluded_downloads": [
+      {
+        "source": "https://www.gwlr.org/wp-content/uploads/2018/01/82-Geo.-Wash.-L.-Rev.-995.pdf",
+        "reason": "参考文献链接，题名为Digital Market Manipulation；非本条论文，已排除。"
+      }
+    ]
+  },
+  {
+    "id": "I5",
+    "title": "Consumer Choice and Autonomy in the Age of Artificial Intelligence and Big Data",
+    "chinese_title": "人工智能与大数据时代的消费者选择与自主性",
+    "citation": "André, Q., Carmon, Z., Wertenbroch, K., Crum, A., Frank, D., Goldstein, W., Huber, J., van Boven, L., Weber, B., & Yang, H. (2018). Consumer choice and autonomy in the age of artificial intelligence and big data. Customer Needs and Solutions, 5, 28–37. https://doi.org/10.1007/s40547-017-0085-8",
+    "doi": "10.1007/s40547-017-0085-8",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "André, Quentin",
+        "Carmon, Ziv",
+        "Wertenbroch, Klaus",
+        "Crum, Alia",
+        "Frank, Douglas",
+        "Goldstein, William",
+        "Huber, Joel",
+        "van Boven, Leaf",
+        "Weber, Bernd",
+        "Yang, Haiyang"
+      ],
+      "year": 2018,
+      "journal": "Customer Needs and Solutions",
+      "volume": "5",
+      "pages": "28-37"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "公开PDF版本；题名、页数及PDF结构已检查",
+    "urls": [
+      "https://link.springer.com/article/10.1007/s40547-017-0085-8",
+      "https://mbl.stanford.edu/sites/g/files/sbiybj26571/files/media/file/2018_consumer_choice_andre_et_al_cust_need_and_solut.pdf"
+    ],
+    "attempts": [
+      {
+        "url": "https://mbl.stanford.edu/sites/g/files/sbiybj26571/files/media/file/2018_consumer_choice_andre_et_al_cust_need_and_solut.pdf",
+        "final_url": "https://mbl.stanford.edu/sites/g/files/sbiybj26571/files/media/file/2018_consumer_choice_andre_et_al_cust_need_and_solut.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 430682,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s40547-017-0085-8",
+        "final_url": "https://link.springer.com/article/10.1007/s40547-017-0085-8?error=cookies_not_supported&code=3d1d2470-dc7e-4da3-be48-57d1c00329fc",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 467416,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "Consumer Choice and Autonomy in the Age of Artificial Intelligence and Big Data | Customer Needs and Solutions | Springer Nature Link",
+        "text_length": 59745,
+        "pdf_candidates": [
+          "https://link.springer.com/content/pdf/10.1007/s40547-017-0085-8.pdf"
+        ]
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：S，官方摘要、引言及自主性讨论部分，未精读全文。感知自主性与规范意义的自主性需分别使用。",
+    "card_path": "03_逐篇文献卡\\I5_人工智能与大数据时代的消费者选择与自主性.md",
+    "web_files": [
+      "02_网页全文\\I5_人工智能与大数据时代的消费者选择与自主性.html"
+    ],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\I5_Consumer Choice and Autonomy in the Age of Artificial Intelligence and Big Data.pdf",
+        "source": "https://mbl.stanford.edu/sites/g/files/sbiybj26571/files/media/file/2018_consumer_choice_andre_et_al_cust_need_and_solut.pdf",
+        "pages": 10,
+        "metadata_title": "Consumer Choice and Autonomy in the Age of Artificial Intelligence and Big Data",
+        "sha256": "bc6a0d86b6c64b746bb56691c8fbd73c908aaadc6f46e047f1155cc2ee5d8a02",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 10,
+          "sha256": "bc6a0d86b6c64b746bb56691c8fbd73c908aaadc6f46e047f1155cc2ee5d8a02"
+        }
+      }
+    ],
+    "excluded_downloads": []
+  },
+  {
+    "id": "I6",
+    "title": "Consumer Manipulation—A Definition, Classification and Future Research Agenda",
+    "chinese_title": "消费者操纵：定义、分类与未来研究议程",
+    "citation": "Witte, J. (2025). Consumer manipulation—a definition, classification and future research agenda. Journal of Information, Communication and Ethics in Society, 23(1), 14–31. https://doi.org/10.1108/JICES-09-2023-0119",
+    "doi": "10.1108/JICES-09-2023-0119",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "Witte, Janis"
+      ],
+      "year": 2025,
+      "journal": "Journal of Information, Communication and Ethics in Society",
+      "volume": "23",
+      "issue": "1",
+      "pages": "14-31"
+    },
+    "status": "未获取全文",
+    "download_version": "未取得可交付的全文文件；保留原始书目、已有介绍与访问入口",
+    "urls": [
+      "https://doi.org/10.1108/JICES-09-2023-0119",
+      "https://www.emerald.com/jices/article/23/1/14-31/1244953",
+      "https://www.emerald.com/insight/content/doi/10.1108/JICES-09-2023-0119/full/html",
+      "https://www.emerald.com/jices/article/23/1/14/1244953/Consumer-manipulation-a-definition-classification"
+    ],
+    "attempts": [
+      {
+        "url": "https://doi.org/10.1108/JICES-09-2023-0119",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://www.emerald.com/jices/article/23/1/14-31/1244953",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://www.emerald.com/insight/content/doi/10.1108/JICES-09-2023-0119/full/html",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://www.emerald.com/jices/article/23/1/14/1244953/Consumer-manipulation-a-definition-classification",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      }
+    ],
+    "metadata_updates": [
+      "出版社登记记录：2024-12-03网络首发，2025年23(1)正式卷期；书目沿用2025。"
+    ],
+    "input_reading_scope": "读取范围：S，出版社检索索引中的摘要、概念定位与结论节选；DOI直接打开的跳转受工具访问限制，未读取全文，不评价全文方法缺陷。",
+    "card_path": "03_逐篇文献卡\\I6_消费者操纵：定义、分类与未来研究议程.md",
+    "web_files": [],
+    "pdfs": [],
+    "excluded_downloads": []
+  },
+  {
+    "id": "N1",
+    "title": "The erosion of autonomy in online consumer transactions",
+    "chinese_title": "在线消费交易中自主性的侵蚀",
+    "citation": "Mik, E. (2016). The erosion of autonomy in online consumer transactions. Law, Innovation and Technology, 8(1), 1–38. https://doi.org/10.1080/17579961.2016.1161893",
+    "doi": "10.1080/17579961.2016.1161893",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "Mik, Eliza"
+      ],
+      "year": 2016,
+      "journal": "Law, Innovation and Technology",
+      "volume": "8",
+      "issue": "1",
+      "pages": "1-38"
+    },
+    "status": "未获取全文",
+    "download_version": "未取得可交付的全文文件；保留原始书目、已有介绍与访问入口",
+    "urls": [
+      "https://ink.library.smu.edu.sg/sol_research/1736/",
+      "https://www.tandfonline.com/doi/abs/10.1080/17579961.2016.1161893",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2878421",
+      "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=3688&context=sol_research"
+    ],
+    "attempts": [
+      {
+        "url": "https://ink.library.smu.edu.sg/sol_research/1736/",
+        "final_url": "https://ink.library.smu.edu.sg/sol_research/1736/",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes": 212,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "",
+        "text_length": 0,
+        "pdf_candidates": []
+      },
+      {
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/17579961.2016.1161893",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2878421",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=3688&context=sol_research",
+        "final_url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=3688&context=sol_research",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes": 844,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "",
+        "text_length": 83,
+        "pdf_candidates": []
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：A，出版社与作者机构库摘要及正式书目。正文下载点击失败，未读取全文。",
+    "card_path": "03_逐篇文献卡\\N1_在线消费交易中自主性的侵蚀.md",
+    "web_files": [],
+    "pdfs": [],
+    "excluded_downloads": []
+  },
+  {
+    "id": "N2",
+    "title": "Regulating dark patterns",
+    "chinese_title": "暗黑模式的规制",
+    "citation": "Brenncke, M. (2024). Regulating dark patterns. Notre Dame Journal of International & Comparative Law, 14(1), 39–79. 官方文库以Article 5标识。",
+    "doi": "",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "Brenncke, Martin"
+      ],
+      "year": 2024,
+      "journal": "Notre Dame Journal of International & Comparative Law",
+      "volume": "14",
+      "issue": "1",
+      "pages": "39-79"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "作者在arXiv公开的41页版本，具有期刊题头；书目引用2024年正式发表条目，文件内页码从1开始",
+    "urls": [
+      "https://scholarship.law.nd.edu/ndjicl/vol14/iss1/5/",
+      "https://research.aston.ac.uk/en/publications/regulating-dark-patterns/",
+      "https://arxiv.org/pdf/2310.00340"
+    ],
+    "attempts": [
+      {
+        "url": "https://scholarship.law.nd.edu/ndjicl/vol14/iss1/5/",
+        "final_url": "https://scholarship.law.nd.edu/ndjicl/vol14/iss1/5/",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 31289,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "\"Regulating Dark Patterns\" by Martin Brenncke",
+        "text_length": 2033,
+        "pdf_candidates": [
+          "https://scholarship.law.nd.edu/cgi/viewcontent.cgi?article=1194&context=ndjicl"
+        ]
+      },
+      {
+        "url": "https://research.aston.ac.uk/en/publications/regulating-dark-patterns/",
+        "final_url": "https://research.aston.ac.uk/en/publications/regulating-dark-patterns/",
+        "http_status": 200,
+        "content_type": "text/html;charset=UTF-8",
+        "bytes": 60806,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "Regulating Dark Patterns\n      -  Aston Research Explorer",
+        "text_length": 16130,
+        "pdf_candidates": [
+          "https://research.aston.ac.uk/files/147303102/Brenncke_Regulating_Dark_Patterns_2023_AAM.pdf",
+          "https://www2.aston.ac.uk/data-protection/documents-2019/Data%20Protection%20Policy%202019.pdf"
+        ]
+      },
+      {
+        "url": "https://scholarship.law.nd.edu/cgi/viewcontent.cgi?article=1194&context=ndjicl",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://research.aston.ac.uk/files/147303102/Brenncke_Regulating_Dark_Patterns_2023_AAM.pdf",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://www2.aston.ac.uk/data-protection/documents-2019/Data%20Protection%20Policy%202019.pdf",
+        "error": "HTTP Error 404: Not Found",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2310.00340",
+        "final_url": "https://arxiv.org/pdf/2310.00340",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 672396,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：A，正式期刊书目与作者机构库的长摘要。期刊PDF点击失败，未通读正式正文。2023接受稿与2024正式发表不重复计数。",
+    "card_path": "03_逐篇文献卡\\N2_暗黑模式的规制.md",
+    "web_files": [],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\N2_Regulating dark patterns.pdf",
+        "source": "https://arxiv.org/pdf/2310.00340",
+        "pages": 41,
+        "metadata_title": "",
+        "sha256": "eacedf568e8a3c6d95f3082855924ad59aff1c679721ecc2b47bf4a55aaf9438",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 41,
+          "sha256": "eacedf568e8a3c6d95f3082855924ad59aff1c679721ecc2b47bf4a55aaf9438"
+        }
+      }
+    ],
+    "excluded_downloads": []
+  },
+  {
+    "id": "N3",
+    "title": "Digital market manipulation",
+    "chinese_title": "数字市场操纵",
+    "citation": "Calo, R. (2014). Digital market manipulation. The George Washington Law Review, 82(4), 995–1051.",
+    "doi": "",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "Calo, Ryan"
+      ],
+      "year": 2014,
+      "journal": "The George Washington Law Review",
+      "volume": "82",
+      "issue": "4",
+      "pages": "995-1051"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "公开PDF版本；题名、页数及PDF结构已检查",
+    "urls": [
+      "https://www.gwlr.org/calo/",
+      "https://www.gwlr.org/wp-content/uploads/2018/01/82-Geo.-Wash.-L.-Rev.-995.pdf"
+    ],
+    "attempts": [
+      {
+        "url": "https://www.gwlr.org/wp-content/uploads/2018/01/82-Geo.-Wash.-L.-Rev.-995.pdf",
+        "final_url": "https://www.gwlr.org/wp-content/uploads/2018/01/82-Geo.-Wash.-L.-Rev.-995.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 9881963,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      },
+      {
+        "url": "https://www.gwlr.org/calo/",
+        "final_url": "https://www.gwlr.org/calo/",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 142555,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "Digital Market Manipulation -",
+        "text_length": 3290,
+        "pdf_candidates": [
+          "http://www.gwlr.org/wp-content/uploads/2014/10/Calo_82_41.pdf"
+        ]
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：A，期刊官方摘要与书目；未读57页全文。2013工作论文日期与2014期刊年份分开。",
+    "card_path": "03_逐篇文献卡\\N3_数字市场操纵.md",
+    "web_files": [],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\N3_Digital market manipulation.pdf",
+        "source": "https://www.gwlr.org/wp-content/uploads/2018/01/82-Geo.-Wash.-L.-Rev.-995.pdf",
+        "pages": 57,
+        "metadata_title": "",
+        "sha256": "563758ef8689e2ee1ad2954f2e1d142362a59b48ed775c496528b52a5c00dc75",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 57,
+          "sha256": "563758ef8689e2ee1ad2954f2e1d142362a59b48ed775c496528b52a5c00dc75"
+        }
+      }
+    ],
+    "excluded_downloads": []
+  },
+  {
+    "id": "N4",
+    "title": "Manipulation by algorithms",
+    "chinese_title": "算法操纵：探索不公平商业行为、数据保护与隐私法的三角关系",
+    "citation": "Hacker, P. (2023). Manipulation by algorithms. Exploring the triangle of unfair commercial practice, data protection, and privacy law. European Law Journal, 29(1–2), 142–175. https://doi.org/10.1111/eulj.12389",
+    "doi": "10.1111/eulj.12389",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "Hacker, Philipp"
+      ],
+      "year": 2023,
+      "journal": "European Law Journal",
+      "volume": "29",
+      "issue": "1-2",
+      "pages": "142-175"
+    },
+    "status": "未获取全文",
+    "download_version": "未取得可交付的全文文件；保留原始书目、已有介绍与访问入口",
+    "urls": [
+      "https://onlinelibrary.wiley.com/doi/full/10.1111/eulj.12389",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3835259",
+      "https://onlinelibrary.wiley.com/doi/pdf/10.1111/eulj.12389"
+    ],
+    "attempts": [
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/eulj.12389",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3835259",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/eulj.12389",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      }
+    ],
+    "metadata_updates": [
+      "出版社登记记录：2021-12-09网络首发，2023年29(1–2)正式卷期；书目沿用2023。"
+    ],
+    "input_reading_scope": "读取范围：S，官方摘要、引言、第2节相关概念讨论及检索返回的部分结论／治理段落，未精读全部正文和引文。",
+    "card_path": "03_逐篇文献卡\\N4_算法操纵：探索不公平商业行为、数据保护与隐私法的三角关系.md",
+    "web_files": [],
+    "pdfs": [],
+    "excluded_downloads": []
+  },
+  {
+    "id": "N5",
+    "title": "‘Hypernudge’: Big data as a mode of regulation by design",
+    "chinese_title": "超级助推：大数据作为通过设计实施规制的模式",
+    "citation": "Yeung, K. (2017). ‘Hypernudge’: Big data as a mode of regulation by design. Information, Communication & Society, 20(1), 118–136. https://doi.org/10.1080/1369118X.2016.1186713",
+    "doi": "10.1080/1369118X.2016.1186713",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "Yeung, Karen"
+      ],
+      "year": 2017,
+      "journal": "Information, Communication & Society",
+      "volume": "20",
+      "issue": "1",
+      "pages": "118-136"
+    },
+    "status": "未获取全文",
+    "download_version": "未取得可交付的全文文件；保留原始书目、已有介绍与访问入口",
+    "urls": [
+      "https://doi.org/10.1080/1369118X.2016.1186713",
+      "https://law.unimelb.edu.au/__data/assets/pdf_file/0003/3290385/Yeung-2017-Hypernudge-Big-Data-as-a-mode-of-regulation-by-.pdf",
+      "https://kclpure.kcl.ac.uk/portal/files/52352581/Yeung_Big_Data_as_Hypernudge_Short_Form_For_Revised_with_Author_Details_2016_and_changes_accepted.pdf"
+    ],
+    "attempts": [
+      {
+        "url": "https://law.unimelb.edu.au/__data/assets/pdf_file/0003/3290385/Yeung-2017-Hypernudge-Big-Data-as-a-mode-of-regulation-by-.pdf",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://doi.org/10.1080/1369118X.2016.1186713",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      },
+      {
+        "url": "https://kclpure.kcl.ac.uk/portal/files/52352581/Yeung_Big_Data_as_Hypernudge_Short_Form_For_Revised_with_Author_Details_2016_and_changes_accepted.pdf",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：S，出版社摘要及作者任职机构公开PDF的题名页、动态反馈与hypernudge相关段落，未通读全文。出版社直接打开返回403，机构PDF可访问。",
+    "card_path": "03_逐篇文献卡\\N5_超级助推：大数据作为通过设计实施规制的模式.md",
+    "web_files": [],
+    "pdfs": [],
+    "excluded_downloads": []
+  },
+  {
+    "id": "N6",
+    "title": "Human autonomy at risk? An analysis of the challenges from AI",
+    "chinese_title": "人的自主性面临风险？对人工智能挑战的分析",
+    "citation": "Prunkl, C. (2024). Human autonomy at risk? An analysis of the challenges from AI. Minds and Machines, 34, Article 26. https://doi.org/10.1007/s11023-024-09665-1",
+    "doi": "10.1007/s11023-024-09665-1",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "Prunkl, Carina"
+      ],
+      "year": 2024,
+      "journal": "Minds and Machines",
+      "volume": "34",
+      "article": "26"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "公开PDF版本；题名、页数及PDF结构已检查",
+    "urls": [
+      "https://link.springer.com/article/10.1007/s11023-024-09665-1",
+      "https://ora.ox.ac.uk/objects/uuid%3A62aee71a-9b25-4796-b74d-0ed8892be348"
+    ],
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s11023-024-09665-1",
+        "final_url": "https://link.springer.com/article/10.1007/s11023-024-09665-1?error=cookies_not_supported&code=9f1abaa5-5d4d-4ab0-a682-c678a626a33d",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 482820,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "Human Autonomy at Risk? An Analysis of the Challenges from AI | Minds and Machines | Springer Nature Link",
+        "text_length": 73691,
+        "pdf_candidates": [
+          "https://link.springer.com/content/pdf/10.1007/s11023-024-09665-1.pdf",
+          "https://futureoflife.org/wp-content/uploads/2022/01/FLI-Manipulation_AI_Act.pdf"
+        ]
+      },
+      {
+        "url": "https://ora.ox.ac.uk/objects/uuid%3A62aee71a-9b25-4796-b74d-0ed8892be348",
+        "final_url": "https://ora.ox.ac.uk/objects/uuid%3A62aee71a-9b25-4796-b74d-0ed8892be348",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 69385,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "Human Autonomy at Risk? An Analysis of the Challenges from AI - ORA - Oxford University Research Archive",
+        "text_length": 4839,
+        "pdf_candidates": [
+          "https://ora.ox.ac.uk/objects/uuid:62aee71a-9b25-4796-b74d-0ed8892be348/files/rhq37vp888"
+        ]
+      },
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/s11023-024-09665-1.pdf",
+        "final_url": "https://link.springer.com/content/pdf/10.1007/s11023-024-09665-1.pdf?error=cookies_not_supported&code=a0e105b7-de74-4ae7-8b3e-65622e1bca1d",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 666151,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：S，官方摘要、引言及第4.1节相关段落。作者明确承认偏好受环境影响并不自动等于自主性受损，不能简化为“AI改变偏好就是操纵”。",
+    "card_path": "03_逐篇文献卡\\N6_人的自主性面临风险？对人工智能挑战的分析.md",
+    "web_files": [
+      "02_网页全文\\N6_人的自主性面临风险？对人工智能挑战的分析.html"
+    ],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\N6_Human autonomy at risk_ An analysis of the challenges from AI.pdf",
+        "source": "https://link.springer.com/content/pdf/10.1007/s11023-024-09665-1.pdf?error=cookies_not_supported&code=a0e105b7-de74-4ae7-8b3e-65622e1bca1d",
+        "pages": 21,
+        "metadata_title": "Human Autonomy at Risk? An Analysis of the Challenges from AI",
+        "sha256": "19c176ffde5507a84a2dbdf2ca1e4806f4ce52c4823866012d6a9a1bc4301dbe",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 21,
+          "sha256": "19c176ffde5507a84a2dbdf2ca1e4806f4ce52c4823866012d6a9a1bc4301dbe"
+        }
+      }
+    ],
+    "excluded_downloads": []
+  },
+  {
+    "id": "N7",
+    "title": "Slave to the algorithm? Why a ‘right to an explanation’ is probably not the remedy you are looking for",
+    "chinese_title": "算法的奴隶？为何解释权可能不是你要的救济",
+    "citation": "Edwards, L., & Veale, M. (2017). Slave to the algorithm? Why a ‘right to an explanation’ is probably not the remedy you are looking for. Duke Law & Technology Review, 16(1), 18–84.",
+    "doi": "",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "Edwards, Lilian",
+        "Veale, Michael"
+      ],
+      "year": 2017,
+      "journal": "Duke Law & Technology Review",
+      "volume": "16",
+      "issue": "1",
+      "pages": "18-84"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "公开PDF版本；题名、页数及PDF结构已检查",
+    "urls": [
+      "https://discovery.ucl.ac.uk/id/eprint/1574817/"
+    ],
+    "attempts": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1574817/",
+        "final_url": "https://discovery.ucl.ac.uk/id/eprint/1574817/",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 43132,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "Slave to the Algorithm? Why a 'right to an explanation' is probably not the remedy you are looking for \n      -\n      UCL Discovery",
+        "text_length": 4324,
+        "pdf_candidates": [
+          "https://discovery.ucl.ac.uk/id/eprint/1574817/1/Veale_slavetothealgorithm_published.pdf",
+          "https://discovery.ucl.ac.uk/1574817/1/Veale_slavetothealgorithm_published.pdf",
+          "https://discovery.ucl.ac.uk/1574817/1.haslightboxThumbnailVersion/Veale_slavetothealgorithm_published.pdf",
+          "https://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1315&context=dltr"
+        ]
+      },
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1574817/1/Veale_slavetothealgorithm_published.pdf",
+        "final_url": "https://discovery.ucl.ac.uk/id/eprint/1574817/1/Veale_slavetothealgorithm_published.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 973902,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：A，作者机构库的详细摘要与正式书目；未通读全文。文中法律解释是2017年语境。",
+    "card_path": "03_逐篇文献卡\\N7_算法的奴隶？为何解释权可能不是你要的救济.md",
+    "web_files": [],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\N7_Slave to the algorithm_ Why a ‘right to an explanation’ is probably not the remedy you are looking for.pdf",
+        "source": "https://discovery.ucl.ac.uk/id/eprint/1574817/1/Veale_slavetothealgorithm_published.pdf",
+        "pages": 67,
+        "metadata_title": "Slave to the Algorithm? Why a 'Right to an Explanation' Is Probably Not the Remedy You Are Looking For",
+        "sha256": "2e2a6241860219ac50f76f763821d4769980b795a50721883cb51c0baa828989",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 67,
+          "sha256": "2e2a6241860219ac50f76f763821d4769980b795a50721883cb51c0baa828989"
+        }
+      }
+    ],
+    "excluded_downloads": []
+  },
+  {
+    "id": "N8",
+    "title": "The silent death of EU consumer law and its resilient revival: Reinventing consumer protection against unfair digital commercial practices",
+    "chinese_title": "欧盟消费者法的无声消亡与韧性复兴：重塑对不公平数字商业行为的消费者保护",
+    "citation": "Namysłowska, M. (2025). The silent death of EU consumer law and its resilient revival: Reinventing consumer protection against unfair digital commercial practices. Journal of Consumer Policy, 48, 317–336. https://doi.org/10.1007/s10603-025-09590-5",
+    "doi": "10.1007/s10603-025-09590-5",
+    "type": "主要论文",
+    "bibliographic_fields": {
+      "authors": [
+        "Namysłowska, Monika"
+      ],
+      "year": 2025,
+      "journal": "Journal of Consumer Policy",
+      "volume": "48",
+      "pages": "317-336"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "公开PDF版本；题名、页数及PDF结构已检查",
+    "urls": [
+      "https://link.springer.com/article/10.1007/s10603-025-09590-5"
+    ],
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s10603-025-09590-5",
+        "final_url": "https://link.springer.com/article/10.1007/s10603-025-09590-5?error=cookies_not_supported&code=8b4f4fb8-adea-42c8-8963-22f169e48b5f",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 379487,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "The Silent Death of EU Consumer Law and Its Resilient Revival: Reinventing Consumer Protection Against Unfair Digital Commercial Practices | Journal of Consumer Policy | Springer Nature Link",
+        "text_length": 78896,
+        "pdf_candidates": [
+          "https://link.springer.com/content/pdf/10.1007/s10603-025-09590-5.pdf",
+          "https://commission.europa.eu/document/download/907fd6b6-0474-47d7-99da-47007ca30d02_en?filename=Mission%20letter%20-%20McGRATH.pdf",
+          "https://www.beuc.eu/sites/default/files/publications/beuc-x-2021-116_the_regulatory_gap-consumer_protection_in_the_digital_economy.pdf",
+          "https://www.beuc.eu/sites/default/files/publications/BEUC-X-2024-032_Digital_fairness_for_consumers_Report.pdf"
+        ]
+      },
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/s10603-025-09590-5.pdf",
+        "final_url": "https://link.springer.com/content/pdf/10.1007/s10603-025-09590-5.pdf?error=cookies_not_supported&code=866c9cf0-549a-41fe-8e8f-bd0b8a8d3646",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 712203,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      }
+    ],
+    "metadata_updates": [],
+    "input_reading_scope": "读取范围：S，官方摘要、引言和结构性不对称相关段落，未通读全文。Digital Fairness Act在此是作者讨论和倡议的制度方向，本次不核实2026年立法进展。",
+    "card_path": "03_逐篇文献卡\\N8_欧盟消费者法的无声消亡与韧性复兴：重塑对不公平数字商业行为的消费者保护.md",
+    "web_files": [
+      "02_网页全文\\N8_欧盟消费者法的无声消亡与韧性复兴：重塑对不公平数字商业行为的消费者保护.html"
+    ],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\N8_The silent death of EU consumer law and its resilient revival_ Reinventing consumer protection against unfair digital comm.pdf",
+        "source": "https://link.springer.com/content/pdf/10.1007/s10603-025-09590-5.pdf?error=cookies_not_supported&code=866c9cf0-549a-41fe-8e8f-bd0b8a8d3646",
+        "pages": 20,
+        "metadata_title": "The Silent Death of EU Consumer Law and Its Resilient Revival: Reinventing Consumer Protection Against Unfair Digital Commercial Practices",
+        "sha256": "595233e54eea84b6c9469c48cef4631971fd09b50bd8db3b21582c716ad2529f",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 20,
+          "sha256": "595233e54eea84b6c9469c48cef4631971fd09b50bd8db3b21582c716ad2529f"
+        }
+      }
+    ],
+    "excluded_downloads": []
+  },
+  {
+    "id": "S1",
+    "title": "What Makes a Dark Pattern... Dark? Design Attributes, Normative Considerations, and Measurement Methods",
+    "chinese_title": "何以使暗黑模式成为暗黑模式？设计属性、规范考量与测量方法",
+    "citation": "Mathur, A., Mayer, J., & Kshirsagar, M. (2021). What Makes a Dark Pattern... Dark? Design Attributes, Normative Considerations, and Measurement Methods. Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. https://doi.org/10.1145/3411764.3445610",
+    "doi": "10.1145/3411764.3445610",
+    "type": "补充研究",
+    "bibliographic_fields": {
+      "authors": [
+        "Mathur, Arunesh",
+        "Mayer, Jonathan",
+        "Kshirsagar, Mihir"
+      ],
+      "year": 2021,
+      "journal": "Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems"
+    },
+    "status": "已下载PDF全文",
+    "download_version": "作者在arXiv公开的预印本，27页；引用时使用正式CHI论文DOI",
+    "urls": [
+      "https://arxiv.org/abs/2101.04843",
+      "https://arxiv.org/pdf/2101.04843"
+    ],
+    "attempts": [
+      {
+        "url": "https://arxiv.org/pdf/2101.04843",
+        "final_url": "https://arxiv.org/pdf/2101.04843",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 885680,
+        "fetched_at": "2026-10-27",
+        "result": "valid_pdf"
+      },
+      {
+        "url": "https://arxiv.org/abs/2101.04843",
+        "final_url": "https://arxiv.org/abs/2101.04843",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 44306,
+        "fetched_at": "2026-10-27",
+        "result": "html",
+        "title": "[2101.04843] What Makes a Dark Pattern... Dark? Design Attributes, Normative Considerations, and Measurement Methods",
+        "text_length": 5081,
+        "pdf_candidates": [
+          "https://arxiv.org/pdf/2101.04843"
+        ]
+      }
+    ],
+    "metadata_updates": [
+      "从作者公开预印本中的ACM引用信息补核正式发表DOI。"
+    ],
+    "input_reading_scope": "原清单：此前读取作者预印本摘要和正式发表指向。",
+    "card_path": "03_逐篇文献卡\\S1_何以使暗黑模式成为暗黑模式？设计属性、规范考量与测量方法.md",
+    "web_files": [],
+    "pdfs": [
+      {
+        "path": "01_论文全文PDF\\S1_What Makes a Dark Pattern... Dark_ Design Attributes, Normative Considerations, and Measurement Methods.pdf",
+        "source": "https://arxiv.org/pdf/2101.04843",
+        "pages": 27,
+        "metadata_title": "What Makes a Dark Pattern... Dark?",
+        "sha256": "0599c70275eb8e70b1ffadf90909152c683ed79bfbcdc3baa020c4cd74bf2df7",
+        "validation": {
+          "parse_ok": true,
+          "title_match": true,
+          "pages": 27,
+          "sha256": "0599c70275eb8e70b1ffadf90909152c683ed79bfbcdc3baa020c4cd74bf2df7"
+        }
+      }
+    ],
+    "excluded_downloads": []
+  },
+  {
+    "id": "S2",
+    "title": "The AI Agent in the Room: Rethinking Consumer Decision-Making in the Age of Autonomous AI",
+    "chinese_title": "房间中的AI代理：自主AI时代消费者决策的再思考",
+    "citation": "Bilgihan, A., Ostinelli, M. (Max), Lorenz, M., & Zhang, Y. (2026). The AI agent in the room: Rethinking consumer decision-making in the age of autonomous AI. Psychology & Marketing, 43(10), 2509–2516. https://doi.org/10.1002/mar.70165",
+    "doi": "10.1002/mar.70165",
+    "type": "补充社论",
+    "bibliographic_fields": {
+      "authors": [
+        "Bilgihan, Anil",
+        "Ostinelli, Massimiliano (Max)",
+        "Lorenz, Melanie",
+        "Zhang, Ye"
+      ],
+      "year": 2026,
+      "journal": "Psychology & Marketing",
+      "volume": "43",
+      "issue": "10",
+      "pages": "2509-2516"
+    },
+    "status": "未获取全文",
+    "download_version": "未取得可交付的全文文件；保留原始书目、已有介绍与访问入口",
+    "urls": [
+      "https://onlinelibrary.wiley.com/doi/10.1002/mar.70165"
+    ],
+    "attempts": [
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/mar.70165",
+        "error": "HTTP Error 403: Forbidden",
+        "fetched_at": "2026-10-27"
+      }
+    ],
+    "metadata_updates": [
+      "据出版社登记的Crossref记录补全题名、四位作者、卷期及页码；2026-05-11网络首发，2026年10月卷期。补充社论的分类继承原清单。"
+    ],
+    "input_reading_scope": "原清单：出版社标为EDITORIAL，作为评论性材料单列。",
+    "card_path": "03_逐篇文献卡\\S2_房间中的AI代理：自主AI时代消费者决策的再思考.md",
+    "web_files": [],
+    "pdfs": [],
+    "excluded_downloads": []
+  }
+]

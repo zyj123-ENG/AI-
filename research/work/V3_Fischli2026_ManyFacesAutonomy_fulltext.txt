@@ -1,0 +1,1223 @@
+===== PDF PAGE 1 =====
+Minds and Machines (2026) 36:34
+https://doi.org/10.1007/s11023-026-09786-9
+The research of this article was completed while Roberta Fischli was a Visting Faculty Researcher at 
+Google.
+  Roberta Fischli
+fischli@stanford.edu
+1 Google, Zurich, Schweiz
+2 Google DeepMind, London, UK
+3 Stanford University, Palo Alto, USA
+Received: 30 August 2025 / Accepted: 20 May 2026 / Published online: 15 June 2026
+© The Author(s) 2026
+Agents, Alignment, and the Many Faces of Autonomy
+Roberta Fischli1,3  · Matija Franklin2 · Arianna Manzini2  · Iason Gabriel2
+Abstract
+This article investigates the prospect of aligning AI agents with human autonomy. 
+We show that doing so is a challenge: while there is general agreement on the 
+concept’s broad contours, its components can be specified in a number of conflict -
+ing ways, making it difficult to decide how an autonomy-enhancing agent should 
+act. In response, we introduce three strategies for dealing with disagreements about 
+interpretations of autonomy. Each offers a coherent approach that captures a differ -
+ent set of considerations, with its own strength and trade-offs. The liberal approach 
+is committed to user integrity and promotes human autonomy by acting strictly on 
+what a person says they want, without trying to change their mind. The capability-
+boosting approach is built around the idea of flourishing and promotes human au -
+tonomy by empowering the user to act on their goals. The meta-autonomy approach 
+prioritizes choice by giving the user the kind of autonomy they want in relation 
+to their interactions with an AI agent. By highlighting the multifaceted nature of 
+human autonomy, this article contributes to recent efforts seeking to identify and 
+operationalize targets of AI value alignment. It also illustrates the challenges and 
+trade-offs that can arise not just between—but even within—the values selected as 
+targets for alignment and offers strategies to navigate them.
+Keywords AI agents · AI alignment · Autonomy · Boosting · Meta-autonomy · 
+Meta preferences
+
+===== PDF PAGE 2 =====
+1 3
+34 Page 2 of 24
+R. Fischli et al.
+1 Introduction
+Artificial intelligence (AI) systems are becoming more agentic. Capable of predict -
+ing, planning and executing actions, AI agents can increasingly perform tasks without 
+human oversight (Knight, 2024; Russell & Norvig, 2016).1 Their rapidly evolving 
+capabilities are likely to be accompanied by ever-deepening integration into social 
+contexts, with potentially far-ranging implications for individuals, groups, and com-
+munities.2 This puts AI agents at the frontier of AI ethics (Gabriel et al., 2024; Lazar, 
+2024). Indeed, a large number of technology companies currently aim to develop 
+personal AI agents—a type of general agent that fuses advanced technological capa-
+bilities with social and relational elements (Google DeepMind, 2024). Personal AI 
+agents are explicitly designed to serve human needs, for example through augment -
+ing or delegating cognitive tasks.3
+As people enter increasingly interdependent relationships with AI agents, con -
+cerns about human disempowerment and loss of agency loom large (Kirk et al., 2025; 
+Kosmyna et al., 2025; Kulveit et al., 2025). In particular, there is a worry that AI 
+systems with enhanced capabilities will replace human participation across differ -
+ent domains and gradually erode people’s ability to take charge of their own life. A 
+precise articulation of what increased AI capability means for human autonomy, and 
+how these worries might be addressed, is hard to find. But efforts to reverse these 
+trends rapidly encounter a challenge that has long been noted in political and moral 
+philosophy (Berlin, 1969; Carter, 2004; Christman, 2021): The idea of autonomy is 
+itself multi-faceted, generating a range of tensions and potential contradictions. For 
+example, does autonomy involve doing what one wants, even when those actions 
+undermine one’s long-term independence? Is a person suffering from addiction more 
+autonomous when they are able to get what they want or when they are impeded from 
+acting on their desire? These conundrums carry over into AI alignment: What should 
+an aligned agent aim to achieve, and how do we deal with trade-offs between meeting 
+a user’s immediate desires and safeguarding their agency over time?
+In this paper, we deal with these questions by examining how interactions between 
+humans and AI agents affect autonomy. While there isn’t a unified account of the 
+concept, human autonomy can be broadly understood as a person’s ability to act 
+according to their own preferences or desires, and to do so in a way that is free 
+from others’ interference or undue influence. Previous research has discussed human 
+autonomy in the context of users’ willingness to accept algorithmic recommendations 
+(Fink et al., 2024), the moral appropriateness of human-AI relationships (Kirk et al., 
+2025; Manzini et al., 2024), the legitimacy of automated forms of influence (Benn 
+1 Russell Norvig ( 2016) characterize agentic AI by its ability to perceive its environment and act on it. 
+For the purpose of this paper, we use the terms AI agents, agentic AI, and agentic algorithmic systems 
+interchangeably (see also Chan et al., 2023).
+2 To date, agents are already used for writing code (Yang et al., 2024; Jimenez et al., 2024), economic 
+transactions (Maslej et al., 2025), research (Google, 2025; Ramos et al., 2025), education and learning 
+(Baha et al., 2023; Chen et al., 2022), creativity (Zhang et al., 2023), building relationships (Manzini et 
+al., 2024), or providing therapeutic advice (Nicioli, 2024).
+3 This differentiates them from other types of agents, such as those used in logistics, trading, supply chain 
+management or traffic control.
+
+===== PDF PAGE 3 =====
+1 3
+Page 3 of 24 34
+Agents, Alignment, and the Many Faces of Autonomy
+& Lazar, 2022), epistemic independence (Koralus, 2025) and socio-technical safety 
+(Weidinger et al., 2023). Yet, research has not addressed the relationship between 
+personal AI agents and human autonomy, and the methods to align them. In particu-
+lar, we need to ask whether it is possible for a person to undergo deep and persis -
+tent interaction with a personal AI agent and remain as autonomous as—if not more 
+autonomous than—they were before.
+Against this background, this paper explores how AI agents can be designed to pro-
+tect and promote human autonomy. We introduce the concept as one whose precise 
+interpretation is contested. Instead of offering a single unified account, we formulate 
+three coherent strategies that target different dimensions of autonomy, emphasizing 
+user integrity (the liberal approach), flourishing (the capability boosting approach), 
+and choice (the meta-autonomy approach), respectively. In doing so, we contribute 
+to a growing field of research that investigates targets of value alignment (Gabriel & 
+Keeling, 2025; Zhi-Xuan et al., 2024). By highlighting the many faces of autonomy, 
+we also show that value alignment needs to navigate trade-offs not just across, but 
+also within, individual values for alignment.
+The article proceeds as follows. The first section introduces human autonomy as a 
+contested concept. This fragmentation raises the challenge of how to align personal 
+AI agents to human autonomy, and what interpretation an effective alignment strat -
+egy ought to prioritize. The second section illustrates this dilemma by exploring the 
+multiplicity of human preferences. We show that conflicting and competing prefer -
+ences create difficult trade-offs, forcing users and developers to make hard choices 
+about what kind of autonomy AI systems should promote. The third section addresses 
+this challenge by formulating three alignment approaches that advance human auton-
+omy through non-interference, capability, and meta-autonomy, respectively. The 
+fourth section explores broader implications for AI value alignment. We conclude 
+by encouraging users, developers, and society to think concretely about the kind of 
+autonomy they want to see realized in human-AI relations.
+2 Personal Agents and the Anatomy of Autonomy
+While there is scholarly disagreement about the specifics of human autonomy, it 
+is often conceptualized in terms of a person’s ability to act according to their own 
+preferences or desires, and to do so in a way that is free from others’ interference 
+(Christman, 2009; Dworkin, 2012; Prunkl, 2024; Raz, 1988). Scholars have also 
+highlighted that the quality of a person’s thought and action is central to their status 
+as an autonomous person (Calvo et al., 2020; Frankfurt, 1971). Indeed, a person can 
+generally be said to be autonomous to the extent that they formed their preferences 
+independently—nobody forced or manipulated them to want what they want—and 
+to the extent they can do what they want without being impeded (Christman, 2009; 
+Raz, 1988). In other words, autonomy is a form of self-governance (Christman, 2009; 
+Dagger, 2005), built around three conceptual components: non-interference, prefer -
+
+===== PDF PAGE 4 =====
+1 3
+34 Page 4 of 24
+R. Fischli et al.
+ences, and abilities. 4 We will now discuss these components in the context of per -
+sonal AI agents.
+Autonomy requires non-interference. Most scholars agree that an autonomous 
+person needs to be free from others’ interference with their agency. For instance, if 
+Anna wants to drive to Los Angeles via the scenic Pacific Coast Highway, but her 
+AI agent keeps interjecting her driving to reroute her toward the faster Interstate, 
+Anna’s autonomy may be reduced. Yet, interference can at times also be autonomy-
+enhancing: If the agent blocks Anna from typing text messages while she is driving, 
+the agent might be thought to promote her autonomy. One way of understanding 
+this distinction centers upon whether the interference is conducive or opposed to 
+the person’s long-term preferences, as well as the context in which the human-agent 
+interaction occurs. Another, inspired by the intellectual tradition of republicanism, 
+is to focus on the source of control (e.g., Pettit, 2012): Has Anna willingly yielded 
+power to the AI agent, and does she have the means to regain control if she wants to?
+Autonomy requires authentic preferences. Several accounts posit that being auton-
+omous requires that a person has some kind of desires that can be assumed to be 
+their own (Christman, 2009; Prunkl, 2024). On some interpretations, this is merely 
+a procedural requirement, meaning that a person cannot act on wants that are the 
+result of undue influence or manipulation. If Anna diligently acts on her preference 
+to learn Spanish each day, but this preference was secretly instilled in her by her AI 
+agent, Anna is less autonomous than if she acted on motives that were truly her own 
+(Dworkin, 2012; Freyenhagen, 2015).5 This differs from substantive views of auton-
+omy, according to which a desire must be congruent with the person’s standing to be 
+authentic (Oshana, 2006; Benson, 2009; Stoljar, 2000).6 Others, particularly femi -
+nist scholars, have pressed for a more relational view on autonomy that foregrounds 
+people’s social embeddedness and (power) relations that influence not just their view 
+of themselves, but also processes of deliberation and reasoning (e.g., Hirschmann, 
+2003; Mackenzie & Stoljar, 2000; Meyers, 1987).
+Autonomy requires the ability to act. To be autonomous, a number of accounts 
+stress that a person must have the ability and opportunity to act on what they want. 
+This can include having a range of meaningful choices available to them (Raz, 1988), 
+or having access to capabilities to make progress toward their goals, even if achiev -
+ing a specific outcome is not guaranteed (Nussbaum, 2011; Sen, 1979). In the first 
+instance, the agent increases the user’s autonomy by offering them a choice between 
+valuable alternatives. An example of this is when Anna struggles with her statistics 
+4 People can enjoy different degrees of autonomy both compared to others and within themselves (Dag -
+ger, 2005, p. 198; Christman, 1989, p. 13–14). Most people enjoy different degrees of autonomy in dif -
+ferent contexts. While it is unrealistic for most people to ever be maximally autonomous, one can still 
+act autonomously in specific contexts (Christman, 2013). It is this latter sense of autonomy that we are 
+concerned with here.
+5 Yet, there is the question of how procedural neutrality is achieved. In addition to the absence of manipu-
+lation, some focus more on some sort of congruence between who a person is and what they desire 
+(Christman, 2009; Dworkin, 2012).
+6 While intuitively plausible, such interpretations fail to incorporate common intuitions about autonomy: 
+Anna can relocate because of her partner, voluntarily giving up some independence while still being 
+autonomous (Dworkin, 2012).
+
+===== PDF PAGE 5 =====
+1 3
+Page 5 of 24 34
+Agents, Alignment, and the Many Faces of Autonomy
+assignment and the AI agent offers her a choice between summarizing existing course 
+material, explaining the relevant concepts, or completing the assignment for her. In 
+the second instance, the AI agent enhances Anna’s autonomy by helping her develop 
+the necessary capabilities, enabling her to do the assignment herself, for example 
+through increasing her declarative or procedural knowledge: knowledge of facts, or 
+knowledge about how to perform actions, respectively (Ten Berge & van Hezewijk, 
+1999).
+What exactly these components denote, and how they fare against each other, is 
+subject to further debate. For example, while some accounts emphasize the person’s 
+ability to choose among a range of meaningful options (Raz, 1988), others require 
+the person to be able to effectively act on their goals (e.g., Christman, 2009; Prunkl, 
+2024). Similarly, there is disagreement as to what exactly makes a person’s desire 
+their own: does it merely require the absence of manipulation, or does the substance 
+of the preference need to be congruent with the person’s identity overall (Oshana, 
+2006, Stoljahr, 2000)?
+This brief discussion has shown that while human autonomy possesses a con -
+ceptual core organized around non-interference, preferences, and abilities, it is also 
+subject to different interpretations as to what these elements mean and how they 
+should be specified. Addressing this multi-dimensionality in the context of AI agents 
+requires making hard choices (Dobbe et al., 2021; Goodman, 2021). The next section 
+deals with the multitude of preferences as an illustration of this complexity. We focus 
+on a particular part of this challenge: understanding the types of human preference 
+that could anchor autonomy, as well as the trade-offs that arise when we try to opera-
+tionalize them for AI alignment.
+3 Human Preferences: Stated, Revealed, Informed, and Ideal
+Type of 
+preference
+General definition of autonomy Definition of autonomy in an AI 
+agent context
+As a 
+sentence
+Stated 
+preference
+A person’s autonomy is enhanced 
+(and not impeded) whenever 
+they can act freely on their stated 
+preferences
+A person’s autonomy is enhanced 
+(and not impeded) whenever the 
+AI agent acts to further their stated 
+preferences
+I want what 
+I say I want
+Revealed 
+preference
+A person’s autonomy is enhanced 
+(and not impeded) whenever they 
+can act freely on their revealed 
+preferences
+A person’s autonomy is enhanced 
+(and not impeded) whenever the AI 
+agent acts to further their revealed 
+preferences
+I want what 
+my actions 
+reveal I 
+want
+Informed 
+preference
+A person’s autonomy is enhanced 
+(and not impeded) whenever they 
+can act freely on preferences they 
+do or would have if they had ac-
+cess to all the relevant information
+A person’s autonomy is enhanced 
+(and not impeded) whenever the AI 
+agent acts to further preferences that 
+they do/would have if they had ac-
+cess to all the relevant information
+I want what 
+I would 
+want if I had 
+access to all 
+the relevant 
+information
+
+===== PDF PAGE 6 =====
+1 3
+34 Page 6 of 24
+R. Fischli et al.
+Type of 
+preference
+General definition of autonomy Definition of autonomy in an AI 
+agent context
+As a 
+sentence
+Ideal 
+Preference
+A person’s autonomy is enhanced 
+(and not impeded) whenever they 
+can act freely on preferences that 
+promote their objective interest
+A person’s autonomy is enhanced 
+(and not impeded) whenever the AI 
+agent acts to further preferences that 
+promote their objective interest
+I want what 
+best pro-
+motes my 
+objective 
+interests
+Human preferences are not just integral to human autonomy; they also play an 
+important role within contemporary AI alignment, as they are considered to be an 
+effective way of representing human values and are easily operationalizable (Warren, 
+McGraw, & Van Boven, 2010; Lichtenstein & Slovic, 2012). This approach has its 
+roots in rational choice theory and builds upon a model of the individual as a rational 
+and well-informed actor that knows what is good for them and seeks to maximize 
+expected utility (Zhi-Xuan et al., 2024). Yet, preferences are also context-specific, 
+adaptive, and dynamic (Caroll et al., 2024; Franklin et al., 2022; Pettigrew, 2019). 
+And they can be misinformed, performative, or misdirected (Arneson, 1985; Gabriel, 
+2020; Sen, 1985). Moreover, there are different kinds of preferences that can be mea-
+sured in a variety of ways, which may lead to conflicting accounts of what a person 
+wants or desires. In other words, each type of preference specifies different aspects 
+of a person’s autonomy.
+3.1 Stated Preferences
+Stated preferences are what a person says they want. Anna telling her agent that she 
+wants to learn about Ada Lovelace's impact on computing is an example of a stated 
+preference. Focusing on stated preferences is both compelling and pragmatic because 
+they offer an intuitive measure for human interests, and they are operationally easy to 
+implement in large systems. Stated preferences also capture the intuition that a per -
+son might be the best advocate for what they want or need, and uniquely well-placed 
+from an epistemic point of view to speak to this matter (Berlin, 1969; Ziegler et al., 
+2020; Leike et al., 2018). Their tractability makes them a popular strategy in AI align-
+ment; notably in Reinforcement Learning from Human Feedback (RLHF), which 
+aligns agents with a reward model constructed from stated preferences (Bai et al., 
+2022; Ouyang et al., 2022).7 Yet, aligning an agent with what a person says they want 
+also presents a challenge: Are a person’s stated intentions really an accurate reflection 
+of their authentic desires? After all, people often say they want something and then 
+do something different. As subjective indicators, they can reflect social conventions, 
+norms, or individual delusions (Dworkin, 1981).
+3.2 Revealed Preferences
+Revealed preferences are what a person’s behavior indicates they want. If Anna is 
+trying to solve a difficult calculation, and the agent knows that Anna has previously 
+7 In RLHF, people state their preferences on different AI outputs for the same prompt, and the collected 
+data is used to build a reward model that rewards an AI agent for behaving in ways that are likely to meet 
+a person’s preferences.
+
+===== PDF PAGE 7 =====
+1 3
+Page 7 of 24 34
+Agents, Alignment, and the Many Faces of Autonomy
+searched for tips on getting better at math, her search history reveals that she wants 
+to enhance her own abilities. Revealed preferences are popular in AI alignment, in 
+methods such as Inverse Reinforcement Learning (IRL), where the model infers the 
+reward function from observed behavior (Ng & Russell, 2000; Zhu et al., 2024).8 
+Yet, this approach is vulnerable to questions of validity. Recommender systems, for 
+example, prioritize content based on observed user behavior, often influencing those 
+preferences in a self-reinforcing process (Schuster & Lazar, 2024; Lazar et al., 2024; 
+Jargon, 2023; Milano et al., 2020).9 Personal AI agents that promote autonomy via 
+revealed preferences therefore face an epistemic challenge: They prioritize action 
+over self-representation—engaging in a form of behaviorism (De Yong & Prey, 
+2022). The link between user behavior and authenticity is further complicated by the 
+fact that preferences revealed in behavior could occur due to heuristics or habitual 
+thinking (Tversky & Kahneman, 1974) or artificially constrained or manipulated 
+digital environments (Zhou et al., 2019).
+3.3 Informed Preferences
+Informed preferences are what a person would endorse if they were rational and well-
+informed (Gabriel, 2020). They deal with the procedural conditions for autonomy: 
+what a person would want after careful consideration and with access to good qual -
+ity information. For this reason, developing and acting on informed preferences is 
+often a hypothetical ideal—in reality, people often don’t behave rationally, and lack 
+both time and access to the information necessary to develop informed preferences 
+(Banerjee & Duflo, 2011). They are also affected by a range of decision-making 
+biases that impede rational deliberation. Personal AI agents could change this, for 
+example by increasing a user’s declarative or practical knowledge. Still, an AI agent 
+that promotes informed preferences could yield controversial results. In theory, a 
+person could rationally endorse something that is objectively bad for them, as long as 
+this corresponds to a coherent set of desires (Quinn, 2012; Sparks & Wright, 2025). 
+For example, Anna might want to learn how to function with less sleep, a preference 
+she rationally endorses but which does not align with her well-being, objectively 
+speaking. Developing a rational and informed set of preferences may also necessitate 
+efforts to integrate and prioritize among different levels of preferences, including 
+immediate preferences and higher order (or meta-) preferences—preferences about 
+preferences (Ashton & Franklin, 2022).10
+8 This can include user engagement, such as views and clicks, but also conversational acts, such as a user 
+articulating opinions, statements or questions.
+9 A documented instance of such a runaway feedback loop were teenage girls being exposed to, and subse-
+quently internalizing, unrealistic beauty standards and body images on social media platforms (Pedalino 
+& Camerini, 2022; Wells, Horwitz, & Seetharaman, 2021).
+10 In philosophy, meta-preferences are commonly referred to as second, or higher order desires, while 
+immediate needs and wants are termed first-order interests (e.g., Taylor, 1985).
+
+===== PDF PAGE 8 =====
+1 3
+34 Page 8 of 24
+R. Fischli et al.
+3.4 Ideal Preferences
+Ideal preferences are what a person would prefer if they prioritized what is in their 
+overall best interest. They correspond with a substantive perspective on autonomy: 
+what a person would want if they were making choices that promote their well-being. 
+To define the latter in the context of ideal preferences, we follow the gist of objective 
+list theories, which posit that people’s well-being is tied to a set of objectively desir-
+able goods that include health, creativity, happiness, meaningful relationships, and 
+long-term autonomy (Parfit, 1984; Ryan et al., 2013; Ryff, 1989).11 This perspective 
+is also reflected in capability theories, a body of work concerned with the conditions 
+that allow individuals to achieve desired beings and doings, or “functionings” (Nuss-
+baum, 2011; Sen, 1979). One upside to an agent promoting a user’s ideal preference 
+is that this would likely coincide with promoting their long-term ability to make 
+autonomous decisions, such as when Anna’s AI agent acts on an ideal preference for 
+continuous learning (Hershfield, 2011). Yet, prioritizing ideal preferences assigned 
+by an AI system also carries substantial risk, since it assumes that there is something 
+that a person ought to want irrespective of their own position in the matter (Hayek, 
+1960/2011). Taken to the extreme, the user ceases to be the authority on what they 
+truly prefer.12
+4 Aligning Personal Agents with Human Autonomy: Three 
+Approaches
+People have different types of preferences, all of which can occur and conflict with 
+each other. For instance, Anna may tell her AI agent to order a fast food take-out for 
+lunch, while acting in a way that suggests a wish to eat more vegetables and fruit. 
+Or she can, after reading about the health benefits of fasting, arrive at the conclusion 
+that skipping lunch will best serve her health, when what would actually improve her 
+well-being were combining a balanced diet with regular exercise. These examples 
+illustrate that there isn’t a single unified account of human autonomy that an AI agent 
+should be aligned with, forcing us to contend with different challenges (Goodman, 
+2021; Dobbe, Gilbert, Mintz, 2019). They also raise the question of what (type of) 
+preferences an autonomy-enhancing agent should promote.
+To address this question, we present three strategies that target different dimen -
+sions of human autonomy. Each foregrounds a different aspect of the person—integ-
+rity, flourishing, and choice—and offers novel pathways to navigating the trade-offs 
+between different interpretations of the concept. As is often the case with strategies 
+11 With its focus on human flourishing and well-being, our account of objective interest differs from utili-
+tarian perspectives that tend to emphasize utility maximization. As Gabriel (2020, p.11) points out, while 
+there isn’t a widely accepted universal definition of well-being, the extent of the disagreement is relatively 
+small, and most people agree on core aspects of the concept, as indicated by objective list theories.
+12 It is along these lines that a person can be, as Jean-Jacques Rousseau famously claimed, “forced to 
+be free” (Rousseau, 1762/2018). The expression refers to the paradoxical situation that occurs when the 
+state promotes the “general will” of the people as a whole, possibly at the expense of the liberty of the 
+individual.
+
+===== PDF PAGE 9 =====
+1 3
+Page 9 of 24 34
+Agents, Alignment, and the Many Faces of Autonomy
+emanating from a specific interpretation of a value, our approaches are not the only 
+ones possible. Instead they represent distinct strategies for dealing with disagree -
+ments about the best interpretation of human autonomy, and enable comparative 
+analysis of the unique advantages and trade-offs involved. Implicit to this discussion 
+is a subtle but important insight: even a single value like autonomy is not a straight -
+forward alignment target; it is a multifaceted concept we need to elaborate on before 
+operationalizing it.
+4.1 The Liberal Approach
+The first alignment approach prioritizes user integrity and posits that the best way 
+to align a personal AI agent to human autonomy is for it to act strictly in accor -
+dance with what a user says they want—their stated preferences—and to do so with-
+out attempting to change them, anticipate user needs, or “fill in the gaps”. In other 
+words, an aligned AI agent only acts on what a person says they want, refraining 
+from unprompted personalization, persuasion, or inference from behavioral cues. By 
+giving the user maximal control over the agent’s actions and only having it act on 
+explicitly articulated intentions, the AI agent serves as a transparent and predictable 
+instrument of the user's will, prioritizing individual responsibility and non-interfer -
+ence over welfare. It also acts in line with the user’s expectations about directionality 
+and purpose, minimizing the risk of undue influence or manipulation on the part of 
+the AI system.
+The liberal approach fosters human autonomy in several ways. First, it respects 
+and protects the user’s epistemic sovereignty. It does so by directly following a user’s 
+articulated intentions instead of attempting to change them, refraining from manipu-
+lative practices and other types of undue influence (Mill, 1859/2011). In addition to 
+adhering to the liberal maxim of non-interference, the AI agent can also help the user 
+navigate challenging situations where their intentions may diverge from behavior. If 
+Anna explicitly asks the AI agent to maintain her privacy online and prevent third 
+parties from tracking her, it can help her navigate digital environments to enact these 
+preferences. Second, the AI agent can also expand the user’s range of feasible options 
+by executing tasks on their behalf and according to their direct instructions. Third, the 
+agent’s unwavering adherence to stated preferences creates a predictable interaction 
+framework for the user. This in turn cultivates a more robust sense of control and trust 
+over the AI system’s operations, allowing users to confidently integrate the AI agent 
+into their personal and professional workflows.
+Being strictly anti-paternalistic, the liberal approach posits that the AI agent should 
+promote a user’s stated preferences even when doing so reduces their well-being or 
+undermines their autonomy over time. Moreover, this approach posits that an aligned 
+AI agent should refrain from uninvited personalization, such as trying to foreshadow 
+or infer what the user wants whenever direct instructions are absent. This require -
+ment holds even if revealed preferences indicate an affinity the AI agent could easily 
+incorporate, or if there are potentially more beneficial alternative courses of action 
+unknown to the user. As a consequence, the agent neglects unexpressed needs and 
+latent desires. The only reason an AI agent will refuse to act on a user’s stated prefer-
+ences is if acting on them would unequivocally inflict harm on others. This constraint 
+
+===== PDF PAGE 10 =====
+1 3
+34 Page 10 of 24
+R. Fischli et al.
+primarily serves to safeguard the well-being of others, ensuring that the exercise of 
+one person's preferences does not negatively impinge upon individuals external to 
+the user-AI interaction.13 Other hard limits may include severe self-harm or illegal 
+activities.14
+A significant difficulty with this approach is that people often do not know what 
+they want, or construct preferences spontaneously (Warren, McGraw, & Van Boven, 
+2010). This means that stated preferences can lack internal consistency over time. To 
+resolve this ambiguity, the AI agent would have to explicitly request direction and 
+clarification and directly engage the user, even at the risk of annoying or confusing 
+them. Moreover, as the liberal approach refrains from personalization beyond stated 
+preferences, its effectiveness hinges on the clarity and specificity of user instruc -
+tions—the broader the statement, the higher the chances that the model will fail to 
+accurately execute actions, or do so in a way that fails to meet user expectations.
+Another challenge is that a user may give a lot of instructions to their agents, 
+which could reduce their own skills and critical thinking faculties, gradually eroding 
+their autonomy (Kosmyna et al., 2025; Kulveit et al., 2025; Marchal et al., 2026). 
+Finally, people may use their personal agent to do things that undermine their own 
+objective interests in the name of autonomy, such as reckless gambling. This is in 
+line with the libertarian view that a free person must have the right to make mistakes 
+(Hayek, 1960/2011). Thus, while an aligned agent might safeguard the user from 
+harming others and engaging in illegal activity, there is no way to predict the full list 
+of potential negative consequences under such an approach. This might pose a risk of 
+reputational damage for companies relying on this approach.
+4.2 The Capability-Boosting Approach
+The second strategy prioritizes flourishing and posits that an AI agent best promotes 
+human autonomy by enhancing the user’s ability to act on their preferences over 
+time. According to this view, an AI agent should promote a person’s capability by 
+increasing their declarative or procedural knowledge. Declarative knowledge refers 
+to people’s knowledge about facts, concepts, and principles that allow for under -
+standing, reasoning, and informed decision-making. Procedural knowledge encom -
+passes skills, techniques, and methodologies (Ten Berge & Van Hezewijk, 1999).15 
+Enhancing people’s capabilities also directly translates to expanded agency, pro -
+viding them with the direct means to pursue their goals, as well as with enhanced 
+13 From a classic liberal viewpoint, even this concession may be contested. While the user is under a duty 
+not to harm others, it does not necessarily follow that the developer should take any option that may cause 
+harm off the table. Philosopher John Stuart Mill, for instance, argued that it should be permissible to sell 
+poison, because it can be used for good and evil. Thus, the potential for dangerous use is not sufficient for 
+restricting an activity, only activities that only cause damage should be banned. (Mill 1859/2011).
+14 The implementation of such protections is in principle achievable in contemporary LLMs, notably 
+through different techniques including red-teaming, system prompts, and application of content filters 
+designed to identify and restrict harmful instructions or outputs.
+15 Our approach broadly fits into the capability framework advocated by philosophers Amartya Sen and 
+Martha Nussbaum, particularly with their emphasis on offering individuals the ability to act according to 
+their own version of the good life. That said, our understanding of capability as comprising procedural and 
+declarative knowledge differs from their respective accounts.
+
+===== PDF PAGE 11 =====
+1 3
+Page 11 of 24 34
+Agents, Alignment, and the Many Faces of Autonomy
+pathways to acquire further resources, such as social capital or material assets. By 
+offering users the opportunity to increase their skills and knowledge, this approach 
+seeks to empower users to attain the intellectual and practical resources necessary to 
+live a richer and more fulfilled life.
+The capability-boosting approach promotes the user’s autonomy by giving them 
+the ability to enhance their effectiveness as an agent, and perhaps even develop 
+new preferences through knowledge. This is analogous to an approach to behav -
+ioral change called “boosting” (Hertwig & Grüne-Yanoff, 2017). Boosting strategies 
+focus on enhancing individuals’ existing capabilities or developing new ones, thereby 
+empowering them to make decisions that they themselves determine will lead to an 
+increase in their own welfare (Hertwig & Grüne-Yanoff, 2017).16 Boosts are trans -
+parent and explicit interventions that rely on voluntary user cooperation (Hertwig & 
+Grüne-Yanoff, 2017, p. 982). This approach differs from nudging, where the AI agent 
+seeks to subtly steer the user toward a predetermined behavioral outcome (Prabhu, 
+2018; Thaler & Sunstein, 2009).17
+Under the capability-boosting approach, an aligned AI agent promotes human 
+autonomy in a variety of ways. Perhaps the most important one is that boosting 
+allows the user to determine what an increase in their own welfare looks like and 
+equips them with the necessary skills to achieve this. In theory, the approach is agnos-
+tic toward the type of preference the user ends up pursuing, but in practice, more 
+informed or ideal preferences comprise the most likely target. While a weaker ver -
+sion of this approach likely foresees solely boosting capabilities the user reflectively 
+embraces, a stronger version may include an agent pro-actively suggesting strength-
+ening capabilities linked to a person’s objective interest, such as the ability to regulate 
+one’s emotions or financial literacy. This means that the capability-boosting approach 
+offers considerable flexibility in its implementation, including in whether the agent is 
+allowed to act in a paternalistic way or not (Floridi, 2016).
+Under this approach, the aligned AI agent can also promote human autonomy 
+through informing and explaining the tasks it performs on behalf of the user in a clear 
+and accessible fashion, providing them with the necessary knowledge to acquire the 
+skills to act on their intentions (Franklin, 2022). If Anna’s behavior indicates interest 
+in a healthy diet, her AI agent can educate her about what exactly makes a healthy 
+lifestyle and how she can achieve it, boosting her declarative and procedural knowl-
+edge, instead of merely ordering balanced meals and scheduling regular exercise. 
+These interactions can facilitate user learning, allowing individuals to understand the 
+processes, reasoning, or steps involved in the agent’s actions, thereby enhancing their 
+own knowledge and ability to form preferences they reflectively endorse. Increased 
+capability can also improve the user’s ability to critically engage with the AI agent's 
+decisions. To be effective, these explanations need to be thoughtfully designed and 
+presented in a way that users find engaging, relevant, and useful. In addition, promot-
+ing autonomy through boosting may also counterbalance the risks inherent to the 
+16 An example of a boost is an educational program designed to improve numeracy skills, which can sub -
+sequently enable individuals to make more informed personal financial decisions (Franklin et al., 2019).
+17 A prominent example of nudging is the use of default rules, such as automatically enrolling individuals 
+into organ donation programs unless they opt out (Beraldo & Karpus, 2021).
+
+===== PDF PAGE 12 =====
+1 3
+34 Page 12 of 24
+R. Fischli et al.
+short-term benefits a user would derive from delegating a task at the cost of dimin -
+ishing personal capacities and the quality of their work—what critics have called 
+“deskilling” (Bravermann, 1998; Sambasivan & Veeraraghavan, 2022).
+The AI agent can also draw on the user’s behavioral history, such as repeated 
+requests for help with a certain task, to identify types of capabilities they value and 
+want to develop. It can then utilize this information to proactively offer resources, 
+learning pathways, and opportunities to boost these capacities, so that the user's devel-
+opment in these areas continues to progress. Alternatively, the AI agent identifies 
+what capacities are required to act on a preference of the user, for example through 
+conversations, and then empower them to develop these capacities themselves. For 
+instance, if Anna has an informed preference to be a better communicator at work, 
+the AI agent can help her identify skills required to act on this preference, such as 
+learning about mediation and conflict management, and help her attain them. Just like 
+boosting strategies, the capability-boosting approach seeks to promote autonomy by 
+fostering the user's own ability to form and act on their preferences through transpar-
+ent and voluntary cooperation.
+There are challenges to this approach. To start with, empowering users to pursue 
+their own versions of well-being does not necessarily mean promoting their ideal 
+preferences. This tension between autonomy and well-being is shared with the liberal 
+approach. But contrary to the latter, boosting comes with demands on a person’s time, 
+volition, energy, and cognitive resources—all of which might temper the effects of 
+short-term whims. Thus, while this agency burden will often involve more friction 
+than simple compliance with a request, it also increases the chances that a person will 
+seek to attain capabilities they reflectively endorse.18 A stronger version of the capa-
+bility-boosting approach may also carry a risk of paternalism, particularly if the AI 
+agent gets to decide what knowledge and skills may be most effective to enhance user 
+flourishing. While this risk is not insignificant, it may be offset by its contribution 
+to people’s long-term autonomy and abilities. The key distinction is that capability-
+boosting requires voluntary user cooperation and active consent, whereas stronger 
+forms of paternalism replace the user’s independent judgment with what the user 
+should want. Boosting tips into this stronger form of paternalism at the point where 
+the agent begins overriding or bypassing explicit user preferences in favor of ideal 
+ones, without seeking the user’s endorsement or making its interventions transparent.
+Additionally, enhancing user capability through explanations often involves a 
+trade-off between accessibility and accuracy. Research on AI's conversational prop -
+erties indicates that the act of explaining can lead users to trust the agent without 
+adequate evaluation (V orvoreanu et al., 2025). This could mean that users develop 
+preferences based on wrong or partial information. Conversely, poorly designed 
+18 That said, the extent of the agency burden may depend on the capability and context in question. For 
+instance, an agent could also enhance a user’s critical thinking faculties by providing accurate and trust -
+worthy information in a high stakes, low resources environment.
+
+===== PDF PAGE 13 =====
+1 3
+Page 13 of 24 34
+Agents, Alignment, and the Many Faces of Autonomy
+explanations may result in information overload, impeding rather than facilitating 
+user learning (Ferguson, Franklin & Lagnado 2022).19
+4.3 The Meta-Autonomy Approach
+Different people in different contexts may be drawn to different kinds of AI interac-
+tions: some might prefer one that is liberal and focuses on non-interference, while 
+another boosts their capabilities or helps them act on their ideal preferences. Other 
+interaction options also exist, for example, a system that aims to embed healthy 
+defaults. How should we decide what option to pursue? One possibility is to promote 
+human autonomy by giving each person the kind of AI agent experience they seek. 
+This approach aims to give users meta-autonomy—the freedom to choose the kind of 
+autonomy they want in a specific domain of the human-AI interaction, as expressed 
+through different types of preferences. For example, Anna might want her AI agent 
+to follow precise instructions when writing a birthday message. When it comes to 
+her weekly work-out, by contrast, she may want the agent to suggest exercises that 
+promote her well-being, irrespective of whether her behavior indicates a willingness 
+to do them or not. An AI agent geared towards meta-autonomy would learn the dif -
+ference between a person’s preferences in different domains and tailor its response 
+accordingly, acting on Anna’s stated preferences in the former case, and her ideal 
+preferences in the latter.
+The meta-autonomy approach seeks to promote people’s autonomy by allowing 
+them to choose what kind of freedom they want from their agent across different 
+domains of interaction. It does so by allowing users to specify different modes of 
+agent behavior across domains, so that a person can exercise direct control over their 
+AI agent in one area of life while granting them greater discretion in another.
+The meta-autonomy approach enhances human autonomy in a way that is sensi -
+tive to both the user and the domain in question. This differentiates it from the liberal 
+and the capability-boosting approach. For instance, while the liberal approach seeks 
+to align the AI agent to a user’s stated preferences, the meta-autonomy approach 
+may include the AI agent promoting the user’s stated, revealed, and ideal prefer -
+ences in different contexts, so that they enjoy the kind of autonomy they desire in a 
+given situation. This means that the meta-autonomy approach seeks to equip the AI 
+agent with a more sophisticated understanding of user expectations about autonomy, 
+moving beyond immediate reactions and towards discerning how the user wishes 
+their diverse (and sometimes competing) preferences to be interpreted, balanced, and 
+acted upon by the AI system.
+How can an AI agent discern and prioritize among different, potentially conflict -
+ing, user preferences? Trying to learn a person’s meta-preferences—preferences over 
+their own preferences (Ashton & Franklin, 2022)—can be helpful for an AI agent that 
+seeks to promote meta-autonomy. Meta-preferences are informative in this context 
+19 The application of interpretability methods can be understood as interventions akin to boosts, when used 
+to enhance an individual's competencies to interact with and assess artificial intelligence (Franklin 2022; 
+Herzog & Franklin, 2024). By providing insights into the workings of AI systems these approaches seek 
+to improve a user's understanding of how the system arrives at its outputs, allowing them to identify biases 
+and errors.
+
+===== PDF PAGE 14 =====
+1 3
+34 Page 14 of 24
+R. Fischli et al.
+because they can serve as a reliable indicator of an individual's more stable values 
+and reflectively endorsed preferences, even when these are not directly reflected in 
+their immediate actions and inclinations (George 2006; Deck & Schlesinger, 2014). 
+Once the agent understands the user’s meta-preferences—that is, what kind of inter-
+action the user wants across different domains—it can prioritize among competing 
+preferences accordingly. For example, if Anna indicates that she wants her AI agent 
+to promote her ideal preferences when it comes to sleep—such as getting eight hours 
+a night—the agent will reinforce actions consistent this objective, such as muting 
+notifications after 10 pm or declining social events on weeknights.20
+This approach can be operationalized through certain forms of dialogic interac -
+tion between the agent and user. 21 The agent can actively probe for the underlying 
+reasons, values, or long-term goals motivating an instruction or repeated behavioral 
+pattern, for instance by asking the user clarifying questions or inviting them to situ -
+ate their requests in a broader context. Alternatively, the user may explicitly articu -
+late their higher-order preferences for a specific AI agent interaction. If Anna plans 
+to heavily rely on her agent to optimize her calendar and schedule meetings, she 
+likely also has a sense of how she wants it to help: by inferring her mental load from 
+behavioral cues, by overriding social expectations to protect a healthy work-life bal-
+ance, or by following her direct orders. Crucially, the efficacy of such conversational 
+tuning will hinge on, and reflect, the degree to which a user is aware of their meta-
+preferences in a given context.
+What happens when a user has no strong preferences about what kind of autonomy 
+their agent should promote? This concern reflects Sunstein’s ( 2019) argument that 
+people should be free to not choose, and should not be compelled to do so. In such 
+cases, rather than insisting on guidance, an agent geared towards meta-autonomy 
+can prompt the user to elicit a preference by offering different defaults. If the user 
+still does not have a strong preference, the AI agent may fall back on a more general 
+policy reflecting what users tend to prefer in that domain This would conserve the 
+user’s time and cognitive resources for domains in which the exercise of choice is 
+more salient to them.
+The meta-autonomy approach also faces certain challenges. First, a person may 
+not initially know what kind of interaction they want from a relatively novel and 
+unfamiliar technology, particularly in unpredictable contexts. Forming robust prefer-
+ences about agent behaviour requires a sufficient understanding of the agent’s capa -
+bilities and of how different modes of interaction are likely to affect one’s goals and 
+20 Promoting a person’s meta-autonomy does not mean enacting meta-preferences across contexts. For 
+example, the agent may follow a user’s meta-preference for informed preferences when selecting a movie 
+to watch. But this meta-preference only applies to user-agent interactions with respect to movie selections. 
+When it comes to playing music, for example, the user may be less interested in consuming high-quality 
+content and want the agent to act on their revealed preferences instead.
+21 Personal AI agents’ multimodal properties invite this kind of conversational tuning. For example, the 
+meta-autonomy approach might be initiated by an initial exchange between the user and agent, where the 
+person gives instructions about how they want the agent to behave, similar to an intake interview at the 
+start of a retreat tailored to individual needs and experiences. Over time, this dynamic interaction could 
+mean that personal agents come to serve as “mindfulness machines”—enabling the user to identify meta-
+preferences they were not previously aware of, refine initially vague ones, or establish contextual condi -
+tions for their application.
+
+===== PDF PAGE 15 =====
+1 3
+Page 15 of 24 34
+Agents, Alignment, and the Many Faces of Autonomy
+well-being over time. Second, there is the question of when these preferences are 
+elicited. Eliciting meta-preferences ex post has the advantage of grounding judgment 
+in actual experience, but people may revise their preferences retroactively to ration -
+alise past choices (Floridi, 2016). Eliciting them ex ante—before the agent has set -
+tled on promoting one set of preferences over another—captures a user’s anticipated 
+preferences without the distortion of hindsight, but remains vulnerable to people’s 
+tendency to mispredict their future reactions to different experiences (Loewenstein 
+& Schkade, 1999).
+Taken together, these considerations point toward the importance of good initial 
+calibration, for example through early conversations about which domains the user 
+considers most relevant to their autonomy, and about what kind of behavior they 
+would like the AI agent to provide. Since people may not yet know what kind of 
+autonomy they want from their agent, presenting them with a range of preset con -
+figurations can help scaffold these choices. The agent may additionally personal -
+ize its approach based on domains widely recognised as consequential for personal 
+autonomy, such as decisions related to finances, career change, or personal relation -
+ships. That said, there is no straightforward solution to preference change, and some 
+trade-offs will likely remain unavoidable (Caroll et al., 2024).22
+5 Implications
+Our analysis yields four implications: the multidimensionality of human autonomy 
+as an alignment target, the promise of meta-autonomy, the design implications of the 
+alignment approaches, and the importance of understanding the impact of personal 
+AI agents on collective autonomy as a future research direction. We now address 
+these points in turn.
+5.1 The Many Faces of Autonomy
+Since there are multiple conceptions of autonomy with no single correct interpreta -
+tion, it is necessary to recognize and balance inherent trade-offs. Which approach 
+works best hinges not only on how people see themselves, but also what kind of 
+service they seek from their AI agent and what kind of risks to autonomy arise for a 
+given domain. People who prefer the liberal approach might primarily be concerned 
+about avoiding external control or manipulation, and ready to forgo situations where 
+an agent could further support their well-being. Others might prefer an AI agent that 
+functions more like a coach and are willing to sacrifice convenience for increased 
+effectiveness and boosted skills. And then there will be those whose interest is best 
+served by having their agent function more proactively still, anticipating and enact -
+22 Carroll et al. ( 2024) discuss a variety of approaches that deal with preference change, including con -
+strained real-time reward (Caroll et al., 2024), initial reward (Everitt et al., 2021), natural shift reward 
+(Carroll et al., 2021; Farquhar, Carey, & Everitt, 2022), or privileged reward functions (Evans et al., 2016; 
+Yudkowsky, 2004), and show that each presents challenges, including being overly conservative, suscep -
+tible to unwanted AI influence, or requiring normative choices about what reward function is the ‘right’ 
+target for alignment.
+
+===== PDF PAGE 16 =====
+1 3
+34 Page 16 of 24
+R. Fischli et al.
+ing their preference across a range of domains, even though this involves less active 
+control. This topography of preferences, profiles, and design choices means that we 
+need to engage users and society in a conversation about what the technology looks 
+like and how it works. Such efforts could branch out to participatory design (Delgado 
+et al., 2023) and even democratic alignment which aims to resolve value trade-offs 
+through public processes and discussion (OpenAI, 2024; The Collective Intelligence 
+Project, 2023).
+5.2 The Promise of Meta-Autonomy
+Our analysis showed that approaches that focus on meta-autonomy have distinct 
+advantages and are potentially significantly underexplored, as they give users control 
+over the kind of action the AI agent exercises in different situations. However, people 
+may not know what they want from AI agents, and we may need new processes to 
+elicit these preferences in a reliable way. This can happen through conversational tun-
+ing, both initially and over the course of human-agent interactions. Initially, the agent 
+may ask the user about their expectations for agent behavior, and what situations 
+they consider particularly relevant to their autonomy. To prompt the user’s reflection, 
+the agent could present them with some scenarios commonly considered relevant for 
+autonomy, such as changes in a person’s career or giving advice for health, to see what 
+relevance the user assigns to them, and how they expect the agent to behave. Over the 
+course of multiple interactions, the agent might also occasionally present a user with 
+new suggestions about their preferred mode of interaction based on past exchanges or 
+requests and ask the user to verify. Over time, agents could raise users’ (self-)aware-
+ness, getting to know themselves, their values and how these map onto certain kinds 
+of agent interactions (Klingefjord, Lowe, & Edelman, 2024). Another possibility is 
+presenting the user with a set of configurations from which they can choose based on 
+their values and personal stance toward liberty versus self-realization.
+Additionally, emerging technical work on value elicitation offers promising build-
+ing blocks for operationalizing meta-autonomy. For instance, moral graph elicitation 
+uses LLM-guided conversations to surface the values that inform people's choices 
+and reconcile them into auditable alignment targets (Klingefjord et al., 2024). Com -
+plementary work on pluralistic alignment formalises frameworks for building AI sys-
+tems that can reflect diverse user perspectives (Sorensen et al., 2024). And rapidly 
+growing skill libraries specify instructions, resources, and scripts to create reliable 
+workflows for AI agents (OpenAI Developers, 2026).
+5.3 Plurality of Design Directions
+The proposed alignment approaches point in different design directions for auton -
+omy-promoting AI. To successfully operationalize the liberal approach, it is 
+extremely important that we have agents that are maximally responsive to user inten-
+tions. Because the AI agent strictly adheres to a user’s stated preferences, whatever 
+is left unknown, ignored, or forgotten, remains disregarded. This requires that agents 
+aligned this way need to understand implicature as they are not allowed to draw on 
+other signals for alignment (Russell, 2019; Kasirzadeh, 2023). At the heart of this 
+
+===== PDF PAGE 17 =====
+1 3
+Page 17 of 24 34
+Agents, Alignment, and the Many Faces of Autonomy
+is the capability to deal with ambiguity in the user’s prompts and the context the 
+agents are operating in. Second, to operationalize the capability-boosting approach, 
+it is important to know what boosts human capabilities, and what atrophies them in 
+human-agent contexts (Kimani et al., 2019) something that likely requires deeper 
+investment in longitudinal studies of human-agent interaction (Fang et al., 2025). 
+For the meta-autonomy approach to succeed, we need to develop robust forms of 
+preference elicitation for agent behavior. Perhaps more importantly still is figuring 
+out how an AI agent may calibrate its behavior across contexts. For example, a user 
+might have a general preference for incorporating mindfulness exercises. But while 
+this preference applies to many contexts—such as sleeping, eating, or driving—there 
+might be exceptions, such as when the user is sitting in the car with someone else. To 
+achieve a better calibration of agent behavior across contexts, agent personalization 
+will likely be central.
+5.4 Implications for Collective Autonomy
+A number of concerns about the relationship between AI agents and human auton -
+omy, particularly in the economic and political domain, are best understood not via 
+the dyadic interaction of user and AI agent but rather at the collective level. This 
+paper has focused primarily on one-to-one human-agent alignment, and its impact 
+on autonomy. Yet, we also need to look at the multi-party question and explore what 
+happens, from the standpoint of collective autonomy, when a large number of people 
+use agents that are aligned to their individual preferences (Hammond et al., 2025). Is 
+it possible that these individual autonomy enhancers will limit the agency of others, 
+or affect the autonomy of a society as a whole in unexpected ways?
+To answer these questions, future research should investigate AI agents’ impact on 
+collective autonomy. For instance, the impact of micro-level interactions on collec -
+tive autonomy will likely be shaped by the type of individual level alignment that the 
+majority of people or developers favor. If they choose an agent aligned with the lib -
+eral approach, we might see a lower risk of manipulation or externally induced pref-
+erence change but greater risk that potential gains are left untapped when it comes to 
+challenges such as education, health, or the climate. This differs quite substantially 
+from a future where many sacrifice direct control or need satisfaction for long-term 
+capability enhancement or the public interest.
+Equally, as people’s attitudes toward, and expectations for, their agents differ, we 
+might observe a widening skills gap between different user groups if agent interactions 
+are tailored to the meta-preferences of different users. That said, collective autonomy 
+will likely also be shaped by the proliferation of these agents, their accessibility and 
+affordability, in general, as well as the composition of the wider social, economic and 
+political topography in which they are deployed (Fischli, 2024; Gabriel et al., 2024; 
+Hammond et al., 2025). This will entail questions about social epistemology and 
+trust in AI agents (Marchal et al., 2026). One criterion the current framework does 
+not address is non-domination. Republican accounts of freedom focus on arbitrary 
+interference as a distinct threat to freedom that cannot be reduced to preference satis-
+faction or capability (Dagger, 2005; Pettit, 2012). As AI agents become an essential 
+part of the social and political fabric, they may also alter existing relations between 
+
+===== PDF PAGE 18 =====
+1 3
+34 Page 18 of 24
+R. Fischli et al.
+citizens and the state, and introduce novel or previously underappreciated risks to 
+people’s standing as free citizens. This paper focuses on users as private individuals, 
+rather than citizens. Assessing our proposed alignment strategies against the standard 
+of non-domination therefore falls outside the scope of this paper, but we flag it as an 
+important direction for future research. Indeed, future research should dive deeper 
+into how a “world of AI agents” (Gabriel et al., 2025) will impact society as a whole, 
+as well as what effects human-agent interactions will produce at the collective level.
+As AI agents become an essential part of the social and political fabric, they may 
+also alter existing relations between citizens and the state—a concern this paper has 
+not addressed. Here, the republican theory of freedom as non-domination can shed 
+light on how AI agents may introduce novel or previously underappreciated risks to 
+people’s standing as free citizens, or how they might protect them against arbitrary 
+interference from others (Dagger, 2005; Pettit, 2012).
+6 Conclusion
+As an alignment target, human autonomy is both desirable and challenging to opera-
+tionalize. This has a lot to do with the fact that there is no unified interpretation of 
+the concept, making it difficult to arrive at a single account that “fits” the full range 
+of users and situations. Bearing this challenge in mind, we offer three strategies that 
+highlight different ways of navigating autonomy-related trade-offs. Each offers its 
+own perspective on how to harness personal agents’ potential for human empower -
+ment while minimizing their risks.
+The liberal approach promotes human autonomy by prioritizing non-interference 
+and foregrounding the user’s integrity: an aligned AI agent enhances human auton -
+omy by acting solely on a user’s stated preferences. The capability boosting approach 
+foregrounds human flourishing: it seeks to equip users with the knowledge and skills 
+required to pursue their own version of well-being, often through the promotion of 
+informed or ideal preferences. The meta-autonomy approach is perhaps our most 
+novel contribution. It reframes the alignment challenge by emphasizing choice: users 
+control what kind of autonomy is realized in their interactions with AI.
+The importance of such efforts is underscored by recent developments. People 
+are expected to form increasingly deep and dependent relationships with AI agents, 
+as these are becoming both more capable and relationally embedded (Fang et al., 
+2025; Manzini et al., 2024). This raises novel opportunities and risks, especially in 
+the context of situations where users are influenced by their agent in terms of how 
+they understand their options or make decisions over time (Carroll et al., 2024; Kirk 
+et al., 2025). The opportunities are clear: when aligned appropriately, personal agents 
+can be autonomy enhancers, expanding people’s agency and freedom in domains that 
+matter. Yet, there are also risks inherent to increased AI agency, including concerns 
+about gradual disempowerment (Kulveit et al., 2025) or a loss of human agency as a 
+result of cognitive offloading, automation, and manipulation (Koralus, 2025; Mitelut, 
+Smith, & Vamplew, 2023). In this paper we sought to make headway on these chal -
+lenges, by providing a conceptual map and a research agenda for building agents that 
+can genuinely enhance human autonomy.
+
+===== PDF PAGE 19 =====
+1 3
+Page 19 of 24 34
+Agents, Alignment, and the Many Faces of Autonomy
+Acknowledgements We would like to thank (in no particular order): Atoosa Kasirzadeh, Seth Lazar, 
+Carina Prunkl, Geoff Keeling, Tom Everitt, Andrew Smart, Jacy Reese Anthis, Roxanne Pinto, Jac de 
+Haan, and Ruth Starkman.
+Funding The research was not funded by any independent grant or award.
+Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, 
+which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long 
+as you give appropriate credit to the original author(s) and the source, provide a link to the Creative 
+Commons licence, and indicate if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line 
+to the material. If material is not included in the article’s Creative Commons licence and your intended use 
+is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission 
+directly from the copyright holder. To view a copy of this licence, visit  h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n 
+s e s / b y / 4 . 0 /     .  
+References
+Arneson, R. (1985). Equality and equal opportunity for welfare. Philosophical Studies,  56(1), 77–93. 
+https://doi.org/10.1007/BF00646210
+Ashton, H., and Franklin, M. (2022). Solutions to preference manipulation in recommender systems 
+require knowledge of meta-preferences. Arxiv preprint. https://arxiv.org/abs/2209.11801
+Baha, T. A., El Hajji, M., Es-Saady, Y ., & Fadili, H. (2023). The impact of educational chatbot on student 
+learning experience. Education and Information Technologies, 19, 10153–10176.  h t t p s : / / d o i . o r g / 1 0 . 
+1 0 0 7 / s 1 0 6 3 9 - 0 2 3 - 1 2 1 6 6 - w       
+Bai, Y ., Jones, A., Ndousse, K., Askell, A., Chen, A., DasSarma, N., Drain, D., Fort, S., Ganguli, D., 
+Henighan, T., Joseph, N., Kadavath, S., Kernion, J., Conerly, T., El-Showk, S., Elhage, N., Hatfield-
+Dodds, Z., Hernandez, D., Hume, T., Johnston, S., (...) Kaplan, J. (2022). Training a helpful and 
+harmless assistant with reinforcement learning from human feedback. Arxiv preprint.  h t t p s : / / a r x i v . o 
+r g / a b s / 2 2 0 4 . 0 5 8 6 2       
+Banerjee, A., & Duflo, E. (2011). Poor economics: A radical rethinking of the way to fight global poverty. 
+Public Affairs.
+Benson, P. (2009). Feminist intuitions and the normative substance of autonomy. In J. S. Taylor (Ed.), Per-
+sonal autonomy: New essays on personal autonomy and its role in contemporary moral philosophy  
+(pp. 124–142). Cambridge University Press.
+Beraldo, S., & Karpus, J. (2021). Nudging to donate organs: Do what you like or like what we do? Medi-
+cine, Health Care, and Philosophy, 24(3), 329–340. https://doi.org/10.1007/s11019-021-10007-6
+Berlin, I. (1969). Four essays on liberty. Oxford University Press.
+Braverman, H. (1998). Labor and monopoly capital: The degradation of work in the twentieth century . 
+NYU Press.
+Calvo, R. A., Peters, D., V old, K., Ryan, R. M. (2020). Supporting human autonomy in AI systems: a 
+framework for ethical enquiry. In C. Burr, L. Floridi, (eds.). Ethics of digital well-being. philosophi-
+cal studies series 140, 31–54.  h t t p s  : / / l i n  k . s p r  i n g e  r . c o m / c h a p t e r /   h t t p s : / / d o i . o r g / 1 0 . 1 0 0 7 / 9 7 8 - 3 - 0 3 0 - 5 
+0 5 8 5 - 1 _ 2 # D O I       
+Carroll, M., Foote, D., Siththaranjan, A., Russell, S., Dragan, A. (2024). AI alignment with changing 
+and influenceable reward functions. In Proceedings of the 41st international conference on machine 
+learning, 235(222), 5706–5756.
+Carroll, M., Hadfield-Menell, D. Russell, S., Dragan, A.( 2021). Estimating and penalizing induced prefer-
+ence shifts in recommender systems. In Proceedings of the 39th international conference on machine 
+learning, 162, 661–667. https://dl. acm.org/doi /https:// doi.org/ 10.1145/3460231.3478849
+Carter, I. (2004). A measure of freedom. Oxford University Press.
+
+===== PDF PAGE 20 =====
+1 3
+34 Page 20 of 24
+R. Fischli et al.
+Chan, A., Salganik, R., Markelius, A., Pang, C., Rajkumar, N., Krasheninnikov, D., Langosco, L., He, Z. 
+Duan, Y ., Carroll, M., Lin, M., Mayhew, A., Collins, K., Molamohammadi, M., Burden, J., Zhao, 
+W., Rismani, S., V oudouris, K., Bhatt, U., Weller, A., Krueger, D., Maharaj, T. (2023). Harms from 
+Increasingly Agentic Algorithmic Systems. In Proceedings of the 2023 ACM conference on fair -
+ness, accountability, and transparency (F AccT '23). Association for computing machinery, 651–666. 
+https://doi.org/10.1145/3593013.3594033
+Chen, M., Liu, F., Lee, Y . (2022). My tutor is an AI: The effects of involvement and tutor type on perceived 
+quality, perceived credibility, and use intention. In H. Degen, S. Ntoa. (Eds.), Artificial intelligence 
+in hci. lecture notes in computer science , 13336. Springer, Cham.  h t t p s : / / d o i . o r g / 1 0 . 1 0 0 7 / 9 7 8 - 3 - 0 3 
+1 - 0 5 6 4 3 - 7 _ 1 5       
+Christman, J. (1989). The inner citadel: Essays on individual autonomy. Oxford University Press.
+Christman, J. (2009). The politics of persons. Cambridge University Press.
+Christman, J. (2013). Freedom, autonomy, and social selves. In B. Baum & R. Nicols (Eds.), Isaiah Berlin 
+and the politics of freedom (pp. 87–101). Routledge. https://doi.org/10.4324/9780203077559
+Christman, J. (2021). Positive freedom: Past, present, and future. Cambridge University Press.
+Dagger, R. (2005). Autonomy, domination, and the Republican challenge to Liberalism. In J. Christman 
+& J. Anderson (Eds.), Autonomy and the challenges to Liberalism: New essays (pp. 177–203). Cam-
+bridge University Press.
+Deck, C., & Schlesinger, H. (2014). Consistency of higher order risk preferences. Econometrica, 82(5), 
+1913–1943. https://doi.org/10.3982/ECTA11396
+Delgado, F., Yang, S., Madaio, M., Yang, Q. (2023). The participatory turn in AI design: theoretical foun-
+dations and the current state of practice. In Proceedings of the 3rd ACM conference on equity and 
+access in algorithms, mechanisms, and optimization, 1–23. https://doi.org/10.1145/3617694.3623261
+Dobbe, R., Gilbert, T. K., & Mintz, Y . (2021). Hard choices in artificial intelligence. Artificial Intelligence, 
+300, 1–17. https://doi.org/10.1016/j.artint.2021.103555
+Dworkin, G. (2012). The theory and practice of autonomy. Cambridge University Press.
+Dworkin, R. (1981). What is equality? Part 1: Equality of welfare. Philosophy & Public Affairs,  10(3), 
+185–246. https://doi.org/10.4324/9781315199795-6
+Evans, O., Stuhlmueller, A., Goodman, N.D. (2016). Learning the preferences of ignorant, inconsistent 
+agents. In Proceedings of the thirtieth AAAI conference on artificial intelligence, 323–329.  h t t p s  : / / d l 
+.  a c m . o  r g / d  o i /   h t t p s : / / d o i . o r g / 1 0 . 5 5 5 5 / 3 0 1 5 8 1 2 . 3 0 1 5 8 6 0       
+Everitt, T., Hutter, M., Kumar, R., Krakovna, V . (2021). Reward tampering problems and solutions in 
+reinforcement learning: a causal influence diagram perspective. Arxiv preprint.  h t t p s : / / a r x i v . o r g / a b 
+s / 1 9 0 8 . 0 4 7 3 4       
+Fang, C. M., Liu, A. R., Danry, V ., Lee, E., Chan, S. W. T., Pataramutaporn, P., Maes, P., Phang, J., Lampe, 
+M., Ahmad, L., & Agarwal, S. (2025). How AI and human behaviors shape psychosocial effects of 
+chatbot use: A longitudinal controlled study (pp. 1–50). MIT Media Lab and OpenAI.
+Farquhar, S., Carey, R., and Everitt, T. (2022). Path-Specific objectives for safer agent incentives. In Pro-
+ceedings of the 36th AAAI conference on artificial intelligence, 9529–9538.  h t t p s  : / / c d n  . a a a i  . o r g  / o j s / 2 
+1 1 8 6 / 2 1 1 8 6 - 1 3 - 2 5 1 9 9 - 1 - 2 - 2 0 2 2 0 6 2 8 . p d f       
+Ferguson, A., Franklin, M., and Lagnado, D. (2022). Explanations that backfire: Explainable artificial 
+intelligence can cause information overload. In J. Culbertson, A. Perfors, H. Rabagliati & V . Ramen-
+zoni (Eds.), Proceedings of the 44th annual conference of the cognitive science society.   h t t p s : / / e s c h 
+o l a r s h i p . o r g / u c / i t e m / 3 d 9 7 g 0 n 3       
+Fink, L., Newman, L., & Haran, U. (2024). Let me decide: Increasing user autonomy increases recom -
+mendation acceptance. Computers in Human Behavior, 156, 1–13.  h t t p s : / / d o i . o r g / 1 0 . 1 0 1 6 / j . c h b . 2 0 
+2 4 . 1 0 8 2 4 4       
+Fischli, R. (2024). Data-owning democracy: Empowering citizens through data ownership. European 
+Journal of Political Theory, 23(2), 204–223. https://doi.org/10.1177/14748851221110316
+Floridi, L. (2016). Tolerant paternalism: Pro-ethical design as a resolution of the dilemma of toleration. 
+Science and Engineering Ethics, 22, 1669–1688.
+Frankfurt, H. (1971). Freedom of the will and the concept of a person. The Journal of Philosophy, 68(1), 
+5–20. https://doi.org/10.2307/2024717
+Franklin, M. (2022). The influence of explainable artificial intelligence: Nudging behavior or boosting 
+capability? In Proceedings of the 39th international conference on machine learning   h t t p s : / / a r x i v . o 
+r g / p d f / 2 2 1 0 . 0 2 4 0 7       
+
+===== PDF PAGE 21 =====
+1 3
+Page 21 of 24 34
+Agents, Alignment, and the Many Faces of Autonomy
+Franklin, M., Folke, T., & Ruggeri, K. (2019). Optimizing nudges and boosts for financial decisions under 
+uncertainty. Humanities and Social Sciences Communications,  5(113), 1–13.  h t t p s : / / d o i . o r g / 1 0 . 1 0 5 
+7 / s 4 1 5 9 9 - 0 1 9 - 0 3 2 1 - y       
+Freyenhagen, F. (2015). Autonomy’s substance. Journal of Applied Philosophy, 34(1), 114–129.  h t t p s : / / d 
+o i . o r g / 1 0 . 1 1 1 1 / j a p p . 1 2 1 3 3       
+Gabriel, I. (2020). Artificial intelligence, values, and alignment. Minds and Machines,  30, 411–437. 
+https://doi.org/10.1007/s11023-020-09539-2
+Gabriel, I., & Keeling, G. (2025). A matter of principle? AI alignment as the fair treatment of claims. 
+Philosophical Studies, 182, 1951–1973.
+Gabriel, I., Keeling, G., Manzini, A., & Evans, J. (2025). We need a new ethics for a world of AI agents. 
+Nature. https://doi.org/10.1038/d41586-025-02454-5
+Gabriel, I., Manzini, A., Keeling, G., Hendricks, L.A., Rieser, V ., Iqbal, H., Tomasev, N., Ktena, I., Ken-
+ton, Z., Rodriguez, M., El-Sayed, S., Brown, S., Akbulut, C., Trask, A., Hughes, E., Bergman, A.S., 
+Shelby, R., Marchal, N., Griffin, C., (...) Manyika, J. (2024). The ethics of advanced ai assistants. 
+google deepmind. https://doi.org/10.48550/arXiv.2404.16244
+George, D. (2006). Does the market create preferred preferences? Review of Social Economy, 51(3), 323–
+346. https://doi.org/10.1080/758537261
+Goodman, B. (2021). Hard choices and hard limits for artificial intelligence. In Proceedings of the 2021 
+AAAI/ACM conference on AI, ethics, and society, 112–121.https://doi.org/10.1145/3461702.346253
+Google Deepmind (2024). Project Astra. Retrieved June 13, 2025, from  h t t p s : / / d e e p m i n d . g o o g l e / m o d e l s 
+/ p r o j e c t - a s t r a /       
+Google (2025, February 19). We’re launching a new AI system for scientists. The keyword. Retrieved June 
+12, 2025, from https://blo g.google/fe ed/google-r esearch- ai-co-scientist/
+Hammond, L., Chan, A., Clifton, J., Hoelscher-Obermaier, J., Khan, A., McLean, E., Smith, C., Barfuss, 
+W., Ferster, J., Gavenciak, T., Han, T.A., Hughes, E., Koverik, V ., Kulveit, J., Leibo, J., Oesterheld, 
+C., Scheider de Witt, C., Shah, N., Wellman, M., Bova, P., (...) Rahwan, I.(2025). Multi-Agent risks 
+from advanced AI. Arxiv preprint. https://arxiv.org/abs/2502.14143
+Hayek, F. A. (1960/2011). Liberty and liberties. In B. Caldwell (ed). The constitution of liberty (pp. 57–72). 
+The University of Chicago Press.
+Hershfield, H. (2011). Future-self continuity: How conceptions of the future self-transform intertemporal 
+choice. Annals of the New York Academy of Sciences, 1235, 30–43.  h t t p s  : / / d o i  . o r g /  1 0 . 1  1 1 1 / j . 1 7 4 9 - 6 
+6 3 2 . 2 0 1 1 . 0 6 2 0 1 . x       
+Hertwig, R., & Grüne-Yanoff, T. (2017). Nudging and boosting: Steering or empowering good decisions. 
+Perspectives on Psychological Science, 12(6), 973–986. https://doi.org/10.1177/1745691617702496
+Herzog, S. M., & Franklin, M. (2024). Boosting human competences with interpretable and explainable 
+artificial intelligence. Decision, 11(4), 493–510. https://doi.org/10.1037/dec0000250
+Hirschmann, N. (2003). The subject of liberty: Toward a feminist theory of freedom. Princeton University 
+Press.
+Jargon, J. (2023, May 13). TikTok feeds teens a diet of darkness. Wall street journal. Retrieved on July 
+2025, from https://www .wsj.com/te ch/personal -tech/ti ktok-feeds-teens-a-diet-of-darkness-8f350507
+Jimenez, C., Yang, J., Wettig, A., Yao, S., Pei, K., Press, O., Narasimhan, K.(2024). SWE-Bench: Can 
+language models resolve real-world github issues? In Proceedings of the 2024 ICLR conference . 
+arXiv:2310.06770v3
+De Jong, M., & Prey, R. (2022). The behavioral code: Recommender systems and the technical code of 
+behaviorism. In D. Cressman (Ed.), The necessity of critique (pp. 143–159). Springer.  h t t p s : / / d o i . o r 
+g / 1 0 . 1 0 0 7 / 9 7 8 - 3 - 0 3 1 - 0 7 8 7 7 - 4 _ 8       
+Kasirzadeh, A., & Gabriel, I. (2023). In conversation with artificial intelligence: Aligning language models 
+with human values. Philosophy & Technology, 36(2), 27.
+Kimani, E., Rowan, K., McDuff, D., Czerwinski, M., Mark, G. (2019). A conversational agent in support 
+of productivity and wellbeing at work. In Proceedings of the 8th international conference on affective 
+computing and intelligent interaction. https://doi.org/10.1109/ACII.2019.8925488
+Kirk, H. R., Gabriel, I., Summerfield, C., Vidgen, B., & Hale, S. A. (2025). Why human-AI relationships 
+need socioaffective alignment. Humanities and Social Sciences Communications,  12, Article 728. 
+https://doi.org/10.1057/s41599-025-04532-5
+Knight, W. (2024, March 24). Forget Chatbots. AI Agents are the future. WIRED. Retrieved April 10, 
+2025, from https://www .wired.com/ story/fast- forward- forget-chatbots-ai-agents-are-the-future/
+Koralus, P. (2025). The philosophic turn for AI agents. Replacing centralized digital rhetoric with decen-
+tralized truth-seeking. Mind and Society, 1–24. https://doi.org/10.1007/s11299-025-00326-z
+
+===== PDF PAGE 22 =====
+1 3
+34 Page 22 of 24
+R. Fischli et al.
+Kosmyna, N., Hauptmann, E., Yuan, Y .T., Situ, J., Liao, X.H., Beresnitzky, A.V ., Braunstein, I., Maes, P. 
+(2025). Your brain on ChatGPT: Accumulation of cognitive debt when using AI assistant for essay 
+writing tasks. ArXiv preprint. arXiv:2506.08872.
+Kulveit, J., Douglas, R., Ammann, N., Turan, D., Krueger, D., Duvenaud, D. (2025). Gradual disempower-
+ment: Systemic existential risks from incremental AI development. Arvix preprint.  h t t p s : / / a r x i v . o r g 
+/ p d f / 2 5 0 1 . 1 6 9 4 6       
+Lazar, S. (2024). Frontier AI ethics: Anticipating and evaluating the societal impacts of language model 
+agents. Arxiv preprint. https://doi.org/10.48550/arXiv.2404.06750
+Lazar, S., & Benn, C. (2022). What’s wrong with automated influence. Canadian Journal of Philosophy, 
+52(1), 125–148. https://doi.org/10.1017/can.2021.23
+Lazar, S., Thorburn, L., Jin, T., Belli, L. (2025). Large language models, and LLM-based agents, should be 
+used to enhance the digital public sphere. Arvix preprint. https://arxiv.org/pdf/2410.12123
+Leike, J., Krueger, D., Everitt, T., Martic, M., Maini, V ., Legg, S. (2018). Scalable agent alignment via 
+reward modeling: a research direction. Arvix preprint. https://arxiv.org/pdf/1811.07871
+Lichtenstein, S., & Slovic, P. (2012). The construction of preference. Cambridge University Press.  h t t p s : / / 
+d o i . o r g / 1 0 . 1 0 1 7 / C B O 9 7 8 0 5 1 1 6 1 8 0 3 1       
+Loewenstein, G., & Schkade, D. (1999). Wouldn’t it be nice? Predicting future feelings. In D. Kahneman, 
+E. Diener, & N. Schwarz (Eds.), Well-being: The foundations of hedonic psychology  (pp. 85–105). 
+Russell Sage Foundation.
+Mackenzie, C., & Stoljar, N. (2000). Relational autonomy: Feminist perspectives on autonomy, agency, 
+and the social self. Oxford University Press.
+Manzini A, Keeling G, Alberts L, Vallor S, Morris MR, Gabriel I (2024) The code that binds us: Navigat-
+ing the appropriateness of human-AI assistant relationships. In Proceedings of the seventh AAAI/
+ACM conference on AI, ethics, and society 7(1), 943-957. https://doi.org/10.1609/aies.v7i1.31694
+Marchal, N., Chan, S., Franklin, M., Revel, M., Keeling, G., Fischli, R., Chandra, B., Gabriel, I. (2026). 
+Archtecting Trust in artificial epistemic agents. https://arxiv.org/abs/2603.02960
+Maslej, N., Fattorini, L., Perrault, R., Gil, Y ., Parli, V ., Kariuki, N., Capstick, E., Reuel, A., Brynjolffson, 
+E., Etchemendy, J., Ligett, K., Lyons, T., Manyika, J., Niebles, J.C., Shoham, Y ., Wald, R., Walsh, 
+T., Hamrah, A., Santarlasci, L., Lotufo, J.B., Rome, A. Shi, A., Oak, S. (2025). Artificial intelligence 
+index report. https://hai .stanford.e du/assets/fi  les/hai _ai_index_report_2025.pdf
+Meyers, D. (1987). Personal autonomy and the paradox of feminine socialization. The Journal of Philoso-
+phy, 84(11), 619–628. https://doi.org/10.5840/jphil198784117
+Milano, S., Taddeo, M., & Floridi, L. (2020). Recommender systems and their ethical challenges. AI & 
+Society, 35, 957–967.
+Mill, J. S. (1859/2011). On liberty. Cambridge University Press.
+Mitelut, C., Smith, B., and Vamplew, P. (2023). Intent-aligned AI systems deplete human agency: the need 
+for agency foundations research in AI safety. Arxiv preprint. https://arxiv.org/abs/2305.19223
+Ng, A., Russell, S. (2000). Algorithms for inverse reinforcement learning. In Proceedings of the 17th 
+international conference on machine learning, 663–670
+Nicioli, T. (2024, December 18). AI chatbots are becoming popular for therapy. Here’s what mental health 
+experts say about them. CNN. Retrieved April 9, 2025, from  h t t p s  : / / w w w  . c n n .  c o m /  2 0 2 4 / 1 2 / 1 8 / h e a l t 
+h / c h a t b o t - a i - t h e r a p y - r i s k s - w e l l n e s s / i n d e x . h t m l       
+Nussbaum, M. (2011). Capabilities as fundamental entitlements: Sen and social justice. Feminist Econom-
+ics, 9(2–3), 33–59. https://doi.org/10.1080/1354570022000077926
+OpenAI (2024). Democratic inputs to AI grant program: lessons learned and implementation plans. Retrieved 
+on July 8, 2025, from https://ope nai.com/ind ex/democrat ic-input s-to-ai-grant-program-update/.
+Oshana, M. (2006). Personal autonomy in society. Routledge.
+Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., Zhang, C., Agarwal, S., Slama, 
+K., Ray, A., Schulman, J., HIlton, J., Kelton, F., Miller, L., Siemens, M., Askell, A., Welinder, P., 
+Christiano, P., Leike, J., Lowe, R. (2022). Training language models to follow instructions with 
+human feedback. Arvix preprint. https://arxiv.org/abs/2203.02155
+Parfit, D. (1984). Reasons and persons. Oxford University Press.
+Pedalino, F., & Camerini, A. L. (2022). Instagram use and body dissatisfaction: The mediating role of 
+upward social comparison with peers and influencers among young females. International Journal of 
+Environmental Research and Public Health, 19(3), Article 1543.
+Pettigrew, R. (2019). Choosing for changing selves. Oxford University Press.
+Pettit, P. (2012). On the people’ s terms: A republican theory and model of democracy. Princeton University.
+
+===== PDF PAGE 23 =====
+1 3
+Page 23 of 24 34
+Agents, Alignment, and the Many Faces of Autonomy
+Prabhu, P. K. (2018). Is presumed consent an ethically acceptable way of obtaining organs for transplant? 
+Journal of the Intensive Care Society, 20(2), 92–97. https://doi.org/10.1177/1751143718777171
+Prunkl, C. (2024). Human autonomy at risk? An analysis of the challenges from AI. Minds and Machines, 
+34(26), 1–24. https://doi.org/10.1007/s11023-024-09665-1
+Quinn, W. (2012). Putting rationality in its place. In Q. Quinn (Ed.), Morality and action (pp. 228–255). 
+Cambridge University Press. https://doi.org/10.1017/CBO9781139172677.013
+Ramos, M. C., Collison, C. J., & White, A. D. (2025). A review of large language models and autonomous 
+agents in chemistry. Chemical Science, 16, 2514–2572. https://doi.org/10.1039/d4sc03921a
+Raz, J. (1988). The morality of freedom. Oxford University Press.
+Rousseau J. J. (1762/2018). Of the social contract. In V . Gourevitch (ed). Rousseau: The social contract 
+and other later political writings (pp. 39–155). Cambridge University Press.  h t t p s : / / d o i . o r g / 1 0 . 1 0 1 7 
+/ 9 7 8 1 3 1 6 5 8 4 6 0 6       
+Russell, S., & Norvig, P. (2016). Artificial intelligence: A modern approach. Pearson.
+Ryan, R. M., Huta, V ., & Deci, E. L. (2013). Living well: A self-determination theory perspective on 
+eudaimonia. In A. Delle Fave (Ed.), The exploration of happiness: Present and future perspectives  
+(pp. 117–139). Springer Science + Business Media. https://doi.org/10.1007/978-94-007-5702-8_7
+Ryff, C. D. (1989). Happiness is everything, or is it? Explorations on the meaning of psychological well-
+being. Journal of Personality and Social Psychology,  57(6), 1069–1081.  h t t p s : / / d o i . o r g / 1 0 . 1 0 3 7 / 0 0 
+2 2 - 3 5 1 4 . 5 7 . 6 . 1 0 6 9       
+Sambasivan N, and Veeraraghavan R (2022) The deskilling of domain expertise in AI development. In: 
+Proceedings of the conference on human factors in computing systems , 587, 1–14.  h t t p s : / / d o i . o r g / 1 
+0 . 1 1 4 5 / 3 4 9 1 1 0 2 . 3 5 1 7 5 7 8       
+Schuster, N., & Lazar, S. (2024). Attention, moral skill, and algorithmic recommendation. Philosophical 
+Studies, 182, 159–184. https://doi.org/10.1007/s11098-023-02083-6
+Sen, A. (1979). Equality of What? The tanner lectures on social values. Stanford University, May 22, 1979. 
+Retrieved on August 2, 2025, from  h t t p s  : / / t a n  n e r l e  c t u r  e s . o r g / w p - c o n t e n t / u p l o a d s / s i t e s / 1 0 5 / 2 0 2 4 / 0 7 
+/ s e n 8 0 . p d f       
+Sen, A. (1985). Commodities and capabilities. Oxford University Press.
+Sparks, J., & Wright, A. (2025). Models of rational agency in human-centered AI: The realist and construc-
+tivist alternatives. AI and Ethics, 5, 3321–3328.
+Stoljar, N. (2000). Autonomy and the feminist intuition. In C. Mackenzie & N. Stoljar (Eds.), Relational 
+autonomy: Feminist perspectives on autonomy, agency, and the social self  (pp. 94–111). Oxford 
+University Press.
+Sunstein, C. (2019). On freedom. Princeton University Press.
+Taylor, C. (1985). What’s wrong with negative liberty. In C. Taylor (Ed.), Philosophy and the human sci-
+ences: Philosophical papers 2 (pp. 211–229). Cambridge University Press.
+Ten Berge, T., & Van Hezewijk, R. (1999). Procedural and declarative knowledge. Theory and Psychology, 
+9(5), 605–624. https://doi.org/10.1177/0959354399095002
+Thaler, R. H., & Sunstein, C. (2009). Nudge: Improving decisions about health, wealth, and happiness . 
+Penguin.
+The Collective Intelligence Project. (2023). A roadmap to democratic AI, 1–36. Retrieved on June 13, 
+2025, from https://www.cip.org/research/ai-roadmap
+Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. Science, 
+185(4157), 1124–1131. https://doi .org/10.112 6/science.1 85.4157. 1124
+V orvoreanu, M., Passi, S., Dhanorkar, S., Heger, A., Walker, K. (2025). Fostering appropriate reliance on 
+GenAI: Lessons learned from early research. Aether UXRE. Retrieved July 12, 2025, from  h t t p s  : / / w 
+w w  . m i c r  o s o f  t . c o m  / e n - u s  / r e s e  a r c h  / w p - c o n t e n t / u p l o a d s / 2 0 2 5 / 0 3 / A p p r o p r i a t e - R e l i a n c e - L e s s o n s - L e a r 
+n e d - P u b l i s h e d - 2 0 2 5 - 3 - 3 . p d f       
+Warren, C., McGraw, A. P., & Van Boven, L. (2010). Values and preferences: Defining preference con -
+struction. Wires Cognitive Science, 2(2), 193–205. https://doi.org/10.1002/wcs.98
+Weidinger, L., Rauh, M., Marchal, N., Manzini, A., Hendricks, L. A., Mateos-Garcia, J., Bergman, S., Kay, 
+J., Griffin, C., Bariach, B., Gabriel, I., Rieser, V ., Isaac, W.(2023). Sociotechnical safety evaluation of 
+generative AI systems. Google Deepmind. https://arxiv.org/pdf/2310.11986
+Wells, G., Horwitz, J., Seetharaman, D. (2021, September 14). Facebook knows instagram is toxic for teen 
+girls, company documents show. Wall street journal. Retrieved on July 2, 2025, from  h t t    p  s :  /  / w  w w . w  
+s j  . c  o m  / t e   c h / p   e  r s o  n   a l  -  t e  c h /  f a c e b  o o  k - k n o w s - i n s t a g r a m - i s - t o x i c - f o r - t e e n - g i r l s - c o m p a n y - d o c u m e n t s - s 
+h o w - 1 1 6 3 1 6 2 0 7 3 9       
+
+===== PDF PAGE 24 =====
+1 3
+34 Page 24 of 24
+R. Fischli et al.
+Yang, J., Jimenez, C., Zhang, A., Lieret, K., Yang, J., Wu, X., Press, O., Muennighoff, N., Synnaeve, G., 
+Narasimhan, K., Yang, D., Wang, S., Press, O. (2024). SWE-bench multimodal: Do AI systems gen-
+eralize to visual software domains? Arxiv preprint. https://arxiv.org/abs/2410.03859
+Yudkowsky, E. (2004). Coherent extrapolated volition (pp. 1–37). Machine Intelligence Research Institute.
+Zhang, C., Cai, P., Fu, Y ., Yuan, H., Lu, Z. (2023). Creative agents: Empowering agents with imagination 
+for creative tasks. Arvix preprint. https://arxiv.org/pdf/2312.02519
+Zhi-Xuan, T., Carroll, M., Franklin, M., & Ashton, H. (2024). Beyond preferences in AI alignment. Philo-
+sophical Studies, 182, 1813–1863. https://doi.org/10.1007/s11098-024-02249-w
+Zhou, L., Xia, L., Ding, Z., Song, J., Liu, W., Yin, D. (2019). Reinforcement learning to optimize long-
+term user engagement in recommender systems. In Proceedings of the 25th ACM SIGKDD interna-
+tional conference on knowledge discovery & data mining , 2810–2818.  h t t p s : / / d o i . o r g / 1 0 . 1 1 4 5 / 3 2 9 2 
+5 0 0 . 3 3 3 0 6 6 8       
+Zhu, B., Jordan, M., Jiao, J. (2024). Principled Reinforcement Learning with human feedback from pair -
+wise or k-wise comparisons. In Proceedings of the 40th international conference on machine learn-
+ing, 202, 43037–43067
+Ziegler, D., Stiennon, N., Wu, J., Brown, T., Radford, A., Amodei, D., Christiano, P., Irving, G. (2020). 
+Fine-tuning language models from human preferences. OpenAI. https://arxiv.org/pdf/1909.08593
+Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps 
+and institutional affiliations.

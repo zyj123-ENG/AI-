@@ -1,0 +1,938 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        13
+      ]
+    ],
+    "date-time": "2026-10-13T14:14:10Z",
+    "timestamp": 1791900850951,
+    "version": "4.3.4"
+  },
+  "reference-count": 77,
+  "publisher": "MDPI AG",
+  "issue": "4",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            21
+          ]
+        ],
+        "date-time": "2021-02-21T00:00:00Z",
+        "timestamp": 1613865600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Sustainability"
+  ],
+  "abstract": "<jats:p>Artificial intelligence (AI)-based decision aids are increasingly employed by businesses to assist consumers’ decision-making. Personalized content based on consumers’ data brings benefits for both consumers and businesses, i.e., with regards to more relevant content. However, this practice simultaneously enables increased possibilities for exerting hidden interference and manipulation on consumers, reducing consumer autonomy. We argue that due to this, consumer autonomy represents a resource at the risk of depletion and requiring protection, due to its fundamental significance for a democratic society. By balancing advantages and disadvantages of increased influence by AI, this paper addresses an important research gap and explores the essential challenges related to the use of AI for consumers’ decision-making and autonomy, grounded in extant literature. We offer a constructive, rather than optimistic or pessimistic, outlook on AI. Hereunder, we present propositions suggesting how these problems may be alleviated, and how consumer autonomy may be protected. These propositions constitute the fundament for a framework regarding the development of sustainable AI, in the context of online decision-making. We argue that notions of transparency, complementarity, and privacy regulation are vital for increasing consumer autonomy and promoting sustainable AI. Lastly, the paper offers a definition of sustainable AI within the contextual boundaries of online decision-making. Altogether, we position this paper as a contribution to the discussion of development towards a more socially sustainable and ethical use of AI.</jats:p>",
+  "DOI": "10.3390/su13042332",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        2,
+        21
+      ]
+    ],
+    "date-time": "2021-02-21T23:59:31Z",
+    "timestamp": 1613951971000
+  },
+  "page": "2332",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 56,
+  "title": [
+    "The Role of Consumer Autonomy in Developing Sustainable AI: A Conceptual Framework"
+  ],
+  "prefix": "10.3390",
+  "volume": "13",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-7754-6453",
+      "authenticated-orcid": false,
+      "given": "Lena",
+      "family": "Bjørlo",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of International Business, Norwegian University of Science and Technology (NTNU), 6009 Ålesund, Norway"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Øystein",
+      "family": "Moen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Industrial Economics and Technology Management, Norwegian University of Science and Technology (NTNU), 7491 Trondheim, Norway"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-2197-1538",
+      "authenticated-orcid": false,
+      "given": "Mark",
+      "family": "Pasquine",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of International Business, Norwegian University of Science and Technology (NTNU), 6009 Ålesund, Norway"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2021,
+        2,
+        21
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "22",
+      "DOI": "10.1016/j.ijresmar.2016.11.006",
+      "article-title": "Digital marketing: A framework, review and research agenda",
+      "volume": "34",
+      "author": "Kannan",
+      "year": "2017",
+      "journal-title": "Int. J. Res. Mark."
+    },
+    {
+      "key": "ref_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "15",
+      "DOI": "10.1016/j.ijresmar.2019.08.002",
+      "article-title": "The future of marketing",
+      "volume": "37",
+      "author": "Rust",
+      "year": "2020",
+      "journal-title": "Int. J. Res. Mark."
+    },
+    {
+      "key": "ref_3",
+      "first-page": "186",
+      "article-title": "Sustainable Development of Artificial Intelligence (SAID)",
+      "volume": "4",
+      "author": "Djeffal",
+      "year": "2019",
+      "journal-title": "SAID"
+    },
+    {
+      "key": "ref_4",
+      "doi-asserted-by": "crossref",
+      "first-page": "98",
+      "DOI": "10.1108/JCM-06-2015-1458",
+      "article-title": "The personalization-privacy paradox: Implications for new media",
+      "volume": "33",
+      "author": "Aguirre",
+      "year": "2016",
+      "journal-title": "J. Consum. Mark."
+    },
+    {
+      "key": "ref_5",
+      "doi-asserted-by": "crossref",
+      "first-page": "146",
+      "DOI": "10.1509/jm.15.0415",
+      "article-title": "A thematic exploration of digital, social media, and mobile marketing: Research evolution from 2000 to 2015 and an agenda for future inquiry",
+      "volume": "80",
+      "author": "Lamberton",
+      "year": "2016",
+      "journal-title": "J. Mark."
+    },
+    {
+      "key": "ref_6",
+      "doi-asserted-by": "crossref",
+      "first-page": "995",
+      "DOI": "10.1037/0022-3514.79.6.995",
+      "article-title": "When choice is demotivating: Can one desire too much of a good thing?",
+      "volume": "79",
+      "author": "Iyengar",
+      "year": "2000",
+      "journal-title": "J. Personal. Soc. Psychol."
+    },
+    {
+      "key": "ref_7",
+      "unstructured": "Drumwright, M. (2021, January 17). Ethical Issues in Marketing, Advertising, and Sales. Available online: https://www.taylorfrancis.com/chapters/ethical-issues-marketing-advertising-sales-minette-drumwright/e/10.4324/9781315764818-37."
+    },
+    {
+      "key": "ref_8",
+      "first-page": "803",
+      "article-title": "Autonomy challenges in the age of big data",
+      "volume": "27",
+      "author": "Grafanaki",
+      "year": "2016",
+      "journal-title": "Intell. Prop. Media Ent. LJ"
+    },
+    {
+      "key": "ref_9",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1080/17579961.2016.1161893",
+      "article-title": "The erosion of autonomy in online consumer transactions",
+      "volume": "8",
+      "author": "Mik",
+      "year": "2016",
+      "journal-title": "Law Innov. Technol."
+    },
+    {
+      "key": "ref_10",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.14763/2019.2.1410",
+      "article-title": "Technology, autonomy, and manipulation",
+      "volume": "8",
+      "author": "Susser",
+      "year": "2019",
+      "journal-title": "Internet Policy Rev."
+    },
+    {
+      "key": "ref_11",
+      "doi-asserted-by": "crossref",
+      "first-page": "60",
+      "DOI": "10.1065/espr2007.01.375",
+      "article-title": "Reclaiming the definition of sustainability",
+      "volume": "14",
+      "author": "Johnston",
+      "year": "2007",
+      "journal-title": "Environ. Sci. Pollut. Res. Int."
+    },
+    {
+      "key": "ref_12",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1038/s41467-019-14108-y",
+      "article-title": "The role of artificial intelligence in achieving the Sustainable Development Goals",
+      "volume": "11",
+      "author": "Vinuesa",
+      "year": "2020",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "ref_13",
+      "first-page": "34",
+      "article-title": "Building sustainable organizations: The human factor",
+      "volume": "24",
+      "author": "Pfeffer",
+      "year": "2010",
+      "journal-title": "Acad. Manag. Perspect."
+    },
+    {
+      "key": "ref_14",
+      "doi-asserted-by": "crossref",
+      "first-page": "342",
+      "DOI": "10.1016/j.geoforum.2011.01.002",
+      "article-title": "What is social sustainability? A clarification of concepts",
+      "volume": "42",
+      "author": "Vallance",
+      "year": "2011",
+      "journal-title": "Geoforum"
+    },
+    {
+      "key": "ref_15",
+      "first-page": "1",
+      "article-title": "World commission on environment and development",
+      "volume": "17",
+      "author": "Wced",
+      "year": "1987",
+      "journal-title": "Our Common Future"
+    },
+    {
+      "key": "ref_16",
+      "doi-asserted-by": "crossref",
+      "first-page": "14935",
+      "DOI": "10.3390/su71114935",
+      "article-title": "A Computational Method based on Radio Frequency Technologies for the Analysis of Accessibility of Disabled People in Sustainable Cities",
+      "volume": "7",
+      "author": "Mora",
+      "year": "2015",
+      "journal-title": "Sustainability"
+    },
+    {
+      "key": "ref_17",
+      "doi-asserted-by": "crossref",
+      "first-page": "61",
+      "DOI": "10.1016/j.cosust.2012.01.013",
+      "article-title": "A vision for human well-being: Transition to social sustainability",
+      "volume": "4",
+      "author": "Rogers",
+      "year": "2012",
+      "journal-title": "Curr. Opin. Environ. Sustain."
+    },
+    {
+      "key": "ref_18",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sunstein, C.R. (2015, February 18). Fifty Shades of Manipulation. Available online: https://ssrn.com/abstract=2565892.",
+      "DOI": "10.2139/ssrn.2565892"
+    },
+    {
+      "key": "ref_19",
+      "doi-asserted-by": "crossref",
+      "first-page": "139",
+      "DOI": "10.1086/699935",
+      "article-title": "Economic policy for artificial intelligence",
+      "volume": "19",
+      "author": "Agrawal",
+      "year": "2019",
+      "journal-title": "Innov. Policy Econ."
+    },
+    {
+      "key": "ref_20",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/j.jretai.2016.12.008",
+      "article-title": "The Future of Retailing",
+      "volume": "93",
+      "author": "Grewal",
+      "year": "2017",
+      "journal-title": "J. Retail."
+    },
+    {
+      "key": "ref_21",
+      "doi-asserted-by": "crossref",
+      "first-page": "227",
+      "DOI": "10.1016/j.bushor.2019.12.002",
+      "article-title": "From data to action: How marketers can leverage AI",
+      "volume": "63",
+      "author": "Campbell",
+      "year": "2020",
+      "journal-title": "Bus. Horiz."
+    },
+    {
+      "key": "ref_22",
+      "doi-asserted-by": "crossref",
+      "first-page": "28",
+      "DOI": "10.1007/s40547-017-0085-8",
+      "article-title": "Consumer choice and autonomy in the age of artificial intelligence and big data",
+      "volume": "5",
+      "author": "Carmon",
+      "year": "2018",
+      "journal-title": "Cust. Needs Solut."
+    },
+    {
+      "key": "ref_23",
+      "doi-asserted-by": "crossref",
+      "first-page": "429",
+      "DOI": "10.1007/s11002-020-09521-z",
+      "article-title": "Autonomy in consumer choice",
+      "volume": "31",
+      "author": "Wertenbroch",
+      "year": "2020",
+      "journal-title": "Mark. Lett."
+    },
+    {
+      "key": "ref_24",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Yigitcanla, T., and Cugurullo, F. (2020). The Sustainability of Artificial Intelligence: An Urbanistic Viewpoint from the Lens of Smart and Sustainable Cities. Sustainability, 12.",
+      "DOI": "10.3390/su12208548"
+    },
+    {
+      "key": "ref_25",
+      "doi-asserted-by": "crossref",
+      "first-page": "125242",
+      "DOI": "10.1016/j.jclepro.2020.125242",
+      "article-title": "Artificial intelligence-enabled environmental sustainability of products: Marketing benefits and their variation by consumer, location, and product types",
+      "volume": "285",
+      "author": "Frank",
+      "year": "2021",
+      "journal-title": "J. Clean. Prod."
+    },
+    {
+      "key": "ref_26",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Nikitas, A., Michalakopoulou, K., Njoya, E.T., and Karampatzakis, D. (2020). Artificial Intelligence, Transport and the Smart City: Definitions and Dimensions of a New Mobility Era. Sustainability, 12.",
+      "DOI": "10.3390/su12072789"
+    },
+    {
+      "key": "ref_27",
+      "unstructured": "Renda, A. (2019, July 17). Artificial Intelligence: Ethics, Governance and Policy Challenges. Available online: https://ssrn.com/abstract=3420810."
+    },
+    {
+      "key": "ref_28",
+      "unstructured": "Larsson, S., Larsson, S., Anneroth, M., Felländer, A., Felländer-Tsai, L., Heintz, F., and Ångström, R.C. (2021, January 17). Sustainable AI: An Inventory of the State of Knowledge of ETHICAL, social, and Legal Challenges Related to Artificial Intelligence. Available online: https://portal.research.lu.se/portal/files/62833751/Larsson_et_al_2019_SUSTAINABLE_AI_web_ENG_05.pdf."
+    },
+    {
+      "key": "ref_29",
+      "doi-asserted-by": "crossref",
+      "first-page": "382",
+      "DOI": "10.1037/0033-2909.92.2.382",
+      "article-title": "Contingent decision behavior",
+      "volume": "92",
+      "author": "Payne",
+      "year": "1982",
+      "journal-title": "Psychol. Bull."
+    },
+    {
+      "key": "ref_30",
+      "doi-asserted-by": "crossref",
+      "first-page": "187",
+      "DOI": "10.1086/209535",
+      "article-title": "Constructive consumer choice processes",
+      "volume": "25",
+      "author": "Bettman",
+      "year": "1998",
+      "journal-title": "J. Consum. Res."
+    },
+    {
+      "key": "ref_31",
+      "doi-asserted-by": "crossref",
+      "first-page": "516",
+      "DOI": "10.1016/j.ijresmar.2016.10.001",
+      "article-title": "When and how to infer heuristic consideration set rules of consumers",
+      "volume": "34",
+      "author": "Bremer",
+      "year": "2017",
+      "journal-title": "Int. J. Res. Mark."
+    },
+    {
+      "key": "ref_32",
+      "unstructured": "Howard, J.A., and Sheth, J.N. (1969). The Theory of Buyer Behavior, Wiley."
+    },
+    {
+      "key": "ref_33",
+      "doi-asserted-by": "crossref",
+      "first-page": "4",
+      "DOI": "10.1287/mksc.19.1.4.15178",
+      "article-title": "Consumer decision making in online shopping environments: The effects of interactive decision aids",
+      "volume": "19",
+      "author": "Trifts",
+      "year": "2000",
+      "journal-title": "Mark. Sci."
+    },
+    {
+      "key": "ref_34",
+      "doi-asserted-by": "crossref",
+      "first-page": "41",
+      "DOI": "10.2753/JEC1086-4415170202",
+      "article-title": "Using recommendation agents to cope with information overload",
+      "volume": "17",
+      "author": "Aljukhadar",
+      "year": "2012",
+      "journal-title": "Int. J. Electron. Commer."
+    },
+    {
+      "key": "ref_35",
+      "doi-asserted-by": "crossref",
+      "first-page": "35",
+      "DOI": "10.1002/(SICI)1520-6793(199901)16:1<35::AID-MAR3>3.0.CO;2-U",
+      "article-title": "Attitude formation from product trial: Distinct roles of cognition and affect for hedonic and functional products",
+      "volume": "16",
+      "author": "Kempf",
+      "year": "1999",
+      "journal-title": "Psychol. Mark."
+    },
+    {
+      "key": "ref_36",
+      "doi-asserted-by": "crossref",
+      "first-page": "151",
+      "DOI": "10.1016/j.ijresmar.2008.03.004",
+      "article-title": "A multi-stage model of word-of-mouth influence through viral marketing",
+      "volume": "25",
+      "author": "Lilien",
+      "year": "2008",
+      "journal-title": "Int. J. Res. Mark."
+    },
+    {
+      "key": "ref_37",
+      "doi-asserted-by": "crossref",
+      "first-page": "24",
+      "DOI": "10.1509/jppm.25.1.24",
+      "article-title": "The dark side of choice: When choice impairs social welfare",
+      "volume": "25",
+      "author": "Botti",
+      "year": "2006",
+      "journal-title": "J. Public Policy Mark."
+    },
+    {
+      "key": "ref_38",
+      "doi-asserted-by": "crossref",
+      "first-page": "333",
+      "DOI": "10.1016/j.jcps.2014.08.002",
+      "article-title": "Choice overload: A conceptual review and meta-analysis",
+      "volume": "25",
+      "author": "Chernev",
+      "year": "2015",
+      "journal-title": "J. Consum. Psychol."
+    },
+    {
+      "key": "ref_39",
+      "doi-asserted-by": "crossref",
+      "first-page": "165",
+      "DOI": "10.1016/j.jcps.2012.06.003",
+      "article-title": "Help or hinder? When recommendation signage expands consideration sets and heightens decision difficulty",
+      "volume": "23",
+      "author": "Goodman",
+      "year": "2013",
+      "journal-title": "J. Consum. Psychol."
+    },
+    {
+      "key": "ref_40",
+      "first-page": "84",
+      "article-title": "How much choice is too much? Contributions to 401 (k) retirement plans",
+      "volume": "83",
+      "author": "Huberman",
+      "year": "2004",
+      "journal-title": "Pension Des. Struct. New Lessons Behav. Financ."
+    },
+    {
+      "key": "ref_41",
+      "doi-asserted-by": "crossref",
+      "first-page": "170",
+      "DOI": "10.1086/376808",
+      "article-title": "When more is less and less is more: The role of ideal point availability and assortment in consumer choice",
+      "volume": "30",
+      "author": "Chernev",
+      "year": "2003",
+      "journal-title": "J. Consum. Res."
+    },
+    {
+      "key": "ref_42",
+      "doi-asserted-by": "crossref",
+      "first-page": "261",
+      "DOI": "10.1089/cpb.2006.9.261",
+      "article-title": "Online shopping hesitation",
+      "volume": "9",
+      "author": "Cho",
+      "year": "2006",
+      "journal-title": "Cyberpsychol. Behav."
+    },
+    {
+      "key": "ref_43",
+      "first-page": "149",
+      "article-title": "Possible selves? Identifying dimensions for exploring the dialectic between positive and negative selves in consumer behavior",
+      "volume": "30",
+      "author": "Banister",
+      "year": "2003",
+      "journal-title": "Adv. Consum. Res."
+    },
+    {
+      "key": "ref_44",
+      "doi-asserted-by": "crossref",
+      "first-page": "791",
+      "DOI": "10.1002/mar.20564",
+      "article-title": "Consumer decision making on the web: A theoretical analysis and research guidelines",
+      "volume": "29",
+      "author": "Punj",
+      "year": "2012",
+      "journal-title": "Psychol. Mark."
+    },
+    {
+      "key": "ref_45",
+      "doi-asserted-by": "crossref",
+      "first-page": "511",
+      "DOI": "10.1016/j.jretai.2014.08.004",
+      "article-title": "Simple decision aids and consumer decision making",
+      "volume": "90",
+      "author": "Lurie",
+      "year": "2014",
+      "journal-title": "J. Retail."
+    },
+    {
+      "key": "ref_46",
+      "doi-asserted-by": "crossref",
+      "first-page": "82",
+      "DOI": "10.1287/mksc.1030.0033",
+      "article-title": "Reactance to recommendations: When unsolicited advice yields contrary responses",
+      "volume": "23",
+      "author": "Fitzsimons",
+      "year": "2004",
+      "journal-title": "Mark. Sci."
+    },
+    {
+      "key": "ref_47",
+      "doi-asserted-by": "crossref",
+      "first-page": "99",
+      "DOI": "10.1086/208799",
+      "article-title": "The cost of thinking",
+      "volume": "7",
+      "author": "Shugan",
+      "year": "1980",
+      "journal-title": "J. Consum. Res."
+    },
+    {
+      "key": "ref_48",
+      "unstructured": "De Charms, R. (1968). Personal Causation: Tire Internal Affective Determinants of Behavior, Academic Press."
+    },
+    {
+      "key": "ref_49",
+      "unstructured": "Brehm, J.W. (1966). A Theory of Psychological Reactance, Academic Press."
+    },
+    {
+      "key": "ref_50",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Gherheș, V., and Obrad, C. (2018). Technical and humanities students’ perspectives on the development and sustainability of artificial intelligence (AI). Sustainability, 10.",
+      "DOI": "10.3390/su10093066"
+    },
+    {
+      "key": "ref_51",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Longoni, C., and Cian, L. (2020, November 02). Artificial Intelligence in Utilitarian vs. Hedonic Contexts: The “Word-of-Machine” Effect. Available online: https://journals.sagepub.com/doi/abs/10.1177/0022242920957347.",
+      "DOI": "10.1177/0022242920957347"
+    },
+    {
+      "key": "ref_52",
+      "doi-asserted-by": "crossref",
+      "first-page": "153",
+      "DOI": "10.1631/FITEE.1700053",
+      "article-title": "Hybrid-augmented intelligence: Collaboration and cognition",
+      "volume": "18",
+      "author": "Zheng",
+      "year": "2017",
+      "journal-title": "Front. Inf. Technol. Electron. Eng."
+    },
+    {
+      "key": "ref_53",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Pariser, E. (2011). The Filter Bubble: What the Internet is Hiding from You, Penguin.",
+      "DOI": "10.3139/9783446431164"
+    },
+    {
+      "key": "ref_54",
+      "doi-asserted-by": "crossref",
+      "first-page": "298",
+      "DOI": "10.1093/poq/nfw006",
+      "article-title": "Filter bubbles, echo chambers, and online news consumption",
+      "volume": "80",
+      "author": "Flaxman",
+      "year": "2016",
+      "journal-title": "Public Opin. Q."
+    },
+    {
+      "key": "ref_55",
+      "doi-asserted-by": "crossref",
+      "first-page": "1155",
+      "DOI": "10.1287/mnsc.2016.2643",
+      "article-title": "Overcoming algorithm aversion: People will use imperfect algorithms if they can (even slightly) modify them",
+      "volume": "64",
+      "author": "Dietvorst",
+      "year": "2018",
+      "journal-title": "Manag. Sci."
+    },
+    {
+      "key": "ref_56",
+      "doi-asserted-by": "crossref",
+      "first-page": "105",
+      "DOI": "10.1007/s10676-009-9187-9",
+      "article-title": "The ethics of information transparency",
+      "volume": "11",
+      "author": "Turilli",
+      "year": "2009",
+      "journal-title": "Ethics Inf. Technol."
+    },
+    {
+      "key": "ref_57",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sinha, R., and Swearingen, K. (2021, January 17). The Role of Transparency in Recommender Systems. Available online: https://doi.org/10.1145/506443.506619.",
+      "DOI": "10.1145/506443.506619"
+    },
+    {
+      "key": "ref_58",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Henriksson, H., and Grunewald, E.W. (2020). Society as a Stakeholder, in Sustainability Leadership, Springer.",
+      "DOI": "10.1007/978-3-030-42291-2_10"
+    },
+    {
+      "key": "ref_59",
+      "doi-asserted-by": "crossref",
+      "first-page": "466",
+      "DOI": "10.1016/j.ijresmar.2020.03.006",
+      "article-title": "Consumer privacy and the future of data-based innovation and marketing",
+      "volume": "37",
+      "author": "Bleier",
+      "year": "2020",
+      "journal-title": "Int. J. Res. Mark."
+    },
+    {
+      "key": "ref_60",
+      "doi-asserted-by": "crossref",
+      "first-page": "57",
+      "DOI": "10.1287/mnsc.1100.1246",
+      "article-title": "Privacy regulation and online advertising",
+      "volume": "57",
+      "author": "Goldfarb",
+      "year": "2011",
+      "journal-title": "Manag. Sci."
+    },
+    {
+      "key": "ref_61",
+      "first-page": "239",
+      "article-title": "Get to know me: Protecting privacy and autonomy under big data’s penetrating gaze",
+      "volume": "30",
+      "author": "Pan",
+      "year": "2016",
+      "journal-title": "Harv. JL Tech."
+    },
+    {
+      "key": "ref_62",
+      "unstructured": "Rossler, B., Glasgow, D.V., and Glasgow, R.D.V. (2005). The Value of Privacy, Polity Press."
+    },
+    {
+      "key": "ref_63",
+      "doi-asserted-by": "crossref",
+      "first-page": "549",
+      "DOI": "10.1007/s13347-018-0316-4",
+      "article-title": "“Strongly recommended” revisiting decisional privacy to judge hypernudging in self-tracking technologies",
+      "volume": "32",
+      "author": "Lanzing",
+      "year": "2019",
+      "journal-title": "Philos. Technol."
+    },
+    {
+      "key": "ref_64",
+      "doi-asserted-by": "crossref",
+      "first-page": "100",
+      "DOI": "10.1111/j.1745-6606.2006.00070.x",
+      "article-title": "The privacy paradox: Personal information disclosure intentions versus behaviors",
+      "volume": "41",
+      "author": "Norberg",
+      "year": "2007",
+      "journal-title": "J. Consum. Aff."
+    },
+    {
+      "key": "ref_65",
+      "doi-asserted-by": "crossref",
+      "first-page": "829",
+      "DOI": "10.1002/mar.20186",
+      "article-title": "Privacy attitudes and privacy-related behavior",
+      "volume": "24",
+      "author": "Norberg",
+      "year": "2007",
+      "journal-title": "Psychol. Mark."
+    },
+    {
+      "key": "ref_66",
+      "unstructured": "Miller, S. (1996). Civilizing Cyberspace: Policy, Power and the Information Superhighway, Addison-Wesley."
+    },
+    {
+      "key": "ref_67",
+      "doi-asserted-by": "crossref",
+      "first-page": "241",
+      "DOI": "10.1093/ijlit/10.3.241",
+      "article-title": "Access to the individual: Digital rights management systems and the intersection of informational and decisional privacy interests",
+      "volume": "10",
+      "author": "Ganley",
+      "year": "2002",
+      "journal-title": "Int. J. Law Inf. Technol."
+    },
+    {
+      "key": "ref_68",
+      "first-page": "371",
+      "article-title": "Role of Ethics in Digital Marketing",
+      "volume": "3",
+      "author": "Singla",
+      "year": "2017",
+      "journal-title": "Imp. J. Interdiscip. Res."
+    },
+    {
+      "key": "ref_69",
+      "doi-asserted-by": "crossref",
+      "first-page": "56",
+      "DOI": "10.1109/MC.2018.3191268",
+      "article-title": "User data privacy: Facebook, Cambridge Analytica, and privacy protection",
+      "volume": "51",
+      "author": "Isaak",
+      "year": "2018",
+      "journal-title": "Computer"
+    },
+    {
+      "key": "ref_70",
+      "doi-asserted-by": "crossref",
+      "first-page": "818",
+      "DOI": "10.1177/0022243718818423",
+      "article-title": "Man versus machine: Resisting automation in identity-based consumer behavior",
+      "volume": "55",
+      "author": "Leung",
+      "year": "2018",
+      "journal-title": "J. Mark. Res."
+    },
+    {
+      "key": "ref_71",
+      "doi-asserted-by": "crossref",
+      "first-page": "157",
+      "DOI": "10.1002/mar.20981",
+      "article-title": "How Mobile In-Store Advertising Influences Purchase Intention: Value Drivers and Mediating Effects from a Consumer Perspective",
+      "volume": "34",
+      "author": "Bues",
+      "year": "2017",
+      "journal-title": "Psychol. Mark."
+    },
+    {
+      "key": "ref_72",
+      "doi-asserted-by": "crossref",
+      "first-page": "390",
+      "DOI": "10.1016/j.jretai.2015.04.001",
+      "article-title": "The Importance of Trust for Personalized Online Advertising",
+      "volume": "91",
+      "author": "Bleier",
+      "year": "2015",
+      "journal-title": "J. Retail."
+    },
+    {
+      "key": "ref_73",
+      "doi-asserted-by": "crossref",
+      "first-page": "323",
+      "DOI": "10.1111/1540-4560.00067",
+      "article-title": "Consumer privacy: Balancing economic and justice considerations",
+      "volume": "59",
+      "author": "Culnan",
+      "year": "2003",
+      "journal-title": "J. Soc. Issues"
+    },
+    {
+      "key": "ref_74",
+      "doi-asserted-by": "crossref",
+      "first-page": "206",
+      "DOI": "10.1177/074391569101200206",
+      "article-title": "Direct mail privacy-efficiency trade-offs within an implied social contract framework",
+      "volume": "12",
+      "author": "Milne",
+      "year": "1993",
+      "journal-title": "J. Public Policy Mark."
+    },
+    {
+      "key": "ref_75",
+      "doi-asserted-by": "crossref",
+      "first-page": "55",
+      "DOI": "10.1007/978-0-387-78213-3_3",
+      "article-title": "Interactive Consumer Decision Aids",
+      "volume": "Volume 121",
+      "author": "Murray",
+      "year": "2008",
+      "journal-title": "Handbook of Marketing Decision Models"
+    },
+    {
+      "key": "ref_76",
+      "doi-asserted-by": "crossref",
+      "first-page": "20",
+      "DOI": "10.1108/08876041111107032",
+      "article-title": "Customer satisfaction and business performance: A fire level analysis",
+      "volume": "25",
+      "author": "Williams",
+      "year": "2011",
+      "journal-title": "J. Serv. Mark."
+    },
+    {
+      "key": "ref_77",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Nussbaum, M., and Sen, A. (1993). The Quality of Life, Oxford University Press.",
+      "DOI": "10.1093/0198287976.001.0001"
+    }
+  ],
+  "container-title": [
+    "Sustainability"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/2071-1050/13/4/2332/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        11
+      ]
+    ],
+    "date-time": "2025-10-11T05:27:23Z",
+    "timestamp": 1760160443000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.mdpi.com/2071-1050/13/4/2332"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        2,
+        21
+      ]
+    ]
+  },
+  "references-count": 77,
+  "journal-issue": {
+    "issue": "4",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          2
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "su13042332"
+  ],
+  "URL": "https://doi.org/10.3390/su13042332",
+  "relation": {},
+  "ISSN": [
+    "2071-1050"
+  ],
+  "issn-type": [
+    {
+      "value": "2071-1050",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        2,
+        21
+      ]
+    ]
+  }
+}

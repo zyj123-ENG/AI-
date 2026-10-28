@@ -1,0 +1,811 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        13
+      ]
+    ],
+    "date-time": "2026-10-13T14:14:06Z",
+    "timestamp": 1791900846394,
+    "version": "4.3.4"
+  },
+  "reference-count": 68,
+  "publisher": "Emerald",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            3
+          ]
+        ],
+        "date-time": "2024-12-03T00:00:00Z",
+        "timestamp": 1733184000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.emerald.com/insight/site-policies"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "JICES"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        1,
+        23
+      ]
+    ]
+  },
+  "abstract": "<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Purpose</jats:title>\n<jats:p>Recently, manipulative techniques, such as dark patterns, are widely applied. However, there is a need for clarification regarding these techniques and related phenomena. In particular, there is still no clarity about the terminology and conceptual basis of consumer manipulation. This paper aims to address this shortcoming by introducing a definition and classification of consumer manipulation.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Design/methodology/approach</jats:title>\n<jats:p>This paper takes a conceptual approach, drawing on existing literature and established theories to comprehend the phenomenon of consumer manipulation.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Findings</jats:title>\n<jats:p>The paper proposes that consumer manipulation comprises three dimensions: limited transparency, perceived restriction of autonomy and the feeling of being tricked. This paper presents a classification of different types of consumer manipulation and demonstrates how these types can lead to varying outcomes based on the source of manipulation, changeability, reasons for perception and perception timing. Based on this classification, research propositions informed by established theories and concepts are presented.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Originality/value</jats:title>\n<jats:p>To the best of the author’s knowledge, this work represents a first attempt to address the concept of consumer manipulation through a clear definition and classification. It is relevant for academics, policymakers and practitioners since it facilitates informed discussions and analyses of this concept. It benefits companies by raising awareness of potentially overlooked consequences of manipulative tactics, while also benefiting consumers by reducing their exposure to manipulation.</jats:p>\n</jats:sec>",
+  "DOI": "10.1108/jices-09-2023-0119",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        12,
+        2
+      ]
+    ],
+    "date-time": "2024-12-02T01:55:30Z",
+    "timestamp": 1733104530000
+  },
+  "page": "14-31",
+  "source": "Crossref",
+  "is-referenced-by-count": 12,
+  "title": [
+    "Consumer manipulation – a definition, classification and future research agenda"
+  ],
+  "prefix": "10.1108",
+  "volume": "23",
+  "author": [
+    {
+      "given": "Janis",
+      "family": "Witte",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "140",
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        12,
+        3
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "issue": "5",
+      "key": "key2025012211462694700_ref001",
+      "doi-asserted-by": "publisher",
+      "first-page": "422",
+      "DOI": "10.1037/h0040968",
+      "article-title": "Toward an understanding of inequity",
+      "volume": "67",
+      "year": "1963",
+      "journal-title": "Journal of Abnormal Psychology"
+    },
+    {
+      "issue": "1/2",
+      "key": "key2025012211462694700_ref002",
+      "doi-asserted-by": "publisher",
+      "first-page": "28",
+      "DOI": "10.1007/s40547-017-0085-8",
+      "article-title": "Consumer choice and autonomy in the age of artificial intelligence and big data",
+      "volume": "5",
+      "year": "2018",
+      "journal-title": "Customer Needs and Solutions"
+    },
+    {
+      "issue": "2",
+      "key": "key2025012211462694700_ref003",
+      "doi-asserted-by": "publisher",
+      "first-page": "148",
+      "DOI": "10.1080/08900523.2001.9679610",
+      "article-title": "The TARES test: Five principles for ethical persuasion",
+      "volume": "16",
+      "year": "2001",
+      "journal-title": "Journal of Mass Media Ethics"
+    },
+    {
+      "issue": "2",
+      "key": "key2025012211462694700_ref004",
+      "doi-asserted-by": "publisher",
+      "first-page": "37",
+      "DOI": "10.2307/3219740",
+      "article-title": "Manipulativeness",
+      "volume": "77",
+      "year": "2003",
+      "journal-title": "Proceedings and Addresses of the American Philosophical Association"
+    },
+    {
+      "key": "key2025012211462694700_ref0130",
+      "unstructured": "BEUC (2022), “BEUC comments on the EDPB guidelines on dark patterns in social media platform interfaces”, available at: www.edpb.europa.eu/sites/default/files/webform/public_consultation_reply/BEUC-X-2022-043%20BEUC%20comment%20on%20the%20EDPB%20Guidelines%20on%20dark%20patterns%20in%20social%20media%20platform%20interfaces.pdf (accessed 26 November 2024)."
+    },
+    {
+      "issue": "2",
+      "key": "key2025012211462694700_ref005",
+      "doi-asserted-by": "publisher",
+      "first-page": "69",
+      "DOI": "10.2307/1251871",
+      "article-title": "Evaluating service encounters: the effects of physical surroundings and employee responses",
+      "volume": "54",
+      "year": "1990",
+      "journal-title": "Journal of Marketing"
+    },
+    {
+      "issue": "6",
+      "key": "key2025012211462694700_ref006",
+      "doi-asserted-by": "publisher",
+      "first-page": "1065",
+      "DOI": "10.1086/656570",
+      "article-title": "The locus of choice: personal causality and satisfaction with hedonic and utilitarian decisions",
+      "volume": "37",
+      "year": "2011",
+      "journal-title": "Journal of Consumer Research"
+    },
+    {
+      "key": "key2025012211462694700_ref007",
+      "volume-title": "A Theory of Psychological Reactance",
+      "year": "1966"
+    },
+    {
+      "issue": "1",
+      "key": "key2025012211462694700_ref008",
+      "doi-asserted-by": "publisher",
+      "first-page": "69",
+      "DOI": "10.1086/314309",
+      "article-title": "Consumers’ use of persuasion knowledge: the effects of accessibility and cognitive capacity on perceptions of an influence agent",
+      "volume": "27",
+      "year": "2000",
+      "journal-title": "Journal of Consumer Research"
+    },
+    {
+      "issue": "14",
+      "key": "key2025012211462694700_ref009",
+      "first-page": "105",
+      "article-title": "Dark patterns in the media: a systematic review",
+      "volume": "7",
+      "year": "2019",
+      "journal-title": "Network Intelligence Studies"
+    },
+    {
+      "key": "key2025012211462694700_ref010",
+      "first-page": "1",
+      "article-title": "UI dark patterns and where to find them”",
+      "volume-title": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, CHI' 20: CHI Conference on Human Factors in Computing Systems",
+      "year": "2020"
+    },
+    {
+      "key": "key2025012211462694700_ref011",
+      "unstructured": "European Commission (2021), “Consumer policy: Principles and instruments”, Fact Sheet, available at: www.europarl.europa.eu/ftu/pdf/en/FTU_2.2.1.pdf (accessed 4 September 2023)."
+    },
+    {
+      "key": "key2025012211462694700_ref012",
+      "unstructured": "European Parliament (2022a), “Digital services act: agreement for a transparent and safe online environment”, available at: www.europarl.europa.eu/news/de/press-room/20220412IPR27111/digital-services-act-agreement-for-a-transparent-and-safe-online-environment (accessed 4 September 2023)."
+    },
+    {
+      "key": "key2025012211462694700_ref013",
+      "unstructured": "European Parliament (2022b), “Regulation (EU) 2022/1925 of the European parliament and of the council of 14 September 2022 on contestable and fair markets in the digital sector and amending directives (EU) 2019/1937 and (EU) 2020/1828 (digital markets act)”, available at: www.eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R1925 (accessed 3 August 2024)."
+    },
+    {
+      "issue": "4",
+      "key": "key2025012211462694700_ref014",
+      "doi-asserted-by": "publisher",
+      "first-page": "398",
+      "DOI": "10.1086/208978",
+      "article-title": "Consumer reactions to product failure: an attributional approach",
+      "volume": "10",
+      "year": "1984",
+      "journal-title": "Journal of Consumer Research"
+    },
+    {
+      "issue": "1",
+      "key": "key2025012211462694700_ref015",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1086/209380",
+      "article-title": "The persuasion knowledge model: how people cope with persuasion attempts",
+      "volume": "21",
+      "year": "1994",
+      "journal-title": "Journal of Consumer Research"
+    },
+    {
+      "issue": "MKT",
+      "key": "key2025012211462694700_ref016",
+      "first-page": "293",
+      "article-title": "Manipulating consumers is not marketing: a commentary on Cass R. Sunstein’s ‘fifty shades of manipulation",
+      "volume": "87",
+      "year": "2016",
+      "journal-title": "INSEAD Working Paper"
+    },
+    {
+      "key": "key2025012211462694700_ref017",
+      "volume-title": "Manipulatory Politics",
+      "year": "1980"
+    },
+    {
+      "issue": "CSCW2",
+      "key": "key2025012211462694700_ref018",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1145/3479516",
+      "article-title": "End user accounts of dark patterns as felt manipulation",
+      "volume": "5",
+      "year": "2021",
+      "journal-title": "Proceedings of the ACM on Human-Computer Interaction"
+    },
+    {
+      "key": "key2025012211462694700_ref019",
+      "first-page": "1",
+      "article-title": "The dark (patterns) side of UX design”",
+      "volume-title": "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. CHI' 18: CHI Conference on Human Factors in Computing Systems",
+      "year": "2018"
+    },
+    {
+      "issue": "2",
+      "key": "key2025012211462694700_ref020",
+      "first-page": "155",
+      "article-title": "The problem with manipulation",
+      "volume": "40",
+      "year": "2003",
+      "journal-title": "American Philosophical Quarterly"
+    },
+    {
+      "key": "key2025012211462694700_ref0330",
+      "volume-title": "Studies in the Way of Words",
+      "year": "1989"
+    },
+    {
+      "issue": "1",
+      "key": "key2025012211462694700_ref021",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1017/psrm.2022.17",
+      "article-title": "Digital literacy and online political behavior",
+      "volume": "11",
+      "year": "2022",
+      "journal-title": "Political Science Research and Methods"
+    },
+    {
+      "key": "key2025012211462694700_ref022",
+      "volume-title": "Thought Manipulation: The Use and Abuse of Psychological Trickery",
+      "year": "2009"
+    },
+    {
+      "key": "key2025012211462694700_ref023",
+      "first-page": "581",
+      "article-title": "Crime prevention: how to avoid subscription traps",
+      "volume-title": "Proceedings of the 17th European Conference on Cyber Warfare and Security ECCWS 2018",
+      "year": "2018"
+    },
+    {
+      "issue": "2",
+      "key": "key2025012211462694700_ref024",
+      "doi-asserted-by": "publisher",
+      "first-page": "250",
+      "DOI": "10.1177/002224377801500208",
+      "article-title": "An application of equity theory to Buyer-Seller exchange situations",
+      "volume": "15",
+      "year": "1978",
+      "journal-title": "Journal of Marketing Research"
+    },
+    {
+      "issue": "13",
+      "key": "key2025012211462694700_ref025",
+      "doi-asserted-by": "crossref",
+      "first-page": "377",
+      "DOI": "10.2307/2025160",
+      "article-title": "Preference among preferences",
+      "volume": "71",
+      "year": "1974",
+      "journal-title": "The Journal of Philosophy"
+    },
+    {
+      "issue": "4",
+      "key": "key2025012211462694700_ref026",
+      "doi-asserted-by": "publisher",
+      "first-page": "825",
+      "DOI": "10.5367/000000009789955125",
+      "article-title": "Customer satisfaction with and loyalty towards online travel products: a transaction cost economics perspective",
+      "volume": "15",
+      "year": "2009",
+      "journal-title": "Tourism Economics"
+    },
+    {
+      "key": "key2025012211462694700_ref027",
+      "unstructured": "LaMagna, M. and Passy, J. (2018), “Want to delete Facebook? Read what happened to these people first”, available at: www.marketwatch.com/story/want-to-delete-facebook-read-what-happened-to-these-people-first-2018-07-27 (accessed 4 September 2023)."
+    },
+    {
+      "issue": "6",
+      "key": "key2025012211462694700_ref028",
+      "doi-asserted-by": "publisher",
+      "first-page": "69",
+      "DOI": "10.1509/jm.15.0420",
+      "article-title": "Understanding customer experience throughout the customer journey",
+      "volume": "80",
+      "year": "2016",
+      "journal-title": "Journal of Marketing"
+    },
+    {
+      "issue": "11",
+      "key": "key2025012211462694700_ref029",
+      "doi-asserted-by": "publisher",
+      "first-page": "2294",
+      "DOI": "10.1080/0144929X.2021.1917661",
+      "article-title": "Strong tie or weak tie? Exploring the impact of group-formation gamification mechanisms on user emotional anxiety in social commerce",
+      "volume": "41",
+      "year": "2021",
+      "journal-title": "Behaviour and Information Technology"
+    },
+    {
+      "issue": "1",
+      "key": "key2025012211462694700_ref030",
+      "doi-asserted-by": "publisher",
+      "first-page": "43",
+      "DOI": "10.1093/jla/laaa006",
+      "article-title": "Shining a light on dark patterns",
+      "volume": "13",
+      "year": "2021",
+      "journal-title": "Journal of Legal Analysis"
+    },
+    {
+      "key": "key2025012211462694700_ref031",
+      "article-title": "What can CHI do about dark paterns?",
+      "year": "2021"
+    },
+    {
+      "issue": "7",
+      "key": "key2025012211462694700_ref032",
+      "doi-asserted-by": "publisher",
+      "first-page": "823",
+      "DOI": "10.1016/j.jbusres.2011.06.007",
+      "article-title": "When atmospherics lead to inferences of manipulative intent: its effects on trust and attitude",
+      "volume": "66",
+      "year": "2013",
+      "journal-title": "Journal of Business Research"
+    },
+    {
+      "issue": "1",
+      "key": "key2025012211462694700_ref033",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1080/03637759209376245",
+      "article-title": "Information manipulation theory",
+      "volume": "59",
+      "year": "1992",
+      "journal-title": "Communication Monographs"
+    },
+    {
+      "issue": "6149",
+      "key": "key2025012211462694700_ref04300",
+      "article-title": "Poverty impedes cognitive function",
+      "volume": "341",
+      "year": "2013",
+      "journal-title": "Science"
+    },
+    {
+      "issue": "CSCW",
+      "key": "key2025012211462694700_ref034",
+      "first-page": "1",
+      "article-title": "Dark patterns at scale",
+      "volume": "3",
+      "year": "2019",
+      "journal-title": "Proceedings of the ACM on Human-Computer Interaction"
+    },
+    {
+      "issue": "3",
+      "key": "key2025012211462694700_ref035",
+      "doi-asserted-by": "publisher",
+      "first-page": "890",
+      "DOI": "10.1111/joca.12313",
+      "article-title": "Illusion of safety: how consumers underestimate manipulation and deception in online (vs. offline) shopping contexts",
+      "volume": "54",
+      "year": "2020",
+      "journal-title": "Journal of Consumer Affairs"
+    },
+    {
+      "issue": "2",
+      "key": "key2025012211462694700_ref036",
+      "doi-asserted-by": "publisher",
+      "first-page": "86",
+      "DOI": "10.1007/s13162-013-0046-9",
+      "article-title": "Corporate societal responsibility in marketing: normatively broadening the concept",
+      "volume": "3",
+      "year": "2013",
+      "journal-title": "AMS Review"
+    },
+    {
+      "issue": "3",
+      "key": "key2025012211462694700_ref037",
+      "doi-asserted-by": "crossref",
+      "first-page": "164",
+      "DOI": "10.1111/bioe.12421",
+      "article-title": "Manipulation, salience, and nudges",
+      "volume": "32",
+      "year": "2018",
+      "journal-title": "Bioethics"
+    },
+    {
+      "issue": "4",
+      "key": "key2025012211462694700_ref038",
+      "doi-asserted-by": "publisher",
+      "first-page": "460",
+      "DOI": "10.2307/3150499",
+      "article-title": "A cognitive model of the antecedents and consequences of satisfaction decisions",
+      "volume": "17",
+      "year": "1980",
+      "journal-title": "Journal of Marketing Research"
+    },
+    {
+      "key": "key2025012211462694700_ref039",
+      "unstructured": "Online Etymology Dictionary (2023), “Manipulation”, available at: www.etymonline.com/de/word/manipulation (accessed 4 August 2024)."
+    },
+    {
+      "key": "key2025012211462694700_ref040",
+      "unstructured": "Perrin, A. (2018), “Americans are changing their relationship with Facebook”, available at: www.pewresearch.org/fact-tank/2018/09/05/americans-are-changing-their-relationship-with-facebook/ (accessed 4 September 2023)."
+    },
+    {
+      "key": "key2025012211462694700_ref041",
+      "unstructured": "Pfeifer, W., et al. (1993), “Etymologisches wörterbuch des deutschen: manipulation”, available at: www.dwds.de/wb/etymwb/Manipulation (accessed 26 November 2023)."
+    },
+    {
+      "key": "key2025012211462694700_ref042",
+      "doi-asserted-by": "publisher",
+      "first-page": "353",
+      "DOI": "10.1016/j.jebo.2020.04.007",
+      "article-title": "Drip pricing and its regulation: experimental evidence",
+      "volume": "176",
+      "year": "2020",
+      "journal-title": "Journal of Economic Behavior and Organization"
+    },
+    {
+      "issue": "6",
+      "key": "key2025012211462694700_ref043",
+      "doi-asserted-by": "publisher",
+      "first-page": "850",
+      "DOI": "10.1177/0272989X08327066",
+      "article-title": "A theory of medical decision making and health: fuzzy trace theory",
+      "volume": "28",
+      "year": "2008",
+      "journal-title": "Medical Decision Making"
+    },
+    {
+      "issue": "4",
+      "key": "key2025012211462694700_ref044",
+      "doi-asserted-by": "publisher",
+      "first-page": "249",
+      "DOI": "10.1002/bdm.3960040403",
+      "article-title": "Fuzzy-trace theory and framing effects in choice: Gist extraction, truncation, and conversion",
+      "volume": "4",
+      "year": "1991",
+      "journal-title": "Journal of Behavioral Decision Making"
+    },
+    {
+      "issue": "1",
+      "key": "key2025012211462694700_ref045",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1016/1041-6080(95)90031-4",
+      "article-title": "Fuzzy-trace theory: an interim synthesis",
+      "volume": "7",
+      "year": "1995",
+      "journal-title": "Learning and Individual Differences"
+    },
+    {
+      "issue": "2/3",
+      "key": "key2025012211462694700_ref046",
+      "doi-asserted-by": "publisher",
+      "first-page": "180",
+      "DOI": "10.1016/j.dr.2011.07.004",
+      "article-title": "Dual processes in decision making and developmental neuroscience: a Fuzzy-Trace model",
+      "volume": "31",
+      "year": "2011",
+      "journal-title": "Developmental Review"
+    },
+    {
+      "issue": "3",
+      "key": "key2025012211462694700_ref047",
+      "doi-asserted-by": "publisher",
+      "first-page": "373",
+      "DOI": "10.1007/s10551-010-0365-9",
+      "article-title": "Relational consequences of perceived deception in online shopping: the moderating roles of type of product, consumer’s attitude toward the internet and consumer’s demographics",
+      "volume": "95",
+      "year": "2010",
+      "journal-title": "Journal of Business Ethics"
+    },
+    {
+      "issue": "4",
+      "key": "key2025012211462694700_ref048",
+      "doi-asserted-by": "publisher",
+      "first-page": "338",
+      "DOI": "10.1086/292086",
+      "article-title": "Manipulation",
+      "volume": "88",
+      "year": "1978",
+      "journal-title": "Ethics"
+    },
+    {
+      "issue": "1",
+      "key": "key2025012211462694700_ref049",
+      "doi-asserted-by": "publisher",
+      "first-page": "97",
+      "DOI": "10.1007/s10551-011-0802-4",
+      "article-title": "A framework for assessing immorally manipulative marketing tactics",
+      "volume": "102",
+      "year": "2011",
+      "journal-title": "Journal of Business Ethics"
+    },
+    {
+      "issue": "1",
+      "key": "key2025012211462694700_ref0190",
+      "doi-asserted-by": "crossref",
+      "first-page": "141",
+      "DOI": "10.1509/jppm.26.1.141",
+      "article-title": "Raising marketing’s aspirations",
+      "volume": "26",
+      "year": "2007",
+      "journal-title": "Journal of Public Policy & Marketing"
+    },
+    {
+      "issue": "2",
+      "key": "key2025012211462694700_ref050",
+      "doi-asserted-by": "publisher",
+      "first-page": "106",
+      "DOI": "10.1108/JICES-02-2015-0003",
+      "article-title": "Gaming the gamer? – the ethics of exploiting psychological research in video games",
+      "volume": "14",
+      "year": "2016",
+      "journal-title": "Journal of Information, Communication and Ethics in Society"
+    },
+    {
+      "key": "key2025012211462694700_ref051",
+      "first-page": "248",
+      "article-title": "Consumer manipulation: are marketers building a monster",
+      "volume-title": "Marketing Horizons: A 1980’s Perspective",
+      "year": "2015"
+    },
+    {
+      "issue": "3/4",
+      "key": "key2025012211462694700_ref052",
+      "doi-asserted-by": "publisher",
+      "first-page": "213",
+      "DOI": "10.2139/ssrn.2565892",
+      "article-title": "Fifty shades of manipulation",
+      "volume": "1",
+      "year": "2015",
+      "journal-title": "Journal of Marketing Behavior"
+    },
+    {
+      "key": "key2025012211462694700_ref053",
+      "first-page": "1843",
+      "article-title": "Sludge and ordeals",
+      "volume": "68",
+      "year": "2018",
+      "journal-title": "Duke Law Journal"
+    },
+    {
+      "key": "key2025012211462694700_ref054",
+      "doi-asserted-by": "publisher",
+      "first-page": "21",
+      "DOI": "10.2139/ssrn.2565892",
+      "article-title": "Manipulation As theft",
+      "volume": "1/13",
+      "year": "2021",
+      "journal-title": "Harvard Public Law Working Paper"
+    },
+    {
+      "issue": "1",
+      "key": "key2025012211462694700_ref055",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.2139/ssrn.3306006",
+      "article-title": "Online manipulation: Hidden influences in a digital world",
+      "volume": "4",
+      "year": "2018",
+      "journal-title": "SSRN Electronic Journal"
+    },
+    {
+      "issue": "6401",
+      "key": "key2025012211462694700_ref056",
+      "doi-asserted-by": "publisher",
+      "first-page": "431",
+      "DOI": "10.1126/science.aau9241",
+      "article-title": "Nudge, not sludge",
+      "volume": "361",
+      "year": "2018",
+      "journal-title": "Science"
+    },
+    {
+      "key": "key2025012211462694700_ref057",
+      "volume-title": "Nudge. Improving Decisions about Health, Wealth and Happiness",
+      "year": "2009"
+    },
+    {
+      "key": "key2025012211462694700_ref058",
+      "first-page": "143",
+      "article-title": "Dark patterns in online shopping: of sneaky tricks, perceived annoyance and respective brand trust",
+      "volume-title": "HCI in Business, Government and Organizations",
+      "year": "2021"
+    },
+    {
+      "issue": "1",
+      "key": "key2025012211462694700_ref059",
+      "doi-asserted-by": "publisher",
+      "first-page": "66",
+      "DOI": "10.1177/1094670519900553",
+      "article-title": "Feeling manipulated: How tip request sequence impacts customers and service providers?",
+      "volume": "24",
+      "year": "2021",
+      "journal-title": "Journal of Service Research"
+    },
+    {
+      "issue": "4",
+      "key": "key2025012211462694700_ref060",
+      "doi-asserted-by": "publisher",
+      "first-page": "548",
+      "DOI": "10.1037/0033-295X.92.4.548",
+      "article-title": "An attributional theory of achievement motivation and emotion",
+      "volume": "92",
+      "year": "1985",
+      "journal-title": "Psychological Review"
+    },
+    {
+      "issue": "4",
+      "key": "key2025012211462694700_ref061",
+      "doi-asserted-by": "publisher",
+      "first-page": "429",
+      "DOI": "10.1007/s11002-020-09521-z",
+      "article-title": "Autonomy in consumer choice",
+      "volume": "31",
+      "year": "2020",
+      "journal-title": "Marketing Letters"
+    },
+    {
+      "key": "key2025012211462694700_ref062",
+      "article-title": "Coercion, manipulation, exploitation",
+      "volume-title": "Manipulation",
+      "year": "2014"
+    },
+    {
+      "issue": "1",
+      "key": "key2025012211462694700_ref063",
+      "doi-asserted-by": "publisher",
+      "first-page": "169",
+      "DOI": "10.2307/23043494",
+      "article-title": "Product-related deception in E-Commerce: a theoretical perspective",
+      "volume": "35",
+      "year": "2011",
+      "journal-title": "MIS Quarterly"
+    },
+    {
+      "key": "key2025012211462694700_ref064",
+      "doi-asserted-by": "publisher",
+      "first-page": "24",
+      "DOI": "10.1016/j.jbusres.2018.02.016",
+      "article-title": "Manufactured opinions: the effect of manipulating online product reviews",
+      "volume": "87",
+      "year": "2018",
+      "journal-title": "Journal of Business Research"
+    }
+  ],
+  "container-title": [
+    "Journal of Information, Communication and Ethics in Society"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.emerald.com/insight/content/doi/10.1108/JICES-09-2023-0119/full/xml",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.emerald.com/insight/content/doi/10.1108/JICES-09-2023-0119/full/html",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        7,
+        24
+      ]
+    ],
+    "date-time": "2025-07-24T21:38:44Z",
+    "timestamp": 1753393124000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "http://www.emerald.com/jices/article/23/1/14-31/1244953"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        12,
+        3
+      ]
+    ]
+  },
+  "references-count": 68,
+  "journal-issue": {
+    "issue": "1",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          3
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          23
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1108/JICES-09-2023-0119"
+  ],
+  "URL": "https://doi.org/10.1108/jices-09-2023-0119",
+  "relation": {},
+  "ISSN": [
+    "1477-996X",
+    "1758-8871"
+  ],
+  "issn-type": [
+    {
+      "value": "1477-996X",
+      "type": "print"
+    },
+    {
+      "value": "1758-8871",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        12,
+        3
+      ]
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+[
+  {
+    "file": "B_核心论文论证方法矩阵.md",
+    "bytes": 75348,
+    "sha256": "b4446d814bf22610778d1ebd1d0c2c72222bab1e3c4cd2c27e3e7fc8ec77f08e"
+  },
+  {
+    "file": "E2_MATLAB机制仿真设计.md",
+    "bytes": 16800,
+    "sha256": "39af592b2180b5faeef2496c92778e2932c0e6f42b327fcad19b07c680e2c1d5"
+  },
+  {
+    "file": "evidence/交付核验记录.json",
+    "bytes": 1315,
+    "sha256": "0ecdf03d4f70f8957b321bbbe0077c7894b0cc3c0ed373b7cdb3b645c580a7e3"
+  },
+  {
+    "file": "evidence/方案反对意见审查.md",
+    "bytes": 14214,
+    "sha256": "d0e9e9580ba90fe24b2d921579480b9ad4afdc9c378c38bcba4fdde3006fd6ca"
+  },
+  {
+    "file": "evidence/本地PDF清单与哈希.json",
+    "bytes": 5613,
+    "sha256": "0142f64c121242b60c8e5edd03e50d3037336382761db21e05654705d1868ba1"
+  },
+  {
+    "file": "evidence/核心精读_C2_C3_I1.md",
+    "bytes": 23266,
+    "sha256": "75305de4bfa8c934309e8a8474d16ba95dd94d74b2b20c31fd7cf179540dd03c"
+  },
+  {
+    "file": "evidence/核心精读_I3_I4_N2.md",
+    "bytes": 24842,
+    "sha256": "5079c86903acd89c347e3a3907bf63209acdae78d8ac2035b7700f86bb73e680"
+  },
+  {
+    "file": "evidence/核心精读_N6_S1与补充.md",
+    "bytes": 23484,
+    "sha256": "119a2402f0c893cfcd25abd0762481ab39f3514ea71f352ec020324582ad7e32"
+  },
+  {
+    "file": "evidence/补找与官方来源获取日志.json",
+    "bytes": 6788,
+    "sha256": "47f7b1b7f4a3967dce5a7a5da4c23a5781b35db26ba323fcd61b2c76a0f874ac"
+  },
+  {
+    "file": "evidence/附件1AIC·AI伦理竞赛规则及作品提交要求.pdf.txt",
+    "bytes": 19193,
+    "sha256": "a023bc21bcfb3c16d381a7647b8c894ca7a74966750e526213b56b6360f955eb"
+  },
+  {
+    "file": "evidence/附件2AIC·AI伦理研究报告参考大纲.pdf.txt",
+    "bytes": 9477,
+    "sha256": "fdfe5d96be8abe1d6ee7e3fa3d667c446e2b19a9c911177245965c7761481a0f"
+  },
+  {
+    "file": "sources/Apple快充条件.html",
+    "bytes": 161904,
+    "sha256": "ee095b9c479492da4414c6657c93246ca6407f4239e60b95f94f309a7d3ceabb"
+  },
+  {
+    "file": "sources/R1_lara2026.pdf",
+    "bytes": 792266,
+    "sha256": "6a227c4ca79e7b06ce1ebcdb1cc78bceb95a330c32d297af446de08ae99ce23c"
+  },
+  {
+    "file": "sources/R2_delvalle2023.pdf",
+    "bytes": 694527,
+    "sha256": "00bd930b14c1963677d540f597ce95fbed1ec90bd2edad47de394b42f88e4acb"
+  },
+  {
+    "file": "sources/个保法.html",
+    "bytes": 60221,
+    "sha256": "50b62bb9868648fe0417d8757a8cff62641eba6d879403f363d771f8c6d3acff"
+  },
+  {
+    "file": "sources/互联网广告办法.html",
+    "bytes": 34400,
+    "sha256": "8b43afcf58d7a92a5a826f2cb51c376779a3ac74adecc80771392347ee469bcb"
+  },
+  {
+    "file": "sources/比赛通知.html",
+    "bytes": 25149,
+    "sha256": "bfaa7264255ffeb32d81cc02ab7666c8040a796982bc93b2e2ef46d609eab85e"
+  },
+  {
+    "file": "sources/消法.html",
+    "bytes": 42008,
+    "sha256": "f38cb5faa197717526b483afe37a70db9aa936186157669240bf44aae7741c8d"
+  },
+  {
+    "file": "sources/消法实施条例.html",
+    "bytes": 84893,
+    "sha256": "3060ccdeca876b90750503efaa78431126513ef16d228a3541840267cf02b427"
+  },
+  {
+    "file": "sources/算法推荐规定.html",
+    "bytes": 31231,
+    "sha256": "89aa514b53377b1cda3742f74addddbbc9f44bb2927c9eaf65793f55ce19eda9"
+  },
+  {
+    "file": "sources/赛程调整.html",
+    "bytes": 21543,
+    "sha256": "e1f5c544ebea5aebf602fb751e7d019b3e1b7452764b2297c4a0a1fd4460cbc5"
+  },
+  {
+    "file": "sources/附件1AIC·AI伦理竞赛规则及作品提交要求.pdf",
+    "bytes": 322834,
+    "sha256": "f859e1e65a71ad1a90e3cbc9d58610d36e11ef80c596168c0090283b4649ae94"
+  },
+  {
+    "file": "sources/附件2AIC·AI伦理研究报告参考大纲.pdf",
+    "bytes": 248388,
+    "sha256": "daee211b308a41249dff128d43dadb3af278681ab4bb1430fe7cc779a89600b1"
+  },
+  {
+    "file": "交互审计记录_空白.csv",
+    "bytes": 446,
+    "sha256": "e87e1d3be1cfb85641828b9e96b8d84fdf683070e6cd2643fc5d6d9e18207a86"
+  },
+  {
+    "file": "交互编码手册_v1.0.md",
+    "bytes": 2636,
+    "sha256": "2375a85d0941a3364fb382e558d1b325b41247baa7268a95a0a65e323b790ce8"
+  },
+  {
+    "file": "商品事实表_空白.csv",
+    "bytes": 332,
+    "sha256": "895b16d3ead9d41cd74e54bae8bc2fdfec6eafc8a59504d0f631ebbe130a6dae"
+  },
+  {
+    "file": "检索日志与最近研究核对.md",
+    "bytes": 9906,
+    "sha256": "338bba847335c0d541255915a78661f798614d651c38334506925c337e7fda7b"
+  },
+  {
+    "file": "研究与论证方案_A-I.md",
+    "bytes": 59652,
+    "sha256": "dfc68babc3672f290502d9dd1aa5dc94a17812378e2c82055be1302ca8d9374f"
+  },
+  {
+    "file": "编码复核_空白.csv",
+    "bytes": 116,
+    "sha256": "c7648a0833d1f4a70487c363c540bd8fe9f957cb0cd29b04d6542513535cccc0"
+  },
+  {
+    "file": "论点证据台账_空白.csv",
+    "bytes": 178,
+    "sha256": "18733e36975d0ab958b7448db0b1c4a7e3e176a04690f0afa4ad65bdbdd87aa2"
+  },
+  {
+    "file": "阅读入口.md",
+    "bytes": 2813,
+    "sha256": "132a929b3259063b1eb7d197b27137f9cb51a19de1acd8cb3ae9e377da9e3bed"
+  }
+]

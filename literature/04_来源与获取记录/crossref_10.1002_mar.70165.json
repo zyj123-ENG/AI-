@@ -1,0 +1,588 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        5
+      ]
+    ],
+    "date-time": "2026-10-05T09:00:14Z",
+    "timestamp": 1791190814187,
+    "version": "4.1.0"
+  },
+  "reference-count": 56,
+  "publisher": "Wiley",
+  "issue": "10",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            11
+          ]
+        ],
+        "date-time": "2026-05-11T00:00:00Z",
+        "timestamp": 1778457600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            11
+          ]
+        ],
+        "date-time": "2026-05-11T00:00:00Z",
+        "timestamp": 1778457600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Psychology and Marketing"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2026,
+        10
+      ]
+    ]
+  },
+  "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>The rapid proliferation of AI agents (AIAs) is fundamentally altering how consumers make decisions. Yet marketing scholarship lacks both a shared definition of what constitutes an AIA and a theoretical framework adequate to capture its effects on consumer behavior. This editorial addresses both gaps. We first propose a definition of AIAs organized around three distinguishing features (i.e., autonomy, adaptive learning and memory, and tool‐enabled connectivity) and introduce a typology distinguishing advisory AIAs, which recommend options, from transactional AIAs, which execute decisions on the consumer's behalf. We then present a three‐stage framework of consumer decision‐making with AIAs, comprising consumer prompting, AIA processing, and consumer response, embedded within two dynamic feedback loops: a relational capital loop that shapes trust and delegation across repeated interactions, and an AI learning loop that updates the agent's internal representations over time. Drawing on a systematic mapping of AIA‐focused articles published in leading marketing journals between 2020 and 2026, we show that existing research is heavily concentrated on consumer responses to AI recommendations while largely neglecting prompting behavior, agent cognition, privacy, transparency, and relational dynamics, precisely the domains most distinctive to agentic systems. We argue that the rise of transactional AIAs signals a dual paradigm shift: the consumer is no longer the sole cognitive actor in the purchase process, and preferences may increasingly be co‐constructed through human–agent conversation rather than formed independently. We outline a research agenda to address these gaps and call on scholars in psychology and marketing to develop the theoretical and empirical tools needed to understand decision‐making in the age of AIAs. [Correction added on 2 June 2026, after first online publication: The last sentence of the Abstract was inadvertently added and has been removed.]</jats:p>",
+  "DOI": "10.1002/mar.70165",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        12
+      ]
+    ],
+    "date-time": "2026-05-12T05:56:33Z",
+    "timestamp": 1778565393000
+  },
+  "page": "2509-2516",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 2,
+  "title": [
+    "The AI Agent in the Room: Rethinking Consumer Decision‐Making in the Age of Autonomous AI"
+  ],
+  "prefix": "10.1002",
+  "volume": "43",
+  "author": [
+    {
+      "given": "Anil",
+      "family": "Bilgihan",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Florida Atlantic University Boca Raton Florida USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9515-9131",
+      "authenticated-orcid": false,
+      "given": "Massimiliano (Max)",
+      "family": "Ostinelli",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Florida Atlantic University Boca Raton Florida USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-6098-5249",
+      "authenticated-orcid": false,
+      "given": "Melanie",
+      "family": "Lorenz",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Florida Atlantic University Boca Raton Florida USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ye",
+      "family": "Zhang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Florida Atlantic University Boca Raton Florida USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        11
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_2_2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1108/EJM-01-2023-0037"
+    },
+    {
+      "key": "e_1_2_2_3_1",
+      "article-title": "What Is Your AI Agent Buying? Evaluation, Implications and Emerging Questions for Agentic e‐Commerce",
+      "author": "Allouah A.",
+      "year": "2025",
+      "journal-title": "arXiv"
+    },
+    {
+      "key": "e_1_2_2_4_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/mar.21699"
+    },
+    {
+      "key": "e_1_2_2_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s40547-017-0085-8"
+    },
+    {
+      "key": "e_1_2_2_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5898/JHRI.3.2.Beer"
+    },
+    {
+      "key": "e_1_2_2_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/002224377000700314"
+    },
+    {
+      "key": "e_1_2_2_8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1086/209535"
+    },
+    {
+      "key": "e_1_2_2_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jcps.2008.04.003"
+    },
+    {
+      "key": "e_1_2_2_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1108/IJCHM-03-2025-0373"
+    },
+    {
+      "key": "e_1_2_2_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/iwc/iwae016"
+    },
+    {
+      "key": "e_1_2_2_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11747-019-00696-0"
+    },
+    {
+      "key": "e_1_2_2_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jretai.2019.12.004"
+    },
+    {
+      "key": "e_1_2_2_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1037/xge0000033"
+    },
+    {
+      "key": "e_1_2_2_15_1",
+      "unstructured": "Dubois D. J.Dawson andA.Jaiswal.2025. “Forget What You Know About Search: Optimize Your Brand for LLMs.”Harvard Business Review June 4.https://hbr.org/2025/06/forget-what-you-know-about-seo-heres-how-to-optimize-your-brand-for-llms."
+    },
+    {
+      "key": "e_1_2_2_16_1",
+      "first-page": "21",
+      "volume-title": "International Workshop on Agent Theories, Architectures, and Languages",
+      "author": "Franklin S.",
+      "year": "1996"
+    },
+    {
+      "key": "e_1_2_2_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/00222429211066972"
+    },
+    {
+      "key": "e_1_2_2_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/00222429251344139"
+    },
+    {
+      "key": "e_1_2_2_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/soc15010006"
+    },
+    {
+      "key": "e_1_2_2_20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/17470218211008060"
+    },
+    {
+      "key": "e_1_2_2_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3236009"
+    },
+    {
+      "key": "e_1_2_2_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41591-024-03097-1"
+    },
+    {
+      "key": "e_1_2_2_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/joc/jqy026"
+    },
+    {
+      "key": "e_1_2_2_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3491102.3517525"
+    },
+    {
+      "key": "e_1_2_2_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11747-020-00749-9"
+    },
+    {
+      "key": "e_1_2_2_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/e24030401"
+    },
+    {
+      "key": "e_1_2_2_27_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1037/0022-3514.79.6.995"
+    },
+    {
+      "key": "e_1_2_2_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/(SICI)1097-0266(200003)21:3<217::AID-SMJ95>3.0.CO;2-Y"
+    },
+    {
+      "key": "e_1_2_2_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijhcs.2015.01.004"
+    },
+    {
+      "key": "e_1_2_2_30_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/jcr/ucy039"
+    },
+    {
+      "key": "e_1_2_2_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.chb.2024.108352"
+    },
+    {
+      "key": "e_1_2_2_32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/00222429251355266"
+    },
+    {
+      "key": "e_1_2_2_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/jcmc/zmae015"
+    },
+    {
+      "key": "e_1_2_2_34_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/mar.21943"
+    },
+    {
+      "key": "e_1_2_2_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/00222437221110139"
+    },
+    {
+      "key": "e_1_2_2_36_1",
+      "unstructured": "McKinsey.2025. “The Agentic Commerce Opportunity: How AIAs Are Ushering in a New Era for Consumers and Merchants.”https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-agentic-commerce-opportunity-how-ai-agents-are-ushering-in-a-new-era-for-consumers-and-merchants."
+    },
+    {
+      "key": "e_1_2_2_37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jbusres.2024.114981"
+    },
+    {
+      "key": "e_1_2_2_38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2307/259373"
+    },
+    {
+      "key": "e_1_2_2_39_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.52202/068431-2011"
+    },
+    {
+      "key": "e_1_2_2_40_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3765/plsa.v6i1.4971"
+    },
+    {
+      "key": "e_1_2_2_41_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00779-024-01823-7"
+    },
+    {
+      "key": "e_1_2_2_42_1",
+      "first-page": "22",
+      "article-title": "Algorithmic Transparency and Consumer Trust: The Moderating Role of Anti‐AI Attitudes",
+      "volume": "61",
+      "author": "Park S.",
+      "year": "2025",
+      "journal-title": "Journal of Interactive Marketing"
+    },
+    {
+      "key": "e_1_2_2_43_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1146/annurev.ps.43.020192.000511"
+    },
+    {
+      "key": "e_1_2_2_44_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11747-022-00845-y"
+    },
+    {
+      "key": "e_1_2_2_45_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.tics.2016.07.002"
+    },
+    {
+      "key": "e_1_2_2_46_1",
+      "unstructured": "Roach T.2024. “‘Share of Model’ is the New Marketing Measure for the AI Era.”Marketing Week July 11.https://www.marketingweek.com/tom-roach-share-of-model-ai-era/."
+    },
+    {
+      "key": "e_1_2_2_47_1",
+      "volume-title": "Artificial Intelligence: A Modern Approach",
+      "author": "Russell S. J.",
+      "year": "2021"
+    },
+    {
+      "key": "e_1_2_2_48_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.48550/arXiv.2510.16720"
+    },
+    {
+      "key": "e_1_2_2_49_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/jcr/ucae008"
+    },
+    {
+      "key": "e_1_2_2_50_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.48550/arXiv.2406.06608"
+    },
+    {
+      "key": "e_1_2_2_51_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.1207745"
+    },
+    {
+      "key": "e_1_2_2_52_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Stöckl A. andJ.Nitu2025. “Are AI Agents Interacting With Online Ads?.”https://doi.org/10.48550/arXiv.2504.07112.",
+      "DOI": "10.1109/ICECET63943.2025.11472241"
+    },
+    {
+      "key": "e_1_2_2_53_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/00222429251314491"
+    },
+    {
+      "key": "e_1_2_2_54_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1017/S0269888900008122"
+    },
+    {
+      "key": "e_1_2_2_55_1",
+      "unstructured": "Zeff M. andK.Wiggers.2025. “No One Knows What the Hell an AI Agent Is.”TechCrunch March 14.https://techcrunch.com/2025/03/14/no-one-knows-what-the-hell-an-ai-agent-is."
+    },
+    {
+      "key": "e_1_2_2_56_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijresmar.2025.02.005"
+    },
+    {
+      "key": "e_1_2_2_57_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.chb.2022.107415"
+    }
+  ],
+  "container-title": [
+    "Psychology &amp; Marketing"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/mar.70165",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/mar.70165",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/mar.70165",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        5
+      ]
+    ],
+    "date-time": "2026-09-05T19:32:40Z",
+    "timestamp": 1788636760000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://onlinelibrary.wiley.com/doi/10.1002/mar.70165"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        11
+      ]
+    ]
+  },
+  "references-count": 56,
+  "journal-issue": {
+    "issue": "10",
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1002/mar.70165"
+  ],
+  "URL": "https://doi.org/10.1002/mar.70165",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "0742-6046",
+    "1520-6793"
+  ],
+  "issn-type": [
+    {
+      "value": "0742-6046",
+      "type": "print"
+    },
+    {
+      "value": "1520-6793",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        11
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2026-03-10",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2026-04-27",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2026-05-11",
+      "order": 3,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

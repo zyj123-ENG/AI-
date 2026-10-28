@@ -1,0 +1,44 @@
+[
+  {
+    "file": "research/sources/R1_lara2026.pdf",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "verified_locator": "PDF p20",
+    "modification": "PDF unchanged; authors and source attribution retained"
+  },
+  {
+    "file": "research/sources/R2_delvalle2023.pdf",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "verified_locator": "PDF p12",
+    "modification": "PDF unchanged; authors and source attribution retained"
+  },
+  {
+    "file": "research/sources/V1_Alfrink2023_ContestableAI.pdf",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "verified_locator": "PDF p23",
+    "modification": "PDF unchanged; authors and source attribution retained"
+  },
+  {
+    "file": "research/sources/V3_Fischli2026_ManyFacesAutonomy.pdf",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "verified_locator": "PDF p19",
+    "modification": "PDF unchanged; authors and source attribution retained"
+  },
+  {
+    "file": "literature/01_论文全文PDF/I1_The Role of Consumer Autonomy in Developing Sustainable AI_ A Conceptual Framework.pdf",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "verified_locator": "PDF p1",
+    "modification": "PDF unchanged; authors and source attribution retained"
+  },
+  {
+    "file": "literature/01_论文全文PDF/I4_Technology, Autonomy, and Manipulation.pdf",
+    "license": "CC BY 3.0 DE",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/de/",
+    "verified_locator": "PDF p1",
+    "modification": "PDF unchanged; authors and source attribution retained"
+  }
+]
