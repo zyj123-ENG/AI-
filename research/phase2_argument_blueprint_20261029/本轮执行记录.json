@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-29",
+  "scope": "P0 A-F blueprint, evidence/version alignment, nearest-literature supplement; no new simulation or human study",
+  "intro_characters": 196,
+  "intro_limit": 300,
+  "title": "AI导购纠错与目标重审",
+  "title_characters": 11,
+  "evidence_rows": 16,
+  "material_rows": 28,
+  "author_outline_review": "pending",
+  "formal_ars_pipeline_passport": false,
+  "criteria_binding": "criteria_binding_unavailable; manual evidence mapping from verified official attachments",
+  "sources": {
+    "W1_reading": "PDF1—6,8,17—21; partial body reading",
+    "C1": "abstract and public metadata; full text unavailable"
+  },
+  "local_originals_modified": false,
+  "internal_ai_review": {
+    "scope": "role premise, public dependence, functional equivalence, authority, independent reasons, marketing scope and evidence identity",
+    "result": "no substantive contradiction found in the completed blueprint",
+    "not_independent_human_peer_review": true
+  }
+}

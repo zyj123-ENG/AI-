@@ -52,8 +52,8 @@
     "destination": "research/B_核心论文论证方法矩阵.md",
     "status": "included",
     "source_sha256": "7f699e12576b7c4af32b7e5b34e4f24745ce9b684bed75df50fe0c11726ed527",
-    "published_sha256": "9e895ab6e98fe5e4ee97ac927874c25b7bb65602ff7a75c4ef278458244e3453",
-    "bytes": 75546
+    "published_sha256": "2ab787c9d3458cbb2d2ac9c3c05e806cd0949503a30f94f2e6f0b3f780252774",
+    "bytes": 75905
   },
   {
     "original": "research/code/build_simulation_report.py",
@@ -2476,8 +2476,8 @@
     "destination": "research/创新点_可主张的具体命题.md",
     "status": "included",
     "source_sha256": "2c555bbdffbe0bbedc28378b9ffa9263041edd876281bf863b4bfd2b5fa4895a",
-    "published_sha256": "dd0e5c8e106be4a39d5d291028c797ce6c4f3a579cdbe42ace1eff581b3e74a4",
-    "bytes": 4844
+    "published_sha256": "78a2f6a25baa6967479b426c216b375e3c77a72ba1ec0cf032975ec32ff3fde6",
+    "bytes": 5455
   },
   {
     "original": "research/创新续查_文献方法与读取记录.md",
@@ -2492,8 +2492,8 @@
     "destination": "research/参赛研究方案_整合审阅版.md",
     "status": "included",
     "source_sha256": "9298be0e134767ea385d9e206f74a7e1181b5e25bc22f183f1f047dda822f7ba",
-    "published_sha256": "a52fbe08033b079b5c0e8d4ee1caed6caa9bbbe8039bae38897c3a7e6cde8d5e",
-    "bytes": 31693
+    "published_sha256": "93829f8fbc3ad556701fd13dc77de385ef859473dbd04c7430a8b9d3406e73ef",
+    "bytes": 32071
   },
   {
     "original": "research/商品事实表_空白.csv",
@@ -2596,8 +2596,8 @@
     "destination": "research/论点证据台账_已填.csv",
     "status": "included",
     "source_sha256": "2847ccdc8f29f21320d9ff8722219ea3c14138693d86d9bfaac5700fcab8fb46",
-    "published_sha256": "bac372f034f6d203014454da4cf5d3a88db7d816f93118883eeae138d982f374",
-    "bytes": 4845
+    "published_sha256": "cc35059538488fd268248ec0f4f14e1532b6367bb357fe951994bc276ede9116",
+    "bytes": 5041
   },
   {
     "original": "research/论点证据台账_空白.csv",
