@@ -1,37 +1,80 @@
 {
   "date": "2026-10-29",
-  "scope": "published bytes, provenance, JSON/Python syntax, accidental credentials/private locators and selected corrected baseline values; not a new simulation or human validation",
-  "files": 429,
-  "total_bytes": 167097153,
+  "scope": "published bytes, provenance, JSON/Python syntax, accidental credentials/private locators, current domestic source identity and selected aggregate results; preceding foreign-data and synthetic analyses retained as history; not a new analysis or independent human validation",
+  "files": 478,
+  "total_bytes": 171756973,
   "checks": [
     {
       "check": "repository_sha256",
       "pass": true,
-      "files": 429
+      "files": 478
     },
     {
       "check": "corrected_baseline_D1_R0_C0",
+      "role": "historical_synthetic",
       "pass": true
     },
     {
       "check": "corrected_baseline_D1_R1_C0",
+      "role": "historical_synthetic",
       "pass": true
     },
     {
       "check": "corrected_baseline_D1_R0_C1",
+      "role": "historical_synthetic",
       "pass": true
     },
     {
       "check": "corrected_baseline_D1_R1_C1",
+      "role": "historical_synthetic",
       "pass": true
     },
     {
-      "check": "current_observed_secondary_analysis",
+      "check": "current_domestic_source_csv_sha256",
+      "role": "current_domestic",
+      "pass": true,
+      "expected_sha256": "dec91f502f9fb40f2f89e9e980e981edcf1670e928a91d911a60464c815b0360"
+    },
+    {
+      "check": "current_domestic_analysis_population",
+      "role": "current_domestic",
+      "pass": true,
+      "participants": 516,
+      "campus_sensitivity_n": 403,
+      "online_network_n": 113,
+      "cell_counts": [
+        88,
+        88,
+        84,
+        84,
+        86,
+        86
+      ]
+    },
+    {
+      "check": "current_domestic_observed_analysis",
+      "role": "current_domestic",
+      "pass": true,
+      "participants": 516,
+      "campus_sensitivity_n": 403,
+      "bootstrap_repetitions": 5000,
+      "primary_delta": -0.159707540521495
+    },
+    {
+      "check": "current_domestic_independent_recalculation",
+      "role": "current_domestic",
+      "pass": true,
+      "within_scope_pass": true
+    },
+    {
+      "check": "historical_foreign_observed_analysis",
+      "role": "historical_foreign",
       "pass": true,
       "participants": 5050
     },
     {
-      "check": "no_unlicensed_participant_raw_files_published",
+      "check": "historical_foreign_raw_files_not_published",
+      "role": "historical_foreign",
       "pass": true
     },
     {

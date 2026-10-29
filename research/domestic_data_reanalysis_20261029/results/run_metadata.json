@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-29",
+  "engine": "23.2.0.2365128 (R2023b)",
+  "participants": 516,
+  "campus_sensitivity_n": 403,
+  "cell_counts": [
+    88,
+    88,
+    84,
+    84,
+    86,
+    86
+  ],
+  "bootstrap_repetitions": 5000,
+  "seeds": [
+    2.0261029E+7,
+    2.026103E+7
+  ],
+  "primary_metric": "trust_mean",
+  "primary_contrast": "primary_intrusive_gap_change",
+  "new_behavior_generated": false,
+  "missing_imputed": false,
+  "sample_origin": "Domestic recruitment via Zhejiang Business College course and local campus/community channels; not nationality or national representativeness",
+  "scoring": "S14 all positive, unweighted mean of three original 1-7 trust items",
+  "design": "original memory message packages 3 x specific inspect-edit-delete dashboard 2",
+  "ci": "pointwise percentile bootstrap within original six cells; participants are units",
+  "clustering_limit": "recruitment/session identifiers not public; session clustering cannot be estimated",
+  "mbf_rule": "only relevant/intrusive cells interpreted; original composite not reconstructible from unpublished MBF items",
+  "source_commit": "3a1f72704e8f49fa9bbc3854be56ea0fa90f6d53"
+}

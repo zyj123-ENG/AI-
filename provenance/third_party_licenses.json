@@ -40,5 +40,93 @@
     "license_url": "https://creativecommons.org/licenses/by/3.0/de/",
     "verified_locator": "PDF p1",
     "modification": "PDF unchanged; authors and source attribution retained"
+  },
+  {
+    "file": "research/domestic_data_reanalysis_20261029/source/author_original/data/study4_memory_data.csv",
+    "role": "current_domestic_original_data",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_status": "explicit_dataset_license",
+    "verified_locator": "Author LICENSE explicitly covers de-identified datasets in data/; README License and citation; source file pinned at commit 3a1f72704e8f49fa9bbc3854be56ea0fa90f6d53",
+    "source_url": "https://github.com/RunhuaHuang/aimemory/blob/3a1f72704e8f49fa9bbc3854be56ea0fa90f6d53/data/study4_memory_data.csv",
+    "attribution": "Runhua Huang, Yanzhi Huang, Huichao Guo (2026), DOI 10.3389/fpsyg.2026.1934857",
+    "sha256": "dec91f502f9fb40f2f89e9e980e981edcf1670e928a91d911a60464c815b0360",
+    "scope": "The included Study 4 dataset; this entry does not license unrelated repository documents or supplements",
+    "modification": "Original CSV unchanged; new analyses and summaries are identified as this project's work"
+  },
+  {
+    "file": "research/domestic_data_reanalysis_20261029/source/author_original/LICENSE",
+    "role": "current_domestic_source_license_notice",
+    "license": "Dataset license notice: CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_status": "source_notice_retained",
+    "verified_locator": "LICENSE limits its express grant to the de-identified data/ datasets and validation/mbf_validation_data.csv",
+    "source_url": "https://github.com/RunhuaHuang/aimemory/blob/3a1f72704e8f49fa9bbc3854be56ea0fa90f6d53/LICENSE",
+    "scope": "Retained notice documents the dataset grant; no blanket license for the entire author repository is inferred",
+    "modification": "Notice retained without substantive changes"
+  },
+  {
+    "file": "research/domestic_data_reanalysis_20261029/source/author_original/README.md",
+    "role": "current_domestic_source_documentation",
+    "license": "No separate standalone documentation license stated",
+    "license_url": null,
+    "license_status": "accompanying_provenance_documentation",
+    "verified_locator": "README License and citation refers to the datasets; it does not state a separate document-wide grant",
+    "source_url": "https://github.com/RunhuaHuang/aimemory/blob/3a1f72704e8f49fa9bbc3854be56ea0fa90f6d53/README.md",
+    "associated_dataset_license": "CC BY 4.0",
+    "publication_basis": "Retained as the original dataset's attribution, collection, scoring, and availability notice; independent documentation rights not separately established",
+    "modification": "Source documentation retained without substantive changes; its manuscript-status wording is preserved"
+  },
+  {
+    "file": "research/domestic_data_reanalysis_20261029/source/author_original/CITATION.cff",
+    "role": "current_domestic_source_citation_metadata",
+    "license": "No separate standalone documentation license stated",
+    "license_url": null,
+    "license_status": "accompanying_provenance_documentation",
+    "verified_locator": "CITATION.cff identifies authors and CC-BY-4.0 for the dataset; no independent text-document grant is stated",
+    "source_url": "https://github.com/RunhuaHuang/aimemory/blob/3a1f72704e8f49fa9bbc3854be56ea0fa90f6d53/CITATION.cff",
+    "associated_dataset_license": "CC BY 4.0",
+    "publication_basis": "Retained citation metadata provides source attribution; no blanket repository-document license is inferred",
+    "modification": "Source citation metadata retained; the current report cites the published article DOI rather than updating this original file"
+  },
+  {
+    "file": "research/domestic_data_reanalysis_20261029/source/author_original/data/data_dictionary.md",
+    "role": "current_domestic_source_data_dictionary",
+    "license": "Associated dataset is CC BY 4.0; no separate standalone documentation notice",
+    "license_url": null,
+    "license_status": "accompanying_dataset_documentation",
+    "verified_locator": "Author data/data_dictionary.md and LICENSE; dictionary accompanies the licensed data/ datasets, with no separate text-document notice",
+    "source_url": "https://github.com/RunhuaHuang/aimemory/blob/3a1f72704e8f49fa9bbc3854be56ea0fa90f6d53/data/data_dictionary.md",
+    "associated_dataset_license": "CC BY 4.0",
+    "publication_basis": "Retained with the source dataset to document variable meanings; separate document-wide rights not independently established",
+    "modification": "Original variable definitions retained without substantive changes"
+  },
+  {
+    "file": "research/domestic_data_reanalysis_20261029/source/author_original/article.pdf",
+    "role": "current_domestic_associated_article",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_status": "explicit_article_notice_and_link",
+    "verified_locator": "PDF p1 copyright notice states Creative Commons Attribution (CC BY); page annotations link to creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1934857/full",
+    "attribution": "Runhua Huang, Yanzhi Huang, Huichao Guo (2026), Remembering or monitoring? Contextual fit of simulated AI memory cues and consumer trust, Frontiers in Psychology 17:1934857",
+    "sha256": "49e2c4be28450ece7337f353188826f25450f9914ab6e956931a9f0145c479b7",
+    "scope": "Article as distributed with its copyright notice; this entry does not independently settle standalone supplement or other-document rights",
+    "modification": "PDF unchanged; authors and journal attribution retained"
+  },
+  {
+    "file": "research/domestic_data_reanalysis_20261029/source/author_original/Supplementary_File_1_retrieved.pdf",
+    "role": "current_domestic_publisher_associated_supplement",
+    "license": "Associated article is CC BY; standalone supplement license not independently verified",
+    "license_url": null,
+    "license_status": "associated_article_notice_only",
+    "verified_locator": "Official linked supplement; text inspection of its 27 pages found no standalone copyright-license statement. The associated article's p1 CC BY notice was verified separately",
+    "source_url": "https://public-pages-files-2025.frontiersin.org/articles/1934857/file/Supplementary_file_1.pdf/1934857_supplementary-file_1/1",
+    "associated_article_doi": "10.3389/fpsyg.2026.1934857",
+    "associated_article_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Runhua Huang, Yanzhi Huang, Huichao Guo; supplementary material linked by the associated Frontiers article",
+    "sha256": "68df0b4502a43c14d5120947b42fd496213fafe8816931cc88d5ea95245762c4",
+    "publication_basis": "Retained as official publisher-associated supplementary source material; no claim that an independent standalone PDF license has been established",
+    "modification": "Retrieved PDF unchanged; no license text added or inferred"
   }
 ]

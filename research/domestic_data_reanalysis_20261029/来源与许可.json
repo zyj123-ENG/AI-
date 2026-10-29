@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-29",
+  "authors": [
+    "Runhua Huang",
+    "Yanzhi Huang",
+    "Huichao Guo"
+  ],
+  "article": "Remembering or monitoring? Contextual fit of simulated AI memory cues and consumer trust",
+  "journal": "Frontiers in Psychology 17:1934857 (2026-09-10)",
+  "doi": "10.3389/fpsyg.2026.1934857",
+  "article_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1934857/full",
+  "repository": "https://github.com/RunhuaHuang/aimemory",
+  "pinned_commit": "3a1f72704e8f49fa9bbc3854be56ea0fa90f6d53",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "geographic_evidence": "Article section 2.1: Zhejiang Business College course-participation and local campus/community recruitment, Chinese-fluent adults; anonymous dataset includes 403 campus and 113 online/network sessions",
+  "stimulus_vs_response": "Memory statements are fictitious experimental stimuli; published scale responses are from human participants, not LLM actors",
+  "supplement_url": "https://public-pages-files-2025.frontiersin.org/articles/1934857/file/Supplementary_file_1.pdf/1934857_supplementary-file_1/1",
+  "scoring_locator": "Supplement S14 PDF19-20 and22: all positive, unweighted three-item means, 7-point agreement, no reverse scoring",
+  "author_code_obtained": false,
+  "full_stimulus_protocol_obtained": false,
+  "attribution": "Original authors and fixed repository credited; original files unchanged. New reanalysis code and summary statistics written by this project.",
+  "files": [
+    {
+      "file": "source/author_original/README.md",
+      "original_repo_path": "README.md",
+      "sha256": "0105658d62c3a3531be95015a912d35c95ec4bb241bf8d4b1124aef8667ffe02",
+      "bytes": 2986,
+      "changed": false
+    },
+    {
+      "file": "source/author_original/LICENSE",
+      "original_repo_path": "LICENSE",
+      "sha256": "b6c934a8e86d28c0854a5b9af53f1c05b4686445dd035cca31f3c0101adc3a2c",
+      "bytes": 767,
+      "changed": false
+    },
+    {
+      "file": "source/author_original/CITATION.cff",
+      "original_repo_path": "CITATION.cff",
+      "sha256": "52d3e717afa9346916375baef839192b3f8a946ed35ce69d42342794bbd4267b",
+      "bytes": 882,
+      "changed": false
+    },
+    {
+      "file": "source/author_original/data/data_dictionary.md",
+      "original_repo_path": "data/data_dictionary.md",
+      "sha256": "525b4dcec055384cd5f6cc5a8f6d21b545d659411e4a6f950799daab4e15a391",
+      "bytes": 862,
+      "changed": false
+    },
+    {
+      "file": "source/author_original/data/study4_memory_data.csv",
+      "original_repo_path": "data/study4_memory_data.csv",
+      "sha256": "dec91f502f9fb40f2f89e9e980e981edcf1670e928a91d911a60464c815b0360",
+      "bytes": 42200,
+      "changed": false
+    },
+    {
+      "file": "source/author_original/article.pdf",
+      "sha256": "49e2c4be28450ece7337f353188826f25450f9914ab6e956931a9f0145c479b7",
+      "bytes": 1291978,
+      "changed": false
+    },
+    {
+      "file": "source/author_original/Supplementary_File_1_retrieved.pdf",
+      "sha256": "68df0b4502a43c14d5120947b42fd496213fafe8816931cc88d5ea95245762c4",
+      "bytes": 184339,
+      "changed": false
+    }
+  ]
+}

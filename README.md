@@ -1,6 +1,6 @@
 # AI导购理由撤回后的预算重审
 
-第八届AIC算法大赛“AI伦理”研究工作库。更新：2026-10-29。按用户新增要求，当前报告改用已有真实二手消费者实验数据，旧合成仿真退出主要证据。作者实质审阅、查重、PPT及正式提交待完成。
+第八届AIC算法大赛“AI伦理”研究工作库。更新：2026-10-29。按用户要求，当前报告采用国内浙江渠道招募的真人实验二手数据；国外牙膏及自创合成结果退出主要证据。作者实质审阅、查重、PPT及正式提交待完成。
 
 研究场景：中国成年消费者使用中文建议型AI购物助手，为iPhone 15选购一只充电器。
 
@@ -10,22 +10,24 @@
 
 ## 从这里阅读
 
-0. [当前二手数据修订稿与Word/PDF（2026-10-29）](research/phase5_secondary_report_20261029/README.md) · [真实二手数据与实际重抽样](research/secondary_data_reanalysis_20261029/README.md) · [评分及提交核对](research/phase5_secondary_report_20261029/评分与提交材料核对.md)
+0. [当前国内数据修订稿与Word/PDF](research/phase6_domestic_report_20261029/README.md) · [国内原始数据与实际重抽样](research/domestic_data_reanalysis_20261029/README.md) · [评分及提交核对](research/phase6_domestic_report_20261029/评分与提交材料核对.md)
 1. [当前可主张的创新点](research/%E5%88%9B%E6%96%B0%E7%82%B9_%E5%8F%AF%E4%B8%BB%E5%BC%A0%E7%9A%84%E5%85%B7%E4%BD%93%E5%91%BD%E9%A2%98.md)
 2. [整合研究方案](research/%E5%8F%82%E8%B5%9B%E7%A0%94%E7%A9%B6%E6%96%B9%E6%A1%88_%E6%95%B4%E5%90%88%E5%AE%A1%E9%98%85%E7%89%88.md)
 3. [核心论文怎样论证](research/B_%E6%A0%B8%E5%BF%83%E8%AE%BA%E6%96%87%E8%AE%BA%E8%AF%81%E6%96%B9%E6%B3%95%E7%9F%A9%E9%98%B5.md)
-4. [真实二手数据分析结果入口](research/secondary_data_reanalysis_20261029/README.md)
+4. [国内真人数据分析结果入口](research/domestic_data_reanalysis_20261029/README.md)
 5. [旧合成结果（历史记录，已退出当前论文）](research/simulation_goal_repair_20261028/00_%E5%85%88%E7%9C%8B%E7%BB%93%E6%9E%9C.md)
 6. [下一阶段任务及验收](planning/%E4%B8%8B%E4%B8%80%E9%98%B6%E6%AE%B5%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95.md)
-7. [当前二手数据阶段续接提示词](planning/二手数据阶段续接提示词.md)
+7. [当前国内数据阶段续接提示词](planning/国内数据阶段续接提示词.md)
 
 ## 目录与研究阶段
 
 |目录|用途|
 |---|---|
 |`research/`|研究方案、近邻检索、论文方法矩阵、预试记录、代码、结果与图表|
-|`research/secondary_data_reanalysis_20261029/`|当前经验分析：作者真实数据、原观测复分析、参与者重抽样、点估计复核；原数据不公开再分发|
-|`research/phase5_secondary_report_20261029/`|当前二手数据修订稿、Word/PDF、独立简介、源稿及交付核对|
+|`research/domestic_data_reanalysis_20261029/`|当前国内经验分析：516份真人原记录、原6臂OLS、重抽样、原件/许可/哈希与独立复核|
+|`research/phase6_domestic_report_20261029/`|当前国内数据报告、Word/PDF、独立简介、源稿及交付核对|
+|`research/secondary_data_reanalysis_20261029/`|历史国外牙膏分析，退出当前主结果，原数据未公开再分发|
+|`research/phase5_secondary_report_20261029/`|历史国外数据修订稿，已由国内版替代|
 |`research/simulation_goal_repair_20261028/`|旧合成模型与已运行结果，保留历史，不作为当前主要证据|
 |`research/phase4_full_report_20261029/`|采用旧合成模型的前版完整初稿，已被二手数据修订稿替代|
 |`research/phase4_simulation_sections_20261028/`|已完成的仿真章节、可编辑Word、图表与生成/核对代码|
@@ -37,11 +39,11 @@
 
 第一阶段处理已经表达的预算、拒绝与重开范围。当前主线推进到用户尚未主动撤回目标时的纠错责任。第一阶段不作为并列主题，原扩展坞案例不与当前充电器案例拼接为同一实录。[阶段衔接说明](stage1/README.md)
 
-当前题目将目标收窄为预算。四章依次为问题与最近研究、程序性自主与研究设计、理由撤回后的预算重审责任、治理设计与伦理反思。仿真嵌入其承接的论点。[调整依据](planning/提纲调整_v2_按评分.md)；[前版P0蓝图](research/phase2_argument_blueprint_20261029/参赛报告蓝图_可审阅.md)保留为历史研究记录。
+当前题目将目标收窄为预算。四章依次为问题与最近研究、程序性自主与研究设计、理由撤回后的预算重审责任、治理设计与伦理反思。国内二手数据复分析承接控制措施的评价边界，预算责任由规范推理辩护。[调整依据](planning/提纲调整_v2_按评分.md)；[前版P0蓝图](research/phase2_argument_blueprint_20261029/参赛报告蓝图_可审阅.md)保留为历史研究记录。
 
 ## 当前经验分析与复现
 
-从[作者Duke主页](https://people.duke.edu/~tg64/)取得Replication Files，核对哈希，使用原牙膏信念子研究CSV。5,050名真实参与者；四臂人数保持实际值。基础MATLAB按人保留十题，在臂内重抽样5,000轮；它估计原观测的抽样不确定性，不生成新行为。[当前操作与结果](research/secondary_data_reanalysis_20261029/README.md)
+从[国内原研究](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1934857/full)及[作者固定数据版本](https://github.com/RunhuaHuang/aimemory/tree/3a1f72704e8f49fa9bbc3854be56ea0fa90f6d53)取得Study4。原516份国内招募记录、原六臂和正向三题计分不改写，另以403份现场子样本检验敏感性。基础MATLAB拟合分类OLS并在各臂内按人重抽样5,000轮；它估计原观测的抽样不确定性，不生成新行为。[当前操作、原件与结果](research/domestic_data_reanalysis_20261029/README.md)
 
 以下旧合成模型命令只用于历史复现，不进入当前论文经验结果：
 
@@ -64,7 +66,8 @@ python tools/verify_repository.py
 
 ## 结果的使用范围
 
-- 当前二手分析使用原作者真实观测；5,000轮重抽样评估其抽样不确定性。美国牙膏数据未包含中文AI预算重审干预。
+- 当前分析使用国内招募的成年中文参与者原记录；实验记忆提示为构造刺激，回答由真人提供。5,000轮重抽样不新增人数。
+- 当前数据测量即时信任与记忆评价，未实施预算重审。国外牙膏只保留为历史分析，不再作为主数据。
 - 以下合成设定、MCSE及强基线等价描述属于旧模型历史，未进入当前主要结果。
 - 旧模拟档案、商品、效用与行为参数为合成设定，参数未经真人校准。MCSE表示旧模拟积分精度。
 - 元宝材料包含用户探索性试跑，以及研究者给定历史的限定预试；不构成真实消费者因果实验。

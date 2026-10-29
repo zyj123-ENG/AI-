@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the associated article."
+title: "AI Memory Boundary Fit: de-identified study data"
+authors:
+  - family-names: Huang
+    given-names: Runhua
+  - family-names: Huang
+    given-names: Yanzhi
+  - family-names: Guo
+    given-names: Huichao
+year: 2026
+repository-code: "https://github.com/RunhuaHuang/aimemory"
+license: CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "Remembering or monitoring? Contextual fit of simulated AI memory cues and consumer trust"
+  authors:
+    - family-names: Huang
+      given-names: Runhua
+    - family-names: Huang
+      given-names: Yanzhi
+    - family-names: Guo
+      given-names: Huichao
+  journal: "Frontiers in Psychology"
+  year: 2026
+  notes: "Manuscript under revision at Frontiers in Psychology; citation details will be updated upon publication."

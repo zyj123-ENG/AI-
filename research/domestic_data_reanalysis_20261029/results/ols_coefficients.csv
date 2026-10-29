@@ -1,0 +1,13 @@
+sample,term,coefficient
+all_516,intercept_none_no_control,4.28030303030303
+all_516,relevant_vs_none_no_control,0.457792207792207
+all_516,intrusive_vs_none_no_control,-0.388830162085977
+all_516,dashboard_with_no_memory,0.299242424242423
+all_516,relevant_dashboard_interaction,-0.184163059163057
+all_516,intrusive_dashboard_interaction,-0.159707540521493
+campus_403,intercept_none_no_control,4.25925925925926
+campus_403,relevant_vs_none_no_control,0.501157407407408
+campus_403,intrusive_vs_none_no_control,-0.355218855218856
+campus_403,dashboard_with_no_memory,0.29942618675013
+campus_403,relevant_dashboard_interaction,-0.219467266562336
+campus_403,intrusive_dashboard_interaction,-0.19856463000622

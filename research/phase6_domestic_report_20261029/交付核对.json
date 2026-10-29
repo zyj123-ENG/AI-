@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-29",
+  "pass": true,
+  "checks": {
+    "title_within_20": true,
+    "intro_within_300": true,
+    "all_19_citations_resolve": true,
+    "no_template_or_named_citation_key": true,
+    "old_synthetic_or_foreign_effects_removed": true,
+    "four_tables_three_images": true,
+    "pdf_within_10M": true,
+    "no_empty_pdf_page": true,
+    "docx_author_empty": true,
+    "pdf_author_empty": true,
+    "actual_domestic_sample_and_bootstrap": true,
+    "independent_point_check_pass": true,
+    "primary_numbers_in_report": true,
+    "fixed_original_csv_identity": true,
+    "unchanged_cell_estimates.csv": true,
+    "unchanged_contrasts.csv": true,
+    "unchanged_model_checks.csv": true,
+    "unchanged_ols_coefficients.csv": true,
+    "unchanged_trust_item_frequencies.csv": true,
+    "unchanged_source_summary_comparison.csv": true,
+    "unchanged_run_metadata.json": true,
+    "original_README.md": true,
+    "original_LICENSE": true,
+    "original_CITATION.cff": true,
+    "original_data_dictionary.md": true,
+    "original_study4_memory_data.csv": true,
+    "original_article.pdf": true,
+    "original_Supplementary_File_1_retrieved.pdf": true,
+    "finite_ordered_intervals": true,
+    "no_tracked_edits_or_comments": true,
+    "no_personal_machine_path": true,
+    "no_private_chat": true,
+    "no_wechat_account": true,
+    "no_participant_platform_id": true,
+    "no_github_account": true,
+    "no_access_token": true
+  },
+  "title_characters": 14,
+  "intro_characters": 254,
+  "body_cjk": 10016,
+  "pdf_pages": 17,
+  "files": {
+    "AI导购理由撤回后的预算重审_国内数据修订稿.docx": {
+      "sha256": "72e39ee823aaa68c8561729ad02fab837899428dff3076c88187e88e8883140d",
+      "bytes": 508148
+    },
+    "AI导购理由撤回后的预算重审_国内数据修订稿.pdf": {
+      "sha256": "106aa513b8e468f5747d64743773d35505e265c0a060a9af88993663eddf11de",
+      "bytes": 946474
+    }
+  },
+  "visual_qa": {
+    "all_17_pages_reviewed": true,
+    "review_method": "Each page of the final rendered 17-page document was individually inspected as a PNG; final PDF is the byte-identical PDF from that render.",
+    "result": "No empty page, clipping, overlap or missing glyph observed; both data figures and the logic figure were legible; long appendix paths left aligned."
+  },
+  "evidence_scope": "Author-observed human responses from domestic recruitment; actual base-MATLAB categorical OLS and within-original-arm participant bootstrap. Independent Python point/count/F/p checks did not independently rerun bootstrap intervals. No new consumer, unobserved treatment response or budget behavior generated.",
+  "not_completed": [
+    "author substantive review",
+    "real CNKI detection and appendix report",
+    "defense PPT",
+    "full anonymous supplementary package/permanent sharing",
+    "official submission"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-29",
+  "direction": "Domestic Chinese recruitment data required; foreign data removed from current empirical analysis",
+  "source": "Huang et al. (2026), Study4, DOI10.3389/fpsyg.2026.1934857",
+  "analysis": "research/domestic_data_reanalysis_20261029",
+  "counts": {
+    "body_cjk": 10016,
+    "title_characters": 14,
+    "abstract_characters": 254,
+    "references": 19
+  },
+  "observed_participants": 516,
+  "campus_sensitivity": 403,
+  "bootstrap_repetitions": 5000,
+  "new_behavior_generated": false,
+  "source_results_sha256": {
+    "cell_estimates.csv": "e7d1ad23265ee334dc8aee6fc1fd17d0033264d139768f1b42be4092cb8a1e01",
+    "contrasts.csv": "3ade897718b11a5aa3998d5ab37d7aad2e1f6569f009dfaf577fb6b7b2e49fc6",
+    "model_checks.csv": "111a1673476362dd85179c019b2e71c01edb14800db274603edf2cebf221d486",
+    "ols_coefficients.csv": "8afa8c0431b16c67110d213b06361813cf0505d20d2e2c132b5292c1cc281af2",
+    "trust_item_frequencies.csv": "4766d3f7d31be433c518f2897d3dd1d9fb811dbc8e268470bbba970ac2160164",
+    "source_summary_comparison.csv": "7e13e3c8ca304dab342337862cb39470e1f6a50a0a9e6e5ffbe44c1a4a0ea936",
+    "run_metadata.json": "23f1116c7370a4dc5e32115b318ea8d49ba76c4eae2fbad056e05779a8426cee"
+  },
+  "cnki": "not completed",
+  "ppt": "not completed"
+}
