@@ -1,11 +1,9 @@
 """Build the domestic-data manuscript from unchanged observed-data outputs."""
 from pathlib import Path
-import csv,json,re,hashlib,shutil,importlib.util
+import csv,json,re,hashlib,shutil
 ROOT=Path(__file__).resolve().parent
-HISTORY=ROOT.parent/'phase4_full_report_20261029'
 DATA=ROOT.parent/'domestic_data_reanalysis_20261029'
-spec=importlib.util.spec_from_file_location('base_refs',HISTORY/'assemble_report.py');base=importlib.util.module_from_spec(spec);spec.loader.exec_module(base)
-REFS=dict(base.REFERENCES)
+REFS=json.loads((ROOT/'reference_catalog.json').read_text(encoding='utf-8'))
 REFS['Huang']='HUANG R, HUANG Y, GUO H. Remembering or monitoring? Contextual fit of simulated AI memory cues and consumer trust[J]. Frontiers in Psychology, 2026, 17: 1934857. DOI: 10.3389/fpsyg.2026.1934857.'
 REFS['DOMDATA']='HUANG R, HUANG Y, GUO H. AI Memory Boundary Fit: de-identified study data[DS/OL]. [2026-10-29]. https://github.com/RunhuaHuang/aimemory/tree/3a1f72704e8f49fa9bbc3854be56ea0fa90f6d53. CC BY 4.0.'
 abstract='本研究考察中文AI购物助手为成年消费者推荐充电器时，重要购买理由撤回后的预算重审责任。结合文献与概念分析、规范案例、元宝给定历史预试及国内真人实验二手数据，提出基于重要性、公开理由使用、可调整性与相称负担的关联说明要求。普通更正已完成功能时无需追加确认；独立理由、知情重申和退出限制重复干预。对国内招募516人的记忆提示与面板实验进行六臂复分析及参与者重抽样，分别检验平均信任差和特定差距变化，信任不等于规范自主性。研究以规范推理辩护责任规则，形成触发、完成、停止及验收清单；预算更新仍由消费者有效表达决定。'
@@ -33,7 +31,7 @@ def assemble():
     intro=intro.replace('### 2.2 材料身份',diagram+'### 2.2 材料身份')
     method=(ROOT/'parts/02_国内数据方法.md').read_text(encoding='utf-8')
     theory=(ROOT/'parts/03_规范论证.md').read_text(encoding='utf-8').replace('## 三 理由撤回后的预算修复责任','## 三 理由撤回后的预算重审责任')
-    pilot=(HISTORY/'parts/04_案例与机制.md').read_text(encoding='utf-8').split('实施后果由模型作条件分析。')[0].strip().replace('### 3.5 条件响应与实施成本','### 3.5 限定真实系统响应与反例')
+    pilot=(ROOT/'parts/06_元宝预试.md').read_text(encoding='utf-8').strip()
     result=(ROOT/'parts/04_国内数据结果.md').read_text(encoding='utf-8').replace('{{CELL_TABLE}}','\n'.join(table)).replace('{{MAIN_RESULTS}}',main).replace('{{SENSITIVITY_RESULTS}}',sens).replace('](../figures/','](figures/')
     results,conclusion=result.split('### 结论',1)
     gov=(ROOT/'parts/05_治理反思.md').read_text(encoding='utf-8').replace('## 五、','## 四 ').replace('### 5.','### 4.')

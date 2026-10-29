@@ -12,7 +12,6 @@
     "research/evidence/用户试跑002_元宝截图核对.md",
     "research/evidence/用户试跑003_元宝截图核对.md",
     "research/evidence/补找与官方来源获取日志.json",
-    "research/phase4_simulation_sections_20261028/acronym_check.json",
     "research/work/check_delivery.py",
     "research/work/fetch_innovation_neighbours_v2.py",
     "research/work/fetch_reason_correction_neighbours.py",
@@ -23,5 +22,5 @@
     "research/阅读入口.md"
   ],
   "originals_preserved": true,
-  "note": "Source hashes refer to local originals; verify current published bytes with repository SHA256 manifest."
+  "note": "公开副本曾作匿名化及链接处理；2026-10-29按用户要求移除旧虚拟数据/国外数据仿真。当前实际文件由SHA256SUMS验证；原本地研究来源未在本次仓库清理中删除。"
 }

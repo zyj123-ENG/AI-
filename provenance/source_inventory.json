@@ -2,50 +2,56 @@
   {
     "original": "research/00_先看结果.md",
     "destination": "research/00_先看结果.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "b14b911fdfc371904790c76c47fb0231614be68fbe3791c7a4912b3c4c764a12",
-    "published_sha256": "35e4c1e559268605f0124ce8d6bc1371941225f38558eddc06526432b00fd356",
-    "bytes": 1334
+    "bytes": 1334,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "35e4c1e559268605f0124ce8d6bc1371941225f38558eddc06526432b00fd356"
   },
   {
     "original": "research/01_执行前方案.md",
     "destination": "research/01_执行前方案.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "ccff845ec4fe7030c0da7817517c44a3b31c08821551ea08c26c66e6bc12bda0",
-    "published_sha256": "ccff845ec4fe7030c0da7817517c44a3b31c08821551ea08c26c66e6bc12bda0",
-    "bytes": 5048
+    "bytes": 5048,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "ccff845ec4fe7030c0da7817517c44a3b31c08821551ea08c26c66e6bc12bda0"
   },
   {
     "original": "research/02_新增材料与模型依据.md",
     "destination": "research/02_新增材料与模型依据.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "2820833881382bbc6508e9d648f0a56f95abb2a97fd3f876fb4787b04476bd36",
-    "published_sha256": "2820833881382bbc6508e9d648f0a56f95abb2a97fd3f876fb4787b04476bd36",
-    "bytes": 6367
+    "bytes": 6367,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "2820833881382bbc6508e9d648f0a56f95abb2a97fd3f876fb4787b04476bd36"
   },
   {
     "original": "research/03_变量公式与参数身份.md",
     "destination": "research/03_变量公式与参数身份.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "32ba0954ecee65f9f9b806c0d5c9a1b624501fd459983b263602a41cc79246dc",
-    "published_sha256": "32ba0954ecee65f9f9b806c0d5c9a1b624501fd459983b263602a41cc79246dc",
-    "bytes": 8210
+    "bytes": 8210,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "32ba0954ecee65f9f9b806c0d5c9a1b624501fd459983b263602a41cc79246dc"
   },
   {
     "original": "research/04_结果报告与创新点修订.md",
     "destination": "research/04_结果报告与创新点修订.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "991c0f44f25bc13563e3748156dad7d898f837ec17dec4cf72b101f856071d57",
-    "published_sha256": "c78be00bb1472ac99561ca2b9dca018f38c70c33300b44bce1c376428ac6c3d1",
-    "bytes": 11615
+    "bytes": 11615,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "c78be00bb1472ac99561ca2b9dca018f38c70c33300b44bce1c376428ac6c3d1"
   },
   {
     "original": "research/05_复现与验收.md",
     "destination": "research/05_复现与验收.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "8f7e24e87f1a2e7df0e848259b109bd914cb3982a526f586f9ff8c5bf6d98436",
-    "published_sha256": "8f7e24e87f1a2e7df0e848259b109bd914cb3982a526f586f9ff8c5bf6d98436",
-    "bytes": 2319
+    "bytes": 2319,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "8f7e24e87f1a2e7df0e848259b109bd914cb3982a526f586f9ff8c5bf6d98436"
   },
   {
     "original": "research/B_核心论文论证方法矩阵.md",
@@ -58,42 +64,47 @@
   {
     "original": "research/code/build_simulation_report.py",
     "destination": "research/code/build_simulation_report.py",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "15d299e1dd343b3fcc3e404fe0d19347f1a6b570c260c6fc11b7e586bfbfa8b6",
-    "published_sha256": "15d299e1dd343b3fcc3e404fe0d19347f1a6b570c260c6fc11b7e586bfbfa8b6",
-    "bytes": 24508
+    "bytes": 24508,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "15d299e1dd343b3fcc3e404fe0d19347f1a6b570c260c6fc11b7e586bfbfa8b6"
   },
   {
     "original": "research/code/export_simulation_diagnostics.m",
     "destination": "research/code/export_simulation_diagnostics.m",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "2e6486d00ada06f71a9ce152c9b7c92befca2c06743a5ed5f7e2d7622eeb6740",
-    "published_sha256": "2e6486d00ada06f71a9ce152c9b7c92befca2c06743a5ed5f7e2d7622eeb6740",
-    "bytes": 1712
+    "bytes": 1712,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "2e6486d00ada06f71a9ce152c9b7c92befca2c06743a5ed5f7e2d7622eeb6740"
   },
   {
     "original": "research/code/export_validation_slice.m",
     "destination": "research/code/export_validation_slice.m",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "dea373abf95b3c1c9ba0b6240a69a87005f6456caf39c9cba008733a79d624ed",
-    "published_sha256": "dea373abf95b3c1c9ba0b6240a69a87005f6456caf39c9cba008733a79d624ed",
-    "bytes": 838
+    "bytes": 838,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "dea373abf95b3c1c9ba0b6240a69a87005f6456caf39c9cba008733a79d624ed"
   },
   {
     "original": "research/code/run_goal_repair_simulation.m",
     "destination": "research/code/run_goal_repair_simulation.m",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
-    "published_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
-    "bytes": 17252
+    "bytes": 17252,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4"
   },
   {
     "original": "research/E2_MATLAB机制仿真设计.md",
     "destination": "research/E2_MATLAB机制仿真设计.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "39af592b2180b5faeef2496c92778e2932c0e6f42b327fcad19b07c680e2c1d5",
-    "published_sha256": "39af592b2180b5faeef2496c92778e2932c0e6f42b327fcad19b07c680e2c1d5",
-    "bytes": 16800
+    "bytes": 16800,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "39af592b2180b5faeef2496c92778e2932c0e6f42b327fcad19b07c680e2c1d5"
   },
   {
     "original": "research/evidence/交付文件校验表.json",
@@ -338,1066 +349,1194 @@
   {
     "original": "research/figures/fig1_core_mechanisms.pdf",
     "destination": "research/figures/fig1_core_mechanisms.pdf",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "d4a00347109aa4eb8bb690ebbdcdc0504b58ccb0cd9cf44284abe437cc9de8cf",
-    "published_sha256": "d4a00347109aa4eb8bb690ebbdcdc0504b58ccb0cd9cf44284abe437cc9de8cf",
-    "bytes": 8718
+    "bytes": 8718,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "d4a00347109aa4eb8bb690ebbdcdc0504b58ccb0cd9cf44284abe437cc9de8cf"
   },
   {
     "original": "research/figures/fig1_core_mechanisms.png",
     "destination": "research/figures/fig1_core_mechanisms.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "61753abe849bbb609c38f25146fb1e2163bf5fbaeb05b860899b522b7714f874",
-    "published_sha256": "61753abe849bbb609c38f25146fb1e2163bf5fbaeb05b860899b522b7714f874",
-    "bytes": 87383
+    "bytes": 87383,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "61753abe849bbb609c38f25146fb1e2163bf5fbaeb05b860899b522b7714f874"
   },
   {
     "original": "research/figures/fig2_effect_cost_boundaries.pdf",
     "destination": "research/figures/fig2_effect_cost_boundaries.pdf",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "6fae3c637434c41fa0d71cde5b3e1300cd1e33e120dbf312c838fdc87a1f374f",
-    "published_sha256": "6fae3c637434c41fa0d71cde5b3e1300cd1e33e120dbf312c838fdc87a1f374f",
-    "bytes": 113999
+    "bytes": 113999,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "6fae3c637434c41fa0d71cde5b3e1300cd1e33e120dbf312c838fdc87a1f374f"
   },
   {
     "original": "research/figures/fig2_effect_cost_boundaries.png",
     "destination": "research/figures/fig2_effect_cost_boundaries.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "3cacce090e92a940a370a5f273e54113f0011790e136764d341922baead241cb",
-    "published_sha256": "3cacce090e92a940a370a5f273e54113f0011790e136764d341922baead241cb",
-    "bytes": 95264
+    "bytes": 95264,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "3cacce090e92a940a370a5f273e54113f0011790e136764d341922baead241cb"
   },
   {
     "original": "research/figures/fig3_cost_quality.pdf",
     "destination": "research/figures/fig3_cost_quality.pdf",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "b1227b197328621795fb7e7fa0f4d5538aa30a4ae5e918c6ef0ebfc7e7afed53",
-    "published_sha256": "b1227b197328621795fb7e7fa0f4d5538aa30a4ae5e918c6ef0ebfc7e7afed53",
-    "bytes": 6183
+    "bytes": 6183,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "b1227b197328621795fb7e7fa0f4d5538aa30a4ae5e918c6ef0ebfc7e7afed53"
   },
   {
     "original": "research/figures/fig3_cost_quality.png",
     "destination": "research/figures/fig3_cost_quality.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "8063839706865eab1af89da7770d41aa1fcda465a3e6f26470a4326ed8277eec",
-    "published_sha256": "8063839706865eab1af89da7770d41aa1fcda465a3e6f26470a4326ed8277eec",
-    "bytes": 79089
+    "bytes": 79089,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "8063839706865eab1af89da7770d41aa1fcda465a3e6f26470a4326ed8277eec"
   },
   {
     "original": "research/figures/fig4_disclosure_and_strong_baseline.pdf",
     "destination": "research/figures/fig4_disclosure_and_strong_baseline.pdf",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "dc26118c643d51834e3b4901083fab43544ba7f90e302b681c5b4a2ee0c0af4a",
-    "published_sha256": "dc26118c643d51834e3b4901083fab43544ba7f90e302b681c5b4a2ee0c0af4a",
-    "bytes": 5869
+    "bytes": 5869,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "dc26118c643d51834e3b4901083fab43544ba7f90e302b681c5b4a2ee0c0af4a"
   },
   {
     "original": "research/figures/fig4_disclosure_and_strong_baseline.png",
     "destination": "research/figures/fig4_disclosure_and_strong_baseline.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "c37d45fcbc79ea43a92a9c6342393233cc89f29342d53ba4f9c254c6e170b904",
-    "published_sha256": "c37d45fcbc79ea43a92a9c6342393233cc89f29342d53ba4f9c254c6e170b904",
-    "bytes": 59492
+    "bytes": 59492,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "c37d45fcbc79ea43a92a9c6342393233cc89f29342d53ba4f9c254c6e170b904"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/acronym_check.json",
     "destination": "research/phase4_simulation_sections_20261028/acronym_check.json",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "f0c3baa7779a58efb6bb1421b0ccdc5c80a8b2ddfe5500973e89bace1ab68e38",
-    "published_sha256": "d5cb9849402601703f80637302e47c02bd307d54fcdaea8afe95a9d5de2fea88",
-    "bytes": 1041
+    "bytes": 1041,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "d5cb9849402601703f80637302e47c02bd307d54fcdaea8afe95a9d5de2fea88"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/build_paper_sections.py",
     "destination": "research/phase4_simulation_sections_20261028/build_paper_sections.py",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "40aa2263dba4baf449d705a58ef972740a410c89ddb8c001f72c0f48a74251fc",
-    "published_sha256": "40aa2263dba4baf449d705a58ef972740a410c89ddb8c001f72c0f48a74251fc",
-    "bytes": 23506
+    "bytes": 23506,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "40aa2263dba4baf449d705a58ef972740a410c89ddb8c001f72c0f48a74251fc"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/draft.md",
     "destination": "research/phase4_simulation_sections_20261028/draft.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "b29fd4961f0957600f8019d049b0660e5c49bd0979271124a26e5bfdbfef3019",
-    "published_sha256": "b29fd4961f0957600f8019d049b0660e5c49bd0979271124a26e5bfdbfef3019",
-    "bytes": 12854
+    "bytes": 12854,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "b29fd4961f0957600f8019d049b0660e5c49bd0979271124a26e5bfdbfef3019"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/export_paper_figures.m",
     "destination": "research/phase4_simulation_sections_20261028/export_paper_figures.m",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "da1a8334797b4499148542d93c5f71b41256c77e9962b9084cb472fbf5ae0408",
-    "published_sha256": "da1a8334797b4499148542d93c5f71b41256c77e9962b9084cb472fbf5ae0408",
-    "bytes": 2489
+    "bytes": 2489,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "da1a8334797b4499148542d93c5f71b41256c77e9962b9084cb472fbf5ae0408"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/figure_export.log",
     "destination": "research/phase4_simulation_sections_20261028/figure_export.log",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "1dfa15233f9c06ab81592cc4c5b3ea7c565dede631cab685f46383aac37b4fc3",
-    "published_sha256": "1dfa15233f9c06ab81592cc4c5b3ea7c565dede631cab685f46383aac37b4fc3",
-    "bytes": 66
+    "bytes": 66,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "1dfa15233f9c06ab81592cc4c5b3ea7c565dede631cab685f46383aac37b4fc3"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/figures/图1_基准机制比较.pdf",
     "destination": "research/phase4_simulation_sections_20261028/figures/图1_基准机制比较.pdf",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "5d7cda9658882d9b12af7cc52f159acc7ada5bf146ee2b4d29ce9662b9edc23e",
-    "published_sha256": "5d7cda9658882d9b12af7cc52f159acc7ada5bf146ee2b4d29ce9662b9edc23e",
-    "bytes": 23293
+    "bytes": 23293,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "5d7cda9658882d9b12af7cc52f159acc7ada5bf146ee2b4d29ce9662b9edc23e"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/figures/图1_基准机制比较.png",
     "destination": "research/phase4_simulation_sections_20261028/figures/图1_基准机制比较.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "b0aa5c41eee55c00687cbad1f0ac1ff57a8d0feba32ce6c08675bdff0be7759f",
-    "published_sha256": "b0aa5c41eee55c00687cbad1f0ac1ff57a8d0feba32ce6c08675bdff0be7759f",
-    "bytes": 76702
+    "bytes": 76702,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "b0aa5c41eee55c00687cbad1f0ac1ff57a8d0feba32ce6c08675bdff0be7759f"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/figures/图2_条件与反转边界.pdf",
     "destination": "research/phase4_simulation_sections_20261028/figures/图2_条件与反转边界.pdf",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "11d8025f48a65214abf87f0e77de5ccb5cf8e02ba39b7402832f1fad661a2d52",
-    "published_sha256": "11d8025f48a65214abf87f0e77de5ccb5cf8e02ba39b7402832f1fad661a2d52",
-    "bytes": 88713
+    "bytes": 88713,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "11d8025f48a65214abf87f0e77de5ccb5cf8e02ba39b7402832f1fad661a2d52"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/figures/图2_条件与反转边界.png",
     "destination": "research/phase4_simulation_sections_20261028/figures/图2_条件与反转边界.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "396314c0fe9db30cb678a1e8cb6f14ce8fcbd45cfe9200594dfc2fea89478e50",
-    "published_sha256": "396314c0fe9db30cb678a1e8cb6f14ce8fcbd45cfe9200594dfc2fea89478e50",
-    "bytes": 127080
+    "bytes": 127080,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "396314c0fe9db30cb678a1e8cb6f14ce8fcbd45cfe9200594dfc2fea89478e50"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_delivery/page-1.png",
     "destination": "research/phase4_simulation_sections_20261028/render_delivery/page-1.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "726fe2ca85a1fff72ee63ceed7ad22501ccb7c552238ecb79237c87db107f9e3",
-    "published_sha256": "726fe2ca85a1fff72ee63ceed7ad22501ccb7c552238ecb79237c87db107f9e3",
-    "bytes": 552256
+    "bytes": 552256,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "726fe2ca85a1fff72ee63ceed7ad22501ccb7c552238ecb79237c87db107f9e3"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_delivery/page-2.png",
     "destination": "research/phase4_simulation_sections_20261028/render_delivery/page-2.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c",
-    "published_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c",
-    "bytes": 675187
+    "bytes": 675187,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_delivery/page-3.png",
     "destination": "research/phase4_simulation_sections_20261028/render_delivery/page-3.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "d76b3fc39b0c9b48d39f9ec881c4308a00e2817827c30d333849a999c47e6aae",
-    "published_sha256": "d76b3fc39b0c9b48d39f9ec881c4308a00e2817827c30d333849a999c47e6aae",
-    "bytes": 495792
+    "bytes": 495792,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "d76b3fc39b0c9b48d39f9ec881c4308a00e2817827c30d333849a999c47e6aae"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_delivery/page-4.png",
     "destination": "research/phase4_simulation_sections_20261028/render_delivery/page-4.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "cd8e4a1d34d9965d3ed184e8e6ac479515e58318c4232bae135dc6b423636680",
-    "published_sha256": "cd8e4a1d34d9965d3ed184e8e6ac479515e58318c4232bae135dc6b423636680",
-    "bytes": 413030
+    "bytes": 413030,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "cd8e4a1d34d9965d3ed184e8e6ac479515e58318c4232bae135dc6b423636680"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_delivery/page-5.png",
     "destination": "research/phase4_simulation_sections_20261028/render_delivery/page-5.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "e6f3ec2293e7c9aa34f6cc3caa20bd877ffc7c1474ca3d779a61336e9aaf5737",
-    "published_sha256": "e6f3ec2293e7c9aa34f6cc3caa20bd877ffc7c1474ca3d779a61336e9aaf5737",
-    "bytes": 388798
+    "bytes": 388798,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "e6f3ec2293e7c9aa34f6cc3caa20bd877ffc7c1474ca3d779a61336e9aaf5737"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_delivery/page-6.png",
     "destination": "research/phase4_simulation_sections_20261028/render_delivery/page-6.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "e69566e13f50abdf9e3071aefbbea874b48037244a358f86d1b25eb17f5da7ce",
-    "published_sha256": "e69566e13f50abdf9e3071aefbbea874b48037244a358f86d1b25eb17f5da7ce",
-    "bytes": 530109
+    "bytes": 530109,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "e69566e13f50abdf9e3071aefbbea874b48037244a358f86d1b25eb17f5da7ce"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_delivery/论文仿真章节_可编辑稿.pdf",
     "destination": "research/phase4_simulation_sections_20261028/render_delivery/论文仿真章节_可编辑稿.pdf",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "08f43d6ce25dd6ba3e67d39f8c9d82056e36449c34a444037b1c16e697823059",
-    "published_sha256": "08f43d6ce25dd6ba3e67d39f8c9d82056e36449c34a444037b1c16e697823059",
-    "bytes": 580725
+    "bytes": 580725,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "08f43d6ce25dd6ba3e67d39f8c9d82056e36449c34a444037b1c16e697823059"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_final/page-1.png",
     "destination": "research/phase4_simulation_sections_20261028/render_final/page-1.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "726fe2ca85a1fff72ee63ceed7ad22501ccb7c552238ecb79237c87db107f9e3",
-    "published_sha256": "726fe2ca85a1fff72ee63ceed7ad22501ccb7c552238ecb79237c87db107f9e3",
-    "bytes": 552256
+    "bytes": 552256,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "726fe2ca85a1fff72ee63ceed7ad22501ccb7c552238ecb79237c87db107f9e3"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_final/page-2.png",
     "destination": "research/phase4_simulation_sections_20261028/render_final/page-2.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c",
-    "published_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c",
-    "bytes": 675187
+    "bytes": 675187,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_final/page-3.png",
     "destination": "research/phase4_simulation_sections_20261028/render_final/page-3.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "d76b3fc39b0c9b48d39f9ec881c4308a00e2817827c30d333849a999c47e6aae",
-    "published_sha256": "d76b3fc39b0c9b48d39f9ec881c4308a00e2817827c30d333849a999c47e6aae",
-    "bytes": 495792
+    "bytes": 495792,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "d76b3fc39b0c9b48d39f9ec881c4308a00e2817827c30d333849a999c47e6aae"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_final/page-4.png",
     "destination": "research/phase4_simulation_sections_20261028/render_final/page-4.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "313d378a14ad3223af0646ddf10531b03d15471dd050952072aa7648933ab479",
-    "published_sha256": "313d378a14ad3223af0646ddf10531b03d15471dd050952072aa7648933ab479",
-    "bytes": 413234
+    "bytes": 413234,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "313d378a14ad3223af0646ddf10531b03d15471dd050952072aa7648933ab479"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_final/page-5.png",
     "destination": "research/phase4_simulation_sections_20261028/render_final/page-5.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "e6f3ec2293e7c9aa34f6cc3caa20bd877ffc7c1474ca3d779a61336e9aaf5737",
-    "published_sha256": "e6f3ec2293e7c9aa34f6cc3caa20bd877ffc7c1474ca3d779a61336e9aaf5737",
-    "bytes": 388798
+    "bytes": 388798,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "e6f3ec2293e7c9aa34f6cc3caa20bd877ffc7c1474ca3d779a61336e9aaf5737"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_final/page-6.png",
     "destination": "research/phase4_simulation_sections_20261028/render_final/page-6.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "805b023e7e6ab82cfda3e8b541efc5ff5d988f03905c264df8cd5aa54ac6891e",
-    "published_sha256": "805b023e7e6ab82cfda3e8b541efc5ff5d988f03905c264df8cd5aa54ac6891e",
-    "bytes": 527412
+    "bytes": 527412,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "805b023e7e6ab82cfda3e8b541efc5ff5d988f03905c264df8cd5aa54ac6891e"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_final/论文仿真章节_可编辑稿.pdf",
     "destination": "research/phase4_simulation_sections_20261028/render_final/论文仿真章节_可编辑稿.pdf",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "f83090c44980108f4ad7c4d52e7be5853b77a9228af5dc06c1cc344d82103a4e",
-    "published_sha256": "f83090c44980108f4ad7c4d52e7be5853b77a9228af5dc06c1cc344d82103a4e",
-    "bytes": 581066
+    "bytes": 581066,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "f83090c44980108f4ad7c4d52e7be5853b77a9228af5dc06c1cc344d82103a4e"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_qa/page-1.png",
     "destination": "research/phase4_simulation_sections_20261028/render_qa/page-1.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "80e89def270d4c453a4527b6332d1949e2fc5492211e1f48ff16186861812330",
-    "published_sha256": "80e89def270d4c453a4527b6332d1949e2fc5492211e1f48ff16186861812330",
-    "bytes": 547839
+    "bytes": 547839,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "80e89def270d4c453a4527b6332d1949e2fc5492211e1f48ff16186861812330"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_qa/page-2.png",
     "destination": "research/phase4_simulation_sections_20261028/render_qa/page-2.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c",
-    "published_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c",
-    "bytes": 675187
+    "bytes": 675187,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "dcb4909af1aef8fd7e168dbf1e2b1f1ea6207f726f8f2287ea7d83fa5b4e830c"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_qa/page-3.png",
     "destination": "research/phase4_simulation_sections_20261028/render_qa/page-3.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "2e54e8c2fa5170c03710430e5d9c276565b92aea07d73c88c14ad83d1f907406",
-    "published_sha256": "2e54e8c2fa5170c03710430e5d9c276565b92aea07d73c88c14ad83d1f907406",
-    "bytes": 324023
+    "bytes": 324023,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "2e54e8c2fa5170c03710430e5d9c276565b92aea07d73c88c14ad83d1f907406"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_qa/page-4.png",
     "destination": "research/phase4_simulation_sections_20261028/render_qa/page-4.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "644f395e527371027ba04098870936929f36587d0b1cb2220e54710cf9b6a51c",
-    "published_sha256": "644f395e527371027ba04098870936929f36587d0b1cb2220e54710cf9b6a51c",
-    "bytes": 400088
+    "bytes": 400088,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "644f395e527371027ba04098870936929f36587d0b1cb2220e54710cf9b6a51c"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_qa/page-5.png",
     "destination": "research/phase4_simulation_sections_20261028/render_qa/page-5.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "2ec0404c748b2a9b0626efeb2d9664cfedeb9812c5b64604defa5d2c4be37edb",
-    "published_sha256": "2ec0404c748b2a9b0626efeb2d9664cfedeb9812c5b64604defa5d2c4be37edb",
-    "bytes": 368405
+    "bytes": 368405,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "2ec0404c748b2a9b0626efeb2d9664cfedeb9812c5b64604defa5d2c4be37edb"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_qa/page-6.png",
     "destination": "research/phase4_simulation_sections_20261028/render_qa/page-6.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "31e7f198b481eed28515eb7b2a48218daad173767e838be3e3ed47edc0d7f1d1",
-    "published_sha256": "31e7f198b481eed28515eb7b2a48218daad173767e838be3e3ed47edc0d7f1d1",
-    "bytes": 625205
+    "bytes": 625205,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "31e7f198b481eed28515eb7b2a48218daad173767e838be3e3ed47edc0d7f1d1"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_qa/page-7.png",
     "destination": "research/phase4_simulation_sections_20261028/render_qa/page-7.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "cc1af460cdb2807b25e9b97bfe436d83c596d01274aa7eb776ddcd9ab248ae07",
-    "published_sha256": "cc1af460cdb2807b25e9b97bfe436d83c596d01274aa7eb776ddcd9ab248ae07",
-    "bytes": 127601
+    "bytes": 127601,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "cc1af460cdb2807b25e9b97bfe436d83c596d01274aa7eb776ddcd9ab248ae07"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/render_qa/论文仿真章节_可编辑稿.pdf",
     "destination": "research/phase4_simulation_sections_20261028/render_qa/论文仿真章节_可编辑稿.pdf",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "7c8aed2720284e2b98e37211e1b25fcf85ebb1a5bf6bfbd3cf5fc16f3173ed75",
-    "published_sha256": "7c8aed2720284e2b98e37211e1b25fcf85ebb1a5bf6bfbd3cf5fc16f3173ed75",
-    "bytes": 579336
+    "bytes": 579336,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "7c8aed2720284e2b98e37211e1b25fcf85ebb1a5bf6bfbd3cf5fc16f3173ed75"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/verify_paper_output.py",
     "destination": "research/phase4_simulation_sections_20261028/verify_paper_output.py",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "858fb6cfc36ef04a1f7e994b6e36aa85a38eb1a240687bbfa316e49bb3524f2f",
-    "published_sha256": "858fb6cfc36ef04a1f7e994b6e36aa85a38eb1a240687bbfa316e49bb3524f2f",
-    "bytes": 2049
+    "bytes": 2049,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "858fb6cfc36ef04a1f7e994b6e36aa85a38eb1a240687bbfa316e49bb3524f2f"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/并入论文说明.md",
     "destination": "research/phase4_simulation_sections_20261028/并入论文说明.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "3eb3a2b7c356a28a5f07ea6c810f7b1a243c88e39f8b1337c5948283c7a787d3",
-    "published_sha256": "3eb3a2b7c356a28a5f07ea6c810f7b1a243c88e39f8b1337c5948283c7a787d3",
-    "bytes": 1674
+    "bytes": 1674,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "3eb3a2b7c356a28a5f07ea6c810f7b1a243c88e39f8b1337c5948283c7a787d3"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/数值与出处核对.json",
     "destination": "research/phase4_simulation_sections_20261028/数值与出处核对.json",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "9330244942aecc21719279278cdb4e5b8e83083f272ec26adb856878987e2c6c",
-    "published_sha256": "9330244942aecc21719279278cdb4e5b8e83083f272ec26adb856878987e2c6c",
-    "bytes": 3908
+    "bytes": 3908,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "9330244942aecc21719279278cdb4e5b8e83083f272ec26adb856878987e2c6c"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/最终交付核对.json",
     "destination": "research/phase4_simulation_sections_20261028/最终交付核对.json",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "70fec596ee0f8bc5b9a8ca56fb9ef231aadb88280f5e520e49036d36750d89c1",
-    "published_sha256": "70fec596ee0f8bc5b9a8ca56fb9ef231aadb88280f5e520e49036d36750d89c1",
-    "bytes": 698
+    "bytes": 698,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "70fec596ee0f8bc5b9a8ca56fb9ef231aadb88280f5e520e49036d36750d89c1"
   },
   {
     "original": "research/phase4_simulation_sections_20261028/论文仿真章节_可编辑稿.docx",
     "destination": "research/phase4_simulation_sections_20261028/论文仿真章节_可编辑稿.docx",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "3cdc2942b3f35adf6d003ec9ec45f945cb7409bf94aa24daa366b7bd6617c995",
-    "published_sha256": "3cdc2942b3f35adf6d003ec9ec45f945cb7409bf94aa24daa366b7bd6617c995",
-    "bytes": 223999
+    "bytes": 223999,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "3cdc2942b3f35adf6d003ec9ec45f945cb7409bf94aa24daa366b7bd6617c995"
   },
   {
     "original": "research/results/all_grid_effects.csv",
     "destination": "research/results/all_grid_effects.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "6e3bdb930ea47b1e1cc22842fdbea8de18907ad692009206561076025731d30a",
-    "published_sha256": "b28ca428d8fa1389da4f23a6c44fab9b6195020233801b5684bb325b9461f1ca",
-    "bytes": 5786
+    "bytes": 5786,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "b28ca428d8fa1389da4f23a6c44fab9b6195020233801b5684bb325b9461f1ca"
   },
   {
     "original": "research/results/all_summary.csv",
     "destination": "research/results/all_summary.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "d7d9bf0c00578b2454d44c8cd17243d422bb103717d62161b7efea86f82b7aba",
-    "published_sha256": "d7d9bf0c00578b2454d44c8cd17243d422bb103717d62161b7efea86f82b7aba",
-    "bytes": 1779770
+    "bytes": 1779770,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "d7d9bf0c00578b2454d44c8cd17243d422bb103717d62161b7efea86f82b7aba"
   },
   {
     "original": "research/results/base_diagnostics.csv",
     "destination": "research/results/base_diagnostics.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "744d32e4d7e64f3a6be11f5d4cd2cbec83d95b5a91b528978199f966b6749dde",
-    "published_sha256": "744d32e4d7e64f3a6be11f5d4cd2cbec83d95b5a91b528978199f966b6749dde",
-    "bytes": 15550
+    "bytes": 15550,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "744d32e4d7e64f3a6be11f5d4cd2cbec83d95b5a91b528978199f966b6749dde"
   },
   {
     "original": "research/results/base_outcomes.mat",
     "destination": "research/results/base_outcomes.mat",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "dec724b98cfe0f0809450d69dbfd2a3523a2dc5bfa25c933a994889970d375fd",
-    "published_sha256": "dec724b98cfe0f0809450d69dbfd2a3523a2dc5bfa25c933a994889970d375fd",
-    "bytes": 5105728
+    "bytes": 5105728,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "dec724b98cfe0f0809450d69dbfd2a3523a2dc5bfa25c933a994889970d375fd"
   },
   {
     "original": "research/results/independent_validation.json",
     "destination": "research/results/independent_validation.json",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "b663363ca03a3bfff08c1a35dce9759d98eb28021430baeee1f2dd7b6afb011f",
-    "published_sha256": "b663363ca03a3bfff08c1a35dce9759d98eb28021430baeee1f2dd7b6afb011f",
-    "bytes": 3017
+    "bytes": 3017,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "b663363ca03a3bfff08c1a35dce9759d98eb28021430baeee1f2dd7b6afb011f"
   },
   {
     "original": "research/results/independent_validation_slice.csv",
     "destination": "research/results/independent_validation_slice.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384",
-    "published_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384",
-    "bytes": 4441255
+    "bytes": 4441255,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384"
   },
   {
     "original": "research/results/paired_differences.csv",
     "destination": "research/results/paired_differences.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "02ae47ce3c1df3448445569bc9ba0ac31c634240c2015c29956f22c952a7223e",
-    "published_sha256": "02ae47ce3c1df3448445569bc9ba0ac31c634240c2015c29956f22c952a7223e",
-    "bytes": 1593654
+    "bytes": 1593654,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "02ae47ce3c1df3448445569bc9ba0ac31c634240c2015c29956f22c952a7223e"
   },
   {
     "original": "research/results/paired_inputs.mat",
     "destination": "research/results/paired_inputs.mat",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "2223d8026db8ecef4db933b3ca04d0a68072e0076c2a0d1bf5c1aa6c29929f13",
-    "published_sha256": "2223d8026db8ecef4db933b3ca04d0a68072e0076c2a0d1bf5c1aa6c29929f13",
-    "bytes": 19017101
+    "bytes": 19017101,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "2223d8026db8ecef4db933b3ca04d0a68072e0076c2a0d1bf5c1aa6c29929f13"
   },
   {
     "original": "research/results/paired_link_contrasts.csv",
     "destination": "research/results/paired_link_contrasts.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "caa5427121bd07eb17d225c2fef68d6f9f28f9c3cfb7a4c3e0dfb37998fc24ce",
-    "published_sha256": "caa5427121bd07eb17d225c2fef68d6f9f28f9c3cfb7a4c3e0dfb37998fc24ce",
-    "bytes": 254414
+    "bytes": 254414,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "caa5427121bd07eb17d225c2fef68d6f9f28f9c3cfb7a4c3e0dfb37998fc24ce"
   },
   {
     "original": "research/results/policies.csv",
     "destination": "research/results/policies.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
-    "published_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
-    "bytes": 210
+    "bytes": 210,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2"
   },
   {
     "original": "research/results/run.log",
     "destination": "research/results/run.log",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "dd0b3d16250067ba7dc95bbf8b525ab62d74dde499d4b46989a3fabee77659d8",
-    "published_sha256": "dd0b3d16250067ba7dc95bbf8b525ab62d74dde499d4b46989a3fabee77659d8",
-    "bytes": 4640
+    "bytes": 4640,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "dd0b3d16250067ba7dc95bbf8b525ab62d74dde499d4b46989a3fabee77659d8"
   },
   {
     "original": "research/results/scenarios.csv",
     "destination": "research/results/scenarios.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60",
-    "published_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60",
-    "bytes": 4873
+    "bytes": 4873,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60"
   },
   {
     "original": "research/results/synthetic_catalog.csv",
     "destination": "research/results/synthetic_catalog.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
-    "published_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
-    "bytes": 130
+    "bytes": 130,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5"
   },
   {
     "original": "research/results/validation.json",
     "destination": "research/results/validation.json",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "7083b169a8ef4f86e9de5ba232d35008208cbe569db477b5a69a9443f1e558da",
-    "published_sha256": "7083b169a8ef4f86e9de5ba232d35008208cbe569db477b5a69a9443f1e558da",
-    "bytes": 642
+    "bytes": 642,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "7083b169a8ef4f86e9de5ba232d35008208cbe569db477b5a69a9443f1e558da"
   },
   {
     "original": "research/simulation_goal_repair_20261028/00_先看结果.md",
     "destination": "research/simulation_goal_repair_20261028/00_先看结果.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "b14b911fdfc371904790c76c47fb0231614be68fbe3791c7a4912b3c4c764a12",
-    "published_sha256": "35e4c1e559268605f0124ce8d6bc1371941225f38558eddc06526432b00fd356",
-    "bytes": 1334
+    "bytes": 1334,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "35e4c1e559268605f0124ce8d6bc1371941225f38558eddc06526432b00fd356"
   },
   {
     "original": "research/simulation_goal_repair_20261028/01_执行前方案.md",
     "destination": "research/simulation_goal_repair_20261028/01_执行前方案.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "ccff845ec4fe7030c0da7817517c44a3b31c08821551ea08c26c66e6bc12bda0",
-    "published_sha256": "ccff845ec4fe7030c0da7817517c44a3b31c08821551ea08c26c66e6bc12bda0",
-    "bytes": 5048
+    "bytes": 5048,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "ccff845ec4fe7030c0da7817517c44a3b31c08821551ea08c26c66e6bc12bda0"
   },
   {
     "original": "research/simulation_goal_repair_20261028/02_新增材料与模型依据.md",
     "destination": "research/simulation_goal_repair_20261028/02_新增材料与模型依据.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "2820833881382bbc6508e9d648f0a56f95abb2a97fd3f876fb4787b04476bd36",
-    "published_sha256": "2820833881382bbc6508e9d648f0a56f95abb2a97fd3f876fb4787b04476bd36",
-    "bytes": 6367
+    "bytes": 6367,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "2820833881382bbc6508e9d648f0a56f95abb2a97fd3f876fb4787b04476bd36"
   },
   {
     "original": "research/simulation_goal_repair_20261028/03_变量公式与参数身份.md",
     "destination": "research/simulation_goal_repair_20261028/03_变量公式与参数身份.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "32ba0954ecee65f9f9b806c0d5c9a1b624501fd459983b263602a41cc79246dc",
-    "published_sha256": "32ba0954ecee65f9f9b806c0d5c9a1b624501fd459983b263602a41cc79246dc",
-    "bytes": 8210
+    "bytes": 8210,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "32ba0954ecee65f9f9b806c0d5c9a1b624501fd459983b263602a41cc79246dc"
   },
   {
     "original": "research/simulation_goal_repair_20261028/04_结果报告与创新点修订.md",
     "destination": "research/simulation_goal_repair_20261028/04_结果报告与创新点修订.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "991c0f44f25bc13563e3748156dad7d898f837ec17dec4cf72b101f856071d57",
-    "published_sha256": "c78be00bb1472ac99561ca2b9dca018f38c70c33300b44bce1c376428ac6c3d1",
-    "bytes": 11615
+    "bytes": 11615,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "c78be00bb1472ac99561ca2b9dca018f38c70c33300b44bce1c376428ac6c3d1"
   },
   {
     "original": "research/simulation_goal_repair_20261028/05_复现与验收.md",
     "destination": "research/simulation_goal_repair_20261028/05_复现与验收.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "8f7e24e87f1a2e7df0e848259b109bd914cb3982a526f586f9ff8c5bf6d98436",
-    "published_sha256": "8f7e24e87f1a2e7df0e848259b109bd914cb3982a526f586f9ff8c5bf6d98436",
-    "bytes": 2319
+    "bytes": 2319,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "8f7e24e87f1a2e7df0e848259b109bd914cb3982a526f586f9ff8c5bf6d98436"
   },
   {
     "original": "research/simulation_goal_repair_20261028/code/build_simulation_report.py",
     "destination": "research/simulation_goal_repair_20261028/code/build_simulation_report.py",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "15d299e1dd343b3fcc3e404fe0d19347f1a6b570c260c6fc11b7e586bfbfa8b6",
-    "published_sha256": "15d299e1dd343b3fcc3e404fe0d19347f1a6b570c260c6fc11b7e586bfbfa8b6",
-    "bytes": 24508
+    "bytes": 24508,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "15d299e1dd343b3fcc3e404fe0d19347f1a6b570c260c6fc11b7e586bfbfa8b6"
   },
   {
     "original": "research/simulation_goal_repair_20261028/code/export_simulation_diagnostics.m",
     "destination": "research/simulation_goal_repair_20261028/code/export_simulation_diagnostics.m",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "2e6486d00ada06f71a9ce152c9b7c92befca2c06743a5ed5f7e2d7622eeb6740",
-    "published_sha256": "2e6486d00ada06f71a9ce152c9b7c92befca2c06743a5ed5f7e2d7622eeb6740",
-    "bytes": 1712
+    "bytes": 1712,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "2e6486d00ada06f71a9ce152c9b7c92befca2c06743a5ed5f7e2d7622eeb6740"
   },
   {
     "original": "research/simulation_goal_repair_20261028/code/export_validation_slice.m",
     "destination": "research/simulation_goal_repair_20261028/code/export_validation_slice.m",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "dea373abf95b3c1c9ba0b6240a69a87005f6456caf39c9cba008733a79d624ed",
-    "published_sha256": "dea373abf95b3c1c9ba0b6240a69a87005f6456caf39c9cba008733a79d624ed",
-    "bytes": 838
+    "bytes": 838,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "dea373abf95b3c1c9ba0b6240a69a87005f6456caf39c9cba008733a79d624ed"
   },
   {
     "original": "research/simulation_goal_repair_20261028/code/run_goal_repair_simulation.m",
     "destination": "research/simulation_goal_repair_20261028/code/run_goal_repair_simulation.m",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
-    "published_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
-    "bytes": 17252
+    "bytes": 17252,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4"
   },
   {
     "original": "research/simulation_goal_repair_20261028/figures/fig1_core_mechanisms.pdf",
     "destination": "research/simulation_goal_repair_20261028/figures/fig1_core_mechanisms.pdf",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "d4a00347109aa4eb8bb690ebbdcdc0504b58ccb0cd9cf44284abe437cc9de8cf",
-    "published_sha256": "d4a00347109aa4eb8bb690ebbdcdc0504b58ccb0cd9cf44284abe437cc9de8cf",
-    "bytes": 8718
+    "bytes": 8718,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "d4a00347109aa4eb8bb690ebbdcdc0504b58ccb0cd9cf44284abe437cc9de8cf"
   },
   {
     "original": "research/simulation_goal_repair_20261028/figures/fig1_core_mechanisms.png",
     "destination": "research/simulation_goal_repair_20261028/figures/fig1_core_mechanisms.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "61753abe849bbb609c38f25146fb1e2163bf5fbaeb05b860899b522b7714f874",
-    "published_sha256": "61753abe849bbb609c38f25146fb1e2163bf5fbaeb05b860899b522b7714f874",
-    "bytes": 87383
+    "bytes": 87383,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "61753abe849bbb609c38f25146fb1e2163bf5fbaeb05b860899b522b7714f874"
   },
   {
     "original": "research/simulation_goal_repair_20261028/figures/fig2_effect_cost_boundaries.pdf",
     "destination": "research/simulation_goal_repair_20261028/figures/fig2_effect_cost_boundaries.pdf",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "6fae3c637434c41fa0d71cde5b3e1300cd1e33e120dbf312c838fdc87a1f374f",
-    "published_sha256": "6fae3c637434c41fa0d71cde5b3e1300cd1e33e120dbf312c838fdc87a1f374f",
-    "bytes": 113999
+    "bytes": 113999,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "6fae3c637434c41fa0d71cde5b3e1300cd1e33e120dbf312c838fdc87a1f374f"
   },
   {
     "original": "research/simulation_goal_repair_20261028/figures/fig2_effect_cost_boundaries.png",
     "destination": "research/simulation_goal_repair_20261028/figures/fig2_effect_cost_boundaries.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "3cacce090e92a940a370a5f273e54113f0011790e136764d341922baead241cb",
-    "published_sha256": "3cacce090e92a940a370a5f273e54113f0011790e136764d341922baead241cb",
-    "bytes": 95264
+    "bytes": 95264,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "3cacce090e92a940a370a5f273e54113f0011790e136764d341922baead241cb"
   },
   {
     "original": "research/simulation_goal_repair_20261028/figures/fig3_cost_quality.pdf",
     "destination": "research/simulation_goal_repair_20261028/figures/fig3_cost_quality.pdf",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "b1227b197328621795fb7e7fa0f4d5538aa30a4ae5e918c6ef0ebfc7e7afed53",
-    "published_sha256": "b1227b197328621795fb7e7fa0f4d5538aa30a4ae5e918c6ef0ebfc7e7afed53",
-    "bytes": 6183
+    "bytes": 6183,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "b1227b197328621795fb7e7fa0f4d5538aa30a4ae5e918c6ef0ebfc7e7afed53"
   },
   {
     "original": "research/simulation_goal_repair_20261028/figures/fig3_cost_quality.png",
     "destination": "research/simulation_goal_repair_20261028/figures/fig3_cost_quality.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "8063839706865eab1af89da7770d41aa1fcda465a3e6f26470a4326ed8277eec",
-    "published_sha256": "8063839706865eab1af89da7770d41aa1fcda465a3e6f26470a4326ed8277eec",
-    "bytes": 79089
+    "bytes": 79089,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "8063839706865eab1af89da7770d41aa1fcda465a3e6f26470a4326ed8277eec"
   },
   {
     "original": "research/simulation_goal_repair_20261028/figures/fig4_disclosure_and_strong_baseline.pdf",
     "destination": "research/simulation_goal_repair_20261028/figures/fig4_disclosure_and_strong_baseline.pdf",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "dc26118c643d51834e3b4901083fab43544ba7f90e302b681c5b4a2ee0c0af4a",
-    "published_sha256": "dc26118c643d51834e3b4901083fab43544ba7f90e302b681c5b4a2ee0c0af4a",
-    "bytes": 5869
+    "bytes": 5869,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "dc26118c643d51834e3b4901083fab43544ba7f90e302b681c5b4a2ee0c0af4a"
   },
   {
     "original": "research/simulation_goal_repair_20261028/figures/fig4_disclosure_and_strong_baseline.png",
     "destination": "research/simulation_goal_repair_20261028/figures/fig4_disclosure_and_strong_baseline.png",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "c37d45fcbc79ea43a92a9c6342393233cc89f29342d53ba4f9c254c6e170b904",
-    "published_sha256": "c37d45fcbc79ea43a92a9c6342393233cc89f29342d53ba4f9c254c6e170b904",
-    "bytes": 59492
+    "bytes": 59492,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "c37d45fcbc79ea43a92a9c6342393233cc89f29342d53ba4f9c254c6e170b904"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results/all_grid_effects.csv",
     "destination": "research/simulation_goal_repair_20261028/results/all_grid_effects.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "6e3bdb930ea47b1e1cc22842fdbea8de18907ad692009206561076025731d30a",
-    "published_sha256": "b28ca428d8fa1389da4f23a6c44fab9b6195020233801b5684bb325b9461f1ca",
-    "bytes": 5786
+    "bytes": 5786,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "b28ca428d8fa1389da4f23a6c44fab9b6195020233801b5684bb325b9461f1ca"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results/all_summary.csv",
     "destination": "research/simulation_goal_repair_20261028/results/all_summary.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "d7d9bf0c00578b2454d44c8cd17243d422bb103717d62161b7efea86f82b7aba",
-    "published_sha256": "d7d9bf0c00578b2454d44c8cd17243d422bb103717d62161b7efea86f82b7aba",
-    "bytes": 1779770
+    "bytes": 1779770,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "d7d9bf0c00578b2454d44c8cd17243d422bb103717d62161b7efea86f82b7aba"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results/base_diagnostics.csv",
     "destination": "research/simulation_goal_repair_20261028/results/base_diagnostics.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "744d32e4d7e64f3a6be11f5d4cd2cbec83d95b5a91b528978199f966b6749dde",
-    "published_sha256": "744d32e4d7e64f3a6be11f5d4cd2cbec83d95b5a91b528978199f966b6749dde",
-    "bytes": 15550
+    "bytes": 15550,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "744d32e4d7e64f3a6be11f5d4cd2cbec83d95b5a91b528978199f966b6749dde"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results/base_outcomes.mat",
     "destination": "research/simulation_goal_repair_20261028/results/base_outcomes.mat",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "dec724b98cfe0f0809450d69dbfd2a3523a2dc5bfa25c933a994889970d375fd",
-    "published_sha256": "dec724b98cfe0f0809450d69dbfd2a3523a2dc5bfa25c933a994889970d375fd",
-    "bytes": 5105728
+    "bytes": 5105728,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "dec724b98cfe0f0809450d69dbfd2a3523a2dc5bfa25c933a994889970d375fd"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results/independent_validation.json",
     "destination": "research/simulation_goal_repair_20261028/results/independent_validation.json",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "b663363ca03a3bfff08c1a35dce9759d98eb28021430baeee1f2dd7b6afb011f",
-    "published_sha256": "b663363ca03a3bfff08c1a35dce9759d98eb28021430baeee1f2dd7b6afb011f",
-    "bytes": 3017
+    "bytes": 3017,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "b663363ca03a3bfff08c1a35dce9759d98eb28021430baeee1f2dd7b6afb011f"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results/independent_validation_slice.csv",
     "destination": "research/simulation_goal_repair_20261028/results/independent_validation_slice.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384",
-    "published_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384",
-    "bytes": 4441255
+    "bytes": 4441255,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results/paired_differences.csv",
     "destination": "research/simulation_goal_repair_20261028/results/paired_differences.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "02ae47ce3c1df3448445569bc9ba0ac31c634240c2015c29956f22c952a7223e",
-    "published_sha256": "02ae47ce3c1df3448445569bc9ba0ac31c634240c2015c29956f22c952a7223e",
-    "bytes": 1593654
+    "bytes": 1593654,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "02ae47ce3c1df3448445569bc9ba0ac31c634240c2015c29956f22c952a7223e"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results/paired_inputs.mat",
     "destination": "research/simulation_goal_repair_20261028/results/paired_inputs.mat",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "2223d8026db8ecef4db933b3ca04d0a68072e0076c2a0d1bf5c1aa6c29929f13",
-    "published_sha256": "2223d8026db8ecef4db933b3ca04d0a68072e0076c2a0d1bf5c1aa6c29929f13",
-    "bytes": 19017101
+    "bytes": 19017101,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "2223d8026db8ecef4db933b3ca04d0a68072e0076c2a0d1bf5c1aa6c29929f13"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results/paired_link_contrasts.csv",
     "destination": "research/simulation_goal_repair_20261028/results/paired_link_contrasts.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "caa5427121bd07eb17d225c2fef68d6f9f28f9c3cfb7a4c3e0dfb37998fc24ce",
-    "published_sha256": "caa5427121bd07eb17d225c2fef68d6f9f28f9c3cfb7a4c3e0dfb37998fc24ce",
-    "bytes": 254414
+    "bytes": 254414,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "caa5427121bd07eb17d225c2fef68d6f9f28f9c3cfb7a4c3e0dfb37998fc24ce"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results/policies.csv",
     "destination": "research/simulation_goal_repair_20261028/results/policies.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
-    "published_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
-    "bytes": 210
+    "bytes": 210,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results/run.log",
     "destination": "research/simulation_goal_repair_20261028/results/run.log",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "dd0b3d16250067ba7dc95bbf8b525ab62d74dde499d4b46989a3fabee77659d8",
-    "published_sha256": "dd0b3d16250067ba7dc95bbf8b525ab62d74dde499d4b46989a3fabee77659d8",
-    "bytes": 4640
+    "bytes": 4640,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "dd0b3d16250067ba7dc95bbf8b525ab62d74dde499d4b46989a3fabee77659d8"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results/scenarios.csv",
     "destination": "research/simulation_goal_repair_20261028/results/scenarios.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60",
-    "published_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60",
-    "bytes": 4873
+    "bytes": 4873,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results/synthetic_catalog.csv",
     "destination": "research/simulation_goal_repair_20261028/results/synthetic_catalog.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
-    "published_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
-    "bytes": 130
+    "bytes": 130,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results/validation.json",
     "destination": "research/simulation_goal_repair_20261028/results/validation.json",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "7083b169a8ef4f86e9de5ba232d35008208cbe569db477b5a69a9443f1e558da",
-    "published_sha256": "7083b169a8ef4f86e9de5ba232d35008208cbe569db477b5a69a9443f1e558da",
-    "bytes": 642
+    "bytes": 642,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "7083b169a8ef4f86e9de5ba232d35008208cbe569db477b5a69a9443f1e558da"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results_smoke/all_summary.csv",
     "destination": "research/simulation_goal_repair_20261028/results_smoke/all_summary.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "9d6936ccbe8e5a34ae6d67a72105793e84779c5e7fb90c3ab62eda60f692b94c",
-    "published_sha256": "9d6936ccbe8e5a34ae6d67a72105793e84779c5e7fb90c3ab62eda60f692b94c",
-    "bytes": 386060
+    "bytes": 386060,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "9d6936ccbe8e5a34ae6d67a72105793e84779c5e7fb90c3ab62eda60f692b94c"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results_smoke/base_outcomes.mat",
     "destination": "research/simulation_goal_repair_20261028/results_smoke/base_outcomes.mat",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "bf56720eb11cfcae21c0573c1c5b00ae6c2fce46200b9bc387bbe1cdf121b418",
-    "published_sha256": "bf56720eb11cfcae21c0573c1c5b00ae6c2fce46200b9bc387bbe1cdf121b418",
-    "bytes": 34451
+    "bytes": 34451,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "bf56720eb11cfcae21c0573c1c5b00ae6c2fce46200b9bc387bbe1cdf121b418"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results_smoke/paired_differences.csv",
     "destination": "research/simulation_goal_repair_20261028/results_smoke/paired_differences.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "094bd2f8d312ef7bf26d68fc1693629ed7132cc10abc65a6ec1ec7bbd46de8b0",
-    "published_sha256": "094bd2f8d312ef7bf26d68fc1693629ed7132cc10abc65a6ec1ec7bbd46de8b0",
-    "bytes": 332245
+    "bytes": 332245,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "094bd2f8d312ef7bf26d68fc1693629ed7132cc10abc65a6ec1ec7bbd46de8b0"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results_smoke/paired_inputs.mat",
     "destination": "research/simulation_goal_repair_20261028/results_smoke/paired_inputs.mat",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "85dfd7bcfda03e5eaed504da2d4b21ef6605a6e7b734fb2e3f686c9edbb52157",
-    "published_sha256": "85dfd7bcfda03e5eaed504da2d4b21ef6605a6e7b734fb2e3f686c9edbb52157",
-    "bytes": 98716
+    "bytes": 98716,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "85dfd7bcfda03e5eaed504da2d4b21ef6605a6e7b734fb2e3f686c9edbb52157"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results_smoke/policies.csv",
     "destination": "research/simulation_goal_repair_20261028/results_smoke/policies.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
-    "published_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
-    "bytes": 210
+    "bytes": 210,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results_smoke/run.log",
     "destination": "research/simulation_goal_repair_20261028/results_smoke/run.log",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "04517169493e9919fa3bb4b943d5cfb8fb3df15ce6c94a98c1b4fcb23c47a969",
-    "published_sha256": "04517169493e9919fa3bb4b943d5cfb8fb3df15ce6c94a98c1b4fcb23c47a969",
-    "bytes": 699
+    "bytes": 699,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "04517169493e9919fa3bb4b943d5cfb8fb3df15ce6c94a98c1b4fcb23c47a969"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results_smoke/scenarios.csv",
     "destination": "research/simulation_goal_repair_20261028/results_smoke/scenarios.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "f06ab93fb1779b7f5598e98ada3fc347c6b1a09aa3299401b2654e800fc5db92",
-    "published_sha256": "f06ab93fb1779b7f5598e98ada3fc347c6b1a09aa3299401b2654e800fc5db92",
-    "bytes": 1457
+    "bytes": 1457,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "f06ab93fb1779b7f5598e98ada3fc347c6b1a09aa3299401b2654e800fc5db92"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results_smoke/synthetic_catalog.csv",
     "destination": "research/simulation_goal_repair_20261028/results_smoke/synthetic_catalog.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
-    "published_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
-    "bytes": 130
+    "bytes": 130,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5"
   },
   {
     "original": "research/simulation_goal_repair_20261028/results_smoke/validation.json",
     "destination": "research/simulation_goal_repair_20261028/results_smoke/validation.json",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "1f4536ac766617c470ff81e1a78136a526a804545e75103e2a52431033c5aa27",
-    "published_sha256": "1f4536ac766617c470ff81e1a78136a526a804545e75103e2a52431033c5aa27",
-    "bytes": 637
+    "bytes": 637,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "1f4536ac766617c470ff81e1a78136a526a804545e75103e2a52431033c5aa27"
   },
   {
     "original": "research/simulation_goal_repair_20261028/sources/acquisition_log.json",
     "destination": "research/simulation_goal_repair_20261028/sources/acquisition_log.json",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "6183c088ae9e6170844f69cb0de83548734ad9d7eebd106d5ead6fb98e12bf9e",
-    "published_sha256": "6183c088ae9e6170844f69cb0de83548734ad9d7eebd106d5ead6fb98e12bf9e",
-    "bytes": 1093
+    "bytes": 1093,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "6183c088ae9e6170844f69cb0de83548734ad9d7eebd106d5ead6fb98e12bf9e"
   },
   {
     "original": "research/simulation_goal_repair_20261028/sources/M3_Scheibehenne2010_ChoiceOverload.pdf",
     "destination": "",
-    "status": "indexed_only",
-    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "status": "removed_by_user_request",
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录，不构成当前文件入口",
     "source_sha256": "38838cd013ff6eef376ca5c84e8f5617ff4bcd233919540fec97e39ef60dcf04",
     "bytes": 380769
   },
   {
     "original": "research/simulation_goal_repair_20261028/sources/M4_acquisition.json",
     "destination": "research/simulation_goal_repair_20261028/sources/M4_acquisition.json",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "6f20a2dd0027e1f644861f3991baf3268c3130f919516aa962f913183f7f27f1",
-    "published_sha256": "6f20a2dd0027e1f644861f3991baf3268c3130f919516aa962f913183f7f27f1",
-    "bytes": 267
+    "bytes": 267,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "6f20a2dd0027e1f644861f3991baf3268c3130f919516aa962f913183f7f27f1"
   },
   {
     "original": "research/simulation_goal_repair_20261028/sources/M4_Retractions_arxiv2106.11433.pdf",
     "destination": "",
-    "status": "indexed_only",
-    "reason": "本轮未核实该版本全文的公开再分发许可，原件留在本地",
+    "status": "removed_by_user_request",
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录，不构成当前文件入口",
     "source_sha256": "5bf84de985f734a22febd80f473fecedcf079f36d5fa3fd92e09d1fb6d204522",
     "bytes": 2640090
   },
   {
     "original": "research/simulation_goal_repair_20261028/sources/reading_log.json",
     "destination": "research/simulation_goal_repair_20261028/sources/reading_log.json",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "1d46a2c1f032b66b456984952206afa597fe1d886d435ba8f37d57fe27de8d83",
-    "published_sha256": "1d46a2c1f032b66b456984952206afa597fe1d886d435ba8f37d57fe27de8d83",
-    "bytes": 859
+    "bytes": 859,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "1d46a2c1f032b66b456984952206afa597fe1d886d435ba8f37d57fe27de8d83"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/all_summary.csv",
     "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/all_summary.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "0737280e8eb107a83fba631f7cb6820a924b87f5da2556c4c6ae0c6f8d9d91bf",
-    "published_sha256": "0737280e8eb107a83fba631f7cb6820a924b87f5da2556c4c6ae0c6f8d9d91bf",
-    "bytes": 1799800
+    "bytes": 1799800,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "0737280e8eb107a83fba631f7cb6820a924b87f5da2556c4c6ae0c6f8d9d91bf"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/base_outcomes.mat",
     "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/base_outcomes.mat",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "467b34ac42b975b0a94131118ba45b25fc4a78a1a592e88fd7a0a9f0bbcab45d",
-    "published_sha256": "467b34ac42b975b0a94131118ba45b25fc4a78a1a592e88fd7a0a9f0bbcab45d",
-    "bytes": 5228642
+    "bytes": 5228642,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "467b34ac42b975b0a94131118ba45b25fc4a78a1a592e88fd7a0a9f0bbcab45d"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/independent_validation_slice.csv",
     "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/independent_validation_slice.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384",
-    "published_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384",
-    "bytes": 4441255
+    "bytes": 4441255,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "20581bcb986285646d88e8d25a86fc9e170405c5d82f5200eaaec64332400384"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/paired_differences.csv",
     "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/paired_differences.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "06ecd33f4d9dae60d03922b096db8db43f1632857f6a1d6bda4131b8c9c016ed",
-    "published_sha256": "06ecd33f4d9dae60d03922b096db8db43f1632857f6a1d6bda4131b8c9c016ed",
-    "bytes": 1593428
+    "bytes": 1593428,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "06ecd33f4d9dae60d03922b096db8db43f1632857f6a1d6bda4131b8c9c016ed"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/paired_inputs.mat",
     "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/paired_inputs.mat",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "531eefb6f9b48ff3d554d1a012681e0ada26ade78b4df5b7c2e298ced8acff89",
-    "published_sha256": "531eefb6f9b48ff3d554d1a012681e0ada26ade78b4df5b7c2e298ced8acff89",
-    "bytes": 19017101
+    "bytes": 19017101,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "531eefb6f9b48ff3d554d1a012681e0ada26ade78b4df5b7c2e298ced8acff89"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/paired_link_contrasts.csv",
     "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/paired_link_contrasts.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "cd4e122fb8d307476db4255fd15ff1e11795a0c755aa498f8073b08f96f7d7a1",
-    "published_sha256": "cd4e122fb8d307476db4255fd15ff1e11795a0c755aa498f8073b08f96f7d7a1",
-    "bytes": 254358
+    "bytes": 254358,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "cd4e122fb8d307476db4255fd15ff1e11795a0c755aa498f8073b08f96f7d7a1"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/policies.csv",
     "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/policies.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
-    "published_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2",
-    "bytes": 210
+    "bytes": 210,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "2b22978843feae73876fcc042eb7fa2fb9c193318a2abeb0d7e44f225c5d6bf2"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/run.log",
     "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/run.log",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "06cc096e92438e4ef665f8145a7f78fa7f22d9f2dd471a80a7d568b378a72cd3",
-    "published_sha256": "06cc096e92438e4ef665f8145a7f78fa7f22d9f2dd471a80a7d568b378a72cd3",
-    "bytes": 2320
+    "bytes": 2320,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "06cc096e92438e4ef665f8145a7f78fa7f22d9f2dd471a80a7d568b378a72cd3"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/scenarios.csv",
     "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/scenarios.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60",
-    "published_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60",
-    "bytes": 4873
+    "bytes": 4873,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "ca75ddbca7108805a08deed0053f9467359d4616a203a34e73b814d73faafe60"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/synthetic_catalog.csv",
     "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/synthetic_catalog.csv",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
-    "published_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5",
-    "bytes": 130
+    "bytes": 130,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "56ac6ce8e36a3116ee4c46e3f6a49666a253562128ddecf18799da36890be5b5"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/validation.json",
     "destination": "research/simulation_goal_repair_20261028/work/archive_pre_T3_fix_results/validation.json",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "cc8ba971acbef2f0f70715e0b2a1f3c472abffed2d37be0d75b3550b2acc7ad4",
-    "published_sha256": "cc8ba971acbef2f0f70715e0b2a1f3c472abffed2d37be0d75b3550b2acc7ad4",
-    "bytes": 642
+    "bytes": 642,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "cc8ba971acbef2f0f70715e0b2a1f3c472abffed2d37be0d75b3550b2acc7ad4"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/diagnostic_export.log",
     "destination": "research/simulation_goal_repair_20261028/work/diagnostic_export.log",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "ea93f5a7b3ef4a5c5a90a416441cfdfe70c3c2e3327cf118aec66bac579e1173",
-    "published_sha256": "ea93f5a7b3ef4a5c5a90a416441cfdfe70c3c2e3327cf118aec66bac579e1173",
-    "bytes": 50
+    "bytes": 50,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "ea93f5a7b3ef4a5c5a90a416441cfdfe70c3c2e3327cf118aec66bac579e1173"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/executed_numerical_code_v1.m",
     "destination": "research/simulation_goal_repair_20261028/work/executed_numerical_code_v1.m",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "07b96170d0090cde3d868a285194c0f26fb4731a3360f959d7798fe1535ff15b",
-    "published_sha256": "07b96170d0090cde3d868a285194c0f26fb4731a3360f959d7798fe1535ff15b",
-    "bytes": 15209
+    "bytes": 15209,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "07b96170d0090cde3d868a285194c0f26fb4731a3360f959d7798fe1535ff15b"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/executed_numerical_code_v2.m",
     "destination": "research/simulation_goal_repair_20261028/work/executed_numerical_code_v2.m",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
-    "published_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
-    "bytes": 17252
+    "bytes": 17252,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/figure_revision.log",
     "destination": "research/simulation_goal_repair_20261028/work/figure_revision.log",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "2caee46254b98fee35b94b79bb5334ef14355b5db4b56915736b6bc025a57d6a",
-    "published_sha256": "2caee46254b98fee35b94b79bb5334ef14355b5db4b56915736b6bc025a57d6a",
-    "bytes": 47
+    "bytes": 47,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "2caee46254b98fee35b94b79bb5334ef14355b5db4b56915736b6bc025a57d6a"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/figure_revision2.log",
     "destination": "research/simulation_goal_repair_20261028/work/figure_revision2.log",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "2caee46254b98fee35b94b79bb5334ef14355b5db4b56915736b6bc025a57d6a",
-    "published_sha256": "2caee46254b98fee35b94b79bb5334ef14355b5db4b56915736b6bc025a57d6a",
-    "bytes": 47
+    "bytes": 47,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "2caee46254b98fee35b94b79bb5334ef14355b5db4b56915736b6bc025a57d6a"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/full_corrected_launcher.log",
     "destination": "research/simulation_goal_repair_20261028/work/full_corrected_launcher.log",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "219f6f972c3a649fe566bb18c8e1fa2bbe15b5eec84f16c322ce0f2e4dd14220",
-    "published_sha256": "219f6f972c3a649fe566bb18c8e1fa2bbe15b5eec84f16c322ce0f2e4dd14220",
-    "bytes": 2447
+    "bytes": 2447,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "219f6f972c3a649fe566bb18c8e1fa2bbe15b5eec84f16c322ce0f2e4dd14220"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/full_launcher.log",
     "destination": "research/simulation_goal_repair_20261028/work/full_launcher.log",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "06cc096e92438e4ef665f8145a7f78fa7f22d9f2dd471a80a7d568b378a72cd3",
-    "published_sha256": "06cc096e92438e4ef665f8145a7f78fa7f22d9f2dd471a80a7d568b378a72cd3",
-    "bytes": 2320
+    "bytes": 2320,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "06cc096e92438e4ef665f8145a7f78fa7f22d9f2dd471a80a7d568b378a72cd3"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/M3_Scheibehenne2010_ChoiceOverload_pages.json",
     "destination": "",
-    "status": "indexed_only",
-    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "status": "removed_by_user_request",
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录，不构成当前文件入口",
     "source_sha256": "88e1ae46af2ce429c310541453786d5643f638bf140be62da2ca4d123b81160c",
     "bytes": 87921
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/M3_Scheibehenne2010_ChoiceOverload_text.txt",
     "destination": "",
-    "status": "indexed_only",
-    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "status": "removed_by_user_request",
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录，不构成当前文件入口",
     "source_sha256": "6be232a15de9d4df476517553f69f78dbe5dad45f8a2095a0f68bbafb1e60c71",
     "bytes": 88194
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/M4_Retractions_pages.json",
     "destination": "",
-    "status": "indexed_only",
-    "reason": "全文提取缓存随对应来源管理；公开保留阅读记录与方法矩阵",
+    "status": "removed_by_user_request",
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录，不构成当前文件入口",
     "source_sha256": "6dbc93be2d196f3aa9703c537bd7195fae41f016ba51bbec1e0c0f0bd9192fa9",
     "bytes": 229379
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/paired_contrast_export.log",
     "destination": "research/simulation_goal_repair_20261028/work/paired_contrast_export.log",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "ba08928dc76e225727629c14306759332874acf4a2c7b0833c526f271c44df81",
-    "published_sha256": "ba08928dc76e225727629c14306759332874acf4a2c7b0833c526f271c44df81",
-    "bytes": 71
+    "bytes": 71,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "ba08928dc76e225727629c14306759332874acf4a2c7b0833c526f271c44df81"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/pre_T3_fix_with_exports.m",
     "destination": "research/simulation_goal_repair_20261028/work/pre_T3_fix_with_exports.m",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "5b0f051b1580e277ab39be4540fb6da069b8ef40251cd0ce8b0deb49c127a4ce",
-    "published_sha256": "5b0f051b1580e277ab39be4540fb6da069b8ef40251cd0ce8b0deb49c127a4ce",
-    "bytes": 17080
+    "bytes": 17080,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "5b0f051b1580e277ab39be4540fb6da069b8ef40251cd0ce8b0deb49c127a4ce"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/smoke_launcher.log",
     "destination": "research/simulation_goal_repair_20261028/work/smoke_launcher.log",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "04517169493e9919fa3bb4b943d5cfb8fb3df15ce6c94a98c1b4fcb23c47a969",
-    "published_sha256": "04517169493e9919fa3bb4b943d5cfb8fb3df15ce6c94a98c1b4fcb23c47a969",
-    "bytes": 699
+    "bytes": 699,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "04517169493e9919fa3bb4b943d5cfb8fb3df15ce6c94a98c1b4fcb23c47a969"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/validation_export.log",
     "destination": "research/simulation_goal_repair_20261028/work/validation_export.log",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "17e26a15f875300e83039600492692bace44daf7af07e2551820441d8a8d738c",
-    "published_sha256": "17e26a15f875300e83039600492692bace44daf7af07e2551820441d8a8d738c",
-    "bytes": 56
+    "bytes": 56,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "17e26a15f875300e83039600492692bace44daf7af07e2551820441d8a8d738c"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/变更日志.md",
     "destination": "research/simulation_goal_repair_20261028/work/变更日志.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "d825f4a8803bb74dff30e05c834869aa4d8c25f373b9c8e349242c270d254755",
-    "published_sha256": "d825f4a8803bb74dff30e05c834869aa4d8c25f373b9c8e349242c270d254755",
-    "bytes": 1715
+    "bytes": 1715,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "d825f4a8803bb74dff30e05c834869aa4d8c25f373b9c8e349242c270d254755"
   },
   {
     "original": "research/simulation_goal_repair_20261028/work/并行复核与处理.md",
     "destination": "research/simulation_goal_repair_20261028/work/并行复核与处理.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "a808ade01b4df3ad20efcff7565136a4689b2eebd4a0614a98148e7a26e86cb3",
-    "published_sha256": "a808ade01b4df3ad20efcff7565136a4689b2eebd4a0614a98148e7a26e86cb3",
-    "bytes": 1402
+    "bytes": 1402,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "a808ade01b4df3ad20efcff7565136a4689b2eebd4a0614a98148e7a26e86cb3"
   },
   {
     "original": "research/simulation_goal_repair_20261028/文件校验SHA256.json",
     "destination": "research/simulation_goal_repair_20261028/文件校验SHA256.json.local-record",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "ca93e96c0f0db98d454a39890b3dcc7e75fb77a43acb1fbc815490bfaacb869b",
-    "published_sha256": "ca93e96c0f0db98d454a39890b3dcc7e75fb77a43acb1fbc815490bfaacb869b",
-    "bytes": 5895
+    "bytes": 5895,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "ca93e96c0f0db98d454a39890b3dcc7e75fb77a43acb1fbc815490bfaacb869b"
   },
   {
     "original": "research/simulation_goal_repair_20261028/研究简介_仿真后草案.txt",
     "destination": "research/simulation_goal_repair_20261028/研究简介_仿真后草案.txt",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "5c0c3a6fde9f086da05bba47ffb7ba956d1edda72c2b91018f15301c7701ef73",
-    "published_sha256": "5c0c3a6fde9f086da05bba47ffb7ba956d1edda72c2b91018f15301c7701ef73",
-    "bytes": 589
+    "bytes": 589,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "5c0c3a6fde9f086da05bba47ffb7ba956d1edda72c2b91018f15301c7701ef73"
   },
   {
     "original": "research/sources/acquisition_log.json",
@@ -1690,18 +1829,20 @@
   {
     "original": "research/work/executed_numerical_code_v1.m",
     "destination": "research/work/executed_numerical_code_v1.m",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "07b96170d0090cde3d868a285194c0f26fb4731a3360f959d7798fe1535ff15b",
-    "published_sha256": "07b96170d0090cde3d868a285194c0f26fb4731a3360f959d7798fe1535ff15b",
-    "bytes": 15209
+    "bytes": 15209,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "07b96170d0090cde3d868a285194c0f26fb4731a3360f959d7798fe1535ff15b"
   },
   {
     "original": "research/work/executed_numerical_code_v2.m",
     "destination": "research/work/executed_numerical_code_v2.m",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
-    "published_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4",
-    "bytes": 17252
+    "bytes": 17252,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "236c358e09928ef0e234322d590f6ad2c2e239a883a091a4ffb042a9a9c5e3f4"
   },
   {
     "original": "research/work/fetch_innovation_neighbours_v2.py",
@@ -1722,10 +1863,11 @@
   {
     "original": "research/work/fetch_sim_materials.py",
     "destination": "research/work/fetch_sim_materials.py",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "fd85cdfc60cc400ae383b3470caf530dd0a1e86a4feae04e24ee74863be7bc51",
-    "published_sha256": "fd85cdfc60cc400ae383b3470caf530dd0a1e86a4feae04e24ee74863be7bc51",
-    "bytes": 1807
+    "bytes": 1807,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "fd85cdfc60cc400ae383b3470caf530dd0a1e86a4feae04e24ee74863be7bc51"
   },
   {
     "original": "research/work/I1_figure1_p12.png",
@@ -2154,18 +2296,20 @@
   {
     "original": "research/work/变更日志.md",
     "destination": "research/work/变更日志.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "d825f4a8803bb74dff30e05c834869aa4d8c25f373b9c8e349242c270d254755",
-    "published_sha256": "d825f4a8803bb74dff30e05c834869aa4d8c25f373b9c8e349242c270d254755",
-    "bytes": 1715
+    "bytes": 1715,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "d825f4a8803bb74dff30e05c834869aa4d8c25f373b9c8e349242c270d254755"
   },
   {
     "original": "research/work/并行复核与处理.md",
     "destination": "research/work/并行复核与处理.md",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "a808ade01b4df3ad20efcff7565136a4689b2eebd4a0614a98148e7a26e86cb3",
-    "published_sha256": "a808ade01b4df3ad20efcff7565136a4689b2eebd4a0614a98148e7a26e86cb3",
-    "bytes": 1402
+    "bytes": 1402,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "a808ade01b4df3ad20efcff7565136a4689b2eebd4a0614a98148e7a26e86cb3"
   },
   {
     "original": "research/work/理由纠错_网页检索返回.json",
@@ -2412,8 +2556,8 @@
     "destination": "research/三次试跑汇总与研究切口修订建议.md",
     "status": "included",
     "source_sha256": "de149ead74419fe38bf26b4924eccd71517e6ca45caabf859dd5a81beb8c6362",
-    "published_sha256": "d0c6d77f689aae35a5aed0b60171d9c31521939cbf625c532b52ffbe6c6b7d04",
-    "bytes": 9418
+    "published_sha256": "b2e4c2985cb273c7179c032930bcee4d8b3efd4fa2ba164f8099b43863487d91",
+    "bytes": 9262
   },
   {
     "original": "research/交互审计记录_空白.csv",
@@ -2434,8 +2578,8 @@
   {
     "original": "research/仿真复现包_纠错与目标修订_20261028.zip",
     "destination": "",
-    "status": "indexed_only",
-    "reason": "按公开副本重建复现包，避免包内旧路径及重复版本",
+    "status": "removed_by_user_request",
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录，不构成当前文件入口",
     "source_sha256": "91bede82fab81d6bf050f197e482453468fba41122ef32d0e2052d96cd7d3e05",
     "bytes": 24854416
   },
@@ -2468,8 +2612,8 @@
     "destination": "research/创新比较_拒绝边界与纠错重审_20261028.md",
     "status": "included",
     "source_sha256": "2b7be532e081ae3fcc4a8677160689116cedb0a931e3e253ec6511e2395bdf29",
-    "published_sha256": "2b7be532e081ae3fcc4a8677160689116cedb0a931e3e253ec6511e2395bdf29",
-    "bytes": 12301
+    "published_sha256": "951a936434f64b56251c93fa298ad15ebb2d350e8fafc654f70d2c63d275c425",
+    "bytes": 11755
   },
   {
     "original": "research/创新点_可主张的具体命题.md",
@@ -2492,8 +2636,8 @@
     "destination": "research/参赛研究方案_整合审阅版.md",
     "status": "included",
     "source_sha256": "9298be0e134767ea385d9e206f74a7e1181b5e25bc22f183f1f047dda822f7ba",
-    "published_sha256": "93829f8fbc3ad556701fd13dc77de385ef859473dbd04c7430a8b9d3406e73ef",
-    "bytes": 32071
+    "published_sha256": "067b3befd6b56cfddce78d29bdc6c9ebfd03dc3bec55e1ea4a88194cdc3a6694",
+    "bytes": 29940
   },
   {
     "original": "research/商品事实表_空白.csv",
@@ -2506,10 +2650,11 @@
   {
     "original": "research/文件校验SHA256.json",
     "destination": "research/文件校验SHA256.json.local-record",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "ca93e96c0f0db98d454a39890b3dcc7e75fb77a43acb1fbc815490bfaacb869b",
-    "published_sha256": "ca93e96c0f0db98d454a39890b3dcc7e75fb77a43acb1fbc815490bfaacb869b",
-    "bytes": 5895
+    "bytes": 5895,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "ca93e96c0f0db98d454a39890b3dcc7e75fb77a43acb1fbc815490bfaacb869b"
   },
   {
     "original": "research/构造案例_错误依据与目标变更_研究设计.md",
@@ -2532,8 +2677,8 @@
     "destination": "research/现在看这一页_整合方案说明.md",
     "status": "included",
     "source_sha256": "d1e453cb90f9ecb75a3e2271e203a530770297fba76b4b0397957ea5f44c86aa",
-    "published_sha256": "5adef21a35d700ef80c43fc11d8c0f0d1a4d2f7bebcb559ff571a3f511b708bc",
-    "bytes": 1891
+    "published_sha256": "39a2808437ade063e84765946ea904ad4842c1f67d98a68e09dfb0dec68aebd4",
+    "bytes": 1736
   },
   {
     "original": "research/理由核验与纠错_近邻研究核对.md",
@@ -2548,16 +2693,17 @@
     "destination": "research/研究与论证方案_A-I.md",
     "status": "included",
     "source_sha256": "dfc68babc3672f290502d9dd1aa5dc94a17812378e2c82055be1302ca8d9374f",
-    "published_sha256": "fb4840832776288de0ec2eb9c5f6234d74c910b4717544f816a48b387c221deb",
-    "bytes": 59538
+    "published_sha256": "fd3aed8fc157b26c9c2039737f5672b3428f7310805d27d84f39f4ad3595beed",
+    "bytes": 58625
   },
   {
     "original": "research/研究简介_仿真后草案.txt",
     "destination": "research/研究简介_仿真后草案.txt",
-    "status": "included",
+    "status": "removed_by_user_request",
     "source_sha256": "5c0c3a6fde9f086da05bba47ffb7ba956d1edda72c2b91018f15301c7701ef73",
-    "published_sha256": "5c0c3a6fde9f086da05bba47ffb7ba956d1edda72c2b91018f15301c7701ef73",
-    "bytes": 589
+    "bytes": 589,
+    "reason": "2026-10-29用户要求删除旧虚拟/国外数据仿真；此条仅为来源移除记录",
+    "previous_published_sha256": "5c0c3a6fde9f086da05bba47ffb7ba956d1edda72c2b91018f15301c7701ef73"
   },
   {
     "original": "research/研究简介_审阅稿.txt",
@@ -2572,16 +2718,16 @@
     "destination": "research/纠错对照案例与审计设计_未执行.md",
     "status": "included",
     "source_sha256": "d098faa221b4d1737b838635d0eb3392a1386edf7755c058e93d37c873e3f0ce",
-    "published_sha256": "d098faa221b4d1737b838635d0eb3392a1386edf7755c058e93d37c873e3f0ce",
-    "bytes": 9736
+    "published_sha256": "c17ee9c97d6949a0f08f041630f369286a1807504f6db5b4c9c16ed3d7f3eb34",
+    "bytes": 9400
   },
   {
     "original": "research/继续研究_案例分析与论证方案.md",
     "destination": "research/继续研究_案例分析与论证方案.md",
     "status": "included",
     "source_sha256": "4dba3f062b755843797b52e762b48ae9f81923024fcceb84badb071fc5e022fd",
-    "published_sha256": "87e4f5630df652bf7697519717663afd1aee66bea437f08738920b90d8fef977",
-    "bytes": 22268
+    "published_sha256": "d87686275679b9df2f30d787ed60e31d25bd6454c5341fff842b128cd1d54c62",
+    "bytes": 22245
   },
   {
     "original": "research/编码复核_空白.csv",
@@ -2596,8 +2742,8 @@
     "destination": "research/论点证据台账_已填.csv",
     "status": "included",
     "source_sha256": "2847ccdc8f29f21320d9ff8722219ea3c14138693d86d9bfaac5700fcab8fb46",
-    "published_sha256": "cc35059538488fd268248ec0f4f14e1532b6367bb357fe951994bc276ede9116",
-    "bytes": 5041
+    "published_sha256": "6006c84761ba05cf2a9c7c3257f6690020900369556c8abe14a5a8368101799d",
+    "bytes": 4518
   },
   {
     "original": "research/论点证据台账_空白.csv",
@@ -2612,16 +2758,16 @@
     "destination": "research/阅读入口.md",
     "status": "included",
     "source_sha256": "3b102367a61cb5b17e0a1358db7633fbbd039d76318cacf03ba1076953f5b44f",
-    "published_sha256": "cafa22cb02d7055b7d9685de1370673a4953f25e3cd8d084ef71bc706d572898",
-    "bytes": 8105
+    "published_sha256": "329338841be6604d1abd02b5f2b13890a0156f05dbb95ebc16ceca2b71f65002",
+    "bytes": 7547
   },
   {
     "original": "research/预试后继续分析_创新增量与强基线比较.md",
     "destination": "research/预试后继续分析_创新增量与强基线比较.md",
     "status": "included",
     "source_sha256": "16d4fbd4e4693c8cd845f4cdd9b4e391df9fdac77451b5a1ccb9e62974851904",
-    "published_sha256": "b2df2f6a0b3b0aff5ea46ccc017780659e65289c91b5084fe6b60655ca9d7f4b",
-    "bytes": 11412
+    "published_sha256": "751437c93614ef75eb83a6eaab56cfe9376ddd99635242efdce55c1f4738a5d0",
+    "bytes": 11480
   },
   {
     "original": "literature/01_论文全文PDF/C2_数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径.pdf",

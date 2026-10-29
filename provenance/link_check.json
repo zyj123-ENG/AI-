@@ -1,5 +1,6 @@
 {
-  "changed": [],
-  "unresolved_legacy_links": [],
-  "note": "Historic references to private local attachments or optional absent files may remain as text; current README/planning links are checked below."
+  "date": "2026-10-29",
+  "scope": "All retained Markdown navigation except immutable author_original source copies",
+  "broken_links": [],
+  "retired_simulation_links_removed": true
 }

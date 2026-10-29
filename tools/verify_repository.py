@@ -128,36 +128,11 @@ def main():
             try:compile(p.read_text(encoding='utf-8-sig'),name,'exec')
             except SyntaxError as e:errors.append('Python syntax: '+name+': '+str(e))
 
-    tab=ROOT/'research/simulation_goal_repair_20261028/results/all_summary.csv'
-    with tab.open(encoding='utf-8-sig',newline='') as f: records=list(csv.DictReader(f))
-    base={r['policy']:r for r in records if r['scenario']=='base' and r['rule']=='bounded_default' and r['type']=='1'}
-    targets={'D1_R0_C0':(0.13465,0.4648),'D1_R1_C0':(0.41015,0.356025),'D1_R0_C1':(0.195475,0.440525),'D1_R1_C1':(0.51695,0.312525)}
-    for p,(review,pending) in targets.items():
-        r=base[p];ok=abs(float(r['goal_reviewed'])-review)<1e-10 and abs(float(r['dependent_unreviewed_upgrade'])-pending)<1e-10
-        checks.append({'check':'corrected_baseline_'+p,'role':'historical_synthetic','pass':ok})
-        if not ok:errors.append('corrected baseline changed: '+p)
-
     verify_domestic_analysis(checks,errors)
-
-    # The preceding foreign-data version remains reproducible history. Current
-    # empirical evidence uses the domestic module checked above.
-    secondary=ROOT/'research/secondary_data_reanalysis_20261029'
-    if secondary.is_dir():
-        meta=json.loads((secondary/'results/run_metadata.json').read_text(encoding='utf-8'))
-        audit=json.loads((secondary/'validation/独立复算.json').read_text(encoding='utf-8'))
-        with (secondary/'results/contrasts.csv').open(encoding='utf-8-sig',newline='') as f: contrasts=list(csv.DictReader(f))
-        primary=[r for r in contrasts if r['contrast']=='debunk_with_misinfo' and r['metric']=='ingredient_choice_share']
-        ok=(meta['participants']==5050 and meta['bootstrap_repetitions']==5000
-            and meta['actual_arm_sizes']==[1416,1137,1121,1376]
-            and meta['new_behavior_generated'] is False and audit['within_scope_pass'] is True
-            and len(primary)==1 and abs(float(primary[0]['estimate'])-0.05975944184)<1e-9)
-        checks.append({'check':'historical_foreign_observed_analysis','role':'historical_foreign',
-                       'pass':ok,'participants':meta['participants']})
-        if not ok:errors.append('historical foreign-data analysis or validation differs from documented run')
-        raw_files=[p.relative_to(ROOT).as_posix() for p in files() if p.name in {'cleaned_cbc.csv','cleaned_demographics.csv','replication.zip'}]
-        checks.append({'check':'historical_foreign_raw_files_not_published',
-                       'role':'historical_foreign','pass':not raw_files})
-        if raw_files:errors.append('raw secondary data should remain local: '+str(raw_files))
+    removal=json.loads((ROOT/'provenance/removed_simulations_20261029.json').read_text(encoding='utf-8'))
+    retired_present=[x['path'] for x in removal['removed_files'] if (ROOT/x['path']).is_file()]
+    checks.append({'check':'retired_simulation_files_absent','pass':not retired_present,'removed_files':len(removal['removed_files'])})
+    if retired_present:errors.append('retired simulation files have reappeared')
 
     inventory=json.loads((ROOT/'provenance/source_inventory.json').read_text(encoding='utf-8'))
     for r in inventory:
@@ -165,7 +140,7 @@ def main():
             p=ROOT/r['destination']
             if not p.is_file() or digest(p)!=r['published_sha256']:errors.append('source inventory mismatch: '+r['destination'])
     checks.append({'check':'source_inventory','files':len(inventory)})
-    report={'date':'2026-10-29','scope':'published bytes, provenance, JSON/Python syntax, accidental credentials/private locators, current domestic source identity and selected aggregate results; preceding foreign-data and synthetic analyses retained as history; not a new analysis or independent human validation','files':len(current),'total_bytes':sum(x['bytes'] for x in current.values()),'checks':checks,'errors':errors,'pass':not errors}
+    report={'date':'2026-10-29','scope':'published bytes, provenance, JSON/Python syntax, accidental credentials/private locators, current domestic source identity and selected aggregate results; retired foreign-data and synthetic analysis files absent from the current tree; not a new analysis or independent human validation','files':len(current),'total_bytes':sum(x['bytes'] for x in current.values()),'checks':checks,'errors':errors,'pass':not errors}
     REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(report,ensure_ascii=False,indent=2));return 0 if not errors else 1
 

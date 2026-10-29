@@ -1,33 +1,13 @@
 {
   "date": "2026-10-29",
-  "scope": "published bytes, provenance, JSON/Python syntax, accidental credentials/private locators, current domestic source identity and selected aggregate results; preceding foreign-data and synthetic analyses retained as history; not a new analysis or independent human validation",
-  "files": 488,
-  "total_bytes": 172778085,
+  "scope": "published bytes, provenance, JSON/Python syntax, accidental credentials/private locators, current domestic source identity and selected aggregate results; retired foreign-data and synthetic analysis files absent from the current tree; not a new analysis or independent human validation",
+  "files": 276,
+  "total_bytes": 32122512,
   "checks": [
     {
       "check": "repository_sha256",
       "pass": true,
-      "files": 488
-    },
-    {
-      "check": "corrected_baseline_D1_R0_C0",
-      "role": "historical_synthetic",
-      "pass": true
-    },
-    {
-      "check": "corrected_baseline_D1_R1_C0",
-      "role": "historical_synthetic",
-      "pass": true
-    },
-    {
-      "check": "corrected_baseline_D1_R0_C1",
-      "role": "historical_synthetic",
-      "pass": true
-    },
-    {
-      "check": "corrected_baseline_D1_R1_C1",
-      "role": "historical_synthetic",
-      "pass": true
+      "files": 276
     },
     {
       "check": "current_domestic_source_csv_sha256",
@@ -67,15 +47,9 @@
       "within_scope_pass": true
     },
     {
-      "check": "historical_foreign_observed_analysis",
-      "role": "historical_foreign",
+      "check": "retired_simulation_files_absent",
       "pass": true,
-      "participants": 5050
-    },
-    {
-      "check": "historical_foreign_raw_files_not_published",
-      "role": "historical_foreign",
-      "pass": true
+      "removed_files": 215
     },
     {
       "check": "source_inventory",
