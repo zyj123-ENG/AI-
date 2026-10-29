@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-29",
+  "pass": true,
+  "checks": {
+    "only_calculation_report": true,
+    "four_tables_two_figures": true,
+    "domestic_observed_sample": true,
+    "independent_point_verification": true,
+    "primary_results_present": true,
+    "no_placeholders": true,
+    "six_pages_no_empty_page": true,
+    "pdf_within_10M": true,
+    "docx_author_empty": true,
+    "pdf_author_empty": true,
+    "fixed_original_csv": true,
+    "unchanged_input_cell_estimates.csv": true,
+    "unchanged_input_contrasts.csv": true,
+    "unchanged_input_ols_coefficients.csv": true,
+    "unchanged_input_model_checks.csv": true,
+    "unchanged_input_trust_item_frequencies.csv": true,
+    "unchanged_input_run_metadata.json": true,
+    "original_matlab_figure_图1_国内六臂信任评价.png": true,
+    "original_matlab_figure_图2_面板差值与交互边界.png": true,
+    "no_tracked_edits_or_comments": true,
+    "no_private_identifiers": true,
+    "six_cell_means_and_sd_match": true
+  },
+  "scope": "Standalone simulation/reanalysis section only; no full competition report written by this packaging step.",
+  "pages": 6,
+  "cjk": 2950,
+  "files": {
+    "国内二手数据重抽样分析报告.docx": {
+      "bytes": 217602,
+      "sha256": "81fc9e72f3a29fbc3f1e063c761fab8fa750ad705492f72b25fbb10c0259bf35"
+    },
+    "国内二手数据重抽样分析报告.pdf": {
+      "bytes": 551336,
+      "sha256": "e95817cf6ea0f65c9142392c904dba52cc1fa93aa1e8a7de1d17257176eb6e2c"
+    }
+  },
+  "visual_qa": {
+    "all_final_six_pages_reviewed": true,
+    "pages_1_and_2": "Final PNGs byte-identical to individually inspected preceding render.",
+    "pages_3_to_6": "Final PNGs individually reopened after formatting and reproduction-command repairs.",
+    "result": "No clipped text, overlap, empty page or missing glyph; references fit with content on page 6."
+  },
+  "computation_scope": "Existing domestic MATLAB OLS and bootstrap outputs reused; independent point/count/F/p validation retained, no independent bootstrap rerun."
+}

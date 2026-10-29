@@ -1,13 +1,13 @@
 {
   "date": "2026-10-29",
   "scope": "published bytes, provenance, JSON/Python syntax, accidental credentials/private locators, current domestic source identity and selected aggregate results; preceding foreign-data and synthetic analyses retained as history; not a new analysis or independent human validation",
-  "files": 478,
-  "total_bytes": 171756973,
+  "files": 488,
+  "total_bytes": 172778085,
   "checks": [
     {
       "check": "repository_sha256",
       "pass": true,
-      "files": 478
+      "files": 488
     },
     {
       "check": "corrected_baseline_D1_R0_C0",

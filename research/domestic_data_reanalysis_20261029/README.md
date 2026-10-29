@@ -30,7 +30,8 @@ Huang, R., Huang, Y., & Guo, H.（2026），*Remembering or monitoring? Contextu
 - [主程序](code/run_domestic_reanalysis.m)、[独立Python复算](code/independent_validate.py)、[仅重绘图](code/render_domestic_figures.m)
 - [组内统计](results/cell_estimates.csv)、[差值及区间](results/contrasts.csv)、[模型复核](results/model_checks.csv)
 - [独立验证](validation/独立复算.json)和[方法审读](validation/方法审读.md)
-- [当前完整国内数据报告](../phase6_domestic_report_20261029/README.md)
+- [当前仿真部分独立报告](../domestic_simulation_report_20261029/README.md)
+- [此前已生成的全文前稿](../phase6_domestic_report_20261029/README.md)，最新要求不再继续扩写全文
 
 ```matlab
 addpath('research/domestic_data_reanalysis_20261029/code')

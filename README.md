@@ -1,6 +1,6 @@
 # AI导购理由撤回后的预算重审
 
-第八届AIC算法大赛“AI伦理”研究工作库。更新：2026-10-29。按用户要求，当前报告采用国内浙江渠道招募的真人实验二手数据；国外牙膏及自创合成结果退出主要证据。作者实质审阅、查重、PPT及正式提交待完成。
+第八届AIC算法大赛“AI伦理”研究工作库。更新：2026-10-29。用户最新要求只交付仿真部分，当前入口为国内数据重抽样独立报告；本轮不继续扩写完整论文。采用国内浙江渠道招募的真人实验二手数据，国外牙膏及自创合成结果退出主要证据。既有全文前稿保留研究历史。
 
 研究场景：中国成年消费者使用中文建议型AI购物助手，为iPhone 15选购一只充电器。
 
@@ -10,7 +10,7 @@
 
 ## 从这里阅读
 
-0. [当前国内数据修订稿与Word/PDF](research/phase6_domestic_report_20261029/README.md) · [国内原始数据与实际重抽样](research/domestic_data_reanalysis_20261029/README.md) · [评分及提交核对](research/phase6_domestic_report_20261029/评分与提交材料核对.md)
+0. [当前仿真部分独立报告与Word/PDF](research/domestic_simulation_report_20261029/README.md) · [国内原始数据与实际重抽样](research/domestic_data_reanalysis_20261029/README.md) · [此前已生成的全文前稿](research/phase6_domestic_report_20261029/README.md)
 1. [当前可主张的创新点](research/%E5%88%9B%E6%96%B0%E7%82%B9_%E5%8F%AF%E4%B8%BB%E5%BC%A0%E7%9A%84%E5%85%B7%E4%BD%93%E5%91%BD%E9%A2%98.md)
 2. [整合研究方案](research/%E5%8F%82%E8%B5%9B%E7%A0%94%E7%A9%B6%E6%96%B9%E6%A1%88_%E6%95%B4%E5%90%88%E5%AE%A1%E9%98%85%E7%89%88.md)
 3. [核心论文怎样论证](research/B_%E6%A0%B8%E5%BF%83%E8%AE%BA%E6%96%87%E8%AE%BA%E8%AF%81%E6%96%B9%E6%B3%95%E7%9F%A9%E9%98%B5.md)
@@ -25,7 +25,8 @@
 |---|---|
 |`research/`|研究方案、近邻检索、论文方法矩阵、预试记录、代码、结果与图表|
 |`research/domestic_data_reanalysis_20261029/`|当前国内经验分析：516份真人原记录、原6臂OLS、重抽样、原件/许可/哈希与独立复核|
-|`research/phase6_domestic_report_20261029/`|当前国内数据报告、Word/PDF、独立简介、源稿及交付核对|
+|`research/domestic_simulation_report_20261029/`|当前交付：仅国内数据复分析及重抽样部分，独立Word/PDF与核对|
+|`research/phase6_domestic_report_20261029/`|用户收窄交付范围前已生成的国内全文前稿，保留历史，不继续扩写|
 |`research/secondary_data_reanalysis_20261029/`|历史国外牙膏分析，退出当前主结果，原数据未公开再分发|
 |`research/phase5_secondary_report_20261029/`|历史国外数据修订稿，已由国内版替代|
 |`research/simulation_goal_repair_20261028/`|旧合成模型与已运行结果，保留历史，不作为当前主要证据|
