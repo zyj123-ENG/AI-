@@ -1,0 +1,43 @@
+{
+  "parameter_levels": {
+    "literature_anchored": {
+      "description": "来自发表文献实验结果的实证锚点，仿真中作为中心基准值并设置变动区间",
+      "lambda_anchor": {
+        "value": 0.67,
+        "source": "Gonçalves, Libgober, & Willis (2026, REStud)",
+        "interpretation": "撤回信息的更新幅度比等效正面直接信息低约1/3，基准更新效率设为 1 - 0.33 ≈ 0.67",
+        "sensitivity_range": [0.40, 0.67, 0.90]
+      }
+    },
+    "domestic_data_constrained": {
+      "description": "来自国内516人真人二手实验(Huang et al., 2026 Study 4)的尺度与离散度约束",
+      "trust_scale_min": 1.0,
+      "trust_scale_max": 7.0,
+      "empirical_sd": 0.86,
+      "note": "国内数据未直接测量预算修订，仅用于约束评价构念的尺度界限与抽样方差先验"
+    },
+    "researcher_hypotheses": {
+      "description": "本研究基于规范论证设立的理论假设与系统参数，必须通过三档敏感性分析验证稳健性",
+      "kappa_explanation_gain": {
+        "description": "AI主动说明撤回与预算关联带来的认知更新增益",
+        "default": 0.20,
+        "range": [0.10, 0.20, 0.30]
+      },
+      "alpha_reason_influence": {
+        "description": "关键理由对预算目标的因果影响权重",
+        "default": 0.80,
+        "range": [0.50, 0.80, 1.00]
+      },
+      "initial_budget": 150.0,
+      "elevated_budget": 200.0,
+      "cost_single_prompt": 1.0,
+      "cost_cumbersome_confirm": 2.5,
+      "epsilon_noise_sd": 0.15
+    }
+  },
+  "simulation_setup": {
+    "num_trials_per_cell": 1000,
+    "random_seed": 20261029,
+    "pairing_mode": "strict_paired_draws"
+  }
+}

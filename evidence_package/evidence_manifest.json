@@ -1,0 +1,33 @@
+{
+  "version": "evidence_v2_stable",
+  "description": "机制证据包核心文件哈希清单",
+  "note": "evidence_manifest.json 与 evidence_checksums.sha256 自身不参与自引用校验",
+  "timestamp": "2026-10-30T01:10:00+08:00",
+  "file_count": 6,
+  "files": {
+    "README.md": {
+      "sha256": "d9c408960cea52be4bcdb850db1d546d939d756b6b440b7f0165249cc8f613d5",
+      "size_bytes": 4499
+    },
+    "evidence_identity_table.md": {
+      "sha256": "ce28106c341af88b4bc256869b54b6cc72073acc03697af6db013e2bec077207",
+      "size_bytes": 6108
+    },
+    "literature_statute_verification.md": {
+      "sha256": "a4291806859df4cedf443124162ae4055385aa338a3f7ee22f712a7e717ce7ba",
+      "size_bytes": 9486
+    },
+    "paired_case_matrix.md": {
+      "sha256": "d2c6319aaa3c6df2accaf5b2dfdf9702629c513ed2236578b4b9dad224da58d9",
+      "size_bytes": 10701
+    },
+    "parameter_provenance_table.md": {
+      "sha256": "28ddea5bf47a9cb4e7f071ed4a3748802b304234ceeec19543f71d91cc85f68d",
+      "size_bytes": 6190
+    },
+    "trigger_action_acceptance_stopping_matrix.md": {
+      "sha256": "7e38b705b929b0152f91b6238aee0115eb8a1ca2ff6a0fe29a010e4641ca8a45",
+      "size_bytes": 7861
+    }
+  }
+}

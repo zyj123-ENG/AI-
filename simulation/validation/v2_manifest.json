@@ -1,0 +1,101 @@
+{
+  "version": "v2_stable",
+  "description": "机制仿真 v2 稳定版核心文件哈希清单",
+  "note": "v2_manifest.json 与 v2_checksums.sha256 自身不参与自引用校验，避免哈希死锁",
+  "timestamp": "2026-10-30T01:10:00+08:00",
+  "file_count": 23,
+  "files": {
+    "config/parameter_sources.md": {
+      "sha256": "86056f9bbd2369e804e4ffe0ff7b759dc437e19524e5f1659c62660108bb2146",
+      "size_bytes": 3052
+    },
+    "config/parameters.json": {
+      "sha256": "f6043b57bd21838c1db0a527120a0b56f095422a2b860d3b9cd76f0ce63fc6dd",
+      "size_bytes": 3001
+    },
+    "config/sensitivity_grid.json": {
+      "sha256": "25ee7c9364e6095be8b3955e3b80da008320aa685728cc9f2e94703f8e1d8cc4",
+      "size_bytes": 2889
+    },
+    "model/belief_update.m": {
+      "sha256": "c78aff988ccd71987a6575f15e464246adabc1efa0f706c2c3b1946328fd30f7",
+      "size_bytes": 994
+    },
+    "model/goal_update.m": {
+      "sha256": "b2806b7f6fe0a5de6cab2f370a795a07565240100495589888ac58ed6b2267c2",
+      "size_bytes": 5500
+    },
+    "model/state_machine.m": {
+      "sha256": "b61f2c582fd26a36a00a1abaf560e7eb7afe5837c01604db4aa3c6101fa9b5d3",
+      "size_bytes": 4546
+    },
+    "model/strategies.m": {
+      "sha256": "f3c03cf7fb2d0fe34b5307b9773c67f76ec9ffc5c49ecaa69b34f7abf1cb0628",
+      "size_bytes": 1710
+    },
+    "run/run_paired_simulation.m": {
+      "sha256": "760e861dbc89a8c774b639cf469fd7e270cbb430dd204ff5b0a87b300b1b02ed",
+      "size_bytes": 5660
+    },
+    "run/run_simulation.py": {
+      "sha256": "bddc5044df56ce3ad28ab8f71d5befa8127b0cabdf53675c008c4ca121b4dd96",
+      "size_bytes": 24057
+    },
+    "results/sensitivity_results.csv": {
+      "sha256": "5b81cf2448243527f047612315aed0583a1a29461ff54835e73d7fed002ced68",
+      "size_bytes": 15616
+    },
+    "results/strategy_comparison.csv": {
+      "sha256": "2d947cd174eb2975a73fbeca66ed1028847fc8adf8e30c54586d3e74d77744ae",
+      "size_bytes": 7710
+    },
+    "results/figures/fig1_strategy_tradeoffs.png": {
+      "sha256": "65ed454ca19ea303681c921f01f9712e2690711b0a1f79533dd7f73ede4c9488",
+      "size_bytes": 182138
+    },
+    "results/figures/fig2_over_intervention.png": {
+      "sha256": "702f8574258be517698ee0ddc1cfc9820df68e83cbccde22855348ee6c3cc795",
+      "size_bytes": 149931
+    },
+    "results/figures/fig3_inversion_boundary.png": {
+      "sha256": "780323e91c68922d1f2f046b6ea03887905c7a95b5fdebe5ddd8d372e6d33783",
+      "size_bytes": 204555
+    },
+    "validation/convergence_check.csv": {
+      "sha256": "f9c5e77f2ab185dcbd73f675b45952bc56783f7ae0794de55d34ecf978e22abf",
+      "size_bytes": 826
+    },
+    "validation/invariant_checks.csv": {
+      "sha256": "5f8b2d2b434c04d88e38bf89032b371555ac7f293ab63b19fab5442d6a16bf02",
+      "size_bytes": 3551
+    },
+    "validation/parameter_audit.md": {
+      "sha256": "35e4b97d6cf5d1c91fef7d5d070ad4f4901098bb0b46e9c2972a4d1668c99135",
+      "size_bytes": 9871
+    },
+    "validation/parameter_sensitivity.csv": {
+      "sha256": "3c7664aca274bd80e04d474b7f5150aec858d35aa3d7fc15f39581fc9d63d122",
+      "size_bytes": 24163
+    },
+    "validation/python_matlab_comparison.csv": {
+      "sha256": "bf3236eeee863d65661d27b8cf8129a7ea1758d9a28ed989b341b0866fc8626c",
+      "size_bytes": 558
+    },
+    "validation/validation_log.md": {
+      "sha256": "31159d3b3d098ceb030c406ce65581423d8f004c5fc2b8957935a3f22c4f4039",
+      "size_bytes": 8485
+    },
+    "validation/verify_invariants.py": {
+      "sha256": "ad73c7f74029ba8c814be3584c98261be761d3317d23a32939de6e84bdbb4563",
+      "size_bytes": 17781
+    },
+    "validation/weight_sensitivity.csv": {
+      "sha256": "51ab1f4eacfb4df7db78c5591a8debabd82593715efab8c09adf4e4eecd4c82e",
+      "size_bytes": 2868
+    },
+    "README.md": {
+      "sha256": "7a83055bce4322e3604f0240e07f440e2edfbd62a7c5693248be38f620ffe51f",
+      "size_bytes": 7685
+    }
+  }
+}

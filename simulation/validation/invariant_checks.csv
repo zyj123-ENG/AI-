@@ -1,0 +1,15 @@
+﻿check_id,category,description,expected_rule,observed_result,passed,status
+INV_01_CELL_COUNT,情境设计,实验情境单元总数完整性 (4历史 x 3负担 x 4策略),total_cells == 48,total_cells == 48,True,PASSED
+INV_02_HISTORY_DISTRIBUTION,情境设计,各历史情境分配单元数均衡性,每个历史情境对应 12 个实验单元,"分布: {'H1_connected': 12, 'H2_independent': 12, 'H3_reaffirmed': 12, 'H4_exit': 12}",True,PASSED
+INV_03_NO_STALE_NUMBERS,数据纯净度,"废止历史旧版数值扫描 (15.18, 0.5893)",当前 v2 工作区内旧版数值出现频次为 0,发现旧数字记录数: 0 (详情: []),True,PASSED
+INV_04_EXIT_RATE_LOCALITY,指标定义,退出成功率指标的局部有效性（仅在 H4 退出情境下计算）,非 H4 情境下 exit_success_rate 全部为 NaN/空,非 H4 单元有效计算数: 0 / 36,True,PASSED
+INV_05_H4_EXIT_POLICY_CHECK,模型预设检验,H4 情境下策略响应退出请求的规则预设检验（模型规则实现检查，非真人反应比例）,D 退出成功率为 1.0; A/B/C 退出成功率为 0.0,D退出成功率全为1.0: True; A/B/C全为0.0: True,True,PASSED
+INV_06_H1_S5_TRIGGER_METRICS,机制生成指标,H1 情境下选择机会保留率与理由关联识别率由 S5 触发机制生成,触发 S5 的 C/D 为 1.0; 未触发 S5 的 A/B 为 0.0,C/D保留与识别全1.0: True; A/B全0.0: True,True,PASSED
+INV_07_EXEMPTION_D_NON_TRIGGER,机制生成指标,豁免情境 (H2/H3/H4) 下策略 D 识别豁免即刻停止，不触发 S5,策略 D 的选择保留率与理由识别率均为 0.0 (无伪阳性满分),D豁免下选择保留为0: True; 理由识别为0: True,True,PASSED
+INV_08_EXEMPTION_VIOLATION_CHECKS,合规与越权指标,豁免情境下家长主义错误改写 (B) 与繁琐基线过干预 (C) 的识别（模型规则实现检查，非真人反应比例）,B的错误改写率为 1.0，其余为 0; C的豁免后干预率为 1.0，其余为 0,B改写100%: True (其余0: True); C过干预100%: True (其余0: True),True,PASSED
+INV_09_D_PROBABILISTIC_CHOICE,模型算法,策略 D 在 H1 采用认知与成本联动的概率采纳模型，消除固定回滚伪阳性,sd_goal_deviation > 1.0 且 5.0 < mean_goal_deviation < 35.0 (非0亦非全偏),"实测 mean=17.7819, sd=15.5207",True,PASSED
+INV_10_THEORETICAL_BENCHMARK,数值精度,核心信念更新与理论真值绝对误差,max_abs_error < 1e-8 且全部通过,"最大绝对误差 = 0.0000000000e+00, 全项Passed: True",True,PASSED
+INV_11_MATLAB_EXECUTION_STATE,跨语言验证,MATLAB 实机执行状态与环境限制客观记录,记录为：Python已验证、MATLAB待桌面端用户交互运行验证,无头后台 CLI 挂起等待图形授权会话; 状态明确标定为待桌面端验证,True,PASSED
+INV_12_STATE_MACHINE_SEMANTICS,状态机逻辑,状态机在 H1 与豁免情境 (H2/H3/H4) 下重审与豁免停止语义（状态机规则运行实现检查）,"H1: completed=True, stopped=False; H2/H3/H4: completed=False, stopped=True",H1测试: True; H2测试: True; H3测试: True; H4测试: True,True,PASSED
+INV_13_SIMULATION_MANIFEST_INTEGRITY,版本哈希完整性,仿真 v2_manifest.json 无自引用死锁且清单内文件 100% 匹配,排除自身自引用且 mismatches == 0,自引用排除: True; 校验不匹配数: 0 / 23,True,PASSED
+INV_14_EVIDENCE_MANIFEST_INTEGRITY,版本哈希完整性,证据包 evidence_manifest.json 独立建档且清单内文件 100% 匹配,排除自身自引用且 mismatches == 0,自引用排除: True; 校验不匹配数: 0 / 6,True,PASSED

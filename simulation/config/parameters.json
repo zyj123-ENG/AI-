@@ -1,0 +1,92 @@
+{
+  "parameter_version": "v2_stable",
+  "parameter_levels": {
+    "literature_anchored": {
+      "retraction_relative_update": {
+        "symbol": "rho_retraction",
+        "default": 0.67,
+        "range": [0.40, 0.67, 0.90],
+        "source": "Gonçalves, Libgober, & Willis (2026, REStud, DOI: 10.1093/restud/rdaf032)",
+        "interpretation": "撤回信息相对于等效直接新信息的相对更新效率（实验实证显示更新滞后约三分之一，相对比率约为 0.67）"
+      }
+    },
+    "domestic_data_constrained": {
+      "trust_scale_min": 1.0,
+      "trust_scale_max": 7.0,
+      "empirical_sd": 0.86,
+      "source": "Huang, Huang, & Guo (2026, Front. Psychol., Study 4, N=516)",
+      "interpretation": "约束评价构念的尺度界限与抽样方差先验；明确声明国内数据未测预算变化，不据此推断预算调整幅度"
+    },
+    "researcher_hypotheses": {
+      "direct_information_update": {
+        "symbol": "eta_direct",
+        "default": 0.90,
+        "range": [0.60, 0.75, 0.90],
+        "description": "直接新信息下的基础更新效率（研究者假设参数）"
+      },
+      "explanation_gain": {
+        "symbol": "kappa",
+        "default": 0.20,
+        "range": [0.10, 0.20, 0.30],
+        "description": "AI说明撤回与预算关联带来的认知更新增益（研究者假设参数）"
+      },
+      "reason_budget_influence": {
+        "symbol": "alpha",
+        "default": 0.80,
+        "range": [0.50, 0.80, 1.00],
+        "description": "理由对预算目标调整的影响权重（研究者假设参数）"
+      },
+      "strategy_D_reconsider_weights": {
+        "description": "策略D重新考虑概率与认知更新变量的连接权重（研究者假设参数）",
+        "p_0": 0.40,
+        "beta_reason": 0.15,
+        "beta_residual": 0.15,
+        "beta_explanation": 0.15,
+        "beta_cost": 0.10
+      },
+      "budgets": {
+        "initial_budget": 150.0,
+        "elevated_budget": 200.0,
+        "delta_g": 50.0
+      },
+      "costs": {
+        "cost_single_prompt": 1.0,
+        "cost_cumbersome_confirm": 2.5,
+        "max_possible_cost": 3.5
+      },
+      "noise": {
+        "epsilon_noise_sd": 0.15
+      }
+    }
+  },
+  "composite_loss_weights": {
+    "W1_goal_priority": {
+      "w_goal": 1.0,
+      "w_rewrite": 1.0,
+      "w_intervention": 1.0,
+      "w_cost": 1.0,
+      "description": "全维度等权考量"
+    },
+    "W2_rewrite_priority": {
+      "w_goal": 1.0,
+      "w_rewrite": 3.0,
+      "w_intervention": 2.0,
+      "w_cost": 1.0,
+      "description": "错误改写与豁免后干预优先惩罚"
+    },
+    "W3_balanced": {
+      "w_goal": 1.0,
+      "w_rewrite": 2.0,
+      "w_intervention": 2.0,
+      "w_cost": 2.0,
+      "description": "负担与目标均衡考量"
+    }
+  },
+  "simulation_setup": {
+    "total_cells": 48,
+    "convergence_ns": [1000, 5000, 10000],
+    "standard_n": 1000,
+    "random_seed": 20261029,
+    "pairing_mode": "strict_paired_draws"
+  }
+}

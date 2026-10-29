@@ -7,6 +7,38 @@
     "sha256": "e06711a1cd8a5da273df8b1bd229ecda17460a24b5d5c7927f06fbe57207223b",
     "bytes": 127
   },
+  "evidence_package/evidence_checksums.sha256": {
+    "sha256": "378c44cd20f276d9150eed7668cbda54a6a3c42c0dd466889af3385cae638e67",
+    "bytes": 571
+  },
+  "evidence_package/evidence_identity_table.md": {
+    "sha256": "ce28106c341af88b4bc256869b54b6cc72073acc03697af6db013e2bec077207",
+    "bytes": 6108
+  },
+  "evidence_package/evidence_manifest.json": {
+    "sha256": "c931c31152dfd4bb957cf6940a570e6a2e8d56663e74bdc3bc85e1b47b200d6e",
+    "bytes": 1226
+  },
+  "evidence_package/literature_statute_verification.md": {
+    "sha256": "a4291806859df4cedf443124162ae4055385aa338a3f7ee22f712a7e717ce7ba",
+    "bytes": 9486
+  },
+  "evidence_package/paired_case_matrix.md": {
+    "sha256": "d2c6319aaa3c6df2accaf5b2dfdf9702629c513ed2236578b4b9dad224da58d9",
+    "bytes": 10701
+  },
+  "evidence_package/parameter_provenance_table.md": {
+    "sha256": "28ddea5bf47a9cb4e7f071ed4a3748802b304234ceeec19543f71d91cc85f68d",
+    "bytes": 6190
+  },
+  "evidence_package/README.md": {
+    "sha256": "d9c408960cea52be4bcdb850db1d546d939d756b6b440b7f0165249cc8f613d5",
+    "bytes": 4499
+  },
+  "evidence_package/trigger_action_acceptance_stopping_matrix.md": {
+    "sha256": "7e38b705b929b0152f91b6238aee0115eb8a1ca2ff6a0fe29a010e4641ca8a45",
+    "bytes": 7861
+  },
   "literature/01_论文全文PDF/C2_数字经济中黑暗模式的法律规制：基本原理、域外方案与本土路径.pdf.source.md": {
     "sha256": "dcfbecc7914a7a6ea049457f2b5c09ccb0a66b9d8d1ab095e38af5b46fa1e4ff",
     "bytes": 477
@@ -276,8 +308,8 @@
     "bytes": 8861
   },
   "README.md": {
-    "sha256": "b33fe729e7809339041bb78a6098ca2d7c7fc217a99ff2d1b5338bb1042b36af",
-    "bytes": 3140
+    "sha256": "0d59a6c1108f2a81e999026e22b70d828629004a8ce9ad22e44b63ad31cc0f74",
+    "bytes": 3751
   },
   "research/B_核心论文论证方法矩阵.md": {
     "sha256": "2ab787c9d3458cbb2d2ac9c3c05e806cd0949503a30f94f2e6f0b3f780252774",
@@ -1146,6 +1178,162 @@
   "research/预试后继续分析_创新增量与强基线比较.md": {
     "sha256": "751437c93614ef75eb83a6eaab56cfe9376ddd99635242efdce55c1f4738a5d0",
     "bytes": 11480
+  },
+  "simulation/config/parameter_sources.md": {
+    "sha256": "86056f9bbd2369e804e4ffe0ff7b759dc437e19524e5f1659c62660108bb2146",
+    "bytes": 3052
+  },
+  "simulation/config/parameters.json": {
+    "sha256": "f6043b57bd21838c1db0a527120a0b56f095422a2b860d3b9cd76f0ce63fc6dd",
+    "bytes": 3001
+  },
+  "simulation/config/sensitivity_grid.json": {
+    "sha256": "25ee7c9364e6095be8b3955e3b80da008320aa685728cc9f2e94703f8e1d8cc4",
+    "bytes": 2889
+  },
+  "simulation/matlab_bridge_v2/bridge_checksums.sha256": {
+    "sha256": "7434bd5573af08bb4f33d92f8d49cb7472596b7dd47f1ea28738e5badea1b6a2",
+    "bytes": 439
+  },
+  "simulation/matlab_bridge_v2/bridge_manifest.json": {
+    "sha256": "e33dd7a84bc35da56287596ac8b9e16b559a74b90bafbca10a0808bdff0e71b1",
+    "bytes": 1031
+  },
+  "simulation/matlab_bridge_v2/compare.py": {
+    "sha256": "0e4ccefc60bf019925d5e9c1399e6e893ba203b645a840089be3901f29c6a41a",
+    "bytes": 740
+  },
+  "simulation/matlab_bridge_v2/matlab_python_comparison.md": {
+    "sha256": "8a6808c7f2a1ef827bf31fe503af95e02ebb3cba358ff431755e1f4fc4afd8a8",
+    "bytes": 1045
+  },
+  "simulation/matlab_bridge_v2/matlab_results.csv": {
+    "sha256": "8013eed3774360ec0c14f5290c8885fccb061314df4efc353f28408d1cd15dd8",
+    "bytes": 7425
+  },
+  "simulation/matlab_bridge_v2/matlab_run_log.txt": {
+    "sha256": "e33312ca5586a09ab3dafb5e0965aa5f425cda721d6b5b0f89b3c7599aec69e2",
+    "bytes": 172
+  },
+  "simulation/matlab_bridge_v2/run_paired_simulation_v2.m": {
+    "sha256": "67f7998337e47ac5b0bcbe30005104ebaf70de33b741b6ce2e2ef6a0015341ad",
+    "bytes": 6587
+  },
+  "simulation/model/belief_update.m": {
+    "sha256": "c78aff988ccd71987a6575f15e464246adabc1efa0f706c2c3b1946328fd30f7",
+    "bytes": 994
+  },
+  "simulation/model/goal_update.m": {
+    "sha256": "b2806b7f6fe0a5de6cab2f370a795a07565240100495589888ac58ed6b2267c2",
+    "bytes": 5500
+  },
+  "simulation/model/state_machine.m": {
+    "sha256": "b61f2c582fd26a36a00a1abaf560e7eb7afe5837c01604db4aa3c6101fa9b5d3",
+    "bytes": 4546
+  },
+  "simulation/model/strategies.m": {
+    "sha256": "f3c03cf7fb2d0fe34b5307b9773c67f76ec9ffc5c49ecaa69b34f7abf1cb0628",
+    "bytes": 1710
+  },
+  "simulation/README.md": {
+    "sha256": "7a83055bce4322e3604f0240e07f440e2edfbd62a7c5693248be38f620ffe51f",
+    "bytes": 7685
+  },
+  "simulation/results/figures/fig1_strategy_tradeoffs.png": {
+    "sha256": "65ed454ca19ea303681c921f01f9712e2690711b0a1f79533dd7f73ede4c9488",
+    "bytes": 182138
+  },
+  "simulation/results/figures/fig2_over_intervention.png": {
+    "sha256": "702f8574258be517698ee0ddc1cfc9820df68e83cbccde22855348ee6c3cc795",
+    "bytes": 149931
+  },
+  "simulation/results/figures/fig3_inversion_boundary.png": {
+    "sha256": "780323e91c68922d1f2f046b6ea03887905c7a95b5fdebe5ddd8d372e6d33783",
+    "bytes": 204555
+  },
+  "simulation/results/sensitivity_results.csv": {
+    "sha256": "5b81cf2448243527f047612315aed0583a1a29461ff54835e73d7fed002ced68",
+    "bytes": 15616
+  },
+  "simulation/results/strategy_comparison.csv": {
+    "sha256": "2d947cd174eb2975a73fbeca66ed1028847fc8adf8e30c54586d3e74d77744ae",
+    "bytes": 7710
+  },
+  "simulation/results_pre_revision/figures/fig1_strategy_tradeoffs.png": {
+    "sha256": "44632738a8d306da66c73cb11b0794c0198399cc9363649685e96ddee16b83d6",
+    "bytes": 192590
+  },
+  "simulation/results_pre_revision/figures/fig2_over_intervention.png": {
+    "sha256": "cf379dec34513d1ec2d9d53fffceda695317229793442788c1052aa466bc4528",
+    "bytes": 135695
+  },
+  "simulation/results_pre_revision/figures/fig3_inversion_boundary.png": {
+    "sha256": "17752834e6634a2d4ce3b73ce0c7f43c0ef8d7f1df18d8396757b61b0b489f95",
+    "bytes": 189632
+  },
+  "simulation/results_pre_revision/metadata.json": {
+    "sha256": "ed1dcf7de3cca1f9b1df986d08a207e95cba23fd47d5e89bbb3584b9bbbeafdc",
+    "bytes": 283
+  },
+  "simulation/results_pre_revision/parameters.json": {
+    "sha256": "ff86bac83b265c5e349b43a30103e928c0baa71a7ddc8a1953d663ecc00b6097",
+    "bytes": 1715
+  },
+  "simulation/results_pre_revision/sensitivity_results.csv": {
+    "sha256": "5b81cf2448243527f047612315aed0583a1a29461ff54835e73d7fed002ced68",
+    "bytes": 15616
+  },
+  "simulation/results_pre_revision/strategy_comparison.csv": {
+    "sha256": "a0513235af6bd8673d642a69e88e217561decc9f5c1ea7239346300526f337ec",
+    "bytes": 5555
+  },
+  "simulation/run/run_paired_simulation.m": {
+    "sha256": "760e861dbc89a8c774b639cf469fd7e270cbb430dd204ff5b0a87b300b1b02ed",
+    "bytes": 5660
+  },
+  "simulation/run/run_simulation.py": {
+    "sha256": "bddc5044df56ce3ad28ab8f71d5befa8127b0cabdf53675c008c4ca121b4dd96",
+    "bytes": 24057
+  },
+  "simulation/validation/convergence_check.csv": {
+    "sha256": "f9c5e77f2ab185dcbd73f675b45952bc56783f7ae0794de55d34ecf978e22abf",
+    "bytes": 826
+  },
+  "simulation/validation/invariant_checks.csv": {
+    "sha256": "5f8b2d2b434c04d88e38bf89032b371555ac7f293ab63b19fab5442d6a16bf02",
+    "bytes": 3551
+  },
+  "simulation/validation/parameter_audit.md": {
+    "sha256": "35e4b97d6cf5d1c91fef7d5d070ad4f4901098bb0b46e9c2972a4d1668c99135",
+    "bytes": 9871
+  },
+  "simulation/validation/parameter_sensitivity.csv": {
+    "sha256": "3c7664aca274bd80e04d474b7f5150aec858d35aa3d7fc15f39581fc9d63d122",
+    "bytes": 24163
+  },
+  "simulation/validation/python_matlab_comparison.csv": {
+    "sha256": "bf3236eeee863d65661d27b8cf8129a7ea1758d9a28ed989b341b0866fc8626c",
+    "bytes": 558
+  },
+  "simulation/validation/v2_checksums.sha256": {
+    "sha256": "c8cae63f36c55de98cb650c5847e9c4218926a8c21916e6e011a9fb81815796d",
+    "bytes": 2226
+  },
+  "simulation/validation/v2_manifest.json": {
+    "sha256": "8a282b993c5ca91461f96d773c26e30171fba033a653d6a99d04e56f0029a0b9",
+    "bytes": 3952
+  },
+  "simulation/validation/validation_log.md": {
+    "sha256": "31159d3b3d098ceb030c406ce65581423d8f004c5fc2b8957935a3f22c4f4039",
+    "bytes": 8485
+  },
+  "simulation/validation/verify_invariants.py": {
+    "sha256": "ad73c7f74029ba8c814be3584c98261be761d3317d23a32939de6e84bdbb4563",
+    "bytes": 17781
+  },
+  "simulation/validation/weight_sensitivity.csv": {
+    "sha256": "51ab1f4eacfb4df7db78c5591a8debabd82593715efab8c09adf4e4eecd4c82e",
+    "bytes": 2868
   },
   "stage1/README.md": {
     "sha256": "592f523bf8cf9c916e3b5189f12d4c8b90406520b2bd406ce5b600f0726857b7",

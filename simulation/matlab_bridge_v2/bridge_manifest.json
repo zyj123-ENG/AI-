@@ -1,0 +1,27 @@
+{
+  "version": "matlab_bridge_v2_complete",
+  "timestamp": "2026-10-30T01:59:14.594795+08:00",
+  "files": {
+    "run_paired_simulation_v2.m": {
+      "sha256": "67f7998337e47ac5b0bcbe30005104ebaf70de33b741b6ce2e2ef6a0015341ad",
+      "size_bytes": 6587
+    },
+    "matlab_results.csv": {
+      "sha256": "8013eed3774360ec0c14f5290c8885fccb061314df4efc353f28408d1cd15dd8",
+      "size_bytes": 7425
+    },
+    "matlab_run_log.txt": {
+      "sha256": "e33312ca5586a09ab3dafb5e0965aa5f425cda721d6b5b0f89b3c7599aec69e2",
+      "size_bytes": 172
+    },
+    "matlab_python_comparison.md": {
+      "sha256": "8a6808c7f2a1ef827bf31fe503af95e02ebb3cba358ff431755e1f4fc4afd8a8",
+      "size_bytes": 1045
+    },
+    "compare.py": {
+      "sha256": "0e4ccefc60bf019925d5e9c1399e6e893ba203b645a840089be3901f29c6a41a",
+      "size_bytes": 740
+    }
+  },
+  "notes": "MATLAB desktop execution completed; continuous metric differences reflect MATLAB/NumPy RNG sequence differences; discrete mechanism indicators matched."
+}

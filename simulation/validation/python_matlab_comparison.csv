@@ -1,0 +1,6 @@
+﻿test_case_id,input_vector,theoretical_b_next,python_b_next,b_abs_diff,theoretical_eta_eff,python_eta_eff,eta_abs_diff,passed_threshold_1e8
+TC_1,"b=1.0,eta_d=0.9,rho=0.67,k=0.2,expl=False",0.397,0.397,0.0,0.603,0.603,0.0,True
+TC_2,"b=1.0,eta_d=0.9,rho=0.67,k=0.2,expl=True",0.197,0.197,0.0,0.803,0.803,0.0,True
+TC_3,"b=0.8,eta_d=0.75,rho=0.4,k=0.3,expl=False",0.56,0.56,0.0,0.3,0.3,0.0,True
+TC_4,"b=0.8,eta_d=0.75,rho=0.4,k=0.3,expl=True",0.32,0.32,0.0,0.6,0.6,0.0,True
+TC_5,"b=1.0,eta_d=0.9,rho=0.9,k=0.1,expl=True",0.09,0.09,0.0,0.91,0.91,0.0,True

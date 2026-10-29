@@ -1,0 +1,93 @@
+{
+  "grid_dimensions": {
+    "reason_histories": [
+      {
+        "id": "H1_connected",
+        "description": "撤回重要理由且公开与预算提升紧密相关 (r=1, u=0, q=0, exit=0)",
+        "r": 1.0,
+        "u": 0.0,
+        "q": 0.0,
+        "exit": 0.0
+      },
+      {
+        "id": "H2_independent",
+        "description": "撤回理由但用户具有充分独立外观理由 (r=1, u=1, q=0, exit=0)",
+        "r": 1.0,
+        "u": 1.0,
+        "q": 0.0,
+        "exit": 0.0
+      },
+      {
+        "id": "H3_reaffirmed",
+        "description": "撤回理由但用户已在更正后知情重申高预算 (r=1, u=0, q=1, exit=0)",
+        "r": 1.0,
+        "u": 0.0,
+        "q": 1.0,
+        "exit": 0.0
+      },
+      {
+        "id": "H4_exit",
+        "description": "撤回理由但用户明确要求停止推荐并退出 (r=1, u=0, q=0, exit=1)",
+        "r": 1.0,
+        "u": 0.0,
+        "q": 0.0,
+        "exit": 1.0
+      }
+    ],
+    "ai_strategies": [
+      {
+        "id": "A_weak",
+        "name": "弱基线 (Weak Baseline)",
+        "description": "仅纠正断言事实，不说明预算关联，不自动改写，预算保持当前值，不提供额外重选入口"
+      },
+      {
+        "id": "B_paternalistic",
+        "name": "家长主义基线 (Paternalistic Baseline)",
+        "description": "自动将预算回滚恢复至初始150元；若用户有独立理由、已重申或要求退出则属错误改写"
+      },
+      {
+        "id": "C_cumbersome",
+        "name": "繁琐基线 (Cumbersome Baseline)",
+        "description": "无差别全轮次弹窗追问，对独立理由、知情重申和退出请求仍追问（属豁免后干预）"
+      },
+      {
+        "id": "D_proposed",
+        "name": "本方案 (Proposed Policy)",
+        "description": "重要、有关联、可调整时主动说明关联并重开三项选择；遇独立理由/知情重申/退出即时停止"
+      }
+    ],
+    "cognitive_burden_levels": [
+      {
+        "id": "B1_low_burden",
+        "name": "低认知负担",
+        "eta_direct": 0.90,
+        "rho_retraction": 0.90,
+        "kappa": 0.10,
+        "burden_penalty": 0.00
+      },
+      {
+        "id": "B2_mid_burden",
+        "name": "中等认知负担 (M4基准)",
+        "eta_direct": 0.90,
+        "rho_retraction": 0.67,
+        "kappa": 0.20,
+        "burden_penalty": 0.05
+      },
+      {
+        "id": "B3_high_burden",
+        "name": "高认知负担",
+        "eta_direct": 0.75,
+        "rho_retraction": 0.40,
+        "kappa": 0.30,
+        "burden_penalty": 0.15
+      }
+    ]
+  },
+  "total_cells": 48,
+  "parameter_sweeps": {
+    "rho_retraction_sweep": [0.30, 0.40, 0.50, 0.60, 0.67, 0.75, 0.85, 0.95],
+    "eta_direct_sweep": [0.60, 0.75, 0.90, 1.00],
+    "kappa_sweep": [0.00, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.40],
+    "alpha_sweep": [0.40, 0.60, 0.80, 1.00]
+  }
+}

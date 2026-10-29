@@ -6,6 +6,8 @@
 
 ## 当前交付
 
+- [v2 机制仿真与三层锁定验证包](simulation/README.md)：48 单元全因子配对机制仿真（4 历史情境 × 3 负担水平 × 4 策略）、14 项数学不变量与 Manifest 校验全通过（14/14 ALL PASSED）、Python 与 MATLAB 桌面端双向对齐验证（详见 [MATLAB Bridge 比对报告](simulation/matlab_bridge_v2/matlab_python_comparison.md)）。
+- [机制证据链与合规边界包](evidence_package/README.md)：包含证据身份表、参数谱系表、TAAS生命周期控制矩阵、iPhone 15 配对案例矩阵与法规核验台账（双 Manifest 独立哈希锁定）。
 - [核心创新论证补强](research/direct_argument_validation_20261030/README.md)：2026-10-30完成强近邻比较、15项定向反例、原9轮元宝回复复核及直接比较设计；说明与操作缺口分型，相关修订已写回用户补强稿。真人预算修复效果尚未取得匹配资料。
 - [独立报告 Word PDF 源稿](research/domestic_simulation_report_20261029/README.md)：6页、4表2图，含数据来源、变量与公式、回归、实际结果、稳健性和论文可摘用段落。
 - [国内真人数据与实际分析代码](research/domestic_data_reanalysis_20261029/README.md)：516名国内渠道招募参与者，原六臂、分类OLS及每个人群5,000轮参与者重抽样；403人现场子样本作敏感性分析。
