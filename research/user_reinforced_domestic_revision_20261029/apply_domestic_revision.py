@@ -55,7 +55,7 @@ updates={
 62:'预算内没有满足明确用途的方案时，助手应说明冲突及证据，提供维持预算并降低功能要求、经同意提高预算、暂不购买等可用路径。它可以清楚标注假设条件，说明提高预算后的可选方案；在取得新的有效表达或授权前，不得把提高后的预算当作已生效的执行范围。真实新信息支持消费者自主修改预算，条件性比较与预算更新分别判断。',
 65:'限定响应与经验评价边界',
 96:'当前证据形成条件判准、限定系统响应与国内二手实验复分析：给定历史的真实回复没有呈现自然错误怎样促成真人提价，国内记忆面板实验测量即时信任，未包含预算修订、实际控件使用或操作负担。校园及社区便利样本的解释范围也有边界。后续可在有同意的匹配任务中比较普通更正、已完成关联说明的更正及追加提示，分别测重要取舍理解、维持或修改预算的理由、执行情况、时间和负担；样本量依目标精度或功效另定。再依具体失败扩展跨平台状态审计与数字能力差异，落实适用伦理审查和隐私安排。增加重抽样次数不能补出这些未测变量。',
-99:'这项责任以改善决定条件为目的，预算更新仍须符合消费者的有效表达和授权。必要纠错不自动恢复已拒绝的商业推动，较强的既有再确认也可以实现相同要求。条件规范判准与可核案例承担责任辩护；国内真人实验复分析分别报告平均信任差和特定差距变化，约束措施的验收口径。预算重审对真实理解、决定及净负担的实际效果，留待直接包含这些变量的匹配任务研究。',
+99:'这项责任以改善决定条件为目的，预算更新仍须符合消费者的有效表达和授权。必要纠错不自动恢复已拒绝的商业推动，较强的既有再确认也可以实现相同要求。规范推理、配对规范案例与边界条件承担核心创新论证。国内六臂复分析提供经验背景，未直接比较按本判准设计的措施与普通事实纠错、一般再确认或元偏好反思的效果。预算重审对真实理解、决定及净负担的实际效果，留待直接包含这些变量的匹配任务研究。',
 123:'N6、C3、S1作者稿为论证正文精读，引用列表未逐项复核。V2读取PDF1—3；R1读取PDF14—15、17—19及原记录片段；V1读取PDF6—7、11—12；V3读取PDF5—8、12—14。Fong保留为消费品纠错近邻文献，沿用已有指定章节读取记录，其国外数据不进入本稿经验分析。C1仅摘要及公开信息，全文缺口限制排他性查新。Hung核读PDF33、印刷2515相关安排；M3读PDF1、9—10；M4沿用arXiv v4 PDF1—4、8—9的读取记录，正式卷期的元数据核对不等于重新精读期刊全文。不同版本页码分别登记。',
 124:'Retractions的正式卷期据出版元数据核对为2026年93卷1期、476—516页，早期在线发表与纸本卷期年份分别登记。其理论任务未用于估计本研究的行为概率。Apple官方规格的快充条件和TI线缆电子标记说明已核；EEPW专栏仅作SKU适用性核查，不作为待选产品性能依据。国内数据来源另核Huang等论文方法PDF4—8页、Study4结果PDF9及11页与相关讨论，正式补充S14的计分及信任题位于PDF19—20、22页。[21][23]',
 134:'AI辅助用于文献定位、读取记录、论证草拟、构造案例、复分析代码、图表及格式处理。分工复核属于AI内部检查，不等同独立人类编码或外部同行评审。手机材料来自用户，限定预试的前史由研究者给定；国内二手实验的量表回答来自原作者招募的真人。本项目未新招募参与者，原研究报告的伦理安排不能改称本项目已取得新的真人研究审批。',
@@ -77,7 +77,7 @@ newp('δ为正表示侵入组相对获得更大的面板增量。这里比较不
 newp('分类OLS以无记忆且无面板为参照，包含相关记忆R、侵入记忆I、面板C及两个交互项，拟合饱和六臂模型；侵入×面板系数等于δ。将六臂模型与去掉交互的加性模型比较，以残差平方和计算两自由度整体交互F，作为模型复核。主要推断呈现δ的重抽样区间。'),
 newp('基础MATLAB R2023b在各原臂内按参与者整行有放回抽取原人数，保留同一人的题间关系，每个人群各5,000轮，种子为20261029和20261030。每轮从六臂均值计算相同差值，采用逐项95%百分位区间。5,000轮的每侧2.5%尾部约125项，仅用于计算不确定性，不新增真人。未另做改变重复次数的收敛实验，末位小数不作为稳定性保证。'),
 newp('计算方案在本项目求处理差值前保存，但此前已读到原文结果，因此是有记录的复核性二手分析。原CSV不修改、不插补预算或未观测干预反应。公开排除日志和场次标识缺失，无法重建完整意向处理分析或修正场次内相关。独立Python从原CSV核对点估计、频数、OLS及F/p，未独立重跑bootstrap区间。探索比较的逐项区间不保证多项同时覆盖。'),
-newp('本模块不包含理由撤回、预算重审、实际控件使用或操作成本，承接的是平均评价与特定问题缓解应分别检验的要求。撤回信息与直接提供相反信息的区分[16]、选择负担的情境差异[17]继续作为规范讨论的文献背景，不为本数据补入未测参数。'),
+newp('本仿真不检验完整伦理方案，而是为方案提供经验背景；核心创新仍由规范推理、配对规范案例和边界条件论证完成。原六臂未设置理由撤回、独立理由或撤回后知情重申的预算历史条件，也未比较普通事实纠错、一般再确认和元偏好反思。配对规范案例用于判断一致性与反例边界，不等同真人实验验证。撤回信息与相反信息的区分[16]、选择负担的情境差异[17]作为规范背景，不提供未测参数。'),
 ]
 replace_range(35,44,methods)
 
@@ -189,12 +189,13 @@ final_text='\n\n'.join(text(e) for e in body)
 for forbidden in ['合成机制仿真','40,000','120,000','51.70','31.25','MCSE','54场景','all_summary.csv','run_goal_repair_simulation','1,800','388项']:
     assert forbidden not in final_text,forbidden
 (OUT/'report_text.txt').write_text(final_text.rstrip()+'\n',encoding='utf-8')
-trace={'date':'2026-10-29','source_sha256':sha(SOURCE),'source_unchanged':True,'output':target.name,'output_sha256':sha(target),
+trace={'date':'2026-10-29','last_revision_date':'2026-10-30','source_sha256':sha(SOURCE),'source_unchanged':True,'output':target.name,'output_sha256':sha(target),
        'changed_package_parts':changed,'all_other_package_parts_byte_identical':True,'citation_old_to_new':mapping,
        'original_paragraphs_revised':sorted(updates),'replaced_original_ranges':[[35,44],[71,84],[127,132]],'original_tables_revised':[0,2,4],
        'source_results_sha256':{p.name:sha(p) for p in (DATA/'results').glob('*.csv')},
        'normative_scope_fix':'Conditional exploration distinguished from effective budget execution.',
        'unverified_completion_claims_removed':['pixel-matching and hash-correction claims','old numerical validation claims','unprovided PPT and anonymous-package completion claims'],
-       'new_behavior_generated':False,'main_analysis_rerun':False,'original_foreign_simulations_not_restored':True}
+       'new_behavior_generated':False,'main_analysis_rerun':False,'original_foreign_simulations_not_restored':True,
+       'innovation_evidence_scope':'Empirical background only; core proposal argued by normative reasoning, matched normative cases and boundary analysis; no direct comparison with ordinary correction, general reconfirmation or meta-preference reflection.'}
 (OUT/'修订核对.json').write_text(json.dumps(trace,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({'docx':target.name,'bytes':target.stat().st_size,'changed_package_parts':changed,'references':len(refs),'original_untouched':True},ensure_ascii=False))

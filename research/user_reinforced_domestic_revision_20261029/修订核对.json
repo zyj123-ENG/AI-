@@ -1,9 +1,10 @@
 {
   "date": "2026-10-29",
+  "last_revision_date": "2026-10-30",
   "source_sha256": "ac4e5ffdc717fdfe0c9ed8881a6fdf303a5c562893379076516518e362f39ca8",
   "source_unchanged": true,
   "output": "AI导购理由撤回后的预算重审_补强稿国内数据版.docx",
-  "output_sha256": "62fb3a1d8ba3b4667a96bf413c26f84c996424e68c41f796f43bd9540d790e3b",
+  "output_sha256": "6776844c917beb2fa0115c970b8c4c901649b0b24fd84561e333ed9e2fb22dee",
   "changed_package_parts": [
     "docProps/core.xml",
     "word/document.xml",
@@ -90,5 +91,6 @@
   ],
   "new_behavior_generated": false,
   "main_analysis_rerun": false,
-  "original_foreign_simulations_not_restored": true
+  "original_foreign_simulations_not_restored": true,
+  "innovation_evidence_scope": "Empirical background only; core proposal argued by normative reasoning, matched normative cases and boundary analysis; no direct comparison with ordinary correction, general reconfirmation or meta-preference reflection."
 }

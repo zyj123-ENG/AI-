@@ -140,7 +140,7 @@ def main():
             p=ROOT/r['destination']
             if not p.is_file() or digest(p)!=r['published_sha256']:errors.append('source inventory mismatch: '+r['destination'])
     checks.append({'check':'source_inventory','files':len(inventory)})
-    report={'date':'2026-10-29','scope':'published bytes, provenance, JSON/Python syntax, accidental credentials/private locators, current domestic source identity and selected aggregate results; retired foreign-data and synthetic analysis files absent from the current tree; not a new analysis or independent human validation','files':len(current),'total_bytes':sum(x['bytes'] for x in current.values()),'checks':checks,'errors':errors,'pass':not errors}
+    report={'date':'2026-10-30','scope':'published bytes, provenance, JSON/Python syntax, accidental credentials/private locators, current domestic source identity and selected aggregate results; retired foreign-data and synthetic analysis files absent from the current tree; not a new analysis or independent human validation','files':len(current),'total_bytes':sum(x['bytes'] for x in current.values()),'checks':checks,'errors':errors,'pass':not errors}
     REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(report,ensure_ascii=False,indent=2));return 0 if not errors else 1
 

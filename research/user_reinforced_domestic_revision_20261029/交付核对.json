@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "pass": true,
   "checks": {
     "same_package_parts": true,
@@ -18,6 +18,8 @@
     "normative_scope_preserved": true,
     "new_behavior_not_generated": true,
     "primary_results_present": true,
+    "innovation_evidence_scope_explicit": true,
+    "normative_cases_distinguished_from_human_validation": true,
     "unchanged_cell_estimates.csv": true,
     "unchanged_contrasts.csv": true,
     "unchanged_model_checks.csv": true,
@@ -32,19 +34,19 @@
     "retired_files_still_absent": true
   },
   "file": "AI导购理由撤回后的预算重审_补强稿国内数据版.docx",
-  "bytes": 512020,
-  "sha256": "62fb3a1d8ba3b4667a96bf413c26f84c996424e68c41f796f43bd9540d790e3b",
+  "bytes": 512135,
+  "sha256": "6776844c917beb2fa0115c970b8c4c901649b0b24fd84561e333ed9e2fb22dee",
   "pages": 20,
   "tables": 5,
   "figures": 3,
   "references": 23,
   "title_characters": 14,
   "abstract_characters": 262,
-  "qa_pdf_bytes": 1011429,
-  "qa_pdf_sha256": "27792c9174ed0ecefe90455a3e664751caaab3d826936bf78483de407a640e86",
+  "qa_pdf_bytes": 1012273,
+  "qa_pdf_sha256": "329e9a0b4a853c08ebb87beddc2fd38fea1f91f76dfc37e8f435d26bffd13aa4",
   "visual_qa": {
     "all_final_twenty_pages_checked": true,
-    "review": "First rendered 20 pages individually inspected; final pages 10,11,17,18,19 reopened after targeted formatting. The remaining 15 final PNGs are byte-identical to inspected preceding render.",
+    "review": "2026-10-30: final changed pages 7,8,9,10,11,16 individually inspected; the other 14 final PNGs are byte-identical to the previously inspected report render.",
     "result": "No clipping, overlap, missing glyph or empty page observed; original layout retained."
   },
   "evidence_boundary": "Domestic archived human trust data; no direct test of budget-repair efficacy; no newly generated consumer behavior.",
