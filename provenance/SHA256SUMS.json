@@ -776,8 +776,8 @@
     "bytes": 512020
   },
   "research/user_reinforced_domestic_revision_20261029/apply_domestic_revision.py": {
-    "sha256": "0b1a47027b8770ce2707f95d5f128a5468cdb65cf52617d797a7bcfdc1ac6511",
-    "bytes": 25816
+    "sha256": "1888be13ab3da7108f79e1e6e966b5b846931709bcc3ed3c041fbf5ad817a60c",
+    "bytes": 25830
   },
   "research/user_reinforced_domestic_revision_20261029/input_package_hashes.json": {
     "sha256": "95d3716a38716fa12fb157d43e5d09d585e36cd8f544a290a281209959f6bda8",
@@ -788,8 +788,8 @@
     "bytes": 3736
   },
   "research/user_reinforced_domestic_revision_20261029/report_text.txt": {
-    "sha256": "53181c5ca5666766d5959c2b263bc174499f0fae236424062a6c16a80e9bdb1b",
-    "bytes": 48009
+    "sha256": "a4eab87c4d9e65d43de71775a8c54c1643cca7bbd108b3c95cf7bdf4c0e98b5c",
+    "bytes": 48007
   },
   "research/user_reinforced_domestic_revision_20261029/verify_revision.py": {
     "sha256": "9eb6c76819ce616da90cb61433b0e17a13d173efdbe6ff7602016a64ae8b013b",

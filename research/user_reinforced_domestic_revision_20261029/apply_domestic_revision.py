@@ -188,7 +188,7 @@ assert sha(SOURCE)=='ac4e5ffdc717fdfe0c9ed8881a6fdf303a5c562893379076516518e362f
 final_text='\n\n'.join(text(e) for e in body)
 for forbidden in ['合成机制仿真','40,000','120,000','51.70','31.25','MCSE','54场景','all_summary.csv','run_goal_repair_simulation','1,800','388项']:
     assert forbidden not in final_text,forbidden
-(OUT/'report_text.txt').write_text(final_text,encoding='utf-8')
+(OUT/'report_text.txt').write_text(final_text.rstrip()+'\n',encoding='utf-8')
 trace={'date':'2026-10-29','source_sha256':sha(SOURCE),'source_unchanged':True,'output':target.name,'output_sha256':sha(target),
        'changed_package_parts':changed,'all_other_package_parts_byte_identical':True,'citation_old_to_new':mapping,
        'original_paragraphs_revised':sorted(updates),'replaced_original_ranges':[[35,44],[71,84],[127,132]],'original_tables_revised':[0,2,4],

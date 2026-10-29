@@ -2,7 +2,7 @@
   "date": "2026-10-29",
   "scope": "published bytes, provenance, JSON/Python syntax, accidental credentials/private locators, current domestic source identity and selected aggregate results; retired foreign-data and synthetic analysis files absent from the current tree; not a new analysis or independent human validation",
   "files": 285,
-  "total_bytes": 32728526,
+  "total_bytes": 32728538,
   "checks": [
     {
       "check": "repository_sha256",
