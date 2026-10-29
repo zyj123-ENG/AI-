@@ -6,6 +6,7 @@
 
 ## 当前交付
 
+- [核心创新论证补强](research/direct_argument_validation_20261030/README.md)：2026-10-30完成强近邻比较、15项定向反例、原9轮元宝回复复核及直接比较设计；说明与操作缺口分型，相关修订已写回用户补强稿。真人预算修复效果尚未取得匹配资料。
 - [独立报告 Word PDF 源稿](research/domestic_simulation_report_20261029/README.md)：6页、4表2图，含数据来源、变量与公式、回归、实际结果、稳健性和论文可摘用段落。
 - [国内真人数据与实际分析代码](research/domestic_data_reanalysis_20261029/README.md)：516名国内渠道招募参与者，原六臂、分类OLS及每个人群5,000轮参与者重抽样；403人现场子样本作敏感性分析。
 - [国内数据阶段续接提示词](planning/国内数据阶段续接提示词.md)与[后续任务](planning/下一阶段任务清单.md)：后续默认只维护仿真部分。

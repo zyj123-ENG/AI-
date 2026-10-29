@@ -49,12 +49,16 @@ updates={
 8:'本文聚焦中国成年消费者使用中文建议型购物助手，为iPhone 15选择一只日常充电器，已经具有可用连接线。初始预算150元和后来记录的200元用于构造规范比较。手机材料中的现实商品事实、规范案例与国内二手实验分别管理，品牌、协议及价格均按实际取证范围使用。建议型场景保持最终购买在消费者控制之下，自动下单只作为区分交易授权的边界。',
 11:'本文回答：重要购买理由撤回后，助手何时应主动说明它与既有预算修订的关联，怎样履行这一责任，何时停止干预？中心判断是，责任以重要性、公开理由使用、可调整性、知识与相称负担为条件；普通更正已完成功能时即可承接选择。最终预算由消费者的有效表达和授权决定。文献与概念分析承担规范辩护，配对规范案例检验判断边界，有限真实系统预试记录条件响应；国内真人二手实验复分析则用于区分平均信任评价与特定差距变化。',
 19:'这项增量定位为低额AI导购中责任范围与审计标准的细化，尚无排他性查新结论。较强的依赖跟踪与选择性再确认可以实现同一处理，应依同一功能标准评价；措施名称或提示出现次数不能单独承担创新主张。依照Mathur等从规范目标推导指标、基线与阈值的方法[10]，本文用规范案例辨析误触发、遗漏和负担，将国内二手数据用于评价指标的经验边界，而不据此验证预算修复方案的优越性。',
+51:'修复应分别回应说明缺口和操作缺口。依据变化或已知预算关联尚未清楚时，补充针对性说明；关联已说明而修改、结束无法生效时，修复操作并提供可用替代，重复解释不能代替兑现。普通更正已完成说明且选择可用时，无须另设确认关卡。例如：“这项安全优势目前缺少可靠支持。你先前表示主要为此提高预算；可以维持200元、调整或先不买。”收到新的有效表达前，仍按当前预算执行，用户无需通过理解测验。解释内容、时点与方式随缺口配置。[4]',
+53:'独立理由与知情重申限制的是同一信息的重复预算邀请。消费者已清楚获知更正意义，明确即使没有安全优势仍愿为外观维持200元，应承接其选择。仅出现“蓝色”一词，不能证明独立理由足够；沉默也不等于重申。独立理由不免除必要事实更正，停止重复说明也不等于失灵操作已修好。规则回应具体缺口，不要求消费者给出系统偏好的答案。',
+70:'构造反例进一步限制判准。已清楚获知更正且愿为颜色保留200元的消费者，无须反复说明私人生活安排；普通更正已交代关联并保持选择可用，也无须再问预算。另一反例是关联已说明，但修改入口失灵：此时应修复操作或提供替代，不能重复解释冒充完成。独立理由可以支持原预算，却不使未更正的无据断言成为事实。针对性反例检查据此将说明、操作和重复邀请分开，不按最后是否省钱评价成功。',
 22:'知情选择要求消费者对本次重要事实、费用和取舍具有足够可用的理解。规范意义的自主性涉及本人评价理由及维持、修改或终止决定的条件；感知自主性是主观体验，满意度是过程或结果评价。国内二手数据中的信任评价，是参与者对特定购物助手的态度，不能替代以上概念。本项目未直接测量感知自主性或满意度。说服可以通过可评价理由改变选择；按照所采用的操纵理论，隐蔽利用决策脆弱性等条件还须分别证成，不能仅由提高预算或一项无据数字直接认定操纵。[1][2][11]',
 27:'图1 研究者绘制的责任判断路线。规范前提承担义务推导；国内经验分析约束评价指标的解释，不作为该责任路线已被实证验证的证据。',
 32:'手机材料按照原长截图、分段阅读记录和后续转贴分别登记。已有商品页可见E01230，但未证明三轮所有推荐卡片均为同一SKU；0.87%和36℃缺少匹配的原始统计或测试证据，继续从商品比较事实中排除。TI原厂说明可用于核对电子标记的电流条件，不能把“20W必须有E-Marker”作为普遍必要条件。[14]另一个公开专栏虽刊有42.8℃数字，其倍思产品描述为1C1A，不能直接支持待选单C口SKU的温控排名。[15]',
 62:'预算内没有满足明确用途的方案时，助手应说明冲突及证据，提供维持预算并降低功能要求、经同意提高预算、暂不购买等可用路径。它可以清楚标注假设条件，说明提高预算后的可选方案；在取得新的有效表达或授权前，不得把提高后的预算当作已生效的执行范围。真实新信息支持消费者自主修改预算，条件性比较与预算更新分别判断。',
 65:'限定响应与经验评价边界',
-96:'当前证据形成条件判准、限定系统响应与国内二手实验复分析：给定历史的真实回复没有呈现自然错误怎样促成真人提价，国内记忆面板实验测量即时信任，未包含预算修订、实际控件使用或操作负担。校园及社区便利样本的解释范围也有边界。后续可在有同意的匹配任务中比较普通更正、已完成关联说明的更正及追加提示，分别测重要取舍理解、维持或修改预算的理由、执行情况、时间和负担；样本量依目标精度或功效另定。再依具体失败扩展跨平台状态审计与数字能力差异，落实适用伦理审查和隐私安排。增加重抽样次数不能补出这些未测变量。',
+96:'当前证据形成条件判准、限定系统响应与国内二手实验复分析。15项定向反例检查收紧了说明、操作和停止条件；原9轮元宝记录保留成功响应、措辞歧义及后台状态未知。国内面板实验未测预算过程。本轮定向检索未取得同时包含理由撤回、同人预算变化、知情重申及措施比较的国内公开原数据。后续应将理由历史与响应措施分开，固定历史比较事实更正、一般再确认、元偏好反思及条件响应，并纳入功能充分的强纠错；若等价则保留等价结论。只有取得许可明确、过程变量匹配的国内二手资料，才开展对应估计，分别报告理解、决定、执行及负担。新真人研究另需伦理安排及样本依据；增加重抽样次数不能补出未测变量。',
+98:'AI导购的重要理由撤回后，纠错应照顾消费者已经公开用于预算修订的相关使用。是否需要主动补充，取决于理由重要性、公开联系、可调整性、具体说明缺口与相称负担。普通更正已经使关联可理解并保留修改机会时，无须再设确认关卡；操作失灵另行修复。独立理由充分、知情重申及退出分别限制重复重审；其余更正与操作责任按拒绝范围、允许渠道和比例性另审。',
 99:'这项责任以改善决定条件为目的，预算更新仍须符合消费者的有效表达和授权。必要纠错不自动恢复已拒绝的商业推动，较强的既有再确认也可以实现相同要求。规范推理、配对规范案例与边界条件承担核心创新论证。国内六臂复分析提供经验背景，未直接比较按本判准设计的措施与普通事实纠错、一般再确认或元偏好反思的效果。预算重审对真实理解、决定及净负担的实际效果，留待直接包含这些变量的匹配任务研究。',
 123:'N6、C3、S1作者稿为论证正文精读，引用列表未逐项复核。V2读取PDF1—3；R1读取PDF14—15、17—19及原记录片段；V1读取PDF6—7、11—12；V3读取PDF5—8、12—14。Fong保留为消费品纠错近邻文献，沿用已有指定章节读取记录，其国外数据不进入本稿经验分析。C1仅摘要及公开信息，全文缺口限制排他性查新。Hung核读PDF33、印刷2515相关安排；M3读PDF1、9—10；M4沿用arXiv v4 PDF1—4、8—9的读取记录，正式卷期的元数据核对不等于重新精读期刊全文。不同版本页码分别登记。',
 124:'Retractions的正式卷期据出版元数据核对为2026年93卷1期、476—516页，早期在线发表与纸本卷期年份分别登记。其理论任务未用于估计本研究的行为概率。Apple官方规格的快充条件和TI线缆电子标记说明已核；EEPW专栏仅作SKU适用性核查，不作为待选产品性能依据。国内数据来源另核Huang等论文方法PDF4—8页、Study4结果PDF9及11页与相关讨论，正式补充S14的计分及信任题位于PDF19—20、22页。[21][23]',
@@ -119,7 +123,7 @@ newp('正式目录为research/domestic_data_reanalysis_20261029，source/author_
 newp('code/run_domestic_reanalysis.m从原记录计算正向三题信任均值，保留原六臂人数；主516与现场403每个人群各5,000轮，种子20261029及20261030。两个人群的标准化平均差使用全样本固定权重。重抽样以参与者整行为单位，未生成新行为、未补预算及未观测处理反应。'),
 newp('results/cell_estimates.csv记录组内统计与区间；contrasts.csv记录差值；ols_coefficients.csv和model_checks.csv保存分类回归及F/p；trust_item_frequencies.csv保留逐题频数，run_metadata.json记录实际环境。bootstrap_aggregates.mat仅含重复抽样汇总，不是新增真人数据。render_domestic_figures.m读取汇总重绘。'),
 newp('code/independent_validate.py及validation/独立复算.json直接核对原CSV的点估计、人数、差值、OLS、频数及模型统计，未独立重算bootstrap端点。原作者脚本、完整刺激协议、排除日志及场次标识未取得；不能把舍入均值一致称为复制全部Tukey或贝叶斯检验。复现宜另存输出，避免覆盖已核结果。'),
-newp('当前独立仿真报告在research/domestic_simulation_report_20261029，采用同一批计算结果。旧虚拟与国外数据仿真已依用户要求从仓库当前文件移除。本次仅替换用户补强稿中相关证据及其上下文，没有重新运行主分析或扩写新的研究主线。'),
+newp('独立仿真报告见research/domestic_simulation_report_20261029，采用同一批计算结果。核心论证补强见research/direct_argument_validation_20261030：01为强近邻，02为检索，03列15项规范反例，04核读原9轮，05为直接比较设计。旧仿真仍从当前仓库移除，未新增消费者记录或重跑主分析。'),
 ]
 replace_range(127,132,appendix)
 for p in appendix[1:]:
@@ -196,6 +200,7 @@ trace={'date':'2026-10-29','last_revision_date':'2026-10-30','source_sha256':sha
        'normative_scope_fix':'Conditional exploration distinguished from effective budget execution.',
        'unverified_completion_claims_removed':['pixel-matching and hash-correction claims','old numerical validation claims','unprovided PPT and anonymous-package completion claims'],
        'new_behavior_generated':False,'main_analysis_rerun':False,'original_foreign_simulations_not_restored':True,
-       'innovation_evidence_scope':'Empirical background only; core proposal argued by normative reasoning, matched normative cases and boundary analysis; no direct comparison with ordinary correction, general reconfirmation or meta-preference reflection.'}
+       'innovation_evidence_scope':'Empirical background only; core proposal argued by normative reasoning, matched normative cases and boundary analysis; no direct comparison with ordinary correction, general reconfirmation or meta-preference reflection.',
+       'direct_argument_strengthening':{'dossier':'research/direct_argument_validation_20261030','normative_counterexamples':15,'existing_real_system_turns_reexamined':9,'new_consumer_records':0,'substantive_fixes':['Information gaps and operational gaps require different actions.','Independent reasons and reaffirmation stop repeated budget invitations without cancelling other justified correction or repair.'],'prospective_design':'History conditions separated from response measures; functionally strong baselines and equivalence retained.'}}
 (OUT/'修订核对.json').write_text(json.dumps(trace,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({'docx':target.name,'bytes':target.stat().st_size,'changed_package_parts':changed,'references':len(refs),'original_untouched':True},ensure_ascii=False))

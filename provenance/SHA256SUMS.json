@@ -232,8 +232,8 @@
     "bytes": 21009
   },
   "planning/下一阶段任务清单.md": {
-    "sha256": "fff36c56248994b4b3cd62320655712cb990c4a8f7deed1dc4e276ffb53071ba",
-    "bytes": 1836
+    "sha256": "d2cc13208c203406778d67c679c823a70e1e1300f16eb3acbbf34b4f6fe6d06f",
+    "bytes": 2446
   },
   "planning/国内数据阶段续接提示词.md": {
     "sha256": "437afb3a53d5ead4a47b35bf894b485b7d544ad55bd4831121ba0ddd17cdb08c",
@@ -268,20 +268,44 @@
     "bytes": 576
   },
   "provenance/source_inventory.json": {
-    "sha256": "72824dd4358e6aa634c0ddcfc66010c29406cf76ec8d36a6df1f380b048139e9",
-    "bytes": 172313
+    "sha256": "21c422842eb7e3e85b87c565e8782ad316e1d5b7ae2da5941d87ece425fb0b98",
+    "bytes": 172315
   },
   "provenance/third_party_licenses.json": {
     "sha256": "1fe5badff3160587a50cced025d770011e8cf7fa74e53b861b647beaa39bc149",
     "bytes": 8861
   },
   "README.md": {
-    "sha256": "715a3ae3671aef917bdc0d869092da5406346304fbc96cb69e2d0d8a84083e43",
-    "bytes": 2828
+    "sha256": "b33fe729e7809339041bb78a6098ca2d7c7fc217a99ff2d1b5338bb1042b36af",
+    "bytes": 3140
   },
   "research/B_核心论文论证方法矩阵.md": {
     "sha256": "2ab787c9d3458cbb2d2ac9c3c05e806cd0949503a30f94f2e6f0b3f780252774",
     "bytes": 75905
+  },
+  "research/direct_argument_validation_20261030/01_强近邻与可主张增量.md": {
+    "sha256": "82644c3d8b9a6e43e029d80be68bf48e288f0f6f3d489830f0cde3c9b265c065",
+    "bytes": 27933
+  },
+  "research/direct_argument_validation_20261030/02_直接验证国内数据检索.md": {
+    "sha256": "2c22988167b2c4f952228631af4fe9f69120ffb4d11cddc68491250c11de32d7",
+    "bytes": 19659
+  },
+  "research/direct_argument_validation_20261030/03_判准形式化与反例检验.md": {
+    "sha256": "c51b646aec496fc90b5de79eb440d07b84c9719ec86788150cd58162bd3fe108",
+    "bytes": 20238
+  },
+  "research/direct_argument_validation_20261030/04_既有元宝记录逐项复核.md": {
+    "sha256": "c96f248e2df23495bd55af5eeadb37b56e89616d30dc2f29c1965a0b026e4304",
+    "bytes": 6652
+  },
+  "research/direct_argument_validation_20261030/05_直接比较设计与论文可用补强.md": {
+    "sha256": "c8848ece8e1f75b15fcfd8909a40bacec0fb2a3c1ee1d4d69a25d1bccecb6861",
+    "bytes": 11427
+  },
+  "research/direct_argument_validation_20261030/README.md": {
+    "sha256": "84ff347f5e1e3c21a5e90fa7ec298d9e4548965792ee436d95d6f53cec3ea700",
+    "bytes": 7114
   },
   "research/domestic_data_reanalysis_20261029/01_执行前方案.md": {
     "sha256": "b1b6a0585041618479cdc5e56c23875d7021e5f9532d1f62ddadc64841d3356e",
@@ -772,36 +796,36 @@
     "bytes": 248388
   },
   "research/user_reinforced_domestic_revision_20261029/AI导购理由撤回后的预算重审_补强稿国内数据版.docx": {
-    "sha256": "6776844c917beb2fa0115c970b8c4c901649b0b24fd84561e333ed9e2fb22dee",
-    "bytes": 512135
+    "sha256": "01093fda18698489f0275a72a78d0e41df700310bb86b11f5108faeed16dd275",
+    "bytes": 512244
   },
   "research/user_reinforced_domestic_revision_20261029/apply_domestic_revision.py": {
-    "sha256": "0396694447dcd99b0348ff2362d967ca14ff628cca8815a449432360b3e0d633",
-    "bytes": 26392
+    "sha256": "c69b54dcb7eedb8155f4078ad639eba92f374d415ccefa273c086ebbc327c042",
+    "bytes": 29199
   },
   "research/user_reinforced_domestic_revision_20261029/input_package_hashes.json": {
     "sha256": "95d3716a38716fa12fb157d43e5d09d585e36cd8f544a290a281209959f6bda8",
     "bytes": 3017
   },
   "research/user_reinforced_domestic_revision_20261029/README.md": {
-    "sha256": "9683e1755a75930a680f07678e911e53306c2052d2582eb7f4626d43bd7eed38",
-    "bytes": 4149
+    "sha256": "70e0f8c373beed073818d73d83bc831f88c70ebc5eafdb5861d1d68a1b280d08",
+    "bytes": 4598
   },
   "research/user_reinforced_domestic_revision_20261029/report_text.txt": {
-    "sha256": "386b231211b146a6ffd8b1fe3a85fcc5c307842c87ef6d6c76c543dd007a3dc0",
-    "bytes": 48277
+    "sha256": "bb1f4833f0efda6af70866e23b7dc30e057690f7e705fd12792d07c06211a9e4",
+    "bytes": 48655
   },
   "research/user_reinforced_domestic_revision_20261029/verify_revision.py": {
-    "sha256": "865f00f2d9a1f7cb52ee1a4bb2468867ddaa06a824d9c650dd02f310efc9089e",
-    "bytes": 6901
+    "sha256": "da8bb28551051ff0b78885b126cc6a90eddd652921ea2418aa414a9d824e0506",
+    "bytes": 7401
   },
   "research/user_reinforced_domestic_revision_20261029/交付核对.json": {
-    "sha256": "7c014c2710f7ccfe70d5d1404360a21464cad84b62e44bba57db8a5bca6a1823",
-    "bytes": 2390
+    "sha256": "6c41cd84959a5a4424234a8f2b7e6e709f10ad70e27e1a8cd7bab889d9fc7a33",
+    "bytes": 2581
   },
   "research/user_reinforced_domestic_revision_20261029/修订核对.json": {
-    "sha256": "6880910c347b953e933f5fb9eb8ba7b5998e1e44522da2ff26c8caed419ba58f",
-    "bytes": 2620
+    "sha256": "ffc4232e77b34c92597b4c9abc42f11ca472d14a42d43aa1cf492686c5d7ebd1",
+    "bytes": 3269
   },
   "research/user_reinforced_domestic_revision_20261029/新增来源核验.json": {
     "sha256": "b60e30c44626c3109456f19d1ae3b6664929b30b2bb34738e7df48672b4b3177",

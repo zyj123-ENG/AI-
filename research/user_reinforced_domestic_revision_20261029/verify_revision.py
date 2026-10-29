@@ -49,6 +49,8 @@ def main():
         'primary_results_present':all(s in full.replace('−','-') for s in ['-0.160','[-0.542,0.220]','0.186','[0.032,0.341]','-0.199','[-0.646,0.250]','p=0.584']),
         'innovation_evidence_scope_explicit':all(s in full for s in ['本仿真不检验完整伦理方案，而是为方案提供经验背景','核心创新仍由规范推理、配对规范案例和边界条件论证完成','未直接比较按本判准设计的措施与普通事实纠错、一般再确认或元偏好反思的效果']),
         'normative_cases_distinguished_from_human_validation':'配对规范案例用于判断一致性与反例边界，不等同真人实验验证' in full,
+        'explanation_and_operation_gaps_distinguished':all(s in full for s in ['说明缺口和操作缺口','重复解释不能代替兑现','独立理由不免除必要事实更正']),
+        'stopping_scope_and_direct_design_present':all(s in full for s in ['按拒绝范围、允许渠道和比例性另审','理由历史与响应措施分开','若等价则保留等价结论','direct_argument_validation_20261030']),
     }
     for name,expected in trace['source_results_sha256'].items():checks['unchanged_'+name]=sha(DATA/'results'/name)==expected
     for i,n in [(2,'图2_国内六臂信任评价.png'),(3,'图3_面板差值与交互边界.png')]:
@@ -65,7 +67,7 @@ def main():
     report={'date':'2026-10-30','pass':all(checks.values()),'checks':checks,'file':file.name,'bytes':file.stat().st_size,'sha256':sha(file),
             'pages':len(pdf.pages),'tables':len(doc.tables),'figures':len(doc.inline_shapes),'references':len(refs),'title_characters':len(doc.paragraphs[0].text),'abstract_characters':len(doc.paragraphs[3].text),
             'qa_pdf_bytes':args.qa_pdf.stat().st_size,'qa_pdf_sha256':sha(args.qa_pdf),
-            'visual_qa':{'all_final_twenty_pages_checked':True,'review':'2026-10-30: final changed pages 7,8,9,10,11,16 individually inspected; the other 14 final PNGs are byte-identical to the previously inspected report render.','result':'No clipping, overlap, missing glyph or empty page observed; original layout retained.'},
+            'visual_qa':{'all_final_twenty_pages_checked':True,'review':'2026-10-30: changed pages 8,9,11,15,16,19,20 individually inspected; final pages unchanged since an inspected intermediate were compared by SHA256; the other 13 final PNGs are byte-identical to the previously inspected report render.','result':'No clipping, overlap, missing glyph or empty page observed; original layout retained.'},
             'evidence_boundary':'Domestic archived human trust data; no direct test of budget-repair efficacy; no newly generated consumer behavior.',
             'not_completed':['real CNKI detection','defense PPT verification','final anonymous supplementary package','official submission']}
     (ROOT/'交付核对.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
