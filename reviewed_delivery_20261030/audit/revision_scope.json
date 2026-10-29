@@ -1,0 +1,21 @@
+{
+  "base_commit": "ed7bbd7b5de2ed483b7b8f2b82b24ab59307ec94",
+  "authorized_review_issues": [
+    3,
+    4
+  ],
+  "issues_1_2_changed": false,
+  "protected_chapters_1_to_3_c14n_sha256": "f4e6ad0483c7960dc35679c22e570be39b31a4f4fa1679ed8a1edeeec7e1a79c",
+  "protected_chapters_1_to_3_identical": true,
+  "conclusion_unchanged": true,
+  "references_unchanged": true,
+  "abstract_regenerated": false,
+  "original_source_docx_sha256": "62fb3a1d8ba3b4667a96bf413c26f84c996424e68c41f796f43bd9540d790e3b",
+  "output_docx_sha256": "d2567477ebdee52dbaa280f8f54f10f09801acbc52dc2d16f91da45776c76bcc",
+  "changed_package_parts": [
+    "word/document.xml"
+  ],
+  "original_domestic_analysis_files_modified": false,
+  "new_governance_assertions": 16,
+  "new_consumer_data_or_efficacy_claims": false
+}

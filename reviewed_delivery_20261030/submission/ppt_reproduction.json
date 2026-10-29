@@ -1,0 +1,11 @@
+{
+  "command": "node governance/build_defense.mjs <isolated-repository>",
+  "environment": "TASK_WORKSPACE contains target repository; RUNTIME_NODE_MODULES points to bundled packages; other runtime paths per build instructions",
+  "exit_code": 0,
+  "temporary_node_modules_symlink_used": false,
+  "rendered_slides": 16,
+  "render_image_mismatches": [],
+  "prior_pptx_sha256": "936d0c119a42d2c5af36b136c67b97c18e12b86452911cb7196ac8767ad0770f",
+  "delivered_pptx_sha256": "ad03b9d058aeda796ed1031a0922444b7d535ee0063a264dd1019433c55a4d21",
+  "word_and_pdf_unchanged": true
+}

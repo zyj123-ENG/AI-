@@ -1,0 +1,199 @@
+{
+  "input_identity": "Researcher-constructed boundary fixtures; no consumer observations",
+  "scope": "Issue-3 mechanical regression checks on the reference implementation only",
+  "implementation_sha256": "c5cf400c6c204856013c7d73e90cb3a5d991b110dee255cf6ffbc043aeefc18e",
+  "check_count": 9,
+  "checks": [
+    {
+      "id": "P1",
+      "condition": "同一reason/source_ref，仅更换revision标签",
+      "expected": "不重置同一实质证据的邀请计数",
+      "observed": {
+        "withdraw": {
+          "accepted": false,
+          "exception": "ValueError",
+          "message": "A revision label cannot reset the same immutable evidence source."
+        },
+        "second_can_invite": false
+      },
+      "condition_met": true
+    },
+    {
+      "id": "P2",
+      "condition": "在后续不同预算授权后重放已使用的user:3",
+      "expected": "拒绝旧表达重放，保留后来授权的15000分预算",
+      "observed": {
+        "replayed_call": {
+          "accepted": false,
+          "exception": "ValueError",
+          "message": "An already consumed user turn cannot authorize a later budget update."
+        },
+        "effective_budget_cents": 15000
+      },
+      "condition_met": true
+    },
+    {
+      "id": "P3",
+      "condition": "外部事件日志重用已消费的authorization_event",
+      "expected": "第5事件记录授权重放",
+      "observed": {
+        "input_trace": [
+          {
+            "event_id": 1,
+            "kind": "user_budget_authorization",
+            "user_turn": "user:3",
+            "quote": "提高到250元",
+            "new_budget_cents": 25000
+          },
+          {
+            "event_id": 2,
+            "kind": "budget_changed",
+            "before_cents": 20000,
+            "after_cents": 25000,
+            "authorization_event": 1
+          },
+          {
+            "event_id": 3,
+            "kind": "user_budget_authorization",
+            "user_turn": "user:4",
+            "quote": "恢复150元",
+            "new_budget_cents": 15000
+          },
+          {
+            "event_id": 4,
+            "kind": "budget_changed",
+            "before_cents": 25000,
+            "after_cents": 15000,
+            "authorization_event": 3
+          },
+          {
+            "event_id": 5,
+            "kind": "budget_changed",
+            "before_cents": 15000,
+            "after_cents": 25000,
+            "authorization_event": 1
+          }
+        ],
+        "audit_errors": [
+          {
+            "event_id": 5,
+            "issue": "authorization_replayed"
+          }
+        ]
+      },
+      "condition_met": true
+    },
+    {
+      "id": "P4",
+      "condition": "未提供源会话时序复核即用较早user:1记录重申",
+      "expected": "默认拒绝未复核的重申；不推断真实会话时序或心理理解",
+      "observed": {
+        "reaffirm_call": {
+          "accepted": false,
+          "exception": "ValueError",
+          "message": "A later user expression requires review against the source transcript notice order."
+        },
+        "recorded_reaffirmation": null
+      },
+      "condition_met": true
+    },
+    {
+      "id": "P5",
+      "condition": "同一实例end后进行普通预算更新和筛选",
+      "expected": "关闭营销及主动邀请，拒绝已结束任务的普通更新和筛选",
+      "observed": {
+        "marketing_closed": true,
+        "can_invite": false,
+        "budget_update": {
+          "accepted": false,
+          "exception": "ValueError",
+          "message": "This task is closed; a new user request requires a separate task context."
+        },
+        "candidate_filter": {
+          "accepted": false,
+          "exception": "ValueError",
+          "message": "No ordinary filtering after this task ended."
+        }
+      },
+      "condition_met": true
+    },
+    {
+      "id": "P6",
+      "condition": "外部授权记录缺少原话",
+      "expected": "记录无匹配授权证据，不能解释为肯定合规",
+      "observed": {
+        "input_trace": [
+          {
+            "event_id": 1,
+            "kind": "user_budget_authorization",
+            "user_turn": "user:3",
+            "new_budget_cents": 25000
+          },
+          {
+            "event_id": 2,
+            "kind": "budget_changed",
+            "before_cents": 20000,
+            "after_cents": 25000,
+            "authorization_event": 1
+          }
+        ],
+        "audit_errors": [
+          {
+            "event_id": 2,
+            "issue": "budget_changed_without_matching_user_authorization"
+          }
+        ]
+      },
+      "condition_met": true
+    },
+    {
+      "id": "C1",
+      "condition": "正对照：同一键的第二次主动邀请",
+      "expected": "拒绝重复邀请",
+      "observed": {
+        "accepted": false,
+        "exception": "ValueError",
+        "message": "No remaining basis for this proactive budget invitation."
+      },
+      "condition_met": true
+    },
+    {
+      "id": "C2",
+      "condition": "正对照：任务已经结束",
+      "expected": "主动邀请关闭",
+      "observed": {
+        "can_invite": false
+      },
+      "condition_met": true
+    },
+    {
+      "id": "C3",
+      "condition": "正对照：普通更正已经充分",
+      "expected": "不追加预算邀请",
+      "observed": {
+        "can_invite": false
+      },
+      "condition_met": true
+    }
+  ],
+  "field_check_count": 6,
+  "field_checks": {
+    "material_change_default_false": true,
+    "after_notice_reviewed_default_false": true,
+    "association_quote_logged": true,
+    "withdrawal_source_and_conditions_logged": true,
+    "invitation_text_logged": true,
+    "reaffirmation_quote_and_review_logged": true
+  },
+  "failures": [],
+  "field_failures": [],
+  "new_human_data": false,
+  "autonomy_score_created": false,
+  "random_process": false,
+  "limits": [
+    "Immutable evidence identity and canonical user event identifiers require a trusted integrating system.",
+    "Review flags are upstream attestations; they do not establish genuine source chronology, material facts or user understanding.",
+    "These checks do not test consumer autonomy effects, burden, product feasibility, log authenticity or a deployed shopping system.",
+    "The original sixteen check_protocol.py assertions remain a separate result set."
+  ]
+}

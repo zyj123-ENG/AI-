@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-30",
+  "review_identity": "same-AI visual self-review",
+  "report_renderer": "LibreOffice through render_docx.py; every final PDF page image inspected",
+  "presentation_renderer": "Final exported PPTX re-imported and rendered by @oai/artifact-tool; every slide image inspected",
+  "report_pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "pptx_slides_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "observations": [
+    "21 report pages inspected; text, tables and all original charts visible without clipping or overlap.",
+    "16 final PPTX slides inspected; headings, native tables, original plots and slide numbers visible without overlap.",
+    "Existing document pagination retained; conclusion continues on page 17 and references begin on page 18."
+  ],
+  "limits": [
+    "No interactive Microsoft PowerPoint playback or independent human review performed.",
+    "Protected scientific content was not rewritten during this material review."
+  ],
+  "docx_sha256": "d2567477ebdee52dbaa280f8f54f10f09801acbc52dc2d16f91da45776c76bcc",
+  "pdf_sha256": "5ccd94733bb3de5517160cd17b29ca1aa4bcc419a3d7386c2cdaafb2eec41beb",
+  "pptx_sha256": "ad03b9d058aeda796ed1031a0922444b7d535ee0063a264dd1019433c55a4d21",
+  "rebuild_check": {
+    "date": "2026-10-30",
+    "input_note": "Corrected module resolution and slide-16 speaker note only; slide visual content retained",
+    "prior_pptx_sha256": "936d0c119a42d2c5af36b136c67b97c18e12b86452911cb7196ac8767ad0770f",
+    "rendered_slide_images_compared": 16,
+    "changed_image_numbers": [],
+    "isolated_build_executed": true
+  }
+}

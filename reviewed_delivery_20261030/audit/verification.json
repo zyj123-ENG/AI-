@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-30",
+  "review_identity": "same-AI self-check",
+  "scope": "Issue 3 engineering acceptance and issue 4 deliverable structure, source preservation and anonymous package; no re-analysis of issues 1 or 2; not a plagiarism check or independent human review",
+  "checks": [
+    {
+      "check": "original_research_and_literature_bytes_unchanged",
+      "observed": true,
+      "files_checked": 269,
+      "changed_files": []
+    },
+    {
+      "check": "original_source_word_hash",
+      "observed": true
+    },
+    {
+      "check": "protected_chapters_1_to_3",
+      "observed": true,
+      "sha256": "f4e6ad0483c7960dc35679c22e570be39b31a4f4fa1679ed8a1edeeec7e1a79c"
+    },
+    {
+      "check": "protected_conclusion",
+      "observed": true,
+      "sha256": "42173f5e7eb7e958917fbb4ae8b5d3b6fc5a2ae03aa91926769b492d470d7a2e"
+    },
+    {
+      "check": "protected_references",
+      "observed": true,
+      "sha256": "e9f7f2140dc9ef6d1fac635f5fcb1f059a869aa6567eb929f3d736ad7426d399"
+    },
+    {
+      "check": "only_word_document_xml_changed",
+      "observed": true
+    },
+    {
+      "check": "delivered_docx_matches_scope_hash",
+      "observed": true
+    },
+    {
+      "check": "report_structure",
+      "observed": true,
+      "tables": 6,
+      "figures": 3
+    },
+    {
+      "check": "no_tracked_changes",
+      "observed": true
+    },
+    {
+      "check": "title_and_abstract_lengths",
+      "observed": true,
+      "title_characters": 14,
+      "abstract_characters": 262
+    },
+    {
+      "check": "original_reference_sequence_retained",
+      "observed": true,
+      "references": 23
+    },
+    {
+      "check": "pdf_structure_and_size",
+      "observed": true,
+      "pages": 21,
+      "bytes": 903688
+    },
+    {
+      "check": "pdf_author_blank",
+      "observed": true
+    },
+    {
+      "check": "pptx_slide_count",
+      "observed": true,
+      "slides": 16
+    },
+    {
+      "check": "pptx_author_blank",
+      "observed": true
+    },
+    {
+      "check": "pptx_uses_original_statistical_figures",
+      "observed": true
+    },
+    {
+      "check": "protocol_execution_record",
+      "observed": true,
+      "engineering_assertions": 16
+    },
+    {
+      "check": "separate_boundary_record_matches_current_source",
+      "observed": true,
+      "boundary_checks": 9,
+      "field_checks": 6
+    },
+    {
+      "check": "visual_review_matches_current_artifacts",
+      "observed": true
+    },
+    {
+      "check": "anonymous_zip_crc",
+      "observed": true
+    },
+    {
+      "check": "anonymous_zip_exact_manifest",
+      "observed": true,
+      "files": 54
+    },
+    {
+      "check": "anonymous_package_no_identified_identity_locator",
+      "observed": true,
+      "flags": []
+    },
+    {
+      "check": "anonymous_package_local_navigation_resolves",
+      "observed": true,
+      "broken": []
+    },
+    {
+      "check": "user_excluded_items_not_marked_complete",
+      "observed": true
+    }
+  ],
+  "observed_failures": [],
+  "artifacts": {
+    "AI导购理由撤回后的预算重审_参赛修复稿.docx": {
+      "sha256": "d2567477ebdee52dbaa280f8f54f10f09801acbc52dc2d16f91da45776c76bcc",
+      "bytes": 514328
+    },
+    "AI导购理由撤回后的预算重审_参赛修复稿.pdf": {
+      "sha256": "5ccd94733bb3de5517160cd17b29ca1aa4bcc419a3d7386c2cdaafb2eec41beb",
+      "bytes": 903688
+    },
+    "AI导购理由撤回后的预算重审_答辩稿.pptx": {
+      "sha256": "ad03b9d058aeda796ed1031a0922444b7d535ee0063a264dd1019433c55a4d21",
+      "bytes": 243612
+    },
+    "AI导购预算重审_匿名复现材料.zip": {
+      "sha256": "6dd35e18380f4d6b00ff348530423d2e03e95c844bf755bcfa5a909794fa4ad5",
+      "bytes": 2856260
+    }
+  }
+}

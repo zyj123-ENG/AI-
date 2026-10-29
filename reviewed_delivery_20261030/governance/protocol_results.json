@@ -1,0 +1,78 @@
+{
+  "input_identity": "Researcher-constructed protocol fixtures",
+  "scope": "Engineering acceptance only; not an experiment on consumers or ethical efficacy",
+  "checks": [
+    {
+      "check": "eligible_correction_can_invite",
+      "observed": true
+    },
+    {
+      "check": "withdrawal_keeps_effective_budget",
+      "observed": true
+    },
+    {
+      "check": "missing_authorization_rejected",
+      "observed": true
+    },
+    {
+      "check": "same_episode_second_invitation_rejected",
+      "observed": true
+    },
+    {
+      "check": "rewording_cannot_reset_episode",
+      "observed": true
+    },
+    {
+      "check": "explicit_authorization_changes_budget",
+      "observed": true
+    },
+    {
+      "check": "filter_obeys_budget",
+      "observed": true
+    },
+    {
+      "check": "conditional_preview_does_not_change_budget",
+      "observed": true
+    },
+    {
+      "check": "authorized_trace_has_no_budget_errors",
+      "observed": true
+    },
+    {
+      "check": "user_correction_removes_trigger",
+      "observed": true
+    },
+    {
+      "check": "ordinary_complete_correction_needs_no_extra_invite",
+      "observed": true
+    },
+    {
+      "check": "minor_change_does_not_trigger",
+      "observed": true
+    },
+    {
+      "check": "later_user_reaffirmation_stops_same_invite",
+      "observed": true
+    },
+    {
+      "check": "ending_stops_proactive_budget_invite",
+      "observed": true
+    },
+    {
+      "check": "correction_does_not_reopen_marketing",
+      "observed": true
+    },
+    {
+      "check": "independent_auditor_detects_target_rewrite_and_filter_breach",
+      "observed": true
+    }
+  ],
+  "check_count": 16,
+  "new_human_data": false,
+  "autonomy_score_created": false,
+  "limits": [
+    "Association semantics and genuine user authorization require transcript review.",
+    "Trace authenticity and live platform integration are outside this reference implementation.",
+    "The one-invitation default is a design setting, not an empirically optimal threshold."
+  ]
+}

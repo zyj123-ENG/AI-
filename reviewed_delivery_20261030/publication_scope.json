@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-30",
+  "publication_authorized": true,
+  "publication_account": "zzy940",
+  "destination_repository": "zyj123-ENG/AI-",
+  "remote_base_commit": "99471134f60307dd6c8d7707ad1a14370bb72e71",
+  "report_revision_base": "ed7bbd7b5de2ed483b7b8f2b82b24ab59307ec94",
+  "scope": "Add isolated reviewed delivery and a README entry; preserve current mainline contents",
+  "real_cnki_report": "excluded_by_user",
+  "baidu_share": "excluded_by_user",
+  "official_competition_upload": "not_executed",
+  "remote_publication_receipt": "Use actual Git commit history; no self-referential commit hash embedded"
+}
