@@ -1,0 +1,26 @@
+[
+  {
+    "source": "Apple iPhone 15 technical specifications",
+    "url": "https://support.apple.com/en-us/111831",
+    "date": "2026-10-29",
+    "verified_scope": "Conditional fast-charge specification with 20W or higher adapter; not a measured 27W peak for the candidate charger."
+  },
+  {
+    "source": "Texas Instruments USB Type-C cables and plugs",
+    "url": "https://www.ti.com/document-viewer/lit/html/SSZTBJ8/GUID-61351F5F-3B46-4F6A-A613-320B3A36C17A",
+    "date": "2026-10-29",
+    "verified_scope": "USB 2.0 Type-C cable electronic marking rule and greater-than-3A condition; no universal E-Marker requirement established by 20W alone."
+  },
+  {
+    "source": "EEPW charger column",
+    "url": "https://www.eepw.com.cn/zhuanlan/202606/395890.html",
+    "date": "2026-10-29",
+    "verified_scope": "The listed Baseus product is described as 1C1A; column not used to rank the unmatched single-port candidate."
+  },
+  {
+    "source": "Crossref publisher-deposited Retractions metadata",
+    "url": "https://api.crossref.org/works/10.1093/restud/rdaf032",
+    "date": "2026-10-29",
+    "verified_scope": "Volume93 issue1 pages476-516, online2025-06-10 and print2026-01-13; bibliographic check does not imply full-text reading."
+  }
+]

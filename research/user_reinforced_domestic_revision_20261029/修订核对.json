@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-29",
+  "source_sha256": "ac4e5ffdc717fdfe0c9ed8881a6fdf303a5c562893379076516518e362f39ca8",
+  "source_unchanged": true,
+  "output": "AI导购理由撤回后的预算重审_补强稿国内数据版.docx",
+  "output_sha256": "62fb3a1d8ba3b4667a96bf413c26f84c996424e68c41f796f43bd9540d790e3b",
+  "changed_package_parts": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/media/image2.png",
+    "word/media/image3.png"
+  ],
+  "all_other_package_parts_byte_identical": true,
+  "citation_old_to_new": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "21": 8,
+    "22": 9,
+    "8": 10,
+    "9": 11,
+    "10": 12,
+    "11": 13,
+    "12": 14,
+    "13": 15,
+    "14": 16,
+    "15": 17,
+    "23": 18,
+    "16": 19,
+    "17": 20,
+    "18": 21,
+    "19": 22,
+    "20": 23
+  },
+  "original_paragraphs_revised": [
+    1,
+    3,
+    8,
+    11,
+    19,
+    22,
+    27,
+    32,
+    62,
+    65,
+    96,
+    99,
+    123,
+    124,
+    134,
+    135,
+    139
+  ],
+  "replaced_original_ranges": [
+    [
+      35,
+      44
+    ],
+    [
+      71,
+      84
+    ],
+    [
+      127,
+      132
+    ]
+  ],
+  "original_tables_revised": [
+    0,
+    2,
+    4
+  ],
+  "source_results_sha256": {
+    "cell_estimates.csv": "e7d1ad23265ee334dc8aee6fc1fd17d0033264d139768f1b42be4092cb8a1e01",
+    "contrasts.csv": "3ade897718b11a5aa3998d5ab37d7aad2e1f6569f009dfaf577fb6b7b2e49fc6",
+    "model_checks.csv": "111a1673476362dd85179c019b2e71c01edb14800db274603edf2cebf221d486",
+    "ols_coefficients.csv": "8afa8c0431b16c67110d213b06361813cf0505d20d2e2c132b5292c1cc281af2",
+    "source_summary_comparison.csv": "7e13e3c8ca304dab342337862cb39470e1f6a50a0a9e6e5ffbe44c1a4a0ea936",
+    "trust_item_frequencies.csv": "4766d3f7d31be433c518f2897d3dd1d9fb811dbc8e268470bbba970ac2160164"
+  },
+  "normative_scope_fix": "Conditional exploration distinguished from effective budget execution.",
+  "unverified_completion_claims_removed": [
+    "pixel-matching and hash-correction claims",
+    "old numerical validation claims",
+    "unprovided PPT and anonymous-package completion claims"
+  ],
+  "new_behavior_generated": false,
+  "main_analysis_rerun": false,
+  "original_foreign_simulations_not_restored": true
+}

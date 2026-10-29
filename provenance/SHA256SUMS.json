@@ -232,8 +232,8 @@
     "bytes": 21009
   },
   "planning/下一阶段任务清单.md": {
-    "sha256": "8b3054c615471d927b3b7149754f9738708cfd9c7c84c0509cbaa7a764106dcc",
-    "bytes": 1376
+    "sha256": "d09294f66e62a1ecd47e350fd89937dff69d5cf1b337ddac5c91de968e1be032",
+    "bytes": 1555
   },
   "planning/国内数据阶段续接提示词.md": {
     "sha256": "437afb3a53d5ead4a47b35bf894b485b7d544ad55bd4831121ba0ddd17cdb08c",
@@ -268,16 +268,16 @@
     "bytes": 576
   },
   "provenance/source_inventory.json": {
-    "sha256": "fd772453d16589a1bac3a746eb7a32cfb2d7b25e6b3a425b44ca153f75dc2a4a",
-    "bytes": 171700
+    "sha256": "b502f5c7b19433afa55ba9f5dc2bc9e8256abb20a58470a0d9336b8cc976bd94",
+    "bytes": 172313
   },
   "provenance/third_party_licenses.json": {
     "sha256": "1fe5badff3160587a50cced025d770011e8cf7fa74e53b861b647beaa39bc149",
     "bytes": 8861
   },
   "README.md": {
-    "sha256": "0138c357858f16a2f8c06cba1a99c109072774204715e5f682f05979a1522c22",
-    "bytes": 2540
+    "sha256": "715a3ae3671aef917bdc0d869092da5406346304fbc96cb69e2d0d8a84083e43",
+    "bytes": 2828
   },
   "research/B_核心论文论证方法矩阵.md": {
     "sha256": "2ab787c9d3458cbb2d2ac9c3c05e806cd0949503a30f94f2e6f0b3f780252774",
@@ -770,6 +770,42 @@
   "research/sources/附件2AIC·AI伦理研究报告参考大纲.pdf": {
     "sha256": "daee211b308a41249dff128d43dadb3af278681ab4bb1430fe7cc779a89600b1",
     "bytes": 248388
+  },
+  "research/user_reinforced_domestic_revision_20261029/AI导购理由撤回后的预算重审_补强稿国内数据版.docx": {
+    "sha256": "62fb3a1d8ba3b4667a96bf413c26f84c996424e68c41f796f43bd9540d790e3b",
+    "bytes": 512020
+  },
+  "research/user_reinforced_domestic_revision_20261029/apply_domestic_revision.py": {
+    "sha256": "0b1a47027b8770ce2707f95d5f128a5468cdb65cf52617d797a7bcfdc1ac6511",
+    "bytes": 25816
+  },
+  "research/user_reinforced_domestic_revision_20261029/input_package_hashes.json": {
+    "sha256": "95d3716a38716fa12fb157d43e5d09d585e36cd8f544a290a281209959f6bda8",
+    "bytes": 3017
+  },
+  "research/user_reinforced_domestic_revision_20261029/README.md": {
+    "sha256": "5484d7364718711b73dc7197179cf248388b8d07e7d2aa3ea7cc473bea018863",
+    "bytes": 3736
+  },
+  "research/user_reinforced_domestic_revision_20261029/report_text.txt": {
+    "sha256": "53181c5ca5666766d5959c2b263bc174499f0fae236424062a6c16a80e9bdb1b",
+    "bytes": 48009
+  },
+  "research/user_reinforced_domestic_revision_20261029/verify_revision.py": {
+    "sha256": "9eb6c76819ce616da90cb61433b0e17a13d173efdbe6ff7602016a64ae8b013b",
+    "bytes": 6436
+  },
+  "research/user_reinforced_domestic_revision_20261029/交付核对.json": {
+    "sha256": "0d316ded4bb6221ca49830b9887052852d33b93f9b4b7006cc5a39ed3f3c0702",
+    "bytes": 2307
+  },
+  "research/user_reinforced_domestic_revision_20261029/修订核对.json": {
+    "sha256": "dae8c056f85a46dd5d4358e9aa528b845be935bca50fa20f807083f4b9607faf",
+    "bytes": 2326
+  },
+  "research/user_reinforced_domestic_revision_20261029/新增来源核验.json": {
+    "sha256": "b60e30c44626c3109456f19d1ae3b6664929b30b2bb34738e7df48672b4b3177",
+    "bytes": 1267
   },
   "research/work/all_cards.txt": {
     "sha256": "76548a3a5729f89469355d00ab51c4c2c2cee627f0c8fbccce75ce1fc87d1758",
