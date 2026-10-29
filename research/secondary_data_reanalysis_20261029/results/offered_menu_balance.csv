@@ -1,0 +1,5 @@
+arm,offered_ingredient_share,offered_price_mean_usd
+regular_control,0.5,1.99000000000021
+regular_regulator,0.5,1.98999999999987
+treat_control,0.5,1.98999999999985
+treat_regulator,0.5,1.99000000000017

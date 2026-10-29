@@ -1,0 +1,945 @@
+{
+  "date": "2026-10-29",
+  "review_kind": "Independent pandas point-estimate and aggregate-count validation; no bootstrap rerun",
+  "python_pandas_version": "3.0.1",
+  "input_identity": [
+    {
+      "file": "data_for_cbc_est/toothpaste_beliefs/cleaned_demographics.csv",
+      "sha256": "a047bc2529e88e0b9e2d1f084b1c2dc6cc349886dee00a811d18ab8a2d62bf6d",
+      "matches_recorded_original": true
+    },
+    {
+      "file": "data_for_cbc_est/toothpaste_beliefs/cleaned_cbc.csv",
+      "sha256": "54dfe04927d0d84d8e64543cfa8e595fb4da9d0dd48a6017a07af0f8afc81409",
+      "matches_recorded_original": true
+    }
+  ],
+  "source_integrity_checks": {
+    "participants": 5050,
+    "distinct_user_keys": 5050,
+    "option_rows": 202000,
+    "selected_tasks": 50500,
+    "no_duplicate_option_keys": true,
+    "all_four_options_per_task": true,
+    "one_selection_per_task": true,
+    "ten_tasks_per_participant": true,
+    "no_choice_orphan_keys": true,
+    "belief_categories_complete": true,
+    "no_purchase_selected_prices_are_zero": true,
+    "all_product_prices_in_original_menu": true,
+    "arm_counts": {
+      "regular_control": 1416,
+      "regular_regulator": 1137,
+      "treat_control": 1121,
+      "treat_regulator": 1376
+    },
+    "parsed_demographic_fields": [
+      "user",
+      "adtreatment",
+      "debunktreatment",
+      "belieffl",
+      "postbelieffl"
+    ],
+    "parsed_choice_fields": [
+      "user",
+      "question",
+      "option",
+      "price_numeric",
+      "has_ingredient",
+      "selected"
+    ]
+  },
+  "arm_estimates": {
+    "rows_checked": 40,
+    "keys_complete": true,
+    "all_point_estimates_match": true,
+    "all_participant_counts_match": true,
+    "max_absolute_error": 4.884981308350689e-15,
+    "comparisons": [
+      {
+        "arm": "regular_control",
+        "metric": "belief_higher_share",
+        "participants_python": 1416,
+        "participants": 1416,
+        "estimate_python": 0.125706214689266,
+        "estimate": 0.125706214689266,
+        "absolute_error": 4.44089209850063e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_control",
+        "metric": "belief_lower_share",
+        "participants_python": 1416,
+        "participants": 1416,
+        "estimate_python": 0.173728813559322,
+        "estimate": 0.173728813559322,
+        "absolute_error": 5.55111512312578e-17,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_control",
+        "metric": "belief_same_share",
+        "participants_python": 1416,
+        "participants": 1416,
+        "estimate_python": 0.700564971751412,
+        "estimate": 0.700564971751412,
+        "absolute_error": 4.44089209850063e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_control",
+        "metric": "ingredient_choice_share",
+        "participants_python": 1416,
+        "participants": 1416,
+        "estimate_python": 0.635522598870056,
+        "estimate": 0.635522598870056,
+        "absolute_error": 4.44089209850063e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_control",
+        "metric": "no_purchase_share",
+        "participants_python": 1416,
+        "participants": 1416,
+        "estimate_python": 0.095762711864407,
+        "estimate": 0.095762711864407,
+        "absolute_error": 1.38777878078145e-17,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_control",
+        "metric": "post_harmful_bin_share",
+        "participants_python": 1416,
+        "participants": 1416,
+        "estimate_python": 0.10593220338983,
+        "estimate": 0.105932203389831,
+        "absolute_error": 4.9960036108132e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_control",
+        "metric": "pre_harmful_bin_share",
+        "participants_python": 1416,
+        "participants": 1416,
+        "estimate_python": 0.120762711864407,
+        "estimate": 0.120762711864407,
+        "absolute_error": 2.22044604925031e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_control",
+        "metric": "purchase_share",
+        "participants_python": 1416,
+        "participants": 1416,
+        "estimate_python": 0.904237288135593,
+        "estimate": 0.904237288135593,
+        "absolute_error": 2.22044604925031e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_control",
+        "metric": "selected_price_purchase_conditional_usd",
+        "participants_python": 1416,
+        "participants": 1416,
+        "estimate_python": 1.817475788815995,
+        "estimate": 1.81747578881599,
+        "absolute_error": 5e-15,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_control",
+        "metric": "selected_price_unconditional_usd",
+        "participants_python": 1416,
+        "participants": 1416,
+        "estimate_python": 1.643429378531073,
+        "estimate": 1.64342937853107,
+        "absolute_error": 3e-15,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_regulator",
+        "metric": "belief_higher_share",
+        "participants_python": 1137,
+        "participants": 1137,
+        "estimate_python": 0.041336851363237,
+        "estimate": 0.041336851363237,
+        "absolute_error": 1.38777878078145e-17,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_regulator",
+        "metric": "belief_lower_share",
+        "participants_python": 1137,
+        "participants": 1137,
+        "estimate_python": 0.343887423043096,
+        "estimate": 0.343887423043096,
+        "absolute_error": 1.11022302462516e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_regulator",
+        "metric": "belief_same_share",
+        "participants_python": 1137,
+        "participants": 1137,
+        "estimate_python": 0.614775725593668,
+        "estimate": 0.614775725593668,
+        "absolute_error": 4.44089209850063e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_regulator",
+        "metric": "ingredient_choice_share",
+        "participants_python": 1137,
+        "participants": 1137,
+        "estimate_python": 0.689006156552331,
+        "estimate": 0.689006156552331,
+        "absolute_error": 3.33066907387547e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_regulator",
+        "metric": "no_purchase_share",
+        "participants_python": 1137,
+        "participants": 1137,
+        "estimate_python": 0.093843447669305,
+        "estimate": 0.093843447669305,
+        "absolute_error": 1.38777878078145e-17,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_regulator",
+        "metric": "post_harmful_bin_share",
+        "participants_python": 1137,
+        "participants": 1137,
+        "estimate_python": 0.064204045734389,
+        "estimate": 0.064204045734389,
+        "absolute_error": 4.16333634234434e-17,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_regulator",
+        "metric": "pre_harmful_bin_share",
+        "participants_python": 1137,
+        "participants": 1137,
+        "estimate_python": 0.115215479331574,
+        "estimate": 0.115215479331574,
+        "absolute_error": 3.19189119579733e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_regulator",
+        "metric": "purchase_share",
+        "participants_python": 1137,
+        "participants": 1137,
+        "estimate_python": 0.906156552330695,
+        "estimate": 0.906156552330695,
+        "absolute_error": 2.22044604925031e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_regulator",
+        "metric": "selected_price_purchase_conditional_usd",
+        "participants_python": 1137,
+        "participants": 1137,
+        "estimate_python": 1.821408327671552,
+        "estimate": 1.82140832767155,
+        "absolute_error": 2e-15,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "regular_regulator",
+        "metric": "selected_price_unconditional_usd",
+        "participants_python": 1137,
+        "participants": 1137,
+        "estimate_python": 1.65048109058927,
+        "estimate": 1.65048109058927,
+        "absolute_error": 2.22044604925031e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_control",
+        "metric": "belief_higher_share",
+        "participants_python": 1121,
+        "participants": 1121,
+        "estimate_python": 0.264942016057092,
+        "estimate": 0.264942016057092,
+        "absolute_error": 1.11022302462516e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_control",
+        "metric": "belief_lower_share",
+        "participants_python": 1121,
+        "participants": 1121,
+        "estimate_python": 0.110615521855486,
+        "estimate": 0.110615521855486,
+        "absolute_error": 1.80411241501588e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_control",
+        "metric": "belief_same_share",
+        "participants_python": 1121,
+        "participants": 1121,
+        "estimate_python": 0.624442462087422,
+        "estimate": 0.624442462087422,
+        "absolute_error": 1.11022302462516e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_control",
+        "metric": "ingredient_choice_share",
+        "participants_python": 1121,
+        "participants": 1121,
+        "estimate_python": 0.572435325602141,
+        "estimate": 0.572435325602141,
+        "absolute_error": 1.11022302462516e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_control",
+        "metric": "no_purchase_share",
+        "participants_python": 1121,
+        "participants": 1121,
+        "estimate_python": 0.080017841213202,
+        "estimate": 0.080017841213202,
+        "absolute_error": 0.0,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_control",
+        "metric": "post_harmful_bin_share",
+        "participants_python": 1121,
+        "participants": 1121,
+        "estimate_python": 0.171275646743979,
+        "estimate": 0.171275646743979,
+        "absolute_error": 4.16333634234434e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_control",
+        "metric": "pre_harmful_bin_share",
+        "participants_python": 1121,
+        "participants": 1121,
+        "estimate_python": 0.12399643175736,
+        "estimate": 0.123996431757359,
+        "absolute_error": 4.9960036108132e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_control",
+        "metric": "purchase_share",
+        "participants_python": 1121,
+        "participants": 1121,
+        "estimate_python": 0.919982158786798,
+        "estimate": 0.919982158786798,
+        "absolute_error": 5.55111512312578e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_control",
+        "metric": "selected_price_purchase_conditional_usd",
+        "participants_python": 1121,
+        "participants": 1121,
+        "estimate_python": 1.8065422282556,
+        "estimate": 1.8065422282556,
+        "absolute_error": 4.44089209850063e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_control",
+        "metric": "selected_price_unconditional_usd",
+        "participants_python": 1121,
+        "participants": 1121,
+        "estimate_python": 1.661986619090098,
+        "estimate": 1.6619866190901,
+        "absolute_error": 2e-15,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_regulator",
+        "metric": "belief_higher_share",
+        "participants_python": 1376,
+        "participants": 1376,
+        "estimate_python": 0.085029069767442,
+        "estimate": 0.085029069767442,
+        "absolute_error": 4.16333634234434e-17,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_regulator",
+        "metric": "belief_lower_share",
+        "participants_python": 1376,
+        "participants": 1376,
+        "estimate_python": 0.275436046511628,
+        "estimate": 0.275436046511628,
+        "absolute_error": 1.11022302462516e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_regulator",
+        "metric": "belief_same_share",
+        "participants_python": 1376,
+        "participants": 1376,
+        "estimate_python": 0.63953488372093,
+        "estimate": 0.63953488372093,
+        "absolute_error": 2.22044604925031e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_regulator",
+        "metric": "ingredient_choice_share",
+        "participants_python": 1376,
+        "participants": 1376,
+        "estimate_python": 0.63219476744186,
+        "estimate": 0.632194767441861,
+        "absolute_error": 5.55111512312578e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_regulator",
+        "metric": "no_purchase_share",
+        "participants_python": 1376,
+        "participants": 1376,
+        "estimate_python": 0.103052325581395,
+        "estimate": 0.103052325581395,
+        "absolute_error": 3.46944695195361e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_regulator",
+        "metric": "post_harmful_bin_share",
+        "participants_python": 1376,
+        "participants": 1376,
+        "estimate_python": 0.088662790697674,
+        "estimate": 0.088662790697674,
+        "absolute_error": 2.77555756156289e-17,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_regulator",
+        "metric": "pre_harmful_bin_share",
+        "participants_python": 1376,
+        "participants": 1376,
+        "estimate_python": 0.124273255813953,
+        "estimate": 0.124273255813953,
+        "absolute_error": 4.85722573273506e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_regulator",
+        "metric": "purchase_share",
+        "participants_python": 1376,
+        "participants": 1376,
+        "estimate_python": 0.896947674418605,
+        "estimate": 0.896947674418605,
+        "absolute_error": 3.33066907387547e-16,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_regulator",
+        "metric": "selected_price_purchase_conditional_usd",
+        "participants_python": 1376,
+        "participants": 1376,
+        "estimate_python": 1.814339653216658,
+        "estimate": 1.81433965321666,
+        "absolute_error": 2e-15,
+        "participants_match": true,
+        "point_match": true
+      },
+      {
+        "arm": "treat_regulator",
+        "metric": "selected_price_unconditional_usd",
+        "participants_python": 1376,
+        "participants": 1376,
+        "estimate_python": 1.62736773255814,
+        "estimate": 1.62736773255814,
+        "absolute_error": 4.44089209850063e-16,
+        "participants_match": true,
+        "point_match": true
+      }
+    ]
+  },
+  "contrasts": {
+    "rows_checked": 50,
+    "keys_complete": true,
+    "all_point_estimates_match": true,
+    "max_absolute_error": 5.013784526441967e-15,
+    "comparisons": [
+      {
+        "contrast": "debunk_with_misinfo",
+        "metric": "belief_higher_share",
+        "estimate_python": -0.17991294628965,
+        "estimate": -0.17991294628965,
+        "absolute_error": 5.55111512312578e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_misinfo",
+        "metric": "belief_lower_share",
+        "estimate_python": 0.164820524656142,
+        "estimate": 0.164820524656142,
+        "absolute_error": 2.77555756156289e-16,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_misinfo",
+        "metric": "belief_same_share",
+        "estimate_python": 0.015092421633508,
+        "estimate": 0.015092421633508,
+        "absolute_error": 2.42861286636753e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_misinfo",
+        "metric": "ingredient_choice_share",
+        "estimate_python": 0.059759441839719,
+        "estimate": 0.05975944183972,
+        "absolute_error": 2.15105711021124e-16,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_misinfo",
+        "metric": "no_purchase_share",
+        "estimate_python": 0.023034484368193,
+        "estimate": 0.023034484368193,
+        "absolute_error": 5.55111512312578e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_misinfo",
+        "metric": "post_harmful_bin_share",
+        "estimate_python": -0.082612856046304,
+        "estimate": -0.082612856046304,
+        "absolute_error": 4.16333634234434e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_misinfo",
+        "metric": "pre_harmful_bin_share",
+        "estimate_python": 0.000276824056594,
+        "estimate": 0.000276824056594,
+        "absolute_error": 8.83624770575686e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_misinfo",
+        "metric": "purchase_share",
+        "estimate_python": -0.023034484368193,
+        "estimate": -0.023034484368193,
+        "absolute_error": 6.24500451351651e-16,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_misinfo",
+        "metric": "selected_price_purchase_conditional_usd",
+        "estimate_python": 0.007797424961058,
+        "estimate": 0.007797424961062,
+        "absolute_error": 3e-15,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_misinfo",
+        "metric": "selected_price_unconditional_usd",
+        "estimate_python": -0.034618886531959,
+        "estimate": -0.034618886531957,
+        "absolute_error": 2e-15,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_regular",
+        "metric": "belief_higher_share",
+        "estimate_python": -0.084369363326029,
+        "estimate": -0.084369363326029,
+        "absolute_error": 4.16333634234434e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_regular",
+        "metric": "belief_lower_share",
+        "estimate_python": 0.170158609483774,
+        "estimate": 0.170158609483774,
+        "absolute_error": 1.66533453693773e-16,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_regular",
+        "metric": "belief_same_share",
+        "estimate_python": -0.085789246157745,
+        "estimate": -0.085789246157745,
+        "absolute_error": 4.16333634234434e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_regular",
+        "metric": "ingredient_choice_share",
+        "estimate_python": 0.053483557682274,
+        "estimate": 0.053483557682274,
+        "absolute_error": 9.71445146547012e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_regular",
+        "metric": "no_purchase_share",
+        "estimate_python": -0.001919264195102,
+        "estimate": -0.001919264195102,
+        "absolute_error": 8.45677694538693e-18,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_regular",
+        "metric": "post_harmful_bin_share",
+        "estimate_python": -0.041728157655442,
+        "estimate": -0.041728157655442,
+        "absolute_error": 4.16333634234434e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_regular",
+        "metric": "pre_harmful_bin_share",
+        "estimate_python": -0.005547232532832,
+        "estimate": -0.005547232532832,
+        "absolute_error": 5.8113236445223e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_regular",
+        "metric": "purchase_share",
+        "estimate_python": 0.001919264195102,
+        "estimate": 0.001919264195102,
+        "absolute_error": 6.2233204700668e-16,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_regular",
+        "metric": "selected_price_purchase_conditional_usd",
+        "estimate_python": 0.003932538855557,
+        "estimate": 0.003932538855555,
+        "absolute_error": 2e-15,
+        "point_match": true
+      },
+      {
+        "contrast": "debunk_with_regular",
+        "metric": "selected_price_unconditional_usd",
+        "estimate_python": 0.007051712058197,
+        "estimate": 0.007051712058196,
+        "absolute_error": 8.9078050491409e-16,
+        "point_match": true
+      },
+      {
+        "contrast": "interaction_debunk_differences",
+        "metric": "belief_higher_share",
+        "estimate_python": -0.095543582963621,
+        "estimate": -0.095543582963621,
+        "absolute_error": 1.38777878078145e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "interaction_debunk_differences",
+        "metric": "belief_lower_share",
+        "estimate_python": -0.005338084827632,
+        "estimate": -0.005338084827632,
+        "absolute_error": 2.25514051876985e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "interaction_debunk_differences",
+        "metric": "belief_same_share",
+        "estimate_python": 0.100881667791253,
+        "estimate": 0.100881667791253,
+        "absolute_error": 1.80411241501588e-16,
+        "point_match": true
+      },
+      {
+        "contrast": "interaction_debunk_differences",
+        "metric": "ingredient_choice_share",
+        "estimate_python": 0.006275884157445,
+        "estimate": 0.006275884157446,
+        "absolute_error": 3.11382863937837e-16,
+        "point_match": true
+      },
+      {
+        "contrast": "interaction_debunk_differences",
+        "metric": "no_purchase_share",
+        "estimate_python": 0.024953748563294,
+        "estimate": 0.024953748563294,
+        "absolute_error": 6.24500451351651e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "interaction_debunk_differences",
+        "metric": "post_harmful_bin_share",
+        "estimate_python": -0.040884698390862,
+        "estimate": -0.040884698390862,
+        "absolute_error": 6.93889390390723e-18,
+        "point_match": true
+      },
+      {
+        "contrast": "interaction_debunk_differences",
+        "metric": "pre_harmful_bin_share",
+        "estimate_python": 0.005824056589426,
+        "estimate": 0.005824056589426,
+        "absolute_error": 4.59701721133854e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "interaction_debunk_differences",
+        "metric": "purchase_share",
+        "estimate_python": -0.024953748563294,
+        "estimate": -0.024953748563296,
+        "absolute_error": 1e-15,
+        "point_match": true
+      },
+      {
+        "contrast": "interaction_debunk_differences",
+        "metric": "selected_price_purchase_conditional_usd",
+        "estimate_python": 0.003864886105501,
+        "estimate": 0.003864886105506,
+        "absolute_error": 5e-15,
+        "point_match": true
+      },
+      {
+        "contrast": "interaction_debunk_differences",
+        "metric": "selected_price_unconditional_usd",
+        "estimate_python": -0.041670598590156,
+        "estimate": -0.041670598590153,
+        "absolute_error": 3e-15,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_with_debunk",
+        "metric": "belief_higher_share",
+        "estimate_python": 0.043692218404205,
+        "estimate": 0.043692218404205,
+        "absolute_error": 2.77555756156289e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_with_debunk",
+        "metric": "belief_lower_share",
+        "estimate_python": -0.068451376531468,
+        "estimate": -0.068451376531468,
+        "absolute_error": 1.38777878078145e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_with_debunk",
+        "metric": "belief_same_share",
+        "estimate_python": 0.024759158127263,
+        "estimate": 0.024759158127263,
+        "absolute_error": 3.46944695195361e-18,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_with_debunk",
+        "metric": "ingredient_choice_share",
+        "estimate_python": -0.05681138911047,
+        "estimate": -0.05681138911047,
+        "absolute_error": 2.35922392732846e-16,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_with_debunk",
+        "metric": "no_purchase_share",
+        "estimate_python": 0.00920887791209,
+        "estimate": 0.00920887791209,
+        "absolute_error": 4.16333634234434e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_with_debunk",
+        "metric": "post_harmful_bin_share",
+        "estimate_python": 0.024458744963286,
+        "estimate": 0.024458744963286,
+        "absolute_error": 2.08166817117217e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_with_debunk",
+        "metric": "pre_harmful_bin_share",
+        "estimate_python": 0.009057776482379,
+        "estimate": 0.009057776482379,
+        "absolute_error": 6.76542155630955e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_with_debunk",
+        "metric": "purchase_share",
+        "estimate_python": -0.00920887791209,
+        "estimate": -0.009208877912091,
+        "absolute_error": 4.70110061989715e-16,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_with_debunk",
+        "metric": "selected_price_purchase_conditional_usd",
+        "estimate_python": -0.007068674454894,
+        "estimate": -0.007068674454892,
+        "absolute_error": 2e-15,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_with_debunk",
+        "metric": "selected_price_unconditional_usd",
+        "estimate_python": -0.023113358031131,
+        "estimate": -0.02311335803113,
+        "absolute_error": 4.82253126321552e-16,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_without_debunk",
+        "metric": "belief_higher_share",
+        "estimate_python": 0.139235801367826,
+        "estimate": 0.139235801367826,
+        "absolute_error": 3.33066907387547e-16,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_without_debunk",
+        "metric": "belief_lower_share",
+        "estimate_python": -0.063113291703836,
+        "estimate": -0.063113291703836,
+        "absolute_error": 2.77555756156289e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_without_debunk",
+        "metric": "belief_same_share",
+        "estimate_python": -0.07612250966399,
+        "estimate": -0.07612250966399,
+        "absolute_error": 2.77555756156289e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_without_debunk",
+        "metric": "ingredient_choice_share",
+        "estimate_python": -0.063087273267916,
+        "estimate": -0.063087273267916,
+        "absolute_error": 8.32667268468867e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_without_debunk",
+        "metric": "no_purchase_share",
+        "estimate_python": -0.015744870651204,
+        "estimate": -0.015744870651204,
+        "absolute_error": 2.08166817117217e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_without_debunk",
+        "metric": "post_harmful_bin_share",
+        "estimate_python": 0.065343443354148,
+        "estimate": 0.065343443354148,
+        "absolute_error": 2.77555756156289e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_without_debunk",
+        "metric": "pre_harmful_bin_share",
+        "estimate_python": 0.003233719892953,
+        "estimate": 0.003233719892953,
+        "absolute_error": 2.16840434497101e-17,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_without_debunk",
+        "metric": "purchase_share",
+        "estimate_python": 0.015744870651204,
+        "estimate": 0.015744870651205,
+        "absolute_error": 7.7715611723761e-16,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_without_debunk",
+        "metric": "selected_price_purchase_conditional_usd",
+        "estimate_python": -0.010933560560395,
+        "estimate": -0.010933560560399,
+        "absolute_error": 3e-15,
+        "point_match": true
+      },
+      {
+        "contrast": "misinfo_without_debunk",
+        "metric": "selected_price_unconditional_usd",
+        "estimate_python": 0.018557240559025,
+        "estimate": 0.018557240559023,
+        "absolute_error": 2e-15,
+        "point_match": true
+      }
+    ]
+  },
+  "additional_tables": {
+    "belief_transitions": {
+      "rows_checked": 100,
+      "keys_complete": true,
+      "all_counts_match": true
+    },
+    "joint_belief_choice": {
+      "rows_checked": 36,
+      "keys_complete": true,
+      "all_counts_match": true
+    },
+    "offered_menu_balance": {
+      "rows_checked": 4,
+      "keys_complete": true,
+      "max_ingredient_absolute_error": 0.0,
+      "max_price_absolute_error": 2.1005419625907962e-13
+    }
+  },
+  "not_checked": [
+    "Bootstrap replicate values or empirical confidence bounds were not independently rerun.",
+    "Original random-assignment implementation and payout logs were not independently audited.",
+    "No estimates of original conditional logit WTP or equilibrium simulation were replicated.",
+    "No inference on AI shopping, budget revisions, autonomy, or unobserved R-by-C interventions."
+  ],
+  "raw_identifier_values_exported": false,
+  "within_scope_pass": true,
+  "methodology_notes": {
+    "post_belief_timing": "The original study measures posterior beliefs after the assigned messages and conjoint choices. No claim is made that posterior belief describes understanding at choice time.",
+    "timing_sources": [
+      "Original paper publisher-layout PDF page 13",
+      "https://aspredicted.org/6vw3m.pdf question 8"
+    ],
+    "analysis_population": "The 5050 participants in the public cleaned toothpaste_beliefs files. Preregistration recruitment target differs (5060/5057); complete recruitment and exclusion flow was not obtained. This reanalysis is not certified as a full intention-to-treat analysis.",
+    "resampling_implementation": "The MATLAB program resamples one complete participant summary vector within each original arm. For the reported additive and ratio statistics this is equivalent to resampling all ten observed tasks of each participant.",
+    "confidence_interval_audit": "Percentile interpolation and within-arm participant indexing reviewed statically; bootstrap replicate values and interval endpoints not independently recomputed."
+  }
+}

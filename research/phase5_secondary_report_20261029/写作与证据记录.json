@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-29",
+  "direction": "User requires actual existing secondary data; synthetic behavior dataset removed from current evidential analysis",
+  "previous_report": "research/phase4_full_report_20261029",
+  "data_analysis": "research/secondary_data_reanalysis_20261029",
+  "counts": {
+    "body_cjk": 9942,
+    "title_characters": 14,
+    "abstract_characters": 247,
+    "references": 19
+  },
+  "source_results_sha256": {
+    "arm_estimates.csv": "8f879249f9f87465feb07457e5ea1db545941b4b604692f66c11ab9b614c7105",
+    "contrasts.csv": "e2ed8e2516df3c49f2d76f5cb2581a31d7299ecb62717e762c4aa8839e6950b2",
+    "belief_transitions.csv": "ac5cb22be45399deec5dd3c20af72a8670c413723ca995927bcb73f9ab61ca58",
+    "joint_belief_choice.csv": "d1bc6a4ebfd0f7a7c533b82233f8ec94ec8a0ea90af672e96b8817fd038f419b",
+    "offered_menu_balance.csv": "d9ab1f84662749ae08fb055e582cc77788e14922289b801bb3d2e1fae98899ba",
+    "run_metadata.json": "62bff0932c136e7abe429c18af6772435aa1a47ab38ffe76dce6f0e3e9ab19aa"
+  },
+  "real_secondary_participants": 5050,
+  "bootstrap_repetitions": 5000,
+  "new_consumer_behavior_generated": false,
+  "cnki": "not completed",
+  "ppt": "not completed"
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-29",
+  "pass": true,
+  "checks": {
+    "title_within_20": true,
+    "intro_within_300": true,
+    "all_19_citations_resolve": true,
+    "no_template_or_named_citation_key": true,
+    "old_synthetic_effects_removed": true,
+    "four_tables_three_images": true,
+    "pdf_within_10M": true,
+    "no_empty_pdf_page": true,
+    "docx_author_empty": true,
+    "pdf_author_empty": true,
+    "actual_observed_sample_and_bootstrap": true,
+    "independent_point_check_pass": true,
+    "primary_numbers_in_report": true,
+    "unchanged_arm_estimates.csv": true,
+    "unchanged_contrasts.csv": true,
+    "unchanged_belief_transitions.csv": true,
+    "unchanged_joint_belief_choice.csv": true,
+    "unchanged_offered_menu_balance.csv": true,
+    "unchanged_run_metadata.json": true,
+    "finite_ordered_intervals": true,
+    "no_tracked_edits_or_comments": true,
+    "no_personal_machine_path": true,
+    "no_private_chat": true,
+    "no_wechat_account": true,
+    "no_participant_platform_id": true,
+    "no_github_account": true,
+    "no_access_token": true
+  },
+  "title_characters": 14,
+  "intro_characters": 247,
+  "body_cjk": 9942,
+  "pdf_pages": 17,
+  "files": {
+    "AI导购理由撤回后的预算重审_二手数据修订稿.docx": {
+      "sha256": "4c4265c7a7d9f50a3041840f207376b51f3174a6925019ebf81140f447a0f9ac",
+      "bytes": 566273
+    },
+    "AI导购理由撤回后的预算重审_二手数据修订稿.pdf": {
+      "sha256": "04476444357805b35837bfc6382d6fa15bd60a40e4b50314fa41c1dae84db932",
+      "bytes": 1040896
+    }
+  },
+  "visual_qa": {
+    "all_17_pages_reviewed": true,
+    "pages_1_to_15": "latest PNGs byte-identical to individually reviewed preceding render",
+    "pages_16_and_17": "latest appendix render individually inspected",
+    "result": "no empty page, clipping, overlap or missing glyph observed; long source paths left aligned"
+  },
+  "evidence_scope": "Real author-observed secondary data; actual MATLAB computation and participant-cluster bootstrap; independent Python point-estimate/count validation. No new consumers, original R/C intervention responses, budget measures or natural AI-error chain generated.",
+  "review_fix": "Conclusion states normative premises ground responsibility and secondary data constrain measurement/acceptance, rather than implying an ought follows from observed differences.",
+  "not_completed": [
+    "author substantive review",
+    "real CNKI detection and appendix report",
+    "defense PPT",
+    "full anonymous supplementary package/permanent sharing",
+    "official submission"
+  ]
+}

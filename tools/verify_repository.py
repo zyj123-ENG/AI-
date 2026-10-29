@@ -72,6 +72,24 @@ def main():
         checks.append({'check':'corrected_baseline_'+p,'pass':ok})
         if not ok:errors.append('corrected baseline changed: '+p)
 
+    # Current paper uses actual secondary observations. The preceding check
+    # preserves old simulation history; it does not make it current evidence.
+    secondary=ROOT/'research/secondary_data_reanalysis_20261029'
+    if secondary.is_dir():
+        meta=json.loads((secondary/'results/run_metadata.json').read_text(encoding='utf-8'))
+        audit=json.loads((secondary/'validation/独立复算.json').read_text(encoding='utf-8'))
+        with (secondary/'results/contrasts.csv').open(encoding='utf-8-sig',newline='') as f: contrasts=list(csv.DictReader(f))
+        primary=[r for r in contrasts if r['contrast']=='debunk_with_misinfo' and r['metric']=='ingredient_choice_share']
+        ok=(meta['participants']==5050 and meta['bootstrap_repetitions']==5000
+            and meta['actual_arm_sizes']==[1416,1137,1121,1376]
+            and meta['new_behavior_generated'] is False and audit['within_scope_pass'] is True
+            and len(primary)==1 and abs(float(primary[0]['estimate'])-0.05975944184)<1e-9)
+        checks.append({'check':'current_observed_secondary_analysis','pass':ok,'participants':meta['participants']})
+        if not ok:errors.append('current secondary-data analysis or validation differs from documented run')
+        raw_files=[p.relative_to(ROOT).as_posix() for p in files() if p.name in {'cleaned_cbc.csv','cleaned_demographics.csv','replication.zip'}]
+        checks.append({'check':'no_unlicensed_participant_raw_files_published','pass':not raw_files})
+        if raw_files:errors.append('raw secondary data should remain local: '+str(raw_files))
+
     inventory=json.loads((ROOT/'provenance/source_inventory.json').read_text(encoding='utf-8'))
     for r in inventory:
         if r['status']=='included':

@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-29",
+  "citation": "Fong, Guo and Rao (2024), JMR 61(4):659–681, DOI:10.1177/00222437221147088",
+  "origin": "https://people.duke.edu/~tg64/",
+  "replication_folder": "https://www.dropbox.com/scl/fo/3k73ludn73e1brizrjgcs/AOKKDJWFOO8c5dZeDzZw980?dl=0&e=1&rlkey=t6l4phby3mv8zvl41usu6ltxe&st=2vciogxx",
+  "preregistration": "https://aspredicted.org/6vw3m.pdf",
+  "license_status": "author-public replication access; separate redistribution license not found; raw files kept local",
+  "data_kind": "cleaned original human experimental observations with researcher-designed choice configurations",
+  "raw_person_identifiers_published": false,
+  "hashes": [
+    {
+      "original_relative_path": "replication.zip",
+      "sha256": "92b44b0ec96ac32e68afdb8a86019697798c116d76f307af81f884a4bcf2e4f3",
+      "bytes": 34473604
+    },
+    {
+      "original_relative_path": "author_replication_original/readme.txt",
+      "sha256": "287d5ae54679d5f0d7fdd433d24e44be7d81c9ae9bf6b4f48457f6b9a91d1925",
+      "bytes": 1519
+    },
+    {
+      "original_relative_path": "author_replication_original/data_for_cbc_est/toothpaste_beliefs/cleaned_demographics.csv",
+      "sha256": "a047bc2529e88e0b9e2d1f084b1c2dc6cc349886dee00a811d18ab8a2d62bf6d",
+      "bytes": 3126895
+    },
+    {
+      "original_relative_path": "author_replication_original/data_for_cbc_est/toothpaste_beliefs/cleaned_cbc.csv",
+      "sha256": "54dfe04927d0d84d8e64543cfa8e595fb4da9d0dd48a6017a07af0f8afc81409",
+      "bytes": 5406224
+    },
+    {
+      "original_relative_path": "author_replication_original/regression_Table9_fig6_7/create_table_9.do",
+      "sha256": "cd714db4653b2d441de5a39907d4a88e995a0e397b4756506d7acbbc5271416a",
+      "bytes": 2560
+    },
+    {
+      "original_relative_path": "author_replication_original/create_tables_6_7.R",
+      "sha256": "0fa4ed7928cab7c8974ff60ac18024ab86f54631417531535b661deada86b521",
+      "bytes": 3286
+    }
+  ]
+}

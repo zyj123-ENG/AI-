@@ -1,6 +1,6 @@
 # AI导购理由撤回后的预算重审
 
-第八届AIC算法大赛“AI伦理”研究工作库。更新：2026-10-29。用户授权按评分调整题目与提纲后，完整报告初稿已形成；作者实质审阅、查重、PPT及正式提交待完成。
+第八届AIC算法大赛“AI伦理”研究工作库。更新：2026-10-29。按用户新增要求，当前报告改用已有真实二手消费者实验数据，旧合成仿真退出主要证据。作者实质审阅、查重、PPT及正式提交待完成。
 
 研究场景：中国成年消费者使用中文建议型AI购物助手，为iPhone 15选购一只充电器。
 
@@ -10,22 +10,24 @@
 
 ## 从这里阅读
 
-0. [完整报告初稿与Word/PDF（2026-10-29）](research/phase4_full_report_20261029/README.md) · [评分证据与提交核对](research/phase4_full_report_20261029/评分与提交材料核对.md)
+0. [当前二手数据修订稿与Word/PDF（2026-10-29）](research/phase5_secondary_report_20261029/README.md) · [真实二手数据与实际重抽样](research/secondary_data_reanalysis_20261029/README.md) · [评分及提交核对](research/phase5_secondary_report_20261029/评分与提交材料核对.md)
 1. [当前可主张的创新点](research/%E5%88%9B%E6%96%B0%E7%82%B9_%E5%8F%AF%E4%B8%BB%E5%BC%A0%E7%9A%84%E5%85%B7%E4%BD%93%E5%91%BD%E9%A2%98.md)
 2. [整合研究方案](research/%E5%8F%82%E8%B5%9B%E7%A0%94%E7%A9%B6%E6%96%B9%E6%A1%88_%E6%95%B4%E5%90%88%E5%AE%A1%E9%98%85%E7%89%88.md)
 3. [核心论文怎样论证](research/B_%E6%A0%B8%E5%BF%83%E8%AE%BA%E6%96%87%E8%AE%BA%E8%AF%81%E6%96%B9%E6%B3%95%E7%9F%A9%E9%98%B5.md)
-4. [实际仿真结果入口](research/simulation_goal_repair_20261028/00_%E5%85%88%E7%9C%8B%E7%BB%93%E6%9E%9C.md)
-5. [可并入论文的方法、结果与讨论](research/phase4_simulation_sections_20261028/draft.md)
+4. [真实二手数据分析结果入口](research/secondary_data_reanalysis_20261029/README.md)
+5. [旧合成结果（历史记录，已退出当前论文）](research/simulation_goal_repair_20261028/00_%E5%85%88%E7%9C%8B%E7%BB%93%E6%9E%9C.md)
 6. [下一阶段任务及验收](planning/%E4%B8%8B%E4%B8%80%E9%98%B6%E6%AE%B5%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95.md)
-7. [下一阶段可直接使用的提示词](planning/%E4%B8%8B%E4%B8%80%E9%98%B6%E6%AE%B5%E6%89%A7%E8%A1%8C%E6%8F%90%E7%A4%BA%E8%AF%8D.md)
+7. [当前二手数据阶段续接提示词](planning/二手数据阶段续接提示词.md)
 
 ## 目录与研究阶段
 
 |目录|用途|
 |---|---|
 |`research/`|研究方案、近邻检索、论文方法矩阵、预试记录、代码、结果与图表|
-|`research/simulation_goal_repair_20261028/`|当前仿真的正式复现目录；优先使用此处的代码和结果|
-|`research/phase4_full_report_20261029/`|最新完整初稿、Word/PDF、独立简介、源稿及交付核对|
+|`research/secondary_data_reanalysis_20261029/`|当前经验分析：作者真实数据、原观测复分析、参与者重抽样、点估计复核；原数据不公开再分发|
+|`research/phase5_secondary_report_20261029/`|当前二手数据修订稿、Word/PDF、独立简介、源稿及交付核对|
+|`research/simulation_goal_repair_20261028/`|旧合成模型与已运行结果，保留历史，不作为当前主要证据|
+|`research/phase4_full_report_20261029/`|采用旧合成模型的前版完整初稿，已被二手数据修订稿替代|
 |`research/phase4_simulation_sections_20261028/`|已完成的仿真章节、可编辑Word、图表与生成/核对代码|
 |`literature/`|文献目录、21篇文献卡、BibTeX/RIS、原始汇总及可再分发的全文|
 |`stage1/`|“拒绝后的再建议边界”第一阶段报告，作为理论与边界基础|
@@ -37,7 +39,11 @@
 
 当前题目将目标收窄为预算。四章依次为问题与最近研究、程序性自主与研究设计、理由撤回后的预算重审责任、治理设计与伦理反思。仿真嵌入其承接的论点。[调整依据](planning/提纲调整_v2_按评分.md)；[前版P0蓝图](research/phase2_argument_blueprint_20261029/参赛报告蓝图_可审阅.md)保留为历史研究记录。
 
-## 复现
+## 当前经验分析与复现
+
+从[作者Duke主页](https://people.duke.edu/~tg64/)取得Replication Files，核对哈希，使用原牙膏信念子研究CSV。5,050名真实参与者；四臂人数保持实际值。基础MATLAB按人保留十题，在臂内重抽样5,000轮；它估计原观测的抽样不确定性，不生成新行为。[当前操作与结果](research/secondary_data_reanalysis_20261029/README.md)
+
+以下旧合成模型命令只用于历史复现，不进入当前论文经验结果：
 
 在MATLAB R2023b或兼容版本中，进入正式复现目录：
 
@@ -58,7 +64,9 @@ python tools/verify_repository.py
 
 ## 结果的使用范围
 
-- 全部模拟档案、商品、效用与行为参数为合成设定，参数未经真人校准。MCSE表示模拟积分精度。
+- 当前二手分析使用原作者真实观测；5,000轮重抽样评估其抽样不确定性。美国牙膏数据未包含中文AI预算重审干预。
+- 以下合成设定、MCSE及强基线等价描述属于旧模型历史，未进入当前主要结果。
+- 旧模拟档案、商品、效用与行为参数为合成设定，参数未经真人校准。MCSE表示旧模拟积分精度。
 - 元宝材料包含用户探索性试跑，以及研究者给定历史的限定预试；不构成真实消费者因果实验。
 - 强选择性再确认与方案同构等参时结果完全相同；无效、反转及不适配率上升均保留。
 - 规范责任通过独立推理讨论；规则符合、数值复现与消费者效果分别评价。
