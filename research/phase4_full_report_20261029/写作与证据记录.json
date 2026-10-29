@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-29",
+  "author_direction": "user delegated title/outline adjustment to assistant according to formal scoring; not described as line-by-line author approval",
+  "outline": "planning/提纲调整_v2_按评分.md",
+  "scope": "complete report draft with evidence, references and reproducibility appendices",
+  "simulation_rerun_this_stage": false,
+  "source_data_sha256": {
+    "all_summary.csv": "d7d9bf0c00578b2454d44c8cd17243d422bb103717d62161b7efea86f82b7aba",
+    "paired_link_contrasts.csv": "caa5427121bd07eb17d225c2fef68d6f9f28f9c3cfb7a4c3e0dfb37998fc24ce",
+    "base_diagnostics.csv": "744d32e4d7e64f3a6be11f5d4cd2cbec83d95b5a91b528978199f966b6749dde",
+    "validation.json": "7083b169a8ef4f86e9de5ba232d35008208cbe569db477b5a69a9443f1e558da"
+  },
+  "counts": {
+    "body_cjk": 9508,
+    "body_characters": 11771,
+    "full_characters": 16579,
+    "title_characters": 14,
+    "references": 17,
+    "abstract_characters": 254
+  },
+  "human_study": false,
+  "cnki_report": "not completed",
+  "ppt": "not completed"
+}
